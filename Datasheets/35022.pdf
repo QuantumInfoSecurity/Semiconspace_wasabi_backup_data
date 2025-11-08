@@ -1,0 +1,3008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	_____________________________________
+	
+	  made by networker
+	  networker.de // info@networker.de
+	_____________________________________
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2025 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/fileadmin/_processed_/7/2/csm_3502_2_dce3b3c7a4.jpg">
+<title>ZRK 2,5/4A BG / 3502.2</title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=5.0">
+<meta name="twitter:card" content="summary">
+<meta name="page-topic" content="Website">
+<meta name="audience" content="all">
+<meta name="revisit-after" content="3days">
+<meta name="handheldfriendly" content="True">
+<meta name="mobileoptimized" content="360">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/4761bfdd25f522f1a62c87ee58cf7040-7806e36fbeb3f70c42cda04b2d91a29a.css?1699430739" media="all">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/consent-e6dc89dc68030b029fd57a7a7ea00af8.css?1727870194" media="all">
+<style media="all">
+/*<![CDATA[*/
+<!-- 
+:root {
+  --color-brand: #079540;
+  --color-primary: #079540;
+  --color-font: #313131;
+  --color-link: #079540;
+  --color-link-hover: #079540;
+  --color-light: #fff;
+  --color-button: #079540;
+  --color-button-font: #fff;
+  --color-button-hover: #fff;
+  --color-button-hover-font: #079540;
+  --color-highlight: #a62e36;
+  --color-background: #f7f8f9;
+  --color-second: #43484d;
+  --color-third: #e1e4e7;
+  --color-forth: #e9eaeb;
+  --color-fifth: #f7f8f9;
+  --color-highlight: #a62e36;
+  --scrollbar-width: 20px;
+  --threshold: 66;
+  --light: 100;
+  --max-width-inner: 1562px;
+  --max-width: min(var(--max-width-inner), 92vw);
+  --gap: 4.8%;
+}
+
+.primary {
+  --color-background: var(--color-primary, #079540);
+  --color-font: var(--color-light, #fff);
+  --color-link: var(--color-light, #fff);
+  --color-link-hover: var(--color-light, #fff);
+  --color-button: var(--color-light, #fff);
+  --color-button-font: var(--color-second, #43484d);
+  --color-button-hover: var(--color-second, #43484d);
+  --color-button-hover-font: var(--color-light, #fff);
+}
+
+.second {
+  --color-background: var(--color-second, #43484d);
+  --color-font: var(--color-light, #fff);
+  --color-link: var(--color-light, #fff);
+  --color-link-hover: var(--color-light, #fff);
+  --color-button: var(--color-light, #fff);
+  --color-button-font: var(--color-second, #43484d);
+  --color-button-hover: var(--color-primary, #079540);
+  --color-button-hover-font: var(--color-light, #fff);
+}
+
+.third {
+  --color-background: var(--color-third, #e1e4e7);
+}
+
+.forth {
+  --color-background: var(--color-third, #e9eaeb);
+}
+
+.light {
+  --color-background: var(--color-light, #fff);
+  --color-button: var(--color-primary, #079540);
+  --color-button-font: var(--color-light, #fff);
+  --color-button-hover: var(--color-third, #e1e4e7);
+  --color-button-hover-font: var(--color-font, #313131);
+}
+
+.bg {
+  background-color: #f7f8f9;
+  background-color: var(--color-background, #f7f8f9);
+}
+.bg.expand {
+  box-shadow: -30vw 0 0 #f7f8f9, 30vw 0 0 #f7f8f9;
+  box-shadow: -30vw 0 0 var(--color-background), 30vw 0 0 var(--color-background);
+}
+
+a.cta,
+button,
+input[type=submit] {
+  background-color: #079540;
+  background-color: var(--color-button, #079540);
+  color: #fff;
+  color: var(--color-button-font, #fff);
+  transition: all 200ms;
+}
+a.cta:hover,
+button:hover,
+input[type=submit]:hover {
+  background-color: var(--color-button-hover, #fff);
+  color: var(--color-button-hover-font, #079540);
+}
+a.cta.dark,
+button.dark,
+input[type=submit].dark {
+  background-color: var(--color-second, #43484d);
+  color: var(--color-light, #fff);
+}
+a.cta.dark:hover,
+button.dark:hover,
+input[type=submit].dark:hover {
+  background-color: var(--color-light, #fff);
+  color: var(--color-second, #43484d);
+}
+
+body {
+  background-color: var(--color-background);
+}
+body > header {
+  background-color: #fff;
+}
+
+main {
+  max-width: 2100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html,
+  div {
+    scroll-behavior: auto !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+/*# sourceMappingURL=head.css.map */
+-->
+/*]]>*/
+</style>
+
+<link href="/_assets/3755fe9815721567c158841c07fd69ee/Css/elements/productShow.css?1729170533" rel="stylesheet" >
+<link href="/_assets/50ecb3364e25aebb82aeab369a9a8833/Css/components/swiper.css?1699373110" rel="stylesheet" >
+<link href="/_assets/3755fe9815721567c158841c07fd69ee/Css/elements/video.css?1707481235" rel="stylesheet" >
+<link href="/_assets/3755fe9815721567c158841c07fd69ee/Css/style.css?1750170680" rel="stylesheet" >
+
+
+
+<script src="/typo3temp/assets/compressed/consent-3a858a0191a5c2c5f6caf3d88c6a2c95.js?1744036203"></script>
+
+
+<script type="text/javascript">
+const consentScriptWhitelist = JSON.parse('{}');
+</script><link rel="consentAPI" href="/en/index.json?tx_netcookieconsent_cookieapi%5Baction%5D=request&tx_netcookieconsent_cookieapi%5Bcontroller%5D=CookieConsentApi&cHash=5581905c55003185a35f6cc2624ce062"><!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7BX3W4');
+</script>
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied'
+    });  
+    gtag('config', '0', { 'anonymize_ip': true });
+</script>
+<!-- End Google Tag Manager -->
+<script type='application/ld+json'>
+{  
+  "@context": "http://www.schema.org",
+  "@type": "WebSite",
+  "name": "Details", "description": "",
+  "url": "https://conta-clip.com"}
+</script>
+<link rel="canonical" href="https://conta-clip.com/en/product-finder/details/zrk-25-4a/no-3502-2/"/>
+
+<link rel="alternate" hreflang="de-DE" href="https://conta-clip.com/produktfinder/details/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="en-GB" href="https://conta-clip.com/en/product-finder/details/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="it-IT" href="https://conta-clip.com/it/trova-prodotti/dettagli/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="fr-FR" href="https://conta-clip.com/fr/recherche-de-produits/details/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="nl-NL" href="https://conta-clip.com/nl/product-finder/details/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="en-US" href="https://conta-clip.com/us/product-finder/details/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="es-ES" href="https://conta-clip.com/es/buscador-de-productos/detalles/zrk-25-4a/no-3502-2/"/>
+<link rel="alternate" hreflang="x-default" href="https://conta-clip.com/produktfinder/details/zrk-25-4a/no-3502-2/"/>
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7BX3W4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) --><a id="top" class="page1732"></a>
+
+<header id="pageHeader" class="page1732">
+    
+            
+<nav id="navTop" class="bg primary expand">
+    
+        
+        
+                
+                        
+                                <a href="/en/the-company/newsletter/#" itemprop="url" title="Newsletter" class="menuLink1519">
+                                    
+    
+            
+                    <span data-label="Newsletter" title="Newsletter">Newsletter</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+    
+        
+        
+                
+                        
+                                <a href="/en/the-company/press/overview/#" itemprop="url" title="Presse" class="menuLink1518">
+                                    
+    
+            
+                    <span data-label="Press" title="Presse">Press</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+    
+        
+        
+                
+                        
+                                <a href="/en/kontakt-und-service/download-center/#" itemprop="url" title="Downloads" class="menuLink1517">
+                                    
+    
+            
+                    <span data-label="Downloads" title="Downloads">Downloads</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+    
+    <ul class="foldout linkSubmenu">
+        <li>
+            
+                
+            
+                <a href="#"><span>EN</span></a>
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+            
+   <ul class="lang level2 foldout">
+      
+         <li>
+            
+                  <a href="/produktfinder/details/zrk-25-4a/no-3502-2/" hreflang="de-DE"><span>DE</span></a>
+               
+         </li>
+      
+         <li>
+            
+                  
+                     <span class="inactive">EN</span>
+                  
+               
+         </li>
+      
+         <li>
+            
+                  <a href="/it/trova-prodotti/dettagli/zrk-25-4a/no-3502-2/" hreflang="it-IT"><span>IT</span></a>
+               
+         </li>
+      
+         <li>
+            
+                  <a href="/fr/recherche-de-produits/details/zrk-25-4a/no-3502-2/" hreflang="fr-FR"><span>FR</span></a>
+               
+         </li>
+      
+         <li>
+            
+                  <a href="/nl/product-finder/details/zrk-25-4a/no-3502-2/" hreflang="nl-NL"><span>NL</span></a>
+               
+         </li>
+      
+         <li>
+            
+                  <a href="/us/product-finder/details/zrk-25-4a/no-3502-2/" hreflang="en-US"><span>US</span></a>
+               
+         </li>
+      
+         <li>
+            
+                  <a href="/es/buscador-de-productos/detalles/zrk-25-4a/no-3502-2/" hreflang="es-ES"><span>ES</span></a>
+               
+         </li>
+      
+   </ul>
+
+        </li>
+    </ul>
+</nav>
+<div class="wrap">
+    <a class="logo" href="/en/index/">
+        <img src="/_assets/3755fe9815721567c158841c07fd69ee/Img/logo.svg" width="250" height="38" alt="" />
+    </a>
+    <div id="mobileTrigger"><span></span></div>
+
+    <form id="productSearch" method="post" action="/en/product-finder/details/?tx_contaclip2_products%5Baction%5D=search&amp;tx_contaclip2_products%5Bcontroller%5D=Product&amp;cHash=0048792dc62a5250c54ee963b02a4788" data-action="/en/api.json?tx_netproductdb_productapi%5Baction%5D=get&amp;tx_netproductdb_productapi%5Bcontroller%5D=ProductApi&amp;cHash=360bbb506e0ed464bf8c7486a03db858">
+        <div class="searchField">
+            <input id="searchInput" autocomplete="off" type="text" name="tx_contaclip2_products[query]" placeholder="Find product" list="productSearchList" value="" placeholder="rk 2,5-4" />
+            <ul id="ul_list" data-labelAll="All search results"></ul>
+            <button type="submit">Search</button>
+        </div>
+    </form>
+    <div class="buttons">
+        <a class="icon" title="Our products" href="/en/product-finder/our-products/">finder</a>
+        <a data-label="Products" class="icon" id="cartButton" title="Inquiry basket" href="/en/product-finder/inquiry-basket/">Shop</a>
+        <a class="icon" title="Contact us" href="/en/contact-service/contact-us/">phone</a>
+        <a class="icon" title="Approach" href="/en/contact-service/approach/">location</a>
+    </div>
+</div>
+<nav id="navMain">
+    <!-- main navigation -->
+    
+    <ul class="level1" itemscope itemtype="http://www.schema.org/SiteNavigationElement" title="Menü">
+        
+            <li>
+                
+        <a href="#" title="Products" itemprop="url" class="menuLink1234 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Products" title="">Products</span>
+                
+        
+
+        </a>
+    
+
+
+                
+                    <ul class="level2 count10">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/highlights-new-products/#" itemprop="url" title="Highlights &amp; new products" class="menuLink1798">
+                                    
+    
+            
+                    <span data-label="Highlights &amp; new products" title="">Highlights &amp; new products</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Terminal blocks" itemprop="url" class="menuLink1272 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Terminal blocks" title="">Terminal blocks</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count6">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/overview/#" itemprop="url" title="Overview" class="menuLink1273">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/push-in-connection-system/#" itemprop="url" title="Push-in connection system" class="menuLink1274">
+                                    
+    
+            
+            <span data-label="Push-in connection system" title="" data-img="/fileadmin/_processed_/6/1/csm_PRK_Leiste_acc0c4cb7f.png">Push-in connection system</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/screw-connection-system/#" itemprop="url" title="Screw connection system" class="menuLink1275">
+                                    
+    
+            
+            <span data-label="Screw connection system" title="" data-img="/fileadmin/_processed_/5/b/csm_Reihenklemmen_im_Schraub-Anschluss-System_SRK_SSL_921e04c614.jpg">Screw connection system</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/tension-clamp-connection-system/#" itemprop="url" title="Tension clamp connection system" class="menuLink1276">
+                                    
+    
+            
+            <span data-label="Tension clamp connection system" title="" data-img="/fileadmin/_processed_/a/7/csm_CC_Leiste_2_ZRK_Klemmleiste_Lang_2014_4cd8e5358c.jpg">Tension clamp connection system</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/bolt-connection-system/#" itemprop="url" title="Bolt connection system" class="menuLink1729">
+                                    
+    
+            
+            <span data-label="Bolt connection system" title="" data-img="/fileadmin/_processed_/8/a/csm_HSKG_HSK___20e196e249.png">Bolt connection system</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/terminal-blocks/transformer-terminals/#" itemprop="url" title="Transformer terminals" class="menuLink1788">
+                                    
+    
+            
+            <span data-label="Transformer terminals" title="" data-img="/fileadmin/user_upload/Starke-Verbindung.jpg">Transformer terminals</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Cable management" itemprop="url" class="menuLink1279 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Cable management" title="">Cable management</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count6">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/overview/#" itemprop="url" title="Overview" class="menuLink1295">
+                                    
+    
+            
+            <span data-label="Overview" title="" data-img="/fileadmin/_processed_/d/a/csm_Header_Kabelmanagement_20e7ad3e2e.png">Overview</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/cable-entries-for-cables-with-and-without-plugs/#" itemprop="url" title="Cable entries for cables with and without plugs" class="menuLink1711">
+                                    
+    
+            
+            <span data-label="Cable entries for cables with and without plugs" title="" data-img="/fileadmin/_processed_/1/c/csm_KDSI_KDS-SR-FP-R_gruppe1_7c98c8234d.png">Cable entries for cables with and without plugs</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/cable-entries-for-cables-without-plugs/#" itemprop="url" title="Cable entries for cables without plugs" class="menuLink1710">
+                                    
+    
+            
+            <span data-label="Cable entries for cables without plugs" title="" data-img="/fileadmin/_processed_/a/d/csm_kes_kes-e_ohne_verschlussstopfen__zweites_RollUp_c37a19bf3b.png">Cable entries for cables without plugs</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/fda-cable-management-systems-for-the-food-industry/#" itemprop="url" title="FDA cable management systems for the food industry" class="menuLink5493">
+                                    
+    
+            
+            <span data-label="FDA cable management systems for the food industry" title="" data-img="/fileadmin/_processed_/d/3/csm_kds_produktportfolio_fda_43edf37233.jpg">FDA cable management systems for the food industry</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/cable-gland-systems/#" itemprop="url" title="Cable gland systems" class="menuLink1805">
+                                    
+    
+            
+            <span data-label="Cable gland systems" title="" data-img="/fileadmin/_processed_/9/2/csm_KV_780X530_5a0e4c72ef.jpg">Cable gland systems</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/cable-management/shielding-solutions/#" itemprop="url" title="Shielding solutions" class="menuLink1291">
+                                    
+    
+            
+            <span data-label="Shielding solutions" title="" data-img="/fileadmin/_processed_/d/3/csm_SAB_Gruppe_eb983e1cf5.jpg">Shielding solutions</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Electronics" itemprop="url" class="menuLink1280 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Electronics" title="">Electronics</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count11">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/overview/#" itemprop="url" title="Overview" class="menuLink1336">
+                                    
+    
+            
+            <span data-label="Overview" title="" data-img="/fileadmin/_processed_/3/c/csm_Elektronik_UEbersichtsseite_5172dc62d8.jpg">Overview</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/function-relay/#" itemprop="url" title="Function relay" class="menuLink1335">
+                                    
+    
+            
+            <span data-label="Function relay" title="" data-img="/fileadmin/_processed_/5/8/csm_Funktionsrelais_150110d5fa.jpg">Function relay</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/optocoupler/#" itemprop="url" title="Optocoupler" class="menuLink1329">
+                                    
+    
+            
+            <span data-label="Optocoupler" title="" data-img="/fileadmin/_processed_/4/6/csm_Optokoppler_a25b59912c.jpg">Optocoupler</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/transfer-modules/#" itemprop="url" title="Transfer modules" class="menuLink1334">
+                                    
+    
+            
+            <span data-label="Transfer modules" title="" data-img="/fileadmin/_processed_/1/e/csm_uebergabemodule-dsub-sd-b15c_01_fdb2345503.jpg">Transfer modules</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/overvoltage-protection/#" itemprop="url" title="Overvoltage protection" class="menuLink1333">
+                                    
+    
+            
+            <span data-label="Overvoltage protection" title="" data-img="/fileadmin/_processed_/e/1/csm_UEberspannungsschutz_e1dd67b3b8.jpg">Overvoltage protection</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/converter-modules/#" itemprop="url" title="Converter modules" class="menuLink1332">
+                                    
+    
+            
+            <span data-label="Converter modules" title="" data-img="/fileadmin/_processed_/8/0/csm_Multifunktionssignalwandler_CMS-UI-UI_ddc3aedddd.jpg">Converter modules</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/fuse-assembly-diode-and-display-modules/#" itemprop="url" title="Fuse, assembly, diode and display modules" class="menuLink1331">
+                                    
+    
+            
+            <span data-label="Fuse, assembly, diode and display modules" title="" data-img="/fileadmin/_processed_/b/2/csm_Dioden-Modul_DM_12_bf681affda.jpg">Fuse, assembly, diode and display modules</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/pprs-relay-base-with-push-in-connection-system/#" itemprop="url" title="PPRS relay base with push-in connection system" class="menuLink1330">
+                                    
+    
+            
+            <span data-label="PPRS relay base with push-in connection system" title="" data-img="/fileadmin/_processed_/5/6/csm_PPRS_header_f2f2816c9c.jpg">PPRS relay base with push-in connection system</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/gsm-pro2-monitoring-module/#" itemprop="url" title="GSM-PRO2 monitoring module" class="menuLink1328">
+                                    
+    
+            
+            <span data-label="GSM-PRO2 monitoring module" title="" data-img="/fileadmin/_processed_/d/d/csm_16407_2_1920x1920_c8fc3032e0.jpg">GSM-PRO2 monitoring module</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/dc-power-supplies/#" itemprop="url" title="DC power supplies" class="menuLink1326">
+                                    
+    
+            
+            <span data-label="DC power supplies" title="" data-img="/fileadmin/_processed_/5/0/csm_Gleichstromversorgungen_d964a614bd.jpg">DC power supplies</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/electronics/relay-technology/#" itemprop="url" title="Relay technology" class="menuLink1327">
+                                    
+    
+            
+            <span data-label="Relay technology" title="" data-img="/fileadmin/_processed_/d/7/csm_IRC_Strang_01_095f4a088f.jpg">Relay technology</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Marking" itemprop="url" class="menuLink1282 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Marking" title="">Marking</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count3">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/marking/overview/#" itemprop="url" title="Overview" class="menuLink1693">
+                                    
+    
+            
+            <span data-label="Overview" title="" data-img="/fileadmin/_processed_/1/c/csm_IMGL4801_64eab74638.jpg">Overview</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/marking/ttpcardmax-printing-system/#" itemprop="url" title="TTPCardMax printing system" class="menuLink1694">
+                                    
+    
+            
+                    <span data-label="TTPCardMax printing system" title="">TTPCardMax printing system</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/marking/ttpcardmax-printing-system-2/#" itemprop="url" title="Service area printing system TTPCardMax" class="menuLink4679">
+                                    
+    
+            
+                    <span data-label="Service area printing system TTPCardMax" title="">Service area printing system TTPCardMax</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Enclosure systems" itemprop="url" class="menuLink1696 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Enclosure systems" title="">Enclosure systems</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count2">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/enclosure-systems/overview/#" itemprop="url" title="Overview" class="menuLink1283">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/enclosure-systems/electronic-enclosure-systems/#" itemprop="url" title="Electronic enclosure systems" class="menuLink1697">
+                                    
+    
+            
+            <span data-label="Electronic enclosure systems" title="" data-img="/fileadmin/_processed_/6/9/csm_Gehaeuse_2_780X530_899cb183bd.jpg">Electronic enclosure systems</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Printed circuit board connectors" itemprop="url" class="menuLink1698 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Printed circuit board connectors" title="">Printed circuit board connectors</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count3">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/printed-circuit-board-connectors/overview/#" itemprop="url" title="Overview" class="menuLink1284">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/printed-circuit-board-connectors/pcb-connection-terminals/#" itemprop="url" title="PCB connection terminals" class="menuLink1699">
+                                    
+    
+            
+            <span data-label="PCB connection terminals" title="" data-img="/fileadmin/_processed_/8/e/csm_Leiterplatten_Anschlussklemmen_0550adf663.jpg">PCB connection terminals</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/printed-circuit-board-connectors/printed-circuit-board-connectors/#" itemprop="url" title="Printed circuit board connectors" class="menuLink1801">
+                                    
+    
+            
+            <span data-label="Printed circuit board connectors" title="" data-img="/fileadmin/_processed_/a/9/csm_Leiterplattensteckverbinder_780X530_0f3e8649be.jpg">Printed circuit board connectors</span>
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/approvals/#" itemprop="url" title="Approvals" class="menuLink1862">
+                                    
+    
+            
+                    <span data-label="Approvals" title="">Approvals</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/assembly-production/#" itemprop="url" title="Assembly production" class="menuLink1866">
+                                    
+    
+            
+                    <span data-label="Assembly production" title="">Assembly production</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/products/eplan-data-portal/#" itemprop="url" title="EPLAN Data Portal" class="menuLink1867">
+                                    
+    
+            
+                    <span data-label="EPLAN Data Portal" title="">EPLAN Data Portal</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                
+            </li>
+        
+            <li>
+                
+        <a href="#" title="Industries &amp; Markets" itemprop="url" class="menuLink1235 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Industries &amp; Markets" title="">Industries &amp; Markets</span>
+                
+        
+
+        </a>
+    
+
+
+                
+                    <ul class="level2 count7">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/overview/#" itemprop="url" title="Overview" class="menuLink1345">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/machines-factory-automation/#" itemprop="url" title="Machines &amp; factory automation" class="menuLink1338">
+                                    
+    
+            
+                    <span data-label="Machines &amp; factory automation" title="">Machines &amp; factory automation</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/process-technology/#" itemprop="url" title="Process technology" class="menuLink1339">
+                                    
+    
+            
+                    <span data-label="Process technology" title="">Process technology</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/building-infrastructure/#" itemprop="url" title="Building infrastructure" class="menuLink1340">
+                                    
+    
+            
+                    <span data-label="Building infrastructure" title="">Building infrastructure</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/transportation/#" itemprop="url" title="Transportation" class="menuLink1342">
+                                    
+    
+            
+                    <span data-label="Transportation" title="">Transportation</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/energy/#" itemprop="url" title="Energy" class="menuLink1341">
+                                    
+    
+            
+                    <span data-label="Energy" title="">Energy</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/industries-markets/device-manufacturer/#" itemprop="url" title="Device manufacturer" class="menuLink1343">
+                                    
+    
+            
+                    <span data-label="Device manufacturer" title="">Device manufacturer</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                
+            </li>
+        
+            <li>
+                
+        <a href="#" title="The company" itemprop="url" class="menuLink1237 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="The company" title="">The company</span>
+                
+        
+
+        </a>
+    
+
+
+                
+                    <ul class="level2 count10">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/overview/#" itemprop="url" title="Overview" class="menuLink1318">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/history-of-conta-clip/#" itemprop="url" title="History of CONTA-CLIP" class="menuLink1303">
+                                    
+    
+            
+                    <span data-label="History of CONTA-CLIP" title="">History of CONTA-CLIP</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/spot-our-brand-ambassador/#" itemprop="url" title="SPOT - our brand ambassador" class="menuLink1794">
+                                    
+    
+            
+                    <span data-label="SPOT - our brand ambassador" title="">SPOT - our brand ambassador</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/our-responsibility/#" itemprop="url" title="Our responsibility" class="menuLink1300">
+                                    
+    
+            
+                    
+                    <span data-label="Our responsibility" title="" data-img="/fileadmin/_processed_/d/4/csm_IMGL2924_695791ba5d.jpg">Our responsibility</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Trade fairs &amp; events" itemprop="url" class="menuLink1302 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Trade fairs &amp; events" title="">Trade fairs &amp; events</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count2">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/trade-fairs-events/germany/#" itemprop="url" title="Germany" class="menuLink1868">
+                                    
+    
+            
+                    <span data-label="Germany" title="">Germany</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/trade-fairs-events/worldwide/#" itemprop="url" title="Worldwide" class="menuLink1833">
+                                    
+    
+            
+                    <span data-label="Worldwide" title="">Worldwide</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        <a href="#" title="Press" itemprop="url" class="menuLink1304 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Press" title="">Press</span>
+                
+        
+
+        </a>
+    
+
+
+                    
+                        <ul class="level3 count3">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/press/overview/#" itemprop="url" title="Overview" class="menuLink1346">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/press/trade-press/#" itemprop="url" title="Trade press" class="menuLink1307">
+                                    
+    
+            
+                    <span data-label="Trade press" title="">Trade press</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/press/user-reports/#" itemprop="url" title="User reports" class="menuLink1306">
+                                    
+    
+            
+                    <span data-label="User reports" title="">User reports</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/newsletter/#" itemprop="url" title="Newsletter" class="menuLink1305">
+                                    
+    
+            
+                    <span data-label="Newsletter" title="">Newsletter</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/code-of-conduct/#" itemprop="url" title="Code of Conduct" class="menuLink1859">
+                                    
+    
+            
+                    <span data-label="Code of Conduct" title="">Code of Conduct</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/quality/#" itemprop="url" title="Quality" class="menuLink1861">
+                                    
+    
+            
+                    <span data-label="Quality" title="">Quality</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/the-company/added-value/#" itemprop="url" title="Added value" class="menuLink1863">
+                                    
+    
+            
+                    <span data-label="Added value" title="">Added value</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                
+            </li>
+        
+            <li>
+                
+        <a href="#" title="Contact &amp; Service" itemprop="url" class="menuLink1238 linkSubmenu has-children">
+            
+    
+            
+                    <span data-label="Contact &amp; Service" title="">Contact &amp; Service</span>
+                
+        
+
+        </a>
+    
+
+
+                
+                    <ul class="level2 count7">
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/overview/#" itemprop="url" title="Overview" class="menuLink1337">
+                                    
+    
+            
+                    <span data-label="Overview" title="">Overview</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/distribution/#" itemprop="url" title="Distribution" class="menuLink1320">
+                                    
+    
+            
+                    <span data-label="Distribution" title="">Distribution</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/contact-us/#" itemprop="url" title="Contact us" class="menuLink1321">
+                                    
+    
+            
+                    <span data-label="Contact us" title="">Contact us</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/approach/#" itemprop="url" title="Approach" class="menuLink1325">
+                                    
+    
+            
+                    <span data-label="Approach" title="">Approach</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/technical-support/#" itemprop="url" title="Technical support" class="menuLink1322">
+                                    
+    
+            
+                    <span data-label="Technical support" title="">Technical support</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/contact-service/after-sales-service/#" itemprop="url" title="After-sales service" class="menuLink1324">
+                                    
+    
+            
+                    <span data-label="After-sales service" title="">After-sales service</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+        
+                <li>
+                    
+        
+                
+                        
+                                <a href="/en/kontakt-und-service/download-center/#" itemprop="url" title="Download Center" class="menuLink1323">
+                                    
+    
+            
+                    <span data-label="Download Center" title="">Download Center</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                    
+                </li>
+            
+    
+</ul>
+                
+            </li>
+        
+            <li>
+                
+        
+                
+                        <a class="menuLink1239 current" href="/en/product-finder/our-products/" title="Product finder" itemprop="url" target="">
+                            
+    
+            
+                    <span data-label="Product finder" title="">Product finder</span>
+                
+        
+
+                        </a>
+                     
+            
+    
+
+
+                
+            </li>
+        
+            <li>
+                
+        
+                
+                        
+                                <a href="/en/contact-service/distribution/#" itemprop="url" title="REPS/Distributors" class="menuLink4630">
+                                    
+    
+            
+                    <span data-label="REPS/Distributors" title="">REPS/Distributors</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+                
+            </li>
+        
+    </ul>
+
+
+    <!-- language navigation -->
+</nav>
+<div id="searchResult">
+    <div class="options">
+        <a href="/en/product-finder/our-products/" class="cta">Our products</a>
+    </div>
+    <div class="results" title="Top search results" 
+    data-empty="No results in products" 
+    data-all="Show all search results" 
+    data-result="Results"></div>
+</div>
+        
+</header>
+
+<main>
+    
+    
+    
+
+<section class="contaclip2 products"><a id="c8400" class="anchor"></a><a id="c16632"></a><nav aria-label="Breadcrumb" id="breadcrumb"><ol><li class="home"><a href="/en/index/"><span>Home</span></a></li><li><a href="/en/product-finder/our-products/"><span>Our products</span></a></li><li><a href="/en/product-finder/conta-connect/"><span>CONTA-CONNECT</span></a></li><li><a href="/en/product-finder/conta-connect/terminal-blocks-in-the-tension-clamp-connection-system/"><span>Terminal blocks in the tension clamp connection system</span></a></li><li><a href="/en/product-finder/conta-connect/terminal-blocks-in-the-tension-clamp-connection-system/feed-through-terminals/"><span>Feed-through terminals</span></a></li><li class="current"><a class="current"><span>ZRK 2,5/4A BG</span></a></li></ol></nav><div class="productShow bg expand"><div class="top"><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><a href="/fileadmin/_processed_/7/2/csm_3502_2_61ec10de6b.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/7/2/csm_3502_2_0ec077c591.jpg" width="480" height="223" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/d/6/csm_DNV_c7c9c359d8.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/d/6/csm_DNV_d67b5999c6.jpg" width="480" height="453" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/1/1/csm_SZ_03_938e77ee9d.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/1/1/csm_SZ_03_a3983d7e58.jpg" width="480" height="86" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/8/3/csm_KEMA_KEUR_1193b2511b.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/8/3/csm_KEMA_KEUR_19369efe4f.jpg" width="480" height="480" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/b/a/csm_zugfeder_4c_e1c01fd455.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/b/a/csm_zugfeder_4c_789205a543.jpg" width="480" height="480" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/d/9/csm_cCSAus_274554af5e.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/d/9/csm_cCSAus_e99a4fdb3d.jpg" width="480" height="400" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/7/c/csm_UL_ce96c8fe2c.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/7/c/csm_UL_6847467ec3.jpg" width="480" height="293" alt="" /></figure></a></div><div class="swiper-slide"><a href="/fileadmin/_processed_/4/7/csm_EAC_140a333b59.jpg" target="_blank"><figure class="image"><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/4/7/csm_EAC_e0653b4824.jpg" width="480" height="480" alt="" /></figure></a></div><div class="swiper-slide"><a class="youtube" href="/fileadmin/_processed_/5/f/csm_3502_a09def9cc4.png" target="_blank" data-videoId="vo13liQ-rsQ" data-href="https://www.youtube.com/watch?v=vo13liQ-rsQ"><figure class="video" title="Das Video wird nach einem Klick auf diese Vorschau gestartet. In diesem Fall werden Ihre Verbindungs- und Browserdaten an den Betreiber YouTube übertragen."><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/5/f/csm_3502_928c592047.png" width="480" height="270" alt="" title="Tutorial: Reihenklemmen im Zugfederanschluss-System ZRK" /></figure></a></div><div class="swiper-slide"><a class="youtube" href="/fileadmin/_processed_/9/c/csm_3502_en_b50b44bfda.png" target="_blank" data-videoId="x1KzBPeJF-Q" data-href="https://www.youtube.com/watch?v=x1KzBPeJF-Q"><figure class="video" title="Das Video wird nach einem Klick auf diese Vorschau gestartet. In diesem Fall werden Ihre Verbindungs- und Browserdaten an den Betreiber YouTube übertragen."><img loading="lazy" class="image-embed-item" src="/fileadmin/_processed_/9/c/csm_3502_en_58059b0114.png" width="480" height="270" alt="" title="Tutorial: Terminal blocks with tension-spring connection ZRK" /></figure></a></div><div class="swiper-slide empty"></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div><div id="imageCanvas"></div><div class="form"><hgroup><h1>ZRK 2,5/4A BG</h1><h2>Art.-Nr. 3502.2</h2></hgroup><p>Feed-through terminal, Tension-spring connection, Mounting type: Mounting rail TS 35/7.5, Rated cross-section: 2.5 mm², Width: 5.1 mm, Colour: Beige</p><form method="post" action="/en/product-finder/inquiry-basket.json?tx_netcart_cartapi%5Baction%5D=add&amp;tx_netcart_cartapi%5Bcontroller%5D=Cart&amp;cHash=964f722cf2d73d2017f2f67f22c12c9c"><div><input type="hidden" name="tx_netcart_cartapi[__referrer][@extension]" value="Contaclip2" /><input type="hidden" name="tx_netcart_cartapi[__referrer][@controller]" value="Product" /><input type="hidden" name="tx_netcart_cartapi[__referrer][@action]" value="show" /><input type="hidden" name="tx_netcart_cartapi[__referrer][arguments]" value="YTo0OntzOjY6ImFjdGlvbiI7czo0OiJzaG93IjtzOjEwOiJjb250cm9sbGVyIjtzOjc6IlByb2R1Y3QiO3M6NzoicHJvZHVjdCI7czo1OiI1MjA2NSI7czo3OiJ2YXJpYW50IjtzOjU6IjgwMDg5Ijt940c0bbb21a383669718fbf36e443be155b3afcdf" /><input type="hidden" name="tx_netcart_cartapi[__referrer][@request]" value="{&quot;@extension&quot;:&quot;Contaclip2&quot;,&quot;@controller&quot;:&quot;Product&quot;,&quot;@action&quot;:&quot;show&quot;}421515b659c55616e3a1a45191314266b34549f3" /><input type="hidden" name="tx_netcart_cartapi[__trustedProperties]" value="{&quot;extension&quot;:1,&quot;model&quot;:1,&quot;add&quot;:{&quot;tx_netproductdb_domain_model_product&quot;:{&quot;52065&quot;:1,&quot;variant&quot;:{&quot;80089&quot;:1}}},&quot;color&quot;:1,&quot;quantity&quot;:1,&quot;submit&quot;:1}cb88ae2736deb208b7efd1b259e309ac2eebd403" /></div><input type="hidden" name="tx_netcart_cartapi[extension]" value="netproductdb" /><input type="hidden" name="tx_netcart_cartapi[model]" value="Product" /><input id="tx_netproductdb_domain_model_product_" type="hidden" name="tx_netcart_cartapi[add][tx_netproductdb_domain_model_product][52065]" value="1" /><input id="tx_netproductdb_domain_model_productvariant" type="hidden" name="tx_netcart_cartapi[add][tx_netproductdb_domain_model_product][variant][80089]" value="1" /><div class="formElement"><label for="color">Colour</label><select id="switch" name="tx_netcart_cartapi[color]"><option value="/en/product-finder/details/zrk-25-4a/no-3502-1/">Green</option><option value="/en/product-finder/details/zrk-25-4a/no-3502-2/" selected="selected">Beige</option><option value="/en/product-finder/details/zrk-25-4a/no-3502-3/">Orange</option><option value="/en/product-finder/details/zrk-25-4a/no-3502-5/">Blue</option></select></div><div class="formElement"><label for="quantity">Quantity</label><select name="tx_netcart_cartapi[quantity]"><option value="100">100 PC</option><option value="200">200 PC</option><option value="300">300 PC</option><option value="400">400 PC</option><option value="500">500 PC</option><option value="600">600 PC</option><option value="700">700 PC</option><option value="800">800 PC</option><option value="900">900 PC</option><option value="1000">1000 PC</option><option value="1100">1100 PC</option><option value="1200">1200 PC</option><option value="1300">1300 PC</option><option value="1400">1400 PC</option><option value="1500">1500 PC</option><option value="1600">1600 PC</option><option value="1700">1700 PC</option><option value="1800">1800 PC</option><option value="1900">1900 PC</option><option value="2000">2000 PC</option><option value="2100">2100 PC</option><option value="2200">2200 PC</option><option value="2300">2300 PC</option><option value="2400">2400 PC</option><option value="2500">2500 PC</option><option value="2600">2600 PC</option><option value="2700">2700 PC</option><option value="2800">2800 PC</option><option value="2900">2900 PC</option><option value="3000">3000 PC</option><option value="3100">3100 PC</option><option value="3200">3200 PC</option><option value="3300">3300 PC</option><option value="3400">3400 PC</option><option value="3500">3500 PC</option><option value="3600">3600 PC</option><option value="3700">3700 PC</option><option value="3800">3800 PC</option><option value="3900">3900 PC</option><option value="4000">4000 PC</option><option value="4100">4100 PC</option><option value="4200">4200 PC</option><option value="4300">4300 PC</option><option value="4400">4400 PC</option><option value="4500">4500 PC</option><option value="4600">4600 PC</option><option value="4700">4700 PC</option><option value="4800">4800 PC</option><option value="4900">4900 PC</option><option value="5000">5000 PC</option><option value="5100">5100 PC</option><option value="5200">5200 PC</option><option value="5300">5300 PC</option><option value="5400">5400 PC</option><option value="5500">5500 PC</option><option value="5600">5600 PC</option><option value="5700">5700 PC</option><option value="5800">5800 PC</option><option value="5900">5900 PC</option><option value="6000">6000 PC</option><option value="6100">6100 PC</option><option value="6200">6200 PC</option><option value="6300">6300 PC</option><option value="6400">6400 PC</option><option value="6500">6500 PC</option><option value="6600">6600 PC</option><option value="6700">6700 PC</option><option value="6800">6800 PC</option><option value="6900">6900 PC</option><option value="7000">7000 PC</option><option value="7100">7100 PC</option><option value="7200">7200 PC</option><option value="7300">7300 PC</option><option value="7400">7400 PC</option><option value="7500">7500 PC</option><option value="7600">7600 PC</option><option value="7700">7700 PC</option><option value="7800">7800 PC</option><option value="7900">7900 PC</option><option value="8000">8000 PC</option><option value="8100">8100 PC</option><option value="8200">8200 PC</option><option value="8300">8300 PC</option><option value="8400">8400 PC</option><option value="8500">8500 PC</option><option value="8600">8600 PC</option><option value="8700">8700 PC</option><option value="8800">8800 PC</option><option value="8900">8900 PC</option><option value="9000">9000 PC</option><option value="9100">9100 PC</option><option value="9200">9200 PC</option><option value="9300">9300 PC</option><option value="9400">9400 PC</option><option value="9500">9500 PC</option><option value="9600">9600 PC</option><option value="9700">9700 PC</option><option value="9800">9800 PC</option><option value="9900">9900 PC</option><option value="10000">10000 PC</option></select></div><input type="submit" value="Add to enquiry basket" name="tx_netcart_cartapi[submit]" /></form><a class="download pdf" href="/en/product-finder/details/zrk-25-4a/no-3502-2.pdf">Download datasheet</a></div></div></div><div class="details bg expand"><header><h2>Details</h2></header><details><summary>Commercial data</summary><h4>General</h4><dl><dt>Colour</dt><dd>
+    
+            
+                     Beige 
+                
+        
+</dd><dt>Country of origin</dt><dd>
+    
+            
+                     BG 
+                
+        
+</dd><dt>Customs number</dt><dd>
+    
+            
+                     85369010 
+                
+        
+</dd><dt>GTIN (EAN)</dt><dd>
+    
+            
+                     4044211151713 
+                
+        
+</dd><dt>Packaging unit</dt><dd>
+    
+            
+                     100 
+                
+        
+</dd><dt>Product description</dt><dd>
+    
+            
+                     Feed-through terminal 
+                
+        
+</dd><dt>Quantity unit</dt><dd>
+    
+            
+                     PC 
+                
+        
+</dd><dt>Unit of weight</dt><dd>
+    
+            
+                     G 
+                
+        
+</dd><dt>Weight per piece (including packaging)</dt><dd>
+    
+            
+                     11.4 g
+                
+        
+</dd><dt>Weight per piece (not including packaging)</dt><dd>
+    
+            
+                     10.6 g
+                
+        
+</dd></dl></details><details><summary>Technical data</summary><h4>Dimensions</h4><dl><dt>Height TS 35/7.5</dt><dd>
+    
+            
+                     39 mm
+                
+        
+</dd><dt>Length</dt><dd>
+    
+            
+                     83.6 mm
+                
+        
+</dd><dt>Width</dt><dd>
+    
+            
+                     5.1 mm
+                
+        
+</dd></dl><h4>Ratings</h4><dl><dt>Contamination degree</dt><dd>
+    
+            
+                     3 
+                
+        
+</dd><dt>Maximum power dissipation for nominal condition</dt><dd>
+    
+            
+                     0.77 W
+                
+        
+</dd><dt>Overvoltage category</dt><dd>
+    
+            
+                     III 
+                
+        
+</dd><dt>Rated cross-section</dt><dd>
+    
+            
+                     2.5 mm²
+                
+        
+</dd><dt>Rated current</dt><dd>
+    
+            
+                     24 A
+                
+        
+</dd><dt>Rated impulse voltage</dt><dd>
+    
+            
+                     8 kV
+                
+        
+</dd><dt>Rated voltage</dt><dd>
+    
+            
+                     800 V
+                
+        
+</dd></dl><h4>Connection data</h4><dl><dt>Connection position</dt><dd>
+    
+            
+                     Diagonal 
+                
+        
+</dd><dt>Connection principle</dt><dd>
+    
+            
+                     Tension-spring connection 
+                
+        
+</dd><dt>Connections</dt><dd>
+    
+            
+                     4 
+                
+        
+</dd><dt>Number of levels</dt><dd>
+    
+            
+                     1 
+                
+        
+</dd><dt>Number of terminals per level</dt><dd>
+    
+            
+                     4 
+                
+        
+</dd><dt>Stripping length</dt><dd>
+    
+            
+                     10 mm
+                
+        
+</dd><dt>Wire cross-section AWG, max.</dt><dd>
+    
+            
+                     12 
+                
+        
+</dd><dt>Wire cross-section AWG, min.</dt><dd>
+    
+            
+                     20 
+                
+        
+</dd><dt>Wire cross-section single core (rigid)/stranded, max.</dt><dd>
+    
+            
+                     4 mm²
+                
+        
+</dd><dt>Wire cross-section single-core (rigid) / stranded, min.</dt><dd>
+    
+            
+                     0.5 mm²
+                
+        
+</dd><dt>Wire cross-section stranded with wire-end ferrules, max.</dt><dd>
+    
+            
+                     2.5 mm²
+                
+        
+</dd><dt>Wire cross-section stranded with wire-end ferrules, min.</dt><dd>
+    
+            
+                     0.5 mm²
+                
+        
+</dd><dt>Wire cross-section stranded, max.</dt><dd>
+    
+            
+                     4 mm²
+                
+        
+</dd><dt>Wire cross-section stranded, min.</dt><dd>
+    
+            
+                     0.5 mm²
+                
+        
+</dd></dl><h4>Further technical data</h4><dl><dt>End plate required</dt><dd><span>&#x2713;</span></dd><dt>Gauge plug acc. to EN 60 947-1</dt><dd>
+    
+            
+                     A3 
+                
+        
+</dd><dt>Mounting type</dt><dd>
+    
+            
+                     Mounting rail TS 35/7,5 
+                
+        
+</dd><dt>Number of cross-connection channels</dt><dd>
+    
+            
+                     2 
+                
+        
+</dd><dt>Number of test pick-off options</dt><dd>
+    
+            
+                     2 
+                
+        
+</dd></dl><h4>Materials</h4><dl><dt>Flammability class UL 94</dt><dd>
+    
+            
+                     V-0 
+                
+        
+</dd><dt>Insulation housing</dt><dd>
+    
+            
+                     Polyamide 6.6 
+                
+        
+</dd><dt>Working temperature, max.</dt><dd>
+    
+            
+                     120 °C
+                
+        
+</dd><dt>Working temperature, min.</dt><dd>
+    
+            
+                     -40 °C
+                
+        
+</dd></dl></details><details><summary>Authorisations</summary><h4>Standards and regulations</h4><dl><dt>EAC approval</dt><dd>
+    
+            
+                     TR ZU 004/2011 
+                
+        
+</dd><dt>EAC approval granted</dt><dd><span>&#x2713;</span></dd></dl><h4>KEMA KEUR approval</h4><dl><dt>KEMA KEUR approval</dt><dd>
+    
+            
+                     EN 60947-7-1:2009 
+                
+        
+</dd><dt>KEMA KEUR approval granted</dt><dd><span>&#x2713;</span></dd><dt>KEMA rated current</dt><dd>
+    
+            
+                     24 A
+                
+        
+</dd><dt>KEMA rated impulse voltage</dt><dd>
+    
+            
+                     8 kV
+                
+        
+</dd><dt>KEMA rated voltage</dt><dd>
+    
+            
+                     800 V
+                
+        
+</dd><dt>KEMA wire cross-section single core (rigid), min.</dt><dd>
+    
+            
+                     0.5 mm²
+                
+        
+</dd><dt>KEMA wire cross-section single-core (rigid), max.</dt><dd>
+    
+            
+                     4 mm²
+                
+        
+</dd><dt>KEMA wire cross-section stranded, max.</dt><dd>
+    
+            
+                     4 mm²
+                
+        
+</dd><dt>KEMA wire cross-section stranded, min.</dt><dd>
+    
+            
+                     0.5 mm²
+                
+        
+</dd></dl><h4>UL Recognized</h4><dl><dt>UL Recognized</dt><dd>
+    
+            
+                     1 
+                
+        
+</dd><dt>UL Usegroup B: rated current</dt><dd>
+    
+            
+                     27 A
+                
+        
+</dd><dt>UL Usegroup B: rated voltage</dt><dd>
+    
+            
+                     600 V
+                
+        
+</dd><dt>UL Usegroup C: rated current</dt><dd>
+    
+            
+                     27 A
+                
+        
+</dd><dt>UL Usegroup C: rated voltage</dt><dd>
+    
+            
+                     600 V
+                
+        
+</dd><dt>UL Usegroup D: rated current</dt><dd>
+    
+            
+                     27 A
+                
+        
+</dd><dt>UL Usegroup D: rated voltage</dt><dd>
+    
+            
+                     600 V
+                
+        
+</dd><dt>UL approval</dt><dd>
+    
+            
+                     UL 1059 
+                
+        
+</dd><dt>UL factory wiring</dt><dd><span>&#x2713;</span></dd><dt>UL field wiring</dt><dd><span>&#x2713;</span></dd><dt>UL wire cross-section single-core (rigid) AWG, max.</dt><dd>
+    
+            
+                     12 
+                
+        
+</dd><dt>UL wire cross-section single-core (rigid) AWG, min.</dt><dd>
+    
+            
+                     20 
+                
+        
+</dd><dt>UL wire cross-section stranded AWG, max.</dt><dd>
+    
+            
+                     12 
+                
+        
+</dd><dt>UL wire cross-section stranded AWG, min.</dt><dd>
+    
+            
+                     20 
+                
+        
+</dd><dt>UL wire material</dt><dd>
+    
+            
+                     Cu 
+                
+        
+</dd></dl><h4>CSA approval</h4><dl><dt>CSA Usegroup C: rated current</dt><dd>
+    
+            
+                     27 A
+                
+        
+</dd><dt>CSA Usegroup C: rated voltage</dt><dd>
+    
+            
+                     600 V
+                
+        
+</dd><dt>CSA approval</dt><dd>
+    
+            
+                     C22.2 No 158 
+                
+        
+</dd><dt>CSA approval granted</dt><dd><span>&#x2713;</span></dd><dt>CSA stripping length</dt><dd>
+    
+            
+                     10 mm
+                
+        
+</dd><dt>CSA wire cross-section AWG, max.</dt><dd>
+    
+            
+                     12 
+                
+        
+</dd><dt>CSA wire cross-section AWG, min.</dt><dd>
+    
+            
+                     20 
+                
+        
+</dd></dl><h4>CSAus approval</h4><dl><dt>CSAus Usegroup C: rated current</dt><dd>
+    
+            
+                     27 A
+                
+        
+</dd><dt>CSAus Usegroup C: rated voltage</dt><dd>
+    
+            
+                     600 V
+                
+        
+</dd><dt>CSAus approval</dt><dd>
+    
+            
+                     UL 1059 
+                
+        
+</dd><dt>CSAus approval granted</dt><dd><span>&#x2713;</span></dd><dt>CSAus stripping length</dt><dd>
+    
+            
+                     10 mm
+                
+        
+</dd><dt>CSAus wire cross-section AWG, max.</dt><dd>
+    
+            
+                     12 
+                
+        
+</dd><dt>CSAus wire cross-section AWG, min.</dt><dd>
+    
+            
+                     20 
+                
+        
+</dd></dl><h4>DNV GL Approval</h4><dl><dt>DNV GL wire cross-section single-core (rigid), max.</dt><dd>
+    
+            
+                     4 mm²
+                
+        
+</dd><dt>DNV GL wire cross-section stranded, max.</dt><dd>
+    
+            
+                     2.5 mm²
+                
+        
+</dd></dl><h4>German Lloyd approval</h4><dl><dt>DNV GL Location Classes</dt><dd>
+    
+            
+                     Temperature: B, Humidity: B, Vibration: A 
+                
+        
+</dd><dt>DNV GL approval granted</dt><dd>
+    
+            
+                     1 
+                
+        
+</dd><dt>DNV GL rated cross-section</dt><dd>
+    
+            
+                     2.5 mm²
+                
+        
+</dd><dt>DNV GL rated current</dt><dd>
+    
+            
+                     24 A
+                
+        
+</dd><dt>DNV GL rated voltage</dt><dd>
+    
+            
+                     800 V
+                
+        
+</dd><dt>DNV GL test standard</dt><dd>
+    
+            
+                     IEC 60947-7-1:2009 
+                
+        
+</dd></dl></details><details><summary>Environment</summary><h4>Environmental Product Compliance</h4><dl><dt>REACH Candidate Substance Note</dt><dd><span>&#x10102;</span></dd><dt>REACH Conform</dt><dd><span>&#x2713;</span></dd><dt>REACH Reference date</dt><dd>
+    
+            
+                     2025-01-21 
+                
+        
+</dd><dt>RoHS Conform</dt><dd><span>&#x2713;</span></dd></dl></details><details><summary>Download</summary><div class="downloads"><div class="head"><div>File</div><div>Type</div><div>Size</div><div>Filetime</div></div><div><div><a download="BPZ_ZRK_Standard_DE_EN.pdf" href="/fileadmin/media/Products/general/_external/BPZ_ZRK_Standard_DE_EN.pdf">BPZ_ZRK_Standard_DE_EN.pdf</a></div><div>PDF</div><div>646 KB</div><div>12.06.2025</div></div><div><div><a download="3502_ZRK_25_4A.stp" href="/fileadmin/media/Products/general/_external/3502_ZRK_25_4A.stp">3502_ZRK_25_4A.stp</a></div><div>STP</div><div>2 MB</div><div>07.05.2025</div></div></div></details></div><div class="accesories bg expand"><header><h2>Accessories</h2><div class="search"><input id="accesorySearch" type="text" placeholder="Find accessories"><button for="accesorySearch">search</button></div></header><details class="results"><summary>Results</summary><div><div class="items"></div></div></details><details ><summary>End plate</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_82285"><figure><a href="/en/product-finder/details/zap-25-4a/no-3702-1/"><img src="/fileadmin/_processed_/8/2/csm_3702_1_638581cfd9.jpg" width="300" height="112" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zap-25-4a/no-3702-1/"><h3 title="End plate">ZAP 2,5/4A GN</h3><span>3702.1</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>Actuating tool</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_83779"><figure><a href="/en/product-finder/details/bwma-1-05-x-35-mm/"><img src="/fileadmin/_processed_/c/c/csm_3808_0_d73b0a89fc.jpg" width="35" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/bwma-1-05-x-35-mm/no-3808-0/"><h3 title="Actuating tool">BWMA 1 (0,5 x 3,5 mm)</h3><span>3808.0</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>End stop</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_82981"><figure><a href="/en/product-finder/details/zes-35/no-3748-2/"><img src="/fileadmin/_processed_/8/d/csm_3748_2_ab7666e3c8.jpg" width="300" height="199" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zes-35/no-3748-2/"><h3 title="End stop">ZES 35 BG</h3><span>3748.2</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>Test adapter</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_82933"><figure><a href="/en/product-finder/details/zta-25/"><img src="/fileadmin/_processed_/e/a/csm_3740_2_6020ab4a02.jpg" width="122" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zta-25/no-3740-2/"><h3 title="Test adapter">ZTA 2,5 BG</h3><span>3740.2</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>Insulated cross-connector</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_82579"><figure><a href="/en/product-finder/details/zqi-25-7/no-3715-4/"><!-- no main image --></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-7/no-3715-4/"><h3 title="Insulated cross-connector">ZQI 2,5/7 BK</h3><span>3715.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82459"><figure><a href="/en/product-finder/details/zqi-25-2/no-3710-4/"><img src="/fileadmin/_processed_/5/f/csm_3710_4_ad8f43447b.jpg" width="79" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-2/no-3710-4/"><h3 title="Insulated cross-connector">ZQI 2,5/2 BK</h3><span>3710.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82651"><figure><a href="/en/product-finder/details/zqi-25-10/no-3718-4/"><img src="/fileadmin/_processed_/0/d/csm_3718_4_6add26a487.jpg" width="300" height="142" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-10/no-3718-4/"><h3 title="Insulated cross-connector">ZQI 2,5/10 BK</h3><span>3718.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82483"><figure><a href="/en/product-finder/details/zqi-25-3/no-3711-4/"><img src="/fileadmin/_processed_/4/d/csm_3711_4_a4bfb6f0b5.jpg" width="123" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-3/no-3711-4/"><h3 title="Insulated cross-connector">ZQI 2,5/3 BK</h3><span>3711.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82531"><figure><a href="/en/product-finder/details/zqi-25-5/no-3713-4/"><img src="/fileadmin/_processed_/7/d/csm_3713_4_1dd7c302a7.jpg" width="206" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-5/no-3713-4/"><h3 title="Insulated cross-connector">ZQI 2,5/5 BK</h3><span>3713.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82603"><figure><a href="/en/product-finder/details/zqi-25-8/no-3716-4/"><!-- no main image --></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-8/no-3716-4/"><h3 title="Insulated cross-connector">ZQI 2,5/8 BK</h3><span>3716.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82507"><figure><a href="/en/product-finder/details/zqi-25-4/no-3712-4/"><img src="/fileadmin/_processed_/e/0/csm_3712_4_a57f04ca3b.jpg" width="165" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-4/no-3712-4/"><h3 title="Insulated cross-connector">ZQI 2,5/4 BK</h3><span>3712.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82555"><figure><a href="/en/product-finder/details/zqi-25-6/no-3714-4/"><img src="/fileadmin/_processed_/5/2/csm_3714_4_e5e04668f1.jpg" width="249" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-6/no-3714-4/"><h3 title="Insulated cross-connector">ZQI 2,5/6 BK</h3><span>3714.4</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_82675"><figure><a href="/en/product-finder/details/zqi-25-05-m-99-pole/no-3719-4/"><img src="/fileadmin/_processed_/8/c/csm_3719_4_a126ec7df4.jpg" width="300" height="43" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zqi-25-05-m-99-pole/no-3719-4/"><h3 title="Insulated cross-connector">ZQI 2,5/0,5 m/99 Pole BK</h3><span>3719.4</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>Markers</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_87925"><figure><a href="/en/product-finder/details/pmc-sb-5-50-wh/"><img src="/fileadmin/_processed_/9/d/csm_4600_7_881164d6e1.jpg" width="250" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/pmc-sb-5-50-wh/no-4600-7/"><h3 title="Terminal marker / Pocket Maxicard">PMC SB 5/50 WH</h3><span>4600.7</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details ><summary>Four-way cover</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_82435"><figure><a href="/en/product-finder/details/zad-25-4-b/"><img src="/fileadmin/_processed_/a/a/csm_3706_0_efaa21562c.jpg" width="175" height="200" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zad-25-4-b/no-3706-0/"><h3 title="Cover">ZAD 2,5/4/B YE</h3><span>3706.0</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details><details class="last"><summary>Reducing sleeves</summary><div><div class="swiper"><div class="swiper-wrapper"><div class="swiper-slide"><div class="productItem" id="product_83023"><figure><a href="/en/product-finder/details/zrh-25-025-05/"><img src="/fileadmin/_processed_/1/2/csm_3751_6_089f9eaa61.jpg" width="300" height="119" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zrh-25-025-05/no-3751-6/"><h3 title="Reducing sleeve">ZRH 2,5/0,25-0,5 GR</h3><span>3751.6</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_83017"><figure><a href="/en/product-finder/details/zrh-25-013-02/"><img src="/fileadmin/_processed_/4/a/csm_3750_7_6cc6b2f722.jpg" width="300" height="120" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zrh-25-013-02/no-3750-7/"><h3 title="Reducing sleeve">ZRH 2,5/0,13-0,2 WH</h3><span>3750.7</span></a></hgroup></div></div><div class="swiper-slide"><div class="productItem" id="product_83029"><figure><a href="/en/product-finder/details/zrh-25-075-10/"><img src="/fileadmin/_processed_/b/4/csm_3752_4_9fa99d39ba.jpg" width="300" height="119" alt="" /></a></figure><hgroup><a href="/en/product-finder/details/zrh-25-075-10/no-3752-4/"><h3 title="Reducing sleeve">ZRH 2,5/0,75-1,0 BK</h3><span>3752.4</span></a></hgroup></div></div></div><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div></div></details></div></section>
+
+
+
+    
+
+<section></section>
+
+
+
+    <a href="#top" id="toTop"></a>
+
+    
+
+<div class="netcookieconsent cookie"><div id="consentManager" class="consentManager"></div><template id="consentUserInfo"><div class="consentInfo"><p>You have agreed to the storage of data <a id="modifyConsent">Customize</a></p></div></template><template id="consentUserForm"><form enctype="multipart/form-data" method="post" id="consentForm" action="/en/index.json?tx_netcookieconsent_cookieapi%5Baction%5D=consent&amp;tx_netcookieconsent_cookieapi%5Bcontroller%5D=CookieConsentApi&amp;cHash=3864831707656744e8e07a588f6b272e"><div><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@extension]" value="Netcookieconsent" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@controller]" value="CookieConsent" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@action]" value="tip" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][arguments]" value="YTowOnt99e359c00515631bdff64c762299b74e0f5586775" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@request]" value="{&quot;@extension&quot;:&quot;Netcookieconsent&quot;,&quot;@controller&quot;:&quot;CookieConsent&quot;,&quot;@action&quot;:&quot;tip&quot;}a3911d58c88af1a82440d31566d7a1a627702ac5" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__trustedProperties]" value="{&quot;cookieConsentItem&quot;:[1],&quot;acceptMin&quot;:1,&quot;acceptAll&quot;:1}a6a7878bf357cce3e81567db79e59b77cf850b6e" /></div><div class="inner"><input type="hidden" name="tx_netcookieconsent_cookieapi[cookieConsentItem][]" value="" /><div class="infos"><h2>Note</h2><p>To enable the presentation of our offerings on this website, we use cookies necessary for the essential functions of the website.</p><p>Besides, we use further, optional cookies to continuously optimize our offer. You can find a complete list and description of these cookies by clicking on the Details button. You also can accept all cookies or only the necessary cookies. Please note that our offer with limited cookies may not be entirely usable.</p><p>For further information, please read our <a href="/en/legal-matters/data-protection/">privacy policy</a>.</p></div></div><div class="buttons"><input id="consentAcceptMin" type="submit" value="Accept only necessary" name="tx_netcookieconsent_cookieapi[acceptMin]" /><a href="#cookie" class="cookieConsentDetails"><span>Details</span></a><input data-custom="Save selection" id="consentAccept" type="submit" value="Accept all Cookies" name="tx_netcookieconsent_cookieapi[acceptAll]" /></div></div><div class="tabs" id="cookieCategories" data-buttonlabel="Save selection"></div></form></template><template id="consentEditor"><div class="consentEditor"><form enctype="multipart/form-data" method="post" id="consentForm" action="/en/index.json?tx_netcookieconsent_cookieapi%5Baction%5D=consent&amp;tx_netcookieconsent_cookieapi%5Bcontroller%5D=CookieConsentApi&amp;cHash=3864831707656744e8e07a588f6b272e"><div><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@extension]" value="Netcookieconsent" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@controller]" value="CookieConsent" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@action]" value="tip" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][arguments]" value="YTowOnt99e359c00515631bdff64c762299b74e0f5586775" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__referrer][@request]" value="{&quot;@extension&quot;:&quot;Netcookieconsent&quot;,&quot;@controller&quot;:&quot;CookieConsent&quot;,&quot;@action&quot;:&quot;tip&quot;}a3911d58c88af1a82440d31566d7a1a627702ac5" /><input type="hidden" name="tx_netcookieconsent_cookieapi[__trustedProperties]" value="[]985a164304a9814f7508b702fbdffd40b27325de" /></div><div class="tabs" id="cookieCategories"></div></form></div></template><template id="cookieDetailsOverlay"><div class="cookieDetailsOverlay"><div class="inner"><a class="close"></a><div class="info"></div></div></div></template><template id="cookieCategory"><div><input type="radio" id="" name="category" value=""><label for=""></label></input><div class="content"><dl></dl></div></div></template><template id="cookieList"><dt><input type="checkbox" name="tx_netcookieconsent_cookieapi[cookieConsentItem][]" value="" id=""><label></label></dt><dd><label></label><button>Details</button><div class="detailText"></div></dd></template><template id="consentIeNotice"><div style="background: #fff; padding: 1em;"><h2>
+            Important notice
+        </h2>
+        For your own safety, please switch to an up-to-date browser in order to be able to make full use of our services.
+        <p><strong>
+                Your web browser is outdated and contains open security vulnerabilities
+            </strong><br>
+            To ensure the security of your data, some functions on our website may not be accessible with your browser.
+        </p><p>
+            For your own safety, please switch to an up-to-date browser in order to be able to make full use of our services.
+        </p><p><a href="https://www.microsoft.com/de-de/edge"><u>
+                    Microsoft Edge
+                </u></a>
+            Successor to Internet Explorer<br><a href="https://www.google.com/chrome/browser/desktop/"><u>
+                    Google Chrome
+                </u></a><br><a href="https://www.mozilla.org/de/firefox/new/"><u>
+                    Mozilla Firefox
+                </u></a><br></p></div></template></div>
+
+
+
+</main>
+
+
+
+
+       <footer>
+    <div class="top bg third expand">
+        
+            
+        
+                
+                        
+                                <a href="/en/legal-matters/gtc/#" itemprop="url" title="Terms &amp; Conditions" class="menuLink1249">
+                                    
+    
+            
+                    <span data-label="Terms &amp; Conditions" title="">Terms &amp; Conditions</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+        
+            
+        
+                
+                        
+                                <a href="/en/legal-matters/data-protection/#" itemprop="url" title="Privacy notice" class="menuLink1250">
+                                    
+    
+            
+                    <span data-label="Privacy notice" title="">Privacy notice</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+        
+            
+        
+                
+                        
+                                <a href="/en/legal-matters/imprint/#" itemprop="url" title="Legal notice" class="menuLink1251">
+                                    
+    
+            
+                    <span data-label="Legal notice" title="">Legal notice</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+        
+            
+        
+                
+                        
+                                <a href="/en/legal-matters/whistleblower-system/#" itemprop="url" title="Whistleblower system" class="menuLink1705">
+                                    
+    
+            
+                    <span data-label="Whistleblower system" title="">Whistleblower system</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+        
+    </div>
+    <div class="bottom bg primary expand">
+        <div class="left">
+            
+                
+        
+                
+                        
+                                <a href="/en/product-finder/our-products/#" itemprop="url" title="more than 23,000 products for your needs" class="menuLink1256">
+                                    
+    
+            
+                    <span data-label="CONTA CLIP Productfinder" title="more than 23,000 products for your needs">CONTA CLIP Productfinder</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+        </div>
+        <div class="social">
+            
+                
+        
+                
+                        
+                                <a href="https://www.facebook.com/CONTACLIPGmbH/#" itemprop="url" title="facebook" class="menuLink1257">
+                                    
+    
+            
+                    <span data-label="facebook" title="">facebook</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+                
+        
+                
+                        
+                                <a href="https://www.instagram.com/contaclipgmbh/#" itemprop="url" title="instagram" class="menuLink1258">
+                                    
+    
+            
+                    <span data-label="instagram" title="">instagram</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+                
+        
+                
+                        
+                                <a href="https://www.youtube.com/channel/UC-X9byqe-tN_uRPMKVJgUlw#" itemprop="url" title="youtube" class="menuLink1259">
+                                    
+    
+            
+                    <span data-label="youtube" title="">youtube</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+                
+        
+                
+                        
+                                <a href="https://x.com/CONTA_CLIP#" itemprop="url" title="x" class="menuLink1261">
+                                    
+    
+            
+                    <span data-label="x-com" title="">x-com</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+                
+        
+                
+                        
+                                <a href="https://www.linkedin.com/company/11706212/#" itemprop="url" title="linkedin" class="menuLink1262">
+                                    
+    
+            
+                    <span data-label="linkedin" title="">linkedin</span>
+                
+        
+
+                                </a>
+                            
+                     
+            
+    
+
+
+            
+        </div>
+    </div>
+</footer>
+
+<script src="/_assets/3755fe9815721567c158841c07fd69ee/Js/elements/swiperProduct.js?1727734814"></script>
+<script async="async" defer="defer" src="/_assets/50ecb3364e25aebb82aeab369a9a8833/JavaScript/YouTube.js?1727867884"></script>
+<script src="/_assets/3755fe9815721567c158841c07fd69ee/Js/script.dist.js?1748880386"></script>
+
+
+</body>
+</html>

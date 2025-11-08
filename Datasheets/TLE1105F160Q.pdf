@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+<script type="text/javascript">
+/* <![CDATA[ */
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),document.addEventListener("gform/theme/scripts_loaded",function(){gform.themeScriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,themeScriptsLoaded:!1,isFormEditor:()=>"function"==typeof InitializeEditor,callIfLoaded:function(o){return!(!gform.domLoaded||!gform.scriptsLoaded||!gform.themeScriptsLoaded&&!gform.isFormEditor()||(gform.isFormEditor()&&console.warn("The use of gform.initializeOnLoaded() is deprecated in the form editor context and will be removed in Gravity Forms 3.1."),o(),0))},initializeOnLoaded:function(o){gform.callIfLoaded(o)||(document.addEventListener("gform_main_scripts_loaded",()=>{gform.scriptsLoaded=!0,gform.callIfLoaded(o)}),document.addEventListener("gform/theme/scripts_loaded",()=>{gform.themeScriptsLoaded=!0,gform.callIfLoaded(o)}),window.addEventListener("DOMContentLoaded",()=>{gform.domLoaded=!0,gform.callIfLoaded(o)}))},hooks:{action:{},filter:{}},addAction:function(o,r,e,t){gform.addHook("action",o,r,e,t)},addFilter:function(o,r,e,t){gform.addHook("filter",o,r,e,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,r){gform.removeHook("action",o,r)},removeFilter:function(o,r,e){gform.removeHook("filter",o,r,e)},addHook:function(o,r,e,t,n){null==gform.hooks[o][r]&&(gform.hooks[o][r]=[]);var d=gform.hooks[o][r];null==n&&(n=r+"_"+d.length),gform.hooks[o][r].push({tag:n,callable:e,priority:t=null==t?10:t})},doHook:function(r,o,e){var t;if(e=Array.prototype.slice.call(e,1),null!=gform.hooks[r][o]&&((o=gform.hooks[r][o]).sort(function(o,r){return o.priority-r.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==r?t.apply(null,e):e[0]=t.apply(null,e)})),"filter"==r)return e[0]},removeHook:function(o,r,t,n){var e;null!=gform.hooks[o][r]&&(e=(e=gform.hooks[o][r]).filter(function(o,r,e){return!!(null!=n&&n!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][r]=e)}});
+/* ]]> */
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script data-termly-config>
+					window.TERMLY_CUSTOM_BLOCKING_MAP = {
+						"oemsecrets.com": "essential", "di.oemsecrets.com": "essential", "e-switch.componentsearchengine.com": "essential", "shop.e-switch.com": "essential", "e-switch.com": "essential", "cdn.sitesearch360.com": "essential", "sitesearch360.com": "essential", "gtranslate.com": "essential", "googletagmanager.com": "analytics", "google-analytics.com": "analytics", "google.com": "performance", "livechatinc.com": "performance", "addtoany.com": "social", "static.addtoany.com": "social"
+					}
+				</script><script
+				type="text/javascript"
+				src="https://app.termly.io/resource-blocker/06101682-b854-48d4-bbfd-593a4ca16a72?autoBlock=on">
+			</script><title>E&#x2d;Switch</title>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<meta name="uri-translation" content="on" /><link rel="alternate" hreflang="en" href="https://www.e-switch.com/" />
+<link rel="alternate" hreflang="ar" href="https://www.e-switch.com/ar/" />
+<link rel="alternate" hreflang="hy" href="https://www.e-switch.com/hy/" />
+<link rel="alternate" hreflang="bs" href="https://www.e-switch.com/bs/" />
+<link rel="alternate" hreflang="bg" href="https://www.e-switch.com/bg/" />
+<link rel="alternate" hreflang="zh-CN" href="https://www.e-switch.com/zh-CN/" />
+<link rel="alternate" hreflang="zh-TW" href="https://www.e-switch.com/zh-TW/" />
+<link rel="alternate" hreflang="hr" href="https://www.e-switch.com/hr/" />
+<link rel="alternate" hreflang="cs" href="https://www.e-switch.com/cs/" />
+<link rel="alternate" hreflang="da" href="https://www.e-switch.com/da/" />
+<link rel="alternate" hreflang="nl" href="https://www.e-switch.com/nl/" />
+<link rel="alternate" hreflang="tl" href="https://www.e-switch.com/tl/" />
+<link rel="alternate" hreflang="fi" href="https://www.e-switch.com/fi/" />
+<link rel="alternate" hreflang="fr" href="https://www.e-switch.com/fr/" />
+<link rel="alternate" hreflang="de" href="https://www.e-switch.com/de/" />
+<link rel="alternate" hreflang="he" href="https://www.e-switch.com/iw/" />
+<link rel="alternate" hreflang="hu" href="https://www.e-switch.com/hu/" />
+<link rel="alternate" hreflang="id" href="https://www.e-switch.com/id/" />
+<link rel="alternate" hreflang="ga" href="https://www.e-switch.com/ga/" />
+<link rel="alternate" hreflang="it" href="https://www.e-switch.com/it/" />
+<link rel="alternate" hreflang="ja" href="https://www.e-switch.com/ja/" />
+<link rel="alternate" hreflang="ko" href="https://www.e-switch.com/ko/" />
+<link rel="alternate" hreflang="lv" href="https://www.e-switch.com/lv/" />
+<link rel="alternate" hreflang="lt" href="https://www.e-switch.com/lt/" />
+<link rel="alternate" hreflang="lb" href="https://www.e-switch.com/lb/" />
+<link rel="alternate" hreflang="no" href="https://www.e-switch.com/no/" />
+<link rel="alternate" hreflang="fa" href="https://www.e-switch.com/fa/" />
+<link rel="alternate" hreflang="pl" href="https://www.e-switch.com/pl/" />
+<link rel="alternate" hreflang="pt" href="https://www.e-switch.com/pt/" />
+<link rel="alternate" hreflang="ro" href="https://www.e-switch.com/ro/" />
+<link rel="alternate" hreflang="sk" href="https://www.e-switch.com/sk/" />
+<link rel="alternate" hreflang="sl" href="https://www.e-switch.com/sl/" />
+<link rel="alternate" hreflang="es" href="https://www.e-switch.com/es/" />
+<link rel="alternate" hreflang="sv" href="https://www.e-switch.com/sv/" />
+<link rel="alternate" hreflang="th" href="https://www.e-switch.com/th/" />
+<link rel="alternate" hreflang="tr" href="https://www.e-switch.com/tr/" />
+<link rel="alternate" hreflang="uk" href="https://www.e-switch.com/uk/" />
+<link rel="alternate" hreflang="vi" href="https://www.e-switch.com/vi/" />
+<link rel="alternate" hreflang="cy" href="https://www.e-switch.com/cy/" />
+
+<!-- The SEO Framework by Sybre Waaijer -->
+<meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+<link rel="canonical" href="https://www.e-switch.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="E-Switch" />
+<meta property="og:title" content="E&#x2d;Switch" />
+<meta property="og:url" content="https://www.e-switch.com/" />
+<meta property="og:image" content="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/e-default-250.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="E&#x2d;Switch" />
+<meta name="twitter:image" content="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/e-default-250.png" />
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.e-switch.com/#/schema/WebSite","url":"https://www.e-switch.com/","name":"E&#x2d;Switch","inLanguage":"en-US","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.e-switch.com/search/{search_term_string}/"},"query-input":"required name=search_term_string"},"publisher":{"@id":"https://www.e-switch.com/#/schema/Organization"}},{"@type":"WebPage","@id":"https://www.e-switch.com/","url":"https://www.e-switch.com/","name":"E&#x2d;Switch","inLanguage":"en-US","isPartOf":{"@id":"https://www.e-switch.com/#/schema/WebSite"},"breadcrumb":{"@type":"BreadcrumbList","@id":"https://www.e-switch.com/#/schema/BreadcrumbList","itemListElement":{"@type":"ListItem","position":1,"name":"E&#x2d;Switch"}},"potentialAction":{"@type":"ReadAction","target":"https://www.e-switch.com/"},"about":{"@id":"https://www.e-switch.com/#/schema/Organization"}},{"@type":"Organization","@id":"https://www.e-switch.com/#/schema/Organization","name":"E&#x2d;Switch","url":"https://www.e-switch.com/"}]}</script>
+<!-- / The SEO Framework by Sybre Waaijer | 1.42ms meta | 0.06ms boot -->
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='main-styles-css' href='https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/css/main.css?v1_0&#038;ver=6.8.2' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://www.e-switch.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<script type="text/javascript" id="addtoany-core-js-before">
+/* <![CDATA[ */
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="transparent";
+/* ]]> */
+</script>
+<script type="text/javascript" defer src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" defer src="https://www.e-switch.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" id="text-connect-js-extra">
+/* <![CDATA[ */
+var textConnect = {"addons":[],"ajax_url":"https:\/\/www.e-switch.com\/wp-admin\/admin-ajax.php","visitor":null};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-content/plugins/wp-live-chat-software-for-wordpress//includes/js/textConnect.js?ver=5.0.8" id="text-connect-js"></script>
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.e-switch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-switch.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.e-switch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.e-switch.com%2F&#038;format=xml" />
+<script>(function(ss,ex){ window.ldfdr=window.ldfdr||function(){(ldfdr._q=ldfdr._q||[]).push([].slice.call(arguments));};(function(d,s){ fs=d.getElementsByTagName(s)[0]; function ce(src){ var cs=d.createElement(s); cs.src=src; cs.async=1; fs.parentNode.insertBefore(cs,fs); };ce('https://sc.lfeeder.com/lftracker_v1_'+ss+(ex?'_'+ex:'')+'.js'); })(document,'script'); })('Xbp1oaEQEeyaEdVj');</script><link rel="stylesheet" href="https://use.typekit.net/snb3znd.css">
+	<link rel='apple-touch-icon' sizes='180x180' href='https://www.e-switch.com/apple-touch-icon.png'>
+	<link rel='icon' type='image/png' sizes='32x32' href='https://www.e-switch.com/favicon-32x32.png'>
+	<link rel='icon' type='image/png' sizes='16x16' href='https://www.e-switch.com/favicon-16x16.png'>
+	<link rel='manifest' href='https://www.e-switch.com/site.webmanifest'>
+	<link rel='mask-icon' href='https://www.e-switch.com/safari-pinned-tab.svg' color='#5bbad5'>
+	<link rel='shortcut icon' href='https://www.e-switch.com/favicon.ico'>
+		<script type="text/javascript" src="https://www.insightful-astute-ingenuity.com/js/807406.js" ></script>
+<noscript><img src="https://www.insightful-astute-ingenuity.com/807406.png" style="display:none;" /></noscript>
+<script type="application/ld+json">{"@context":{"@vocab":"http:\/\/schema.org"},"@graph":[{"@id":"https:\/\/eswitchlegacy.wpenginepowered.com\/#organization","@type":"Organization","name":"E-Switch Inc.","url":"https:\/\/eswitchlegacy.wpenginepowered.com","alternateName":["eswitch"],"sameAs":["https:\/\/www.youtube.com\/c\/ESwitchInc","https:\/\/www.linkedin.com\/company\/e-switch-inc-\/"]}]}</script>
+<script>
+(function(h,o,t,j,a,r){
+	h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	h._hjSettings={hjid:3875441,hjsv:5};
+	a=o.getElementsByTagName('head')[0];
+	r=o.createElement('script');r.async=1;
+	r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8H2E59JYN8"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-8H2E59JYN8');
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NN28F42');</script>
+<!-- End Google Tag Manager --></head>
+
+<body class="home wp-singular page-template-default page page-id-12 wp-theme-eswitch-2025">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NN28F42" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<a class="skip-link sr-only" href="#main">Skip to content</a>
+<header id="site-header">
+	<div class="container">
+	
+		<a href="https://www.e-switch.com" id="header-brand-logo">
+														<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/eswitch-logo_red-black.png" alt="E-Switch">
+					</a>
+
+		<button id="toggle-mobile-menu" aria-expanded="false" aria-controls="header-nav-wrap" type="button">
+			<svg width="32" height="32" viewBox="0 0 32 32" fill="#445965" class="icon-open-mobile-menu">
+				<title>Toggle mobile menu</title>
+				<rect x="3" y="8" width="26" height="2" id="hamburger-1" />
+				<rect x="3" y="15" width="26" height="2" id="hamburger-2" />
+				<rect x="3" y="22" width="26" height="2" id="hamburger-3" />
+			</svg>
+
+			<svg width="32" height="32" viewBox="0 0 32 32" fill="#445965" class="icon-close-mobile-menu">
+				<rect x="6" y="24.3848" width="26" height="2" transform="rotate(-45 6 24.3848)" />
+				<rect x="7.41418" y="6" width="26" height="2" transform="rotate(45 7.41418 6)" />
+			</svg>
+		</button>
+
+		<div id="header-nav-wrap">
+			<div id="utility-navigation">
+				<a href="/stock-checker/" id="nav-stock" class="btn primary small checklist-white">Stock Checker</a>
+				<a href="/distributor-search/" id="nav-distributor" class="btn primary small location-white">Distributor Search</a>
+				<span class="utility-force-wrap"></span>
+
+				<div id="header-search-wrap">
+					<form id="site-search-form" autocomplete="off">
+						<label for="search" class="sr-only">Search</label>
+						<input type="search" name="search" id="search" placeholder="Search for..." value="" />
+						<button id="search-submit" type="submit" class="icon-as-submit btn ghost red-over" aria-label="Submit search query">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#002975" width="20" height="20"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+						</button>
+					</form>
+				</div>
+				
+				<div class="gtranslate_wrapper" id="gt-wrapper-18867594"></div>
+				<a href="https://shop.e-switch.com/cart/purchases" id="nav-cart" class="btn cart ghost red-over">
+					<span class="sr-only">View Cart</span><span class="cart-number">&nbsp;</span>
+					<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/cart-white.svg"></svg>			
+				</a>
+
+			</div>
+
+			
+			<nav id="main-navigation" class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-12 current_page_item"><a href="https://www.e-switch.com/" target="">Home</a></li>
+<li class="product-catalog menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">Product Catalog</button>
+<ul class="sub-menu mega-menu">
+    <li class="menu-item mega-menu-item mega-menu-item-1">
+        <button class="btn mega-menu-btn" aria-expanded="false" aria-controls="mega-menu-products-by-type" type="button">Products By Type</button>
+    </li>
+    <div class="mega-menu-content" id="mega-menu-products-by-type">
+        <h4>Products By Type</h4>
+        
+<div class="card-container product" role="list">
+
+	<a href="/product-catalog/anti-vandal" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/anti-vandal.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/anti-vandal.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Anti-Vandal</span>
+	</a>
+		<a href="/product-catalog/caps" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/caps.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/caps.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Caps</span>
+	</a>
+		<a href="/product-catalog/connector" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/connector.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/connector.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Connectors</span>
+	</a>
+		<a href="/product-catalog/detector" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/detector.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/detector.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Detector</span>
+	</a>
+		<a href="/product-catalog/dip" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/dip.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/dip.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Dip</span>
+	</a>
+		<a href="/product-catalog/e-stop" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/e-stop.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/e-stop.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">E-stop</span>
+	</a>
+		<a href="/product-catalog/keylock" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/keylock.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/keylock.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Keylock</span>
+	</a>
+		<a href="/product-catalog/navigation" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/navigation.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/navigation.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Navigation</span>
+	</a>
+		<a href="/product-catalog/pushbutton" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/pushbutton.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/pushbutton.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Pushbutton</span>
+	</a>
+		<a href="/product-catalog/rocker" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rocker.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rocker.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Rocker</span>
+	</a>
+		<a href="/product-catalog/rotary" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rotary.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rotary.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Rotary</span>
+	</a>
+		<a href="/product-catalog/rotary-dip" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rotary-dip.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rotary-dip.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Rotary DIP</span>
+	</a>
+		<a href="/product-catalog/slide" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/slide.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/slide.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Slide</span>
+	</a>
+		<a href="/product-catalog/snap-action" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/snap-action.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/snap-action.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Snap Action</span>
+	</a>
+		<a href="/product-catalog/tact" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/tact.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/tact.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Tact</span>
+	</a>
+		<a href="/product-catalog/tilt" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/tilt.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/tilt.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Tilt</span>
+	</a>
+		<a href="/product-catalog/toggle" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/toggle.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/toggle.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Toggle</span>
+	</a>
+		<a href="/product-catalog/touch-sensor" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/touch-sensor.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/touch-sensor.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Touch-Sensor</span>
+	</a>
+		<a href="/product-catalog/trigger" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/trigger.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/trigger.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Trigger</span>
+	</a>
+		<a href="/product-catalog/wired" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/wired.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/wired.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Wired</span>
+	</a>
+	</div>    </div>
+    <li class="menu-item mega-menu-item mega-menu-item-2">
+        <button class="btn mega-menu-btn" aria-expanded="false" aria-controls="mega-menu-products-by-feature" type="button">Products By Feature</button>
+    </li>
+    <div class="mega-menu-content mega-menu-item-3" id="mega-menu-products-by-feature">
+        <h4>Products By Feature</h4>
+        <div class="card-container product" role="list">
+	<a href="/product-catalog/configurable-cap" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/configurable-cap.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/configurable-cap.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Configurable Cap</span>
+	</a>
+		<a href="/product-catalog/illuminated" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/illuminated.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/illuminated.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Illuminated</span>
+	</a>
+		<a href="/product-catalog/long-life" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/long-life.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/long-life.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Long Life</span>
+	</a>
+		<a href="/product-catalog/low-profile" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/low-profile.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/low-profile.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Low Profile</span>
+	</a>
+		<a href="/product-catalog/miniature" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/miniature.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/miniature.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Miniature</span>
+	</a>
+		<a href="/product-catalog/panel-mount" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/panel-mount.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/panel-mount.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Panel Mount</span>
+	</a>
+		<a href="/product-catalog/power-rated" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/power-rated.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/power-rated.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Power Rated</span>
+	</a>
+		<a href="/product-catalog/right-angle" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/right-angle.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/right-angle.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Right Angle</span>
+	</a>
+		<a href="/product-catalog/sealed" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/sealed.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/sealed.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Sealed</span>
+	</a>
+		<a href="/product-catalog/surface-mount" class="card product feature-type h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-icons/surface-mount.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/feature-type-images/surface-mount.jpg" alt="" loading="lazy">
+		</span>
+		<span class="card-text">Surface Mount</span>
+	</a>
+	</div>    </div>
+    <li class="menu-item mega-menu-item mega-menu-item-3">
+        <button class="btn mega-menu-btn" aria-expanded="false" aria-controls="mega-menu-products-by-market" type="button">Products By Market</button>
+    </li>
+    <div class="mega-menu-content" id="mega-menu-products-by-market">
+        <h4>Products By Market</h4>
+        
+<div class="card-container product" role="list">
+
+    
+        <a href="/product-catalog/market/agricultural" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/agricultural.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Agriculture-Main-Image-300x199.jpg" alt="Agricultural" loading="lazy">
+                            </span>
+            <span class="card-text">Agricultural</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/appliance" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/appliance.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Appliance-Main-Image-300x205.jpg" alt="Appliance" loading="lazy">
+                            </span>
+            <span class="card-text">Appliance</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/audio-visual" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/audio-visual.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Mixing-Board-1-300x200.jpg" alt="Audio Visual" loading="lazy">
+                            </span>
+            <span class="card-text">Audio Visual</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/automation" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/automation.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/factory-automation-2022-10-26-04-05-35-utc-1536x864-1-300x169.jpg" alt="Automated factory robots" loading="lazy">
+                            </span>
+            <span class="card-text">Automation</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/construction" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/construction.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Construction-Main-Image-300x190.jpg" alt="Construction site" loading="lazy">
+                            </span>
+            <span class="card-text">Construction</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/fitness" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/fitness.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/checking-fitness-progress-2021-09-24-03-22-03-utc-768x512-1-300x200.jpg" alt="Checking fitness progress on app" loading="lazy">
+                            </span>
+            <span class="card-text">Fitness</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/food-industry" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/food-industry.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Pasta-Portioning-300x200.jpg" alt="Food Industry" loading="lazy">
+                            </span>
+            <span class="card-text">Food Industry</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/home-maintenance" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/home-maintenance.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Snow-Blower-300x200.jpg" alt="Home Maintenance" loading="lazy">
+                            </span>
+            <span class="card-text">Home Maintenance</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/industrial" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/industrial.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Industrial-Panel-300x200.png" alt="Industrial" loading="lazy">
+                            </span>
+            <span class="card-text">Industrial</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/medical" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/medical.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/X-Ray-300x201.jpg" alt="Medical" loading="lazy">
+                            </span>
+            <span class="card-text">Medical</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/personal-care" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/personal-care.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/06/Personal-Care-Main-Image-300x211.jpg" alt="Personal Care" loading="lazy">
+                            </span>
+            <span class="card-text">Personal Care</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/security" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/security.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Security-Camera-1-300x245.jpg" alt="Security" loading="lazy">
+                            </span>
+            <span class="card-text">Security</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/sustainable-energy" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/sustainable-energy.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Voltage-Meter-300x192.jpg" alt="Sustainable Energy" loading="lazy">
+                            </span>
+            <span class="card-text">Sustainable Energy</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/telecommunications" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/telecommunications.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Servers-1-300x200.jpg" alt="Telecommunications" loading="lazy">
+                            </span>
+            <span class="card-text">Telecommunications</span>
+        </a>
+
+    
+        <a href="/product-catalog/market/transportation" class="card product market-type h4" role="listitem">
+            <span class="card-icon">
+                <svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-type-icons/transportation.svg" data-loading="lazy"></svg>
+                                    <img src="https://www.e-switch.com/wp-content/uploads/2025/04/Tour-Bus-300x200.jpg" alt="Tour Bus" loading="lazy">
+                            </span>
+            <span class="card-text">Transportation</span>
+        </a>
+
+    
+</div>    </div>
+    <li class="menu-item mega-menu-item mega-menu-item-4">
+        <a href="/product-catalog/">Product Catalog</a>
+    </li>
+    <li class="menu-item mega-menu-item mega-menu-item-5">
+        <a href="/parametric-search/">Parametric Search</a>
+    </li>
+    <li class="menu-item mega-menu-item mega-menu-item-6">
+        <a href="/stock-checker/">Stock Checker</a>
+    </li>
+</ul> 
+</li>
+<li class="menu-split menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">Markets</button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/markets/" target="">Markets Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/agricultural/" target="">Agricultural</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/appliance/" target="">Appliance</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/audio-visual/" target="">Audio Visual</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/automation/" target="">Automation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/construction/" target="">Construction</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/fitness/" target="">Fitness</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/food-industry/" target="">Food Industry</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/home-maintenance/" target="">Home Maintenance</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/industrial/" target="">Industrial</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/medical/" target="">Medical</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/personal-care/" target="">Personal Care</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/security/" target="">Security</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/sustainable-energy/" target="">Sustainable Energy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/telecommunications/" target="">Telecommunications</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-markets"><a href="https://www.e-switch.com/markets/transportation/" target="">Transportation</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">Resources</button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/resources/" target="">Resources Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/resources/videos/" target="">Videos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/resources/brochures/" target="">Brochures</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/resources/frequently-asked-questions/" target="">Frequently Asked Questions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/distributor-search/" target="">Distributor and Rep Locator</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">Support</button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/" target="">Support Overview</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/technical-information/" target="">Technical Information</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/ip-seal-ratings/" target="">IP Seal Ratings</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/technical-information/soldering-profiles/" target="">Soldering Profiles</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/technical-information/agency-certification-list/" target="">Agency Certification List</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/get-wired-with-e-switch/" target="">Get Wired With E-Switch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/training/" target="">Training</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/support/warranty/" target="">Warranty</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">News &amp; Events</button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/news-events/" target="">News &amp; Events</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.e-switch.com/news-events/category/blog/" target="">Blog</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="https://www.e-switch.com/news-events/category/events/" target="">Events</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><button class="sub-menu-trigger" data-depth="0" type="button" aria-expanded="false">About E-Switch</button>
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/about/" target="">About E-Switch</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/about/sales-team/" target="">Sales Team</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/about/careers/" target="">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/about/quality-policy/" target="">Quality Policy</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.e-switch.com/request-form/" target="">Contact Us</a></li>
+</ul></nav>
+			<!-- show only on scroll -->
+			<button id="nav-search-scrolled" class="btn ghost white red-over" type="button" aria-expanded="false" aria-controls="header-search-wrap" aria-label="Toggle search">
+				<svg class="icon-open-nav-search-scrolled" viewBox="0 0 512 512" fill="#002975" width="20" height="20"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+				<svg class="icon-close-nav-search-scrolled" width="32" height="32" viewBox="0 0 32 32" fill="#445965">
+					<rect x="6" y="24.3848" width="26" height="2" transform="rotate(-45 6 24.3848)" />
+					<rect x="7.41418" y="6" width="26" height="2" transform="rotate(45 7.41418 6)" />
+				</svg>
+			</button>
+
+			<a href="https://shop.e-switch.com/cart/purchases" id="nav-cart-scrolled" class="btn cart ghost red-over">
+				<span class="sr-only">View Cart</span><span class="cart-number">&nbsp;</span>
+				<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/cart-white.svg"></svg>			
+			</a>
+
+		</div> <!-- #/header-nav-wrap -->
+		<div id="mobile-nav-underlay"></div>
+
+	</div><!-- ./container -->
+</header>
+<main id="main">
+
+	<section class="home-hero bg-dark">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 home-hero-leftcol">
+					<h1 class="display1 color-black">Energizing Innovation</h1>
+					<h2 class="h4 color-navy" style="margin-bottom:48px;">Providing premier electromechanical switches and integrated solutions since 1979.</h2>
+
+					<a href="/news-events/" class="btn secondary caret-white" style="margin-right: 18px;">Latest News</a>
+					<a href="/request-form/" class="btn primary caret-white">Contact Us</a>
+
+				</div>
+				<div class="col-lg-7">
+					<aside class="findproduct-container">
+						<div id="findproduct-heading">
+							<h3 class="aligncenter color-gray-dark">Find Your Product</h3>
+							<p class="color-gray-medium aligncenter">
+								Use the fields below to start searching our extensive catalog.
+							</p> 
+						</div>
+
+			            
+<form action="" class="findproduct-form" id="findproduct-form" aria-labelledby="findproduct-heading">
+
+					<label for="switch_category" class="sr-only">Type</label>
+		<select name="switch_category" id="switch_category" class="parametric_select" >
+			<option value="">Type</option>
+		</select>
+
+					<label for="series" class="sr-only">Series</label>
+		<select name="series" id="series" class="parametric_select"  disabled>
+			<option value="">Series</option>
+		</select>
+
+					<label for="current_rating" class="sr-only">Current Rating</label>
+		<select name="current_rating" id="current_rating" class="parametric_select"  disabled>
+			<option value="">Current Rating</option>
+		</select>
+
+					<label for="voltage_rating" class="sr-only">Voltage Rating</label>
+		<select name="voltage_rating" id="voltage_rating" class="parametric_select"  disabled>
+			<option value="">Voltage Rating</option>
+		</select>
+
+					<label for="circuit" class="sr-only">Circuit</label>
+		<select name="circuit" id="circuit" class="parametric_select"  disabled>
+			<option value="">Circuit</option>
+		</select>
+
+					<label for="switch_function" class="sr-only">Function</label>
+		<select name="switch_function" id="switch_function" class="parametric_select"  disabled>
+			<option value="">Function</option>
+		</select>
+
+					<label for="ingress_protection" class="sr-only">Ingress Protection</label>
+		<select name="ingress_protection" id="ingress_protection" class="parametric_select"  disabled>
+			<option value="">Ingress Protection</option>
+		</select>
+
+					<label for="illumination_lens_style" class="sr-only">Illumination Style</label>
+		<select name="illumination_lens_style" id="illumination_lens_style" class="parametric_select"  disabled>
+			<option value="">Illumination Style</option>
+		</select>
+
+					<label for="mounting_type" class="sr-only">Mounting Type</label>
+		<select name="mounting_type" id="mounting_type" class="parametric_select"  disabled>
+			<option value="">Mounting Type</option>
+		</select>
+
+					<label for="termination_type" class="sr-only show-more hidden">Termination Type</label>
+		<select name="termination_type" id="termination_type" class="parametric_select show-more hidden"  disabled>
+			<option value="">Termination Type</option>
+		</select>
+
+					<label for="actuator_type_style" class="sr-only show-more hidden">Actuator Type</label>
+		<select name="actuator_type_style" id="actuator_type_style" class="parametric_select show-more hidden"  disabled>
+			<option value="">Actuator Type</option>
+		</select>
+
+					<label for="actuator_height" class="sr-only show-more hidden">Actuator Height</label>
+		<select name="actuator_height" id="actuator_height" class="parametric_select show-more hidden"  disabled>
+			<option value="">Actuator Height</option>
+		</select>
+
+					<label for="operating_force" class="sr-only show-more hidden">Operating Force</label>
+		<select name="operating_force" id="operating_force" class="parametric_select show-more hidden"  disabled>
+			<option value="">Operating Force</option>
+		</select>
+
+					<label for="illumination_lens_color" class="sr-only show-more hidden">Illumination Color</label>
+		<select name="illumination_lens_color" id="illumination_lens_color" class="parametric_select show-more hidden"  disabled>
+			<option value="">Illumination Color</option>
+		</select>
+
+					<label for="panel_cutout_dimensions" class="sr-only show-more hidden">Panel Cutout</label>
+		<select name="panel_cutout_dimensions" id="panel_cutout_dimensions" class="parametric_select show-more hidden"  disabled>
+			<option value="">Panel Cutout</option>
+		</select>
+
+	
+  <div id="parametric-form-actions-container">
+    <button disabled id="product-search-submit" type="submit" class="btn primary search-white caret-white pad-less-x">Search Products</button>
+
+    <button id="reset-filters" type="button" class="btn ghost pad-less-x pad-0-left">
+      <div id="reset-filters-inner">
+        <span>Reset Filters</span>
+        <svg viewBox="0 0 512 512" width="14" height="14" fill="#d31145"><path d="M256 64c-56.8 0-107.9 24.7-143.1 64l47.1 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 192c-17.7 0-32-14.3-32-32L0 32C0 14.3 14.3 0 32 0S64 14.3 64 32l0 54.7C110.9 33.6 179.5 0 256 0 397.4 0 512 114.6 512 256S397.4 512 256 512c-87 0-163.9-43.4-210.1-109.7-10.1-14.5-6.6-34.4 7.9-44.6s34.4-6.6 44.6 7.9c34.8 49.8 92.4 82.3 157.6 82.3 106 0 192-86 192-192S362 64 256 64z"/></svg>
+      </div>
+    </button>
+
+    <!-- <div> -->
+      <button id="product-search-more" type="button" class="btn ghost caret-red pad-less-x pad-0-left"
+        aria-expanded="false" aria-live="polite" aria-controls="parametric_13 parametric_15 parametric_17 parametric_80 parametric_77 parametric_24">More Attributes</button>
+    <!-- </div> -->
+
+    <div class="text-right"><a href="/product-catalog" class="btn ghost caret-red pad-less-x pad-0-right">View Product Catalog</a></div>
+  </div> <!-- #parametric-form-actions-container -->
+</form>
+
+<script>
+  // Constants
+  const getOptionsURL = "https://www.e-switch.com/wp-admin/admin-ajax.php?action=eswitch_get_available_options";
+  const VALID_SELECT_FIELDS = ["switch_category","series","current_rating","voltage_rating","circuit","switch_function","ingress_protection","illumination_lens_style","mounting_type","termination_type","actuator_type_style","actuator_height","operating_force","illumination_lens_color","panel_cutout_dimensions"];
+  const PRIMARY_FIELD = 'switch_category';
+  
+  // DOM Elements
+  const form = document.getElementById('findproduct-form');
+  const selectDropdowns = document.querySelectorAll('.parametric_select');
+  const submitButton = document.getElementById('product-search-submit');
+  
+  // State Management
+  let isInitializing = false;
+
+  /** UTILITY FUNCTIONS */
+  
+  /**
+   * Parse query string parameters from current URL
+   * @returns {Object} Object containing query parameters
+   */
+  function parseQueryString() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const queryParams = {};
+    
+    VALID_SELECT_FIELDS.forEach(field => {
+      const value = urlParams.get(field);
+      if (value && value.trim() !== '') {
+        queryParams[field] = decodeURIComponent(value.trim());
+      }
+    });
+    
+    return queryParams;
+  }
+
+  /**
+   * Populate a select dropdown with options
+   * @param {HTMLSelectElement} selectElement 
+   * @param {Array} options 
+   * @param {string} selectedValue 
+   */
+  function populateSelectOptions(selectElement, options, selectedValue = null) {
+    // Clear existing options except the first (placeholder)
+    while (selectElement.options.length > 1) {
+      selectElement.remove(1);
+    }
+    
+    // Filter out invalid options
+    const validOptions = (options || []).filter(option => 
+      option !== null && option !== undefined && option !== '' && option !== 'null'
+    );
+    
+    if (validOptions.length === 0) {
+      selectElement.disabled = true;
+      return false;
+    }
+    
+    selectElement.disabled = false;
+    validOptions.forEach(option => {
+      const opt = document.createElement('option');
+      opt.value = option;
+      opt.textContent = option;
+      selectElement.appendChild(opt);
+    });
+    
+    // Set selected value if provided and exists in options
+    if (selectedValue && validOptions.includes(selectedValue)) {
+      selectElement.value = selectedValue;
+      return true;
+    }
+    
+    return false;
+  }
+
+  /**
+   * Initialize form with query string values and populate dropdowns
+   */
+  async function init() {
+    try {
+      isInitializing = true;
+      const queryParams = parseQueryString();
+      
+      // Always populate the primary field (switch_category) first
+      const typeSelect = document.getElementById(PRIMARY_FIELD);
+      const typeOptions = await getAvailableOptions(PRIMARY_FIELD);
+      const typeSelected = populateSelectOptions(typeSelect, typeOptions, queryParams[PRIMARY_FIELD]);
+      
+      // If switch_category has a value (from query or manual selection), enable other fields
+      if (typeSelected || typeSelect.value !== '') {
+        await initializeSecondaryFields(queryParams);
+        submitButton.disabled = false;
+      }
+      
+    } catch (error) {
+      console.error('Error during form initialization:', error);
+    } finally {
+      isInitializing = false;
+    }
+  }
+
+  /**
+   * Initialize secondary fields based on selected primary field and query parameters
+   * @param {Object} queryParams 
+   */
+  async function initializeSecondaryFields(queryParams) {
+    // Enable all secondary dropdowns
+    selectDropdowns.forEach(select => {
+      if (select.id !== PRIMARY_FIELD) {
+        select.disabled = false;
+      }
+    });
+
+    // Build complete selectedOptions that includes current form state AND query parameters
+    // This ensures filtering includes all selections, not just the primary field
+    const currentFormOptions = getFormSelectedOptions();
+    const selectedOptions = { ...currentFormOptions, ...queryParams };
+    
+    // Collect all secondary field names for batch processing
+    const secondaryFields = [];
+    selectDropdowns.forEach(select => {
+      if (select.id !== PRIMARY_FIELD) {
+        secondaryFields.push(select.name);
+      }
+    });
+    
+    try {
+      // Batch request for all secondary fields using complete filter set
+      const allFieldOptions = await getAvailableOptions(secondaryFields, selectedOptions);
+      
+      // Process each secondary field with its options
+      selectDropdowns.forEach(select => {
+        if (select.id === PRIMARY_FIELD) return;
+        
+        const fieldOptions = allFieldOptions[select.name] || [];
+        populateSelectOptions(select, fieldOptions, queryParams[select.name]);
+      });
+      
+    } catch (error) {
+      console.error('Error during batch field initialization:', error);
+      // Fallback to individual field processing if batch fails
+      await initializeSecondaryFieldsFallback(queryParams);
+    }
+  }
+
+  /**
+   * Fallback method for initializing secondary fields individually
+   * @param {Object} queryParams 
+   */
+  async function initializeSecondaryFieldsFallback(queryParams) {
+    // Build complete selectedOptions that includes current form state AND query parameters
+    const currentFormOptions = getFormSelectedOptions();
+    const selectedOptions = { ...currentFormOptions, ...queryParams };
+    
+    // Populate each secondary field individually
+    for (const select of selectDropdowns) {
+      if (select.id === PRIMARY_FIELD) continue;
+      
+      try {
+        const fieldOptions = await getAvailableOptions(select.name, selectedOptions);
+        populateSelectOptions(select, fieldOptions, queryParams[select.name]);
+        
+      } catch (error) {
+        console.error(`Error populating field ${select.name}:`, error);
+        select.disabled = true;
+      }
+    }
+  }
+
+  // Function to fetch available options for a given field or fields
+  async function getAvailableOptions(fields, selectedOptions = {}) {
+    try {
+      const url = new URL(getOptionsURL);
+      
+      // Support single field as string or multiple as array
+      if (Array.isArray(fields)) {
+        url.searchParams.append('desired_field', fields.join(','));
+      } else {
+        url.searchParams.append('desired_field', fields);
+      }
+
+      // Add selected options as query params
+      if (selectedOptions && typeof selectedOptions === 'object') {
+        Object.entries(selectedOptions).forEach(([key, value]) => {
+          if (value !== undefined && value !== null && value !== '') {
+            url.searchParams.append(key, value);
+          }
+        });
+      }
+      
+      const response = await fetch(url);
+      const data = await response.json();
+      
+      if (data.success) {
+        // Handle both single field response (array) and multi-field response (object)
+        const records = data.data.records || [];
+        
+        if (Array.isArray(fields)) {
+          // Multi-field request - return the structured object
+          return records;
+        } else {
+          // Single field request - return array for backward compatibility
+          return records;
+        }
+      } else {
+        console.error('Error fetching options:', data.data?.message || 'Unknown error');
+        return Array.isArray(fields) ? {} : [];
+      }
+    } catch (error) {
+      console.error('Network error fetching options:', error);
+      return Array.isArray(fields) ? {} : [];
+    }
+  }
+
+  // Utility function to get all selected options from the form as an object
+  function getFormSelectedOptions() {
+    const formData = new FormData(form);
+    const selectedOptions = {};
+    
+    for (const [name, value] of formData.entries()) {
+      if (value !== undefined && value !== null && value !== '') {
+        selectedOptions[name] = value;
+      }
+    }
+    
+    return selectedOptions;
+  }
+
+  // Legacy function for backward compatibility - returns array format
+  function getSelectedOptions() {
+    const selectedOptions = getFormSelectedOptions();
+    return Object.entries(selectedOptions).map(([name, value]) => ({ name, value }));
+  }
+
+  // Utility Function - Reset Form to Default State
+  function resetForm() {
+    form.reset();
+    selectDropdowns.forEach(function(select) {
+      select.disabled = true;
+      if (select.id === PRIMARY_FIELD) {
+        select.disabled = false;
+      }
+    });
+
+    // disable search submit btn
+    submitButton.disabled = true;
+    
+    // Clear URL parameters to prevent re-initialization with old values
+    if (window.history.replaceState) {
+      const url = new URL(window.location);
+      VALID_SELECT_FIELDS.forEach(field => {
+        url.searchParams.delete(field);
+      });
+      window.history.replaceState({}, document.title, url.pathname);
+    }
+  }
+
+
+  /** EVENT LISTENERS */
+  // Startup handler to populate select options and handle query string autofill
+  document.addEventListener("DOMContentLoaded", init);
+
+  // Reset form handler
+  document.getElementById('reset-filters').addEventListener('click', resetForm);
+
+  // Collect form values and redirect to parametric search page with query strings
+  submitButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    const formData = new FormData(form);
+    const queryParams = new URLSearchParams();
+
+    for (const [key, value] of formData.entries()) {
+      if (value) { // Only include non-empty values
+        queryParams.append(key, value);
+      }
+    }
+
+    window.location.href = '/parametric-search?' + queryParams.toString();
+  });
+
+  // Toggle visibility of additional attributes
+  document.getElementById('product-search-more').addEventListener('click', function() {
+    document.querySelectorAll('.show-more').forEach(el => el.classList.toggle('hidden'));
+    this.classList.toggle('active');
+    this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+    this.textContent = this.classList.contains('active') ? 'Fewer Attributes' : 'More Attributes';
+  });
+
+  // Primary dropdown change handler
+  selectDropdowns.forEach(function(select) {
+    select.addEventListener('change', function(event) {
+      // Skip processing during initialization to avoid conflicts
+      if (isInitializing) {
+        return;
+      }
+
+      handleSelectChange(select, event);
+    });
+  });
+
+  /**
+   * Handle select dropdown change events
+   * @param {HTMLSelectElement} select 
+   * @param {Event} event 
+   */
+  function handleSelectChange(select, event) {
+    // Special handler for switch_category
+    if (select.id === PRIMARY_FIELD) {
+      handlePrimaryFieldChange(event.target.value);
+      return;
+    }
+    
+    // Handle secondary field changes
+    updateDependentFields();
+  }
+
+  /**
+   * Handle primary field (switch_category) change
+   * @param {string} selectedValue 
+   */
+  function handlePrimaryFieldChange(selectedValue) {
+    if (selectedValue !== '') {
+      // Enable all secondary dropdowns and reset their values
+      selectDropdowns.forEach(function(select) {
+        select.disabled = false;
+        if (select.id !== PRIMARY_FIELD) {
+          select.value = ''; // Reset other selects
+        }
+      });
+
+      // Enable search button
+      submitButton.disabled = false;
+      
+      // Update dependent fields
+      updateDependentFields();
+    } else {
+      // Dropdown was reset
+      resetForm();
+    }
+  }
+
+  /**
+   * Update dependent fields based on current form state
+   */
+  async function updateDependentFields() {
+    const selectedOptions = getFormSelectedOptions();
+    
+    // Collect all empty dropdowns that need updating
+    const fieldsToUpdate = [];
+    selectDropdowns.forEach(dropdown => {
+      // Treat null, undefined, or empty string as empty
+      if (dropdown.value === null || dropdown.value === undefined || dropdown.value === '' || dropdown.value === 'null') {
+        fieldsToUpdate.push(dropdown.name);
+      }
+    });
+    
+    if (fieldsToUpdate.length === 0) {
+      return; // No fields need updating
+    }
+    
+    try {
+      // Batch request for all fields that need updating
+      const allFieldOptions = await getAvailableOptions(fieldsToUpdate, selectedOptions);
+      
+      // Update each field with its options
+      selectDropdowns.forEach(dropdown => {
+        if (fieldsToUpdate.includes(dropdown.name)) {
+          const fieldOptions = allFieldOptions[dropdown.name] || [];
+          populateSelectOptions(dropdown, fieldOptions);
+          
+          // Disable field if no options available
+          if (fieldOptions.length === 0) {
+            dropdown.disabled = true;
+          }
+        }
+      });
+      
+    } catch (error) {
+      console.error('Error during batch field update:', error);
+      // Fallback to individual field processing if batch fails
+      await updateDependentFieldsFallback(fieldsToUpdate, selectedOptions);
+    }
+  }
+
+  /**
+   * Fallback method for updating dependent fields individually
+   * @param {Array} fieldsToUpdate 
+   * @param {Object} selectedOptions 
+   */
+  async function updateDependentFieldsFallback(fieldsToUpdate, selectedOptions) {
+    for (const dropdown of selectDropdowns) {
+      if (fieldsToUpdate.includes(dropdown.name)) {
+        try {
+          const options = await getAvailableOptions(dropdown.name, selectedOptions);
+          populateSelectOptions(dropdown, options);
+        } catch (error) {
+          console.error(`Error updating field ${dropdown.name}:`, error);
+          dropdown.disabled = true;
+        }
+      }
+    }
+  }
+</script>            
+					</aside>
+				</div>
+			</div>
+		</div>
+		<div class="video-bg">
+			<button id="video-bg-toggle" class="btn ghost white pad-less-x">
+				<span class="sr-only"><span id="video-bg-toggle-label">Pause</span> background video playback</span>
+			</button>
+			<video autoplay muted loop playsinline id="video-bg">
+				<source src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/video/e-switch-hero-web-compressed.mp4" type="video/mp4">
+			</video>
+			<script>
+				document.addEventListener('DOMContentLoaded', function() {
+					const video = document.getElementById('video-bg');
+					const toggleBtn = document.getElementById('video-bg-toggle');
+					const toggleLabel = document.getElementById('video-bg-toggle-label');
+
+					if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+						video.pause();
+						toggleLabel.textContent = 'Resume';
+					}
+					toggleBtn.addEventListener('click', function() {
+						if (video.paused) {
+							video.play();
+							toggleBtn.classList.remove('paused');
+							toggleLabel.textContent = 'Pause';
+						} else {
+							video.pause();
+							toggleBtn.classList.add('paused');
+							toggleLabel.textContent = 'Resume';
+						}
+					});
+				});
+			</script>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center mb-2">Featured Products</h2>
+
+					<div class="card-container product" role="list">
+
+						<a href="/product-catalog/anti-vandal/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/anti-vandal.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/anti-vandal.jpg" alt=""  loading="lazy" />
+							</span>
+							<span class="card-text">Anti-Vandal</span>
+						</a>
+						<a href="/product-catalog/tact/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/tact.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/tact.jpg" alt="" loading="lazy" />								
+							</span>
+							<span class="card-text">Tact</span>
+						</a>
+						<a href="/product-catalog/pushbutton/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/pushbutton.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/pushbutton.jpg" alt="" loading="lazy" />
+							</span>
+							<span class="card-text">Pushbutton</span>
+						</a>
+						<a href="/product-catalog/rocker/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rocker.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rocker.jpg" alt="" loading="lazy" />
+							</span>
+							<span class="card-text">Rocker</span>
+						</a>
+						<a href="/product-catalog/toggle/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/toggle.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/toggle.jpg" alt="" loading="lazy" />
+							</span>
+							<span class="card-text">Toggle</span>
+						</a>
+						<a href="/product-catalog/wired/" class="card product featured h4" role="listitem">
+							<span class="card-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/wired.svg" data-loading="lazy"></svg>
+								<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/wired.jpg" alt="" loading="lazy" />
+							</span>
+							<span class="card-text">Wired</span>
+						</a>
+					
+					</div>
+
+					<div class="text-center mt-2">
+						<a href="/stock-checker/" class="btn primary caret-white mx-05">Stock Checker By Series</a>
+						<a href="/product-catalog/" class="btn secondary caret-white mx-05">See All Products</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<hr class="divider" />
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center mb-2">Latest News & Products</h2>
+
+					<div class="card-container news">
+						
+														<article class="card news">
+									<a href="https://www.e-switch.com/news-events/blog/switch-industry-news/electronic-switch-news-latest-products-switches-2/" class="card-image-link">
+																					<span class="card-border">
+												<img src="https://www.e-switch.com/wp-content/uploads/2025/08/New-products-catalog-update-1024x576.png" alt="New E-Switch Products and Digital Catalog Updates Featured Image" loading="lazy" />
+											</span>
+										
+										<h3 class="h4">
+											New E-Switch Products and Digital Catalog Updates										</h3>
+									</a>
+
+									<div class="post-info">
+										<span class="post-date">
+											August 15, 2025										</span>
+										| 
+										<span class="post-reading-time">
+											4 minute read										</span>
+									</div>
+
+									<div class="post-excerpt">
+										<p>E-Switch offers one of the broadest switch lines available today, and the lineup grows each month with the release of a new product. Stay up to date with the latest releases right here!</p>
+									</div>
+
+									<a href="https://www.e-switch.com/news-events/blog/switch-industry-news/electronic-switch-news-latest-products-switches-2/" class="btn ghost caret-red pad-0-left">Read More</a>
+								</article>
+															<article class="card news">
+									<a href="https://www.e-switch.com/news-events/events/visit-e-switch-at-tek-day-2025/" class="card-image-link">
+																					<span class="card-border">
+												<img src="https://www.e-switch.com/wp-content/uploads/2025/08/TEK.day_-1024x576.png" alt="Visit E-Switch at TEK.day 2025 Featured Image" loading="lazy" />
+											</span>
+										
+										<h3 class="h4">
+											Visit E-Switch at TEK.day 2025										</h3>
+									</a>
+
+									<div class="post-info">
+										<span class="post-date">
+											August 27, 2025										</span>
+										| 
+										<span class="post-reading-time">
+											1 minute read										</span>
+									</div>
+
+									<div class="post-excerpt">
+										<p>Come say hello at TEK.day 2025 in Gdansk, Poland! We&#8217;ll be exhibiting alongside our partner Heilind Electronics Europe at stand #46 on Thursday, Sep. 11th from 8 a.m. until 4 p.m.</p>
+									</div>
+
+									<a href="https://www.e-switch.com/news-events/events/visit-e-switch-at-tek-day-2025/" class="btn ghost caret-red pad-0-left">Read More</a>
+								</article>
+															<article class="card news">
+									<a href="https://www.e-switch.com/news-events/blog/sales-tools/sealed-rocker-switch-on-off/" class="card-image-link">
+																					<span class="card-border">
+												<img src="https://www.e-switch.com/wp-content/uploads/2025/08/Sealed-Rocker-Switch-On-Off-1024x576.png" alt="Sealed Rocker Switch Products Featured Image" loading="lazy" />
+											</span>
+										
+										<h3 class="h4">
+											Sealed Rocker Switch Products										</h3>
+									</a>
+
+									<div class="post-info">
+										<span class="post-date">
+											August 25, 2025										</span>
+										| 
+										<span class="post-reading-time">
+											3 minute read										</span>
+									</div>
+
+									<div class="post-excerpt">
+										<p>A sealed switch offers protection against ingress, making it ideal for outdoor environments and industrial use. This feature enhances durability and reliability by preventing internal corrosion and electrical failure.</p>
+									</div>
+
+									<a href="https://www.e-switch.com/news-events/blog/sales-tools/sealed-rocker-switch-on-off/" class="btn ghost caret-red pad-0-left">Read More</a>
+								</article>
+							
+					</div>
+
+					<div class="text-center mt-2">
+						<a href="/news-events" class="btn primary caret-white">See All News</a>
+					</div>
+ 
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<hr class="divider" />
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-center mb-1">Serving Your Market</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="market-list" role="list">
+
+													<button class="btn market-item js-active" role="listitem" 
+								aria-controls="market-card-agricultural" 
+								aria-selected="true">
+								<span class="market-item-icon" style="padding: 6px;">
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/agricultural.svg" data-loading="lazy"></svg>
+								</span>
+								Agricultural							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-appliance" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/appliance.svg" data-loading="lazy"></svg>
+								</span>
+								Appliance							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-audio-visual" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/audio-visual.svg" data-loading="lazy"></svg>
+								</span>
+								Audio Visual							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-automation" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/automation.svg" data-loading="lazy"></svg>
+								</span>
+								Automation							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-construction" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/construction.svg" data-loading="lazy"></svg>
+								</span>
+								Construction							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-fitness" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/fitness.svg" data-loading="lazy"></svg>
+								</span>
+								Fitness							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-food-industry" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/food.svg" data-loading="lazy"></svg>
+								</span>
+								Food Industry							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-home-maintenance" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/home-maintenance.svg" data-loading="lazy"></svg>
+								</span>
+								Home Maintenance							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-industrial" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/industrial.svg" data-loading="lazy"></svg>
+								</span>
+								Industrial							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-medical" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/medical.svg" data-loading="lazy"></svg>
+								</span>
+								Medical							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-personal-care" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/personal-care.svg" data-loading="lazy"></svg>
+								</span>
+								Personal Care							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-security" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/security.svg" data-loading="lazy"></svg>
+								</span>
+								Security							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-sustainable-energy" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/sustainable-energy.svg" data-loading="lazy"></svg>
+								</span>
+								Sustainable Energy							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-telecommunications" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/communications.svg" data-loading="lazy"></svg>
+								</span>
+								Telecommunications							</button>
+																				<button class="btn market-item " role="listitem" 
+								aria-controls="market-card-transportation" 
+								aria-selected="false">
+								<span class="market-item-icon" >
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/transportation.svg" data-loading="lazy"></svg>
+								</span>
+								Transportation							</button>
+																			
+					</div>
+					<a href="/markets" class="btn primary caret-white mt-2">See All Markets</a>
+				</div>
+				<div class="col-lg-6">
+					<div class="market-card-container">
+
+													<article class="card market js-active" 
+									id="market-card-agricultural" >
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/agricultural.svg" data-loading="lazy"></svg>
+											Agricultural										</h3>
+										<a href="/markets/agricultural" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Agriculture-Main-Image-1024x678.jpg" alt="Agricultural" loading="lazy" />
+																					</a>
+																					<p>E-Switch provides a vast line of switch products with multiple features suitable for agricultural related devices and equipment. Whether the application requires moisture-resistance, illumination or simplified installation, our switches are designed to enhance modern farm operations.</p>
+																				<a href="/markets/agricultural" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-appliance" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/appliance.svg" data-loading="lazy"></svg>
+											Appliance										</h3>
+										<a href="/markets/appliance" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Appliance-Main-Image-1024x701.jpg" alt="Appliance" loading="lazy" />
+																					</a>
+																					<p>Switches are essential for controlling functions in devices like washing machines, refrigerators and microwaves, enabling operations such as power on/off, cycle selection and safety interlocks. They also enhance user interaction and appliance reliability by providing tactile feedback and ensuring precise control over mechanical and electrical components.</p>
+																				<a href="/markets/appliance" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-audio-visual" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/audio-visual.svg" data-loading="lazy"></svg>
+											Audio Visual										</h3>
+										<a href="/markets/audio-visual" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Mixing-Board-1-1024x683.jpg" alt="Audio Visual" loading="lazy" />
+																					</a>
+																					<p>E-Switch products, including tacts, pushbuttons and rockers, are frequently used in audio/visual applications for providing design and function flexibility, illuminated on/off functionality and multiple custom features.</p>
+																				<a href="/markets/audio-visual" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-automation" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/automation.svg" data-loading="lazy"></svg>
+											Automation										</h3>
+										<a href="/markets/automation" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/factory-automation-2022-10-26-04-05-35-utc-1536x864-1-1024x576.jpg" alt="Automated factory robots" loading="lazy" />
+																					</a>
+																					<p>Switches are used in automation products to initiate, stop or change the operation of machinery and robotic systems, enabling precise control over automated processes. They also serve as safety and feedback components, detecting position or presence to ensure systems operate within defined parameters.</p>
+																				<a href="/markets/automation" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-construction" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/construction.svg" data-loading="lazy"></svg>
+											Construction										</h3>
+										<a href="/markets/construction" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Construction-Main-Image-1024x649.jpg" alt="Construction site" loading="lazy" />
+																					</a>
+																					<p>Switches are used to control heavy machinery and tools, such as cranes, drills, concrete mixers and control panels, while ensuring precise and efficient operation. They also serve as critical safety components, acting as limit switches or emergency stops to prevent equipment damage and protect workers on job sites.</p>
+																				<a href="/markets/construction" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-fitness" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/fitness.svg" data-loading="lazy"></svg>
+											Fitness										</h3>
+										<a href="/markets/fitness" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/checking-fitness-progress-2021-09-24-03-22-03-utc-768x512-1.jpg" alt="Checking fitness progress on app" loading="lazy" />
+																					</a>
+																					<p>Switches are used to control and monitor equipment like fitness trackers, smart scales, treadmills, stationary bikes and resistance machines, enabling functions such as start/stop, speed adjustment and safety shutoff. They also help track user input and machine status, supporting interactive features and performance feedback.</p>
+																				<a href="/markets/fitness" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-food-industry" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/food.svg" data-loading="lazy"></svg>
+											Food Industry										</h3>
+										<a href="/markets/food-industry" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Pasta-Portioning-1024x683.jpg" alt="Food Industry" loading="lazy" />
+																					</a>
+																					<p>Switches play a vital role in controlling and automating machinery such as mixers, conveyors and packaging systems, while ensuring precise operation. They also help monitor critical processes like temperature and pressure in food processing equipment to maintain quality and compliance with safety standards.</p>
+																				<a href="/markets/food-industry" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-home-maintenance" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/home-maintenance.svg" data-loading="lazy"></svg>
+											Home Maintenance										</h3>
+										<a href="/markets/home-maintenance" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Snow-Blower-1024x683.jpg" alt="Home Maintenance" loading="lazy" />
+																					</a>
+																					<p>Switches are used to control tools like power drills, pressure washers and vacuum systems, enabling safe and efficient operation. They also help automate functions such as motor activation, speed adjustment and safety shutoff to enhance usability and reliability.</p>
+																				<a href="/markets/home-maintenance" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-industrial" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/industrial.svg" data-loading="lazy"></svg>
+											Industrial										</h3>
+										<a href="/markets/industrial" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Industrial-Panel-1024x683.png" alt="Industrial" loading="lazy" />
+																					</a>
+																					<p>E-Switch provides a broad range of products designed to withstand the harsh and high-demand environments found in the industrial market. Applications include test and measurement tools, factory automation machines, security systems and commercial equipment.</p>
+																				<a href="/markets/industrial" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-medical" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/medical.svg" data-loading="lazy"></svg>
+											Medical										</h3>
+										<a href="/markets/medical" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/X-Ray-1024x685.jpg" alt="Medical" loading="lazy" />
+																					</a>
+																					<p>E-Switch&#8217;s sealed and illuminated products are trusted in the medical and healthcare industries for delivering critical switching with unfaltering reliability and unmatched durability. Anti-vandals, rockers, pushbuttons and tact switches are commonly used for medical equipment.</p>
+																				<a href="/markets/medical" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-personal-care" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/personal-care.svg" data-loading="lazy"></svg>
+											Personal Care										</h3>
+										<a href="/markets/personal-care" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/06/Personal-Care-Main-Image-1024x720.jpg" alt="Personal Care" loading="lazy" />
+																					</a>
+																					<p>Switches are used to activate and control devices like electric toothbrushes, hairdryers and shavers, ensuring user-friendly operation and safety. They also help regulate functions such as speed, heat or vibration levels to enhance performance and customization.</p>
+																				<a href="/markets/personal-care" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-security" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/security.svg" data-loading="lazy"></svg>
+											Security										</h3>
+										<a href="/markets/security" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Security-Camera-1-1024x835.jpg" alt="Security" loading="lazy" />
+																					</a>
+																					<p>Switches are used in security products to control access systems, such as door locks and alarm panels, by enabling or disabling circuits based on user input or sensor signals. They also serve as triggers in surveillance and intrusion detection systems, activating cameras or alerts when motion or unauthorized access is detected.</p>
+																				<a href="/markets/security" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-sustainable-energy" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/sustainable-energy.svg" data-loading="lazy"></svg>
+											Sustainable Energy										</h3>
+										<a href="/markets/sustainable-energy" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Voltage-Meter-1024x655.jpg" alt="Sustainable Energy" loading="lazy" />
+																					</a>
+																					<p>Switches are used to control and monitor systems like wind turbines, solar trackers and battery storage units, ensuring efficient energy conversion and system safety. They also help manage grid connectivity and load balancing by enabling or disabling circuits based on real-time energy flow and demand.</p>
+																				<a href="/markets/sustainable-energy" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-telecommunications" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/communications.svg" data-loading="lazy"></svg>
+											Telecommunications										</h3>
+										<a href="/markets/telecommunications" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Servers-1-1024x682.jpg" alt="Telecommunications" loading="lazy" />
+																					</a>
+																					<p>Switches are used to route signals, control power supplies and manage connections in devices like routers, modems and base stations. They also play a role in network infrastructure by enabling or disabling circuits in response to system commands or environmental conditions, ensuring reliable communication.</p>
+																				<a href="/markets/telecommunications" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+																							<article class="card market " 
+									id="market-card-transportation" hidden>
+									<div class="market-card-inner">
+										<h3>
+											<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/market-icons/transportation.svg" data-loading="lazy"></svg>
+											Transportation										</h3>
+										<a href="/markets/transportation" class="card-image-link">
+																							<img src="https://www.e-switch.com/wp-content/uploads/2025/04/Tour-Bus-1024x683.jpg" alt="Tour Bus" loading="lazy" />
+																					</a>
+																					<p>Switches play a vital role in the transport market by controlling systems in vehicles such as lighting, dashboard and door mechanisms, ensuring safe and reliable operation. They also support automation and diagnostics in modern transport systems, enabling responsive control and real-time system feedback.</p>
+																				<a href="/markets/transportation" class="btn primary caret-white">Learn More</a>
+									</div>
+								</article>
+
+															
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="divider" />
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+				<h2 class="text-center mb-2">Products By Type</h2>
+
+				
+<div class="card-container product" role="list">
+
+	<a href="/product-catalog/anti-vandal" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/anti-vandal.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/anti-vandal.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Anti-Vandal</span>
+	</a>
+		<a href="/product-catalog/caps" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/caps.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/caps.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Caps</span>
+	</a>
+		<a href="/product-catalog/connector" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/connector.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/connector.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Connectors</span>
+	</a>
+		<a href="/product-catalog/detector" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/detector.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/detector.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Detector</span>
+	</a>
+		<a href="/product-catalog/dip" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/dip.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/dip.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Dip</span>
+	</a>
+		<a href="/product-catalog/e-stop" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/e-stop.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/e-stop.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">E-stop</span>
+	</a>
+		<a href="/product-catalog/keylock" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/keylock.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/keylock.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Keylock</span>
+	</a>
+		<a href="/product-catalog/navigation" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/navigation.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/navigation.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Navigation</span>
+	</a>
+		<a href="/product-catalog/pushbutton" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/pushbutton.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/pushbutton.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Pushbutton</span>
+	</a>
+		<a href="/product-catalog/rocker" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rocker.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rocker.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Rocker</span>
+	</a>
+		<a href="/product-catalog/rotary" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rotary.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rotary.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Rotary</span>
+	</a>
+		<a href="/product-catalog/rotary-dip" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/rotary-dip.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/rotary-dip.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Rotary DIP</span>
+	</a>
+		<a href="/product-catalog/slide" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/slide.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/slide.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Slide</span>
+	</a>
+		<a href="/product-catalog/snap-action" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/snap-action.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/snap-action.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Snap Action</span>
+	</a>
+		<a href="/product-catalog/tact" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/tact.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/tact.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Tact</span>
+	</a>
+		<a href="/product-catalog/tilt" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/tilt.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/tilt.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Tilt</span>
+	</a>
+		<a href="/product-catalog/toggle" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/toggle.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/toggle.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Toggle</span>
+	</a>
+		<a href="/product-catalog/touch-sensor" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/touch-sensor.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/touch-sensor.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Touch-Sensor</span>
+	</a>
+		<a href="/product-catalog/trigger" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/trigger.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/trigger.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Trigger</span>
+	</a>
+		<a href="/product-catalog/wired" class="card product h4" role="listitem">
+		<span class="card-icon">
+			<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-type-icons/wired.svg" data-loading="lazy"></svg>
+			<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/product-images/wired.jpg" alt="" loading="lazy" />
+		</span>
+		<span class="card-text">Wired</span>
+	</a>
+	</div>
+				<div class="text-center mt-2">
+					<a href="/stock-checker/" class="btn primary caret-white">Stock Checker By Series</a>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+			<section class="cta-section-red">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 text-center text-left-lg">
+									<h2>Where To Buy</h2>
+<p>With thousands of authorized representatives and distributors around the world, you are sure to find one near you.</p>
+<p><a class="btn secondary caret-white mr-1" href="/distributor-search/">Find An Authorized Distributor</a> <a class="btn white caret-red" href="/stock-checker/">Buy Online</a></p>
+							</div>
+			<div class="col-lg-6 text-center">
+				<div class="d-lg-none my-2"></div>
+									<img class="responsive" style="max-width: 378px;" src="https://www.e-switch.com/wp-content/uploads/2025/04/where-to-buy-products.png" alt="E-switch product photo" loading="lazy" />
+							</div>
+		</div>
+	</div>
+</section>	
+	        <section class="cta-section-black">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-6 text-center">
+									<h2>Why E-Switch</h2>
+<p>E-Switch has been a premier provider of quality electromechanical switches and integrated solutions to the global marketplace since 1979.</p>
+<p><a class="btn primary caret-white mr-1" href="/about/">About E-Switch</a></p>
+							</div>
+		</div>
+	</div>
+</section>    
+</main>
+
+
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 footer-logo-and-address">
+
+					<a href="https://www.e-switch.com" id="footer-brand-logo">
+						<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/e-switch-logo_red-white.png" alt="E-Switch">
+					</a>
+
+					<span class="footer-left-icon mailing-address-icon">
+						<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/location-red.svg" data-loading="lazy"></svg>					
+					</span>
+					<address class="mailing-address small">
+						<a href="https://maps.app.goo.gl/YaYJ64pnrzSgHeom6" target="_blank">
+							7153 Northland Drive<br>
+							Minneapolis, MN 55428 USA
+						</a>
+					</address>
+
+					<ul class="telephones small">
+						<li>
+							<span class="footer-left-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/phone-red.svg" data-loading="lazy"></svg>
+							</span>
+							<a href="tel:17635043525">
+								(763) 504-3525
+							</a>
+						</li>
+						<li>
+							<span class="footer-left-icon">
+								<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/phone-red.svg" data-loading="lazy"></svg>
+							</span>
+							<a href="tel:18008672717">
+								(800) 867-2717
+							</a>
+						</li>
+					</ul>
+
+					<ul class="socials smaller">
+						<li>
+							<a href="https://www.linkedin.com/company/e-switch-inc-/" target="_blank">
+								<span class="footer-left-icon">
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/linkedin-white-redbox.svg" data-loading="lazy"></svg>
+								</span>
+								LinkedIn
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/c/ESwitchInc" target="_blank">
+								<span class="footer-left-icon">
+									<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/youtube-white-redbox.svg" data-loading="lazy"></svg>
+								</span>
+								YouTube
+							</a>
+						</li>
+					</ul>
+
+					<a href="https://www.ecianow.org/" target="_blank" class="ecia-logo">
+						<img src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/ECIA-member-logo_white.png" alt="ECIA Member Supporting the Authorized Channel">
+					</a>
+					
+				</div>
+				<div class="col-lg-4 footer-nav">
+					<h4>Quick Links</h4>
+
+					<nav id="footer-navigation" class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-9326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9326"><a href="https://www.e-switch.com/product-catalog/">Product Catalog</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://www.e-switch.com/markets/">Markets</a></li>
+<li id="menu-item-8605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8605"><a href="https://www.e-switch.com/resources/">Resources</a></li>
+<li id="menu-item-8606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8606"><a href="https://www.e-switch.com/support/">Support</a></li>
+<li id="menu-item-8689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8689"><a href="https://www.e-switch.com/stock-checker/">Stock Checker</a></li>
+<li id="menu-item-8690" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8690"><a href="https://www.e-switch.com/distributor-search/">Distributor Search</a></li>
+<li id="menu-item-8604" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8604"><a href="https://www.e-switch.com/request-form/">Contact Us</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="https://www.e-switch.com/about/">About E-Switch</a></li>
+<li id="menu-item-8603" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8603"><a href="https://www.e-switch.com/support/warranty/">Warranty</a></li>
+<li id="menu-item-8610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-8610"><a rel="privacy-policy" href="https://www.e-switch.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-10045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10045"><a href="https://www.e-switch.com/accessibility/">Accessibility</a></li>
+<li id="menu-item-8686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8686"><a href="https://www.e-switch.com/extranet/">Extranet</a></li>
+<li id="menu-item-45" class="footer-search-link menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="#site-search-form">Site Search</a></li>
+</ul></nav>				
+				</div>
+				<div class="col-lg-4 footer-form">
+						
+					<div class="footer-form-container">
+						<h4>Subscribe to Our Newsletter!</h4>
+						<p>Sign up for new production introductions and other news from E-Switch.</p>
+
+						
+                <div class='gf_browser_chrome gform_wrapper gravity-theme gform-theme--no-framework form-center_wrapper' data-form-theme='gravity-theme' data-form-index='0' id='gform_wrapper_1' >
+                        <div class='gform_heading'>
+                            <p class='gform_description'></p>
+                        </div><form method='post' enctype='multipart/form-data'  id='gform_1' class='form-center' action='/' data-formid='1' novalidate>
+                        <div class='gform-body gform_body'><div id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below validation_below'><div id="field_1_1" class="gfield gfield--type-email field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_1'>Email</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_1' id='input_1_1' type='email' value='' class='large'   placeholder='Email Address'  aria-invalid="false"  />
+                        </div></div><div id="field_1_2" class="gfield gfield--type-captcha field_sublabel_below gfield--no-description field_description_below hidden_label field_validation_below gfield_visibility_visible"  ><label class='gfield_label gform-field-label' for='input_1_2'>CAPTCHA</label><div id='input_1_2' class='ginput_container ginput_recaptcha' data-sitekey='6LdzS_YjAAAAAOm0XjUwQDqm2k2RJU70EMvYlOjq'  data-theme='light' data-tabindex='-1' data-size='invisible' data-badge='bottomright'></div></div></div></div>
+        <div class='gform-footer gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' onclick='gform.submission.handleButtonClick(this);' data-submission-type='submit' value='Sign Up'  /> 
+            <input type='hidden' class='gform_hidden' name='gform_submission_method' data-js='gform_submission_method_1' value='postback' />
+            <input type='hidden' class='gform_hidden' name='gform_theme' data-js='gform_theme_1' id='gform_theme_1' value='gravity-theme' />
+            <input type='hidden' class='gform_hidden' name='gform_style_settings' data-js='gform_style_settings_1' id='gform_style_settings_1' value='[]' />
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjJmMjM2M2Y0MjY3MTUwMDYxMjRiMDE2NmQxMTg4ODk4Il0=' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' autocomplete='off' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {gformInitSpinner( 1, 'https://www.e-switch.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery('#gform_ajax_frame_1').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_1');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_1').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_1').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_1').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_1').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */  }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_1').val();gformInitSpinner( 1, 'https://www.e-switch.com/wp-content/plugins/gravityforms/images/spinner.svg', true );jQuery(document).trigger('gform_page_loaded', [1, current_page]);window['gf_submitting_1'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}jQuery('#gform_wrapper_1').replaceWith(confirmation_content);jQuery(document).trigger('gform_confirmation_loaded', [1]);window['gf_submitting_1'] = false;wp.a11y.speak(jQuery('#gform_confirmation_message_1').text());}else{jQuery('#gform_1').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "current_page", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, current_page );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } );} ); 
+/* ]]> */
+</script>
+
+						<p class="form-join">
+							<svg data-src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/checkmark-white-redcircle.svg" data-loading="lazy"></svg>
+							Join the thousands of subscribers!
+						</p>
+
+					</div><!-- ./footer-form-container -->
+
+				</div>
+			</div>
+
+		</div> <!-- ./container -->
+		<div class="bgcolor-black">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 text-center">
+						<p class="copyright">
+							&copy; 2025 E-Switch. All Rights Reserved
+							<img class="mx-1" src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/images/icons/diamond-red.svg" alt="">E-Switch, Inc. is a wholly owned subsidiary of Stein Industries, Inc 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/eswitch-2025\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+                <link rel='stylesheet' id='gform_basic-css' href='https://www.e-switch.com/wp-content/plugins/gravityforms/assets/css/dist/basic.min.css?ver=2.9.17.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme_components-css' href='https://www.e-switch.com/wp-content/plugins/gravityforms/assets/css/dist/theme-components.min.css?ver=2.9.17.1' type='text/css' media='all' />
+<link rel='stylesheet' id='gform_theme-css' href='https://www.e-switch.com/wp-content/plugins/gravityforms/assets/css/dist/theme.min.css?ver=2.9.17.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://wordpress.livechat.com/api/v2/script/15e1bc30-1870-4175-8188-d3c05eaf3d83/widget.js?ver=5.0.8" id="text-widget-js"></script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/js/libs/svg-loader.min.js?ver=1.0" id="svg-loader-js"></script>
+<script type="text/javascript" src="https://js.sitesearch360.com/plugin/bundle/54919.js?ver=1.3" id="ss360-js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-2.3.2/fh-4.0.3/datatables.min.js?ver=1.0" id="datatables-js-js"></script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/js/scripts.min.js?ver=1.8" id="main-js-js"></script>
+<script type="text/javascript" id="ajax-form-loading-js-extra">
+/* <![CDATA[ */
+var form_ajax_object = {"ajax_url":"https:\/\/www.e-switch.com\/wp-admin\/admin-ajax.php","nonce":"28f26bc157"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-content/themes/eswitch-2025/assets/js/forms-ajax.min.js?ver=1.0" id="ajax-form-loading-js"></script>
+<script type="text/javascript" id="gt_widget_script_18867594-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['18867594'] = {"default_language":"en","languages":["ar","hy","bs","bg","zh-CN","zh-TW","hr","cs","da","nl","en","tl","fi","fr","de","iw","hu","id","ga","it","ja","ko","lv","lt","lb","no","fa","pl","pt","ro","sk","sl","es","sv","th","tr","uk","vi","cy"],"url_structure":"sub_directory","detect_browser_language":1,"wrapper_selector":"#gt-wrapper-18867594","select_language_label":"Select Language","horizontal_position":"inline","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/"};
+/* ]]> */
+</script><script src="https://www.e-switch.com/wp-content/plugins/gtranslate/js/dropdown.js?ver=6.8.2" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/" data-gt-orig-domain="www.e-switch.com" data-gt-widget-id="18867594" defer></script><script type="text/javascript" src="https://www.e-switch.com/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.e-switch.com/wp-includes/js/dist/a11y.min.js?ver=3156534cc54473497e14" id="wp-a11y-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.9.17.1" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gform_i18n = {"datepicker":{"days":{"monday":"Mo","tuesday":"Tu","wednesday":"We","thursday":"Th","friday":"Fr","saturday":"Sa","sunday":"Su"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = [];
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/www.e-switch.com\/wp-content\/plugins\/gravityforms\/images"}};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/www.e-switch.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.e-switch.com\/wp-content\/plugins\/gravityforms\/images\/spinner.svg","version_hash":"0580701c6192447d4872c530cff21e48","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.9.17.1" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.google.com/recaptcha/api.js?hl=en&amp;ver=6.8.2#038;render=explicit" id="gform_recaptcha-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.9.17.1" id="gform_placeholder-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/assets/js/dist/utils.min.js?ver=380b7a5ec0757c78876bc8a59488f2f3" id="gform_gravityforms_utils-js"></script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/assets/js/dist/vendor-theme.min.js?ver=21e5a4db1670166692ac5745329bfc80" id="gform_gravityforms_theme_vendors-js"></script>
+<script type="text/javascript" id="gform_gravityforms_theme-js-extra">
+/* <![CDATA[ */
+var gform_theme_config = {"common":{"form":{"honeypot":{"version_hash":"0580701c6192447d4872c530cff21e48"},"ajax":{"ajaxurl":"https:\/\/www.e-switch.com\/wp-admin\/admin-ajax.php","ajax_submission_nonce":"21ae07d777","i18n":{"step_announcement":"Step %1$s of %2$s, %3$s","unknown_error":"There was an unknown error processing your request. Please try again."}}}},"hmr_dev":"","public_path":"https:\/\/www.e-switch.com\/wp-content\/plugins\/gravityforms\/assets\/js\/dist\/","config_nonce":"f87637626b"};
+/* ]]> */
+</script>
+<script type="text/javascript" defer='defer' src="https://www.e-switch.com/wp-content/plugins/gravityforms/assets/js/dist/scripts-theme.min.js?ver=123af0257f6f333b67adf5d27ef3db93" id="gform_gravityforms_theme-js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).on('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } ); 
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+ gform.initializeOnLoaded( function() {jQuery(document).trigger("gform_pre_post_render", [{ formId: "1", currentPage: "1", abort: function() { this.preventDefault(); } }]);        if (event && event.defaultPrevented) {                return;        }        const gformWrapperDiv = document.getElementById( "gform_wrapper_1" );        if ( gformWrapperDiv ) {            const visibilitySpan = document.createElement( "span" );            visibilitySpan.id = "gform_visibility_test_1";            gformWrapperDiv.insertAdjacentElement( "afterend", visibilitySpan );        }        const visibilityTestDiv = document.getElementById( "gform_visibility_test_1" );        let postRenderFired = false;        function triggerPostRender() {            if ( postRenderFired ) {                return;            }            postRenderFired = true;            gform.core.triggerPostRenderEvents( 1, 1 );            if ( visibilityTestDiv ) {                visibilityTestDiv.parentNode.removeChild( visibilityTestDiv );            }        }        function debounce( func, wait, immediate ) {            var timeout;            return function() {                var context = this, args = arguments;                var later = function() {                    timeout = null;                    if ( !immediate ) func.apply( context, args );                };                var callNow = immediate && !timeout;                clearTimeout( timeout );                timeout = setTimeout( later, wait );                if ( callNow ) func.apply( context, args );            };        }        const debouncedTriggerPostRender = debounce( function() {            triggerPostRender();        }, 200 );        if ( visibilityTestDiv && visibilityTestDiv.offsetParent === null ) {            const observer = new MutationObserver( ( mutations ) => {                mutations.forEach( ( mutation ) => {                    if ( mutation.type === 'attributes' && visibilityTestDiv.offsetParent !== null ) {                        debouncedTriggerPostRender();                        observer.disconnect();                    }                });            });            observer.observe( document.body, {                attributes: true,                childList: false,                subtree: true,                attributeFilter: [ 'style', 'class' ],            });        } else {            triggerPostRender();        }    } ); 
+/* ]]> */
+</script>
+		<script>
+document.addEventListener("DOMContentLoaded", function() {
+  let partNumber = "";
+
+  // ✅ Page Type A: Static part number
+  const typeA = document.getElementById("config-part-number");
+  if (typeA) {
+    partNumber = typeA.textContent.trim();
+    console.log("Page Type A detected. Part Number:", partNumber);
+  }
+
+  // ✅ Page Type B: Get part number from nearby <tr class="param-detail-trigger">
+  function getScopedPartNumber(trigger) {
+    let current = trigger.closest("tr");
+    while (current && !current.classList.contains("param-detail-trigger")) {
+      current = current.previousElementSibling;
+    }
+
+    if (current && current.hasAttribute("data-part-number")) {
+      const foundPart = current.getAttribute("data-part-number").trim();
+      console.log("Scoped part number found:", foundPart);
+      return foundPart;
+    }
+
+    console.log("No scoped part number found.");
+    return "";
+  }
+
+  // ✅ Fill the correct Gravity Forms field (ID 7 or 9)
+  function fillFormField(value) {
+    const waitForField = setInterval(function() {
+      const input7 = document.querySelector("input[name='input_7']");
+      const input9 = document.querySelector("input[name='input_9']");
+
+      if (input7 && input7.offsetParent !== null) {
+        input7.value = value;
+        input7.readOnly = true;
+        console.log("Filled input_7 with:", value);
+        clearInterval(waitForField);
+      } else if (input9 && input9.offsetParent !== null) {
+        input9.value = value;
+        input9.readOnly = true;
+        console.log("Filled input_9 with:", value);
+        clearInterval(waitForField);
+      }
+    }, 100); // Fast checking
+  }
+
+  // ✅ Listen for any CAD Models button click (works for both Page Types)
+  document.body.addEventListener("click", function(e) {
+    const trigger = e.target.closest("button.btn-cad-link");
+    if (trigger) {
+      console.log("CAD Models button clicked.");
+
+      setTimeout(function() {
+        let scopedPartNumber = getScopedPartNumber(trigger);
+
+        // ✅ If Page Type A, always use the static part number
+        if (partNumber) {
+          scopedPartNumber = partNumber;
+        }
+
+        if (scopedPartNumber) {
+          fillFormField(scopedPartNumber);
+        } else {
+          console.log("No part number found to fill.");
+        }
+      }, 600); // Delay to allow form popup to render
+    }
+  });
+});
+</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97a30d6fad59492e',t:'MTc1NzA0NzI2OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>シチズン電子株式会社</title>
+<meta name="description" content="シチズン電子株式会社のコーポレートサイトです。LED、スイッチ、センサーなどの製品情報及び、会社情報や採用情報をご紹介しております。">
+<meta name="keywords" content="トップページ">
+<!--<link rel="stylesheet" type="text/css" href="/cms/css/style_fb_1pane_hf.css" media="all">-->
+<!--<link rel="icon" type="image/png" href="/favicon.png">-->
+<link rel="alternate" type="application/rss+xml" href="https://ce.citizen.co.jp/up_img/product/WBtpQ6f1JXom/CL-194S.pdf/rss2.xml" />
+
+<!--<script type="text/javascript" src="/cms/js/jquery.js"></script>-->
+<meta property="og:site_name" content="シチズン電子株式会社">
+<meta property="og:url" content="https://ce.citizen.co.jp/up_img/product/WBtpQ6f1JXom/CL-194S.pdf">
+<meta property="og:title" content="シチズン電子株式会社">
+<meta property="og:description" content="シチズン電子株式会社のコーポレートサイトです。LED、スイッチ、センサーなどの製品情報及び、会社情報や採用情報をご紹介しております。">
+<meta property="og:image" content="">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+
+
+
+<script src="/cms/js/smz_ma.js" charset="UTF-8" defer></script>
+<script>
+__smz_ma={
+  'hostname':'ce.citizen.co.jp'
+  ,'top_url':'/'
+  ,'is_internal':true
+  ,'bgcolor':'white'
+};
+</script>
+<!-- 追加-->
+<link rel="stylesheet" href="/cms/ce/css/bootstrap.css">
+<link rel="stylesheet" href="/cms/ce/css/animate.css">
+<link rel="stylesheet" href="/cms/ce/css/font-awesome.min.css">
+<link rel="stylesheet" href="/cms/ce/css/style.css">
+<link rel="stylesheet" href="/cms/ce/css/style_lg.css">
+<link rel="stylesheet" href="/cms/ce/css/style_md.css">
+<link rel="stylesheet" href="/cms/ce/css/style_sm.css">
+<link rel="stylesheet" href="/cms/ce/css/style_xs.css">
+<link rel="stylesheet" href="/cms/ce/css/yamm.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+	window.jQuery || document.write('<script src="/cms/ce/js/jquery-1.10.2.min.js"><\/script>')
+</script>
+<!--[if IE]><script type="text/javascript" src="/cms/ce/js/excanvas.compiled.js"></script><![endif]-->
+<!--[if lt IE 9]>
+	<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Owl Carousel Assets -->
+    <link href="/cms/ce/js/owl.carousel.css" rel="stylesheet">
+    <link href="/cms/ce/js/owl.theme.css" rel="stylesheet">
+<!-- //追加-->
+
+<link rel="canonical" href="https://ce.citizen.co.jp/up_img/product/WBtpQ6f1JXom/CL-194S.pdf">
+<link rel="next" href="https://ce.citizen.co.jp/up_img/product/WBtpQ6f1JXom/CL-194S.pdf?absolutepage=2">
+<meta name="google-site-verification" content="duDFK4X05E6oU8ZFE-qX8Zz2OPfvt9ujRuRFG6_bSBo" />
+</head>
+
+<body  data-spy="scroll" data-target=".navbar-collapse">
+
+
+<div class="wrapper_">
+
+
+<div class="forcms_block">
+<div class="pre-loader">
+  <div class="load-con">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+</div>
+
+<header class="navbar navbar-default" role="navigation">
+	<div class="container g_nv">
+		<div class="container-fluid">
+
+
+<!-- 			<div class="citizen_logo_area">
+				<a href="http://www.citizen.co.jp/" class="pc" target="_blank"><img src="/cms/ce/common2015/images/header/citizen_logo_2016.png" class="citizen_logo" alt="CITIZEN" /></a>
+				<a href="/" class="sp dn"><img src="/cms/ce/common2015/images/header/citizen_logo_2016.png" class="citizen_logo" alt="CITIZEN" /></a>
+			</div>
+
+			<h1><a href="/"><img src="/cms/ce/common2015/images/header/logo_c.svg" class="h_logo" alt="シチズン電子株式会社" /></a></h1>
+			<div class="navbar-collapse collapse navbar-collapse2"> -->
+
+			<div class="citizen_logo_area">
+				<a href="http://www.citizen.co.jp/" target="_blank"><img src="/cms/ce/common2015/images/header/citizen_logo_2016_2.svg" class="citizen_logo" alt="CITIZEN" /></a>
+			</div>
+			<h1 class="with_normal"><a href="/"><img src="/cms/ce/common2015/images/header/logo_c_2.svg" class="h_logo" alt="シチズン電子株式会社" /></a></h1>
+
+			<div class="navbar-collapse collapse navbar-collapse2">
+
+				<div class="h_text_menu">
+					<a href="/products/search">製品検索</a>　
+					<br class="visible-sm">
+					　
+					<!-- <a href="javascript:void(0)">Japanese</a> / -->
+					<a href="/e/">English</a> /
+					<a href="/cn/">中文</a>
+				</div>
+
+			</div>
+			<!-- toggle wrap -->
+			<button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid" class="navbar-toggle off">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<script>
+				$(document).ready(function() {
+					$('[data-toggle="collapse"]').click(function() {
+						$(this).toggleClass('off');
+						$(this).toggleClass('on');
+					});
+				});
+			</script>
+			<!-- <a href="https://form.citizen.co.jp/ce/support/product/form" class="contact-button dn"><i class="fa fa-envelope" aria-hidden="true"></i><span>CONTACT</span></a>
+			<div class="language-button dn">
+				<span class=""><a href="/e">EN</a><a href="/cn">中文</a></span>
+				<span>LANGUAGE</span>
+			</div> -->
+			<!-- toggle wrap end -->
+		</div>
+	</div><!-- /container -->
+
+
+
+</header>
+
+<div id="c_navi">
+	<div class="container">
+	<!-- Grid demo navbar -->
+		<div class="navbar navbar-default yamm ">
+			<!-- <div class="navbar-header">
+
+			</div> -->
+
+			<div id="navbar-collapse-grid" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav nav-justified">
+					<!-- Grid 12 Menu -->
+					<li><a href="/" >HOME</a></li>
+					<li class="dropdown yamm-fw"><a href="/products/">製品情報</a>
+						<ul class="dropdown-menu">
+							<li class="grid-demo pt20  pl20 pr20">
+								<div class="row">
+									<div class="col-sm-4">
+										<h2 style="font-size:20px;" class="mt0 mb10">製品情報</h2>
+										<a href="/products/"><img src="/cms/ce/common2015/images/g_navi/mn0_1.jpg" alt="製品情報" class="img-responsive " /></a>
+									</div>
+									<div class="col-sm-8">
+										<div class="row">
+											<div class="col-sm-4 col-xs-6 text-center mb20">
+												<p class="mb0 pb0"><a href="/products/led_category"><img src="/cms/ce/common2015/images/g_navi/mn0-icon1.jpg" alt="照明用LED" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/products/led_category">照明用LED</a></p>
+											</div>
+											<div class="col-sm-4 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/products/citiled_category"><img src="/cms/ce/common2015/images/g_navi/mn0-icon2.jpg" alt="小型チップLED" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/products/citiled_category">小型チップLED</a></p>
+											</div>
+											<div class="col-sm-4 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/products/tactile_category"><img src="/cms/ce/common2015/images/g_navi/mn0-icon3.jpg" alt="タクティルスイッチ" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/products/tactile_category">タクティルスイッチ</a></p>
+											</div>
+										</div><!-- /row -->
+
+										<div class="row">
+											<div class="col-sm-4 col-xs-6 text-center mb20">
+												<p class="mb0 pb0"><a href="/products/horticultureled_category/detail/CITILED_COB_Horticulture_series"><img src="/cms/ce/common2015/images/g_navi/mn0-icon6.jpg" alt="植物育成LED" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/products/horticultureled_category/detail/CITILED_COB_Horticulture_series">植物育成LED</a></p>
+											</div>
+											<div class="col-sm-4 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/products/precision"><img src="/cms/ce/common2015/images/g_navi/precision.png" alt="シチズン電子の精密加工技術" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/products/precision">シチズン電子の<br />精密加工技術</a></p>
+											</div>
+										</div><!-- /row -->
+
+									</div>
+								</div>
+							</li>
+						</ul>
+
+					</li>
+
+
+					<li class="dropdown yamm-fw"><a href="/application/" data-toggle="dropdown1" class="dropdown-toggle">アプリケーション</a>
+						<ul class="dropdown-menu">
+							<li class="grid-demo pt20  pl20 pr20">
+								<div class="row">
+									<div class="col-sm-3">
+										<h2 style="font-size:20px;" class="mt0 mb10">アプリケーション</h2>
+										<a href="/application/"><img src="/cms/ce/application/img/apgn-main.png" srcset="/cms/ce/application/img/apgn-main.png 1x,/cms/ce/application/img/apgn-main@2x.png 2x" alt="アプリケーション" class="img-responsive " /></a>
+									</div>
+									<div class="col-sm-9">
+										<div class="row">
+											<div class="col-sm-2 text-center mb20">
+												<p class="mb0 pb0"><a href="/application/01"><img src="/cms/ce/application/img/apgn-01.png" srcset="/cms/ce/application/img/apgn-01.png 1x,/cms/ce/application/img/apgn-01@2x.png 2x" alt="モバイルデバイス" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/01">モバイルデバイス</a></p>
+											</div>
+											<div class="col-sm-2 text-center mb20">
+												<p class="mb0 pb0"><a href="/application/02"><img src="/cms/ce/application/img/apgn-02.png" srcset="/cms/ce/application/img/apgn-02.png 1x,/cms/ce/application/img/apgn-02@2x.png 2x" alt="パソコン" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/02">パソコン</a></p>
+											</div>
+											<div class="col-sm-2 text-center mb20">
+												<p class="mb0 pb0"><a href="/application/03"><img src="/cms/ce/application/img/apgn-03.png" srcset="/cms/ce/application/img/apgn-03.png 1x,/cms/ce/application/img/apgn-03@2x.png 2x" alt="ウェアラブル端末" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/03">ウェアラブル端末</a></p>
+											</div>
+											<div class="col-sm-2 text-center mb20">
+												<p class="mb0 pb0"><a href="/application/04"><img src="/cms/ce/application/img/apgn-04.png" srcset="/cms/ce/application/img/apgn-04.png 1x,/cms/ce/application/img/apgn-04@2x.png 2x" alt="家庭用電化製品" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/04">家庭用電化製品</a></p>
+											</div>
+											<div class="col-sm-2 text-center mb20">
+												<p class="mb0 pb0"><a href="/application/05"><img src="/cms/ce/application/img/apgn-05.png" srcset="/cms/ce/application/img/apgn-05.png 1x,/cms/ce/application/img/apgn-05@2x.png 2x" alt="車載機器" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/05">車載機器</a></p>
+											</div>
+										</div><!-- /row -->
+
+										<div class="row">
+											<div class="col-sm-2 text-center">
+												<p class="mb0 pb0"><a href="/application/06"><img src="/cms/ce/application/img/apgn-06.png" srcset="/cms/ce/application/img/apgn-06.png 1x,/cms/ce/application/img/apgn-06@2x.png 2x" alt="アミューズメント機器" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/06">アミューズメント機器</a></p>
+											</div>
+											<div class="col-sm-2 text-center">
+												<p class="mb0 pb0"><a href="/application/07"><img src="/cms/ce/application/img/apgn-07.png" srcset="/cms/ce/application/img/apgn-07.png 1x,/cms/ce/application/img/apgn-07@2x.png 2x" alt="音響機器" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/07">音響機器</a></p>
+											</div>
+											<div class="col-sm-2 text-center">
+												<p class="mb0 pb0"><a href="/application/08"><img src="/cms/ce/application/img/apgn-08.png" srcset="/cms/ce/application/img/apgn-08.png 1x,/cms/ce/application/img/apgn-08@2x.png 2x" alt="ディスプレイ" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/08">ディスプレイ</a></p>
+											</div>
+											<div class="col-sm-2 text-center">
+												<p class="mb0 pb0"><a href="/application/09"><img src="/cms/ce/application/img/apgn-09.png" srcset="/cms/ce/application/img/apgn-09.png 1x,/cms/ce/application/img/apgn-09@2x.png 2x" alt="産業機器" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/application/09">産業機器</a></p>
+											</div>
+										</div><!-- /row -->
+
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li><!--アプリケーション-->
+
+
+					<li class="dropdown yamm-fw"><a href="/company/" data-toggle="dropdown1" class="dropdown-toggle">会社情報</a>
+						<ul class="dropdown-menu">
+							<li class="grid-demo pt20  pl20 pr20">
+								<div class="row">
+									<div class="col-sm-4">
+										<h2 style="font-size:20px;" class="mt0 mb10">会社概要</h2>
+										<a href="/company/"><img src="/cms/ce/common2015/images/g_navi/mn1.jpg" alt="会社概要" class="img-responsive " /></a>
+									</div>
+									<div class="col-sm-8">
+										<div class="row">
+											<div class="col-sm-3 col-xs-6 text-center mb20">
+												<p class="mb0 pb0"><a href="/company/rinen"><img src="/cms/ce/common2015/images/g_navi/mn1-icon1.png" alt="経営理念" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/rinen">経営理念</a></p>
+											</div>
+											<div class="col-sm-3 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/company/message"><img src="/cms/ce/common2015/images/g_navi/mn1-icon2.png" alt="社長メッセージ" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/message">社長メッセージ</a></p>
+											</div>
+											<div class="col-sm-3 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/company/outline"><img src="/cms/ce/common2015/images/g_navi/mn1-icon3.png" alt="会社案内" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/outline">会社案内</a></p>
+											</div>
+											<div class="col-sm-3 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/company/history"><img src="/cms/ce/common2015/images/g_navi/mn1-icon5.png" alt="会社沿革" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/history">会社沿革</a></p>
+											</div>
+										</div><!-- /row -->
+
+										<div class="row">
+											<div class="col-sm-3 col-xs-6 text-center l_line mb20">
+												<p class="mb0 pb0"><a href="/company/outline#officer"><img src="/cms/ce/common2015/images/g_navi/mn1-icon8.png" alt="役員一覧" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/outline#officer">役員一覧</a></p>
+											</div>
+											<div class="col-sm-3 col-xs-6 text-center l_line r_line2 mb20">
+												<p class="mb0 pb0"><a href="/company/group"><img src="/cms/ce/common2015/images/g_navi/mn1-icon9.png" alt="事業所案内" class="img-responsive img-responsive-center latest_img" /></a></p>
+												<p><a href="/company/group">事業所案内</a></p>
+											</div>
+										</div><!-- /row -->
+
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!--Aside Menu
+					-->
+					<li class="dropdown yamm-fw"><a href="/csr/" data-toggle="dropdown1" class="dropdown-toggle">CSR</a>
+						<ul class="dropdown-menu">
+							<li class="grid-demo pt20  pl20 pr20">
+								<div class="row">
+									<div class="col-sm-4">
+										<h2 style="font-size:20px;" class="mt0 mb10">CSR</h2>
+										<a href="/csr/"><img src="/cms/ce/common2015/images/g_navi/mn2.jpg" alt="CSR" class="img-responsive " /></a>
+									</div>
+									<div class="col-sm-8">
+										<div class="row">
+											<div class="col-sm-4 mb20">
+<ul class="nav nav-pills nav-stacked header-menu mb10">
+<li class="active"><a href="/csr/vision"><i class="fa fa-leaf"></i> CSRビジョン</a>
+<li><a href="/csr/vision#charter">シチズングループ行動憲章</a></li>
+<li><a href="/csr/vision#formulation">シチズングループ品質行動憲章</a></li>
+<li><a href="/csr/vision#organization">CSR推進体制</a></li>
+<li><a href="/csr/vision#observance">コンプライアンス・リスクマネジメント体制</a></li>
+<li><a href="/csr/vision#offer">有用な製品の提供</a></li>
+<li><a href="/csr/vision#release">コーポレート・ガバナンス</a></li>
+</ul>
+
+
+
+											</div>
+
+
+											<div class="col-sm-4 mb20">
+
+<ul class="nav nav-pills nav-stacked header-menu mb10">
+<li class="active"><a href="/csr/customer"><i class="fa fa-leaf"></i> 品質への取り組み</a>
+	<li><a href="/csr/customer">品質方針</a></li>
+	<li><a href="/csr/customer#iso9001">ISO9001導入状況・認証の取得状況</a></li>
+	<li><a href="/csr/cs">顧客満足への取り組み</a></li>
+	<li><a href="/csr/community">地域社会</a></li>
+	<li><a href="/csr/society">労働安全衛生マネジメントシステムの認証取得状況</a></li>
+	<li><a href="/csr/society#csr_procurement_guidelines">CSR調達ガイドライン</a></li>
+	<li><a href="/csr/society#conflict-minerals">責任ある鉱物調達について</a></li>
+<!--
+<li><a href="/csr/customer#customer_plan">品質方針</a></li>
+<li><a href="/csr/customer#iso9000">ISO9000導入状況・認証取得状況</a></li>
+<li><a href="/csr/customer#cs">顧客満足への取り組み</a></li>
+<li><a href="/csr/community">地域社会へ向けて</a></li>
+<li><a href="/csr/society#ohsas">OHSAS導入状況・認証の取得状況</a></li>
+<li><a href="/csr/society#csr_procurement_guidelines">CSR調達</a></li>
+<li><a href="/csr/society#conflict-minerals">紛争鉱物問題への対応</a></li>
+-->
+</ul>
+
+											</div>
+
+											<div class="col-sm-4 mb20">
+
+<ul class="nav nav-pills nav-stacked header-menu mb10">
+<li class="active"><a href="/csr/environment"><i class="fa fa-leaf"></i> 環境への取り組み</a>
+<li><a href="/csr/environment#plan">環境方針</a></li>
+<li><a href="/csr/environment#management">環境マネジメント活動を推進</a></li>
+<li><a href="/csr/environment#iso14000">ISO14001導入状況・認証の取得状況</a></li>
+<li><a href="/csr/environment#regard">製品づくりのあらゆる段階で環境に配慮</a></li>
+<li><a href="/csr/environment#green">グリーン調達</a></li>
+<li><a href="/csr/report">環境報告</a></li>
+</ul>
+
+											</div>
+
+										</div><!-- /row -->
+
+									</div>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<!--Nesting Menu
+					-->
+					<li><a href="/recruit_top/" >採用情報</a>
+					</li>
+
+					<!--Nesting Menu
+					-->
+					<li><a href="/support/" >問い合わせ</a>
+					</li>
+					<li class="smp-menu"><a href="/products/search">製品検索</a></li>
+				</ul>
+				<ul class="menu2 dn">
+
+					<li class="language-button">
+						<span>LANGUAGE</span>
+						<span class=""><a href="/e">English</a><a href="/cn">中文</a></span>
+					</li>
+					<!-- <li class="visible-xs"><a href="/e/">English</a></li>
+					<li class="visible-xs"><a href="/cn/">中文</a></li> -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div class="forcms_block">
+<div id="carousel-examples" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-examples" data-slide-to="0" class="active"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="1"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="2"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="3"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="4"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="5"></li>
+    <li class="" data-target="#carousel-examples" data-slide-to="6"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="/products/led_category/detail/COB_High_Intensity_Type_Version4-Type-Y"><img src="/cms/ce/common2015/images/main_panel/version9_type-f_jp.jpg"
+          alt="CITILED High Intensity COB Series Version4 Type-Y" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/led_category"><img src="/cms/ce/common2015/images/main_panel/type-f.jpg"
+          alt="Type-F" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/led_category"><img src="/cms/ce/common2015/images/main_panel/image3_2.jpg"
+          alt="LED Lighting わたしたちの生活を爽やかに明るく照らす" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/horticultureled_category/detail/CITILED_COB_Horticulture_series"><img src="/cms/ce/common2015/images/main_panel/image202011_jp.jpg"
+          alt="Horticulture 食の未来を照らし食への貢献" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/tactile_category"><img src="/cms/ce/common2015/images/main_panel/image2.jpg"
+          alt="SWITCH 人とデバイスをやさしく繋ぐ" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/citiled_category"><img src="/cms/ce/common2015/images/main_panel/image1.jpg"
+          alt="LED 世界で活躍する小さく明るく多彩な光源" class="carousel_full_images"></a>
+    </div>
+    <div class="item">
+      <a href="/products/"><img src="/cms/ce/common2015/images/main_panel/image4.jpg"
+          alt="世界のデバイステクノロジーをリードします" class="carousel_full_images"></a>
+    </div>
+
+  </div>
+
+  <div id="particles" class="smp-key ">
+    <p>
+      <span class="db db1">
+        <span class="text tl1">世</span>
+        <span class="text tl2">界</span>
+        <span class="text tl3">の</span>
+        <span class="text tl4">デ</span>
+        <span class="text tl5">バ</span>
+        <span class="text tl6">イ</span>
+        <span class="text tl7">ス</span>
+        <span class="text tl8">テ</span>
+        <span class="text tl9">ク</span>
+        <span class="text tl10">ノ</span>
+        <span class="text tl11">ロ</span>
+        <span class="text tl12">ジ</span>
+        <span class="text tl13">ー</span>
+        <span class="text tl14">を</span>
+      </span>
+      <span class="db db2">
+        <span class="text tl15">リ</span>
+        <span class="text tl16">ー</span>
+        <span class="text tl17">ド</span>
+        <span class="text tl18">し</span>
+        <span class="text tl19">ま</span>
+        <span class="text tl20">す</span>
+      </span>
+    </p>
+    <span class="sub">Leading the world’s device technology</span>
+  </div>
+</div>
+<!-- id carousel-example end -->
+</div>
+
+
+<div class="forcms_block"><div style="background:#eeeef0;">
+<div class="container pt40">
+<div class="row">
+<div class="col-sm-12">
+<div class="headline-title-bar mb0" id="charter">
+<h3>製品情報</h3>
+</div>
+
+<section class="article_area pb0">
+<div class="row">
+<div class="col-md-12 ">
+<div class="text-center">
+<ul class="list-inline">
+<li>
+<a href="/products/led_category"><img alt="照明用LED" class="img-responsive img-responsive-center mb10 latest_img" src="/cms/ce/common2015/images/index/p1.jpg"></a>
+</li>
+<li>
+<a href="/products/citiled_category"><img alt="小型チップLED" class="img-responsive img-responsive-center mb10 latest_img" src="/cms/ce/common2015/images/index/p2.jpg"></a>
+</li>
+<li>
+<a href="/products/tactile_category"><img alt="タクティルスイッチ" class="img-responsive img-responsive-center mb10 latest_img" src="/cms/ce/common2015/images/index/p3.jpg"></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /row --></section>
+</div>
+</div>
+<!-- /row --></div>
+</div>
+</div>
+
+
+<div class="container_">
+<div id="mainContainer">
+<div class="contents_">
+
+<div class="mainframe_">
+
+    <div class="container pb60">
+
+        <div class="row">
+            <div class="col-md-8 mb20">
+                
+                
+                <div class="forcms_block"><div class="headline-title-bar2 mb0 clearfix" id="charter">
+<h3>News</h3>
+
+<p class="btn_more">
+<a href="/news/"><i class="fa fa-angle-right"></i> 記事一覧</a>
+</p>
+</div>
+</div>
+                
+                <script src="/cms/js/bookmark.js"></script>
+
+<div class="visual_ forcms_block">
+
+  
+  <section class="article_area pb0">
+    <div class="row">
+      <div class="col-md-12 ">
+        <div class="index_news pb30">
+
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.07.14</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      イベント
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/133"
+                 
+                class="grey-text text-darken-4">
+                Guangzhou International Lighting Exhibition 2025　ご来場御礼</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.07.14</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      製品情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/products/led_category/detail/COB_Series_for_Museume_Lighting"
+                 
+                class="grey-text text-darken-4">
+                COB Series for Museum Lightingを掲載しました。</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.06.04</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      製品情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/131"
+                 
+                class="grey-text text-darken-4">
+                光の色を調整できる調色スポット照明に対応する CITILED Tunable White COB Series を開発</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.05.16</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      イベント
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/130"
+                 
+                class="grey-text text-darken-4">
+                Guangzhou International Lighting Exhibition 2025　出展のご案内</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.02.28</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      製品情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/129"
+                 
+                class="grey-text text-darken-4">
+                2025年度　生産終了品についてのお知らせ。</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2025.02.18</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      会社情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/128"
+                 
+                class="grey-text text-darken-4">
+                「YAMANASHIワーキングスタイルアワード」を受賞しました</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2024.12.11</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      製品情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/products/led_category/detail/COB_High_Intensity_Type_Version4-Type-Y"
+                 
+                class="grey-text text-darken-4">
+                CITILED High Intensity COB Series Version4 Type-Yを掲載しました。</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2024.06.27</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      イベント
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/125"
+                 
+                class="grey-text text-darken-4">
+                Guangzhou International Lighting Exhibition 2024　ご来場御礼</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2024.05.17</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      イベント
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/124"
+                 
+                class="grey-text text-darken-4">
+                Guangzhou International Lighting Exhibition 2024　出展のご案内</a>
+            </div>
+            
+          </div>
+          
+          <div class="row u_l ">
+            <div class="col-sm-2 lh130">
+              <span class="date">2023.12.27</span>
+            </div>
+            <div class="col-sm-2 lh130 text-center">
+              <p class="news-cate news-cate1">
+  
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      会社情報
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+</p>
+            </div>
+            <div class="col-sm-8 lh130">
+              <a href="https://ce.citizen.co.jp/news/detail/121"
+                 
+                class="grey-text text-darken-4">
+                冬季休業のご案内</a>
+            </div>
+            
+          </div>
+          
+
+        </div><!-- /index_news -->
+      </div>
+    </div><!-- /row -->
+  </section>
+
+  
+
+</div>
+                
+            </div>
+            <div class="col-md-4 index-sidebar">
+                
+                
+                <div class="forcms_block"><div class="row">
+<div class="col-sm-12 col-md-12">
+<p class="mb10">
+<video autoplay="" controls="controls" controlslist="nodownload" id="video" muted="" poster="/cms/ce/lighting_led/movie/type-f_480_jp.jpg" preload="metadata" src="/cms/ce/lighting_led/movie/type-f_480_jp.mp4" style="max-width: 100%;height: auto;"></video>
+</p>
+</div>
+
+<div class="col-sm-4 col-md-12">
+<p class="mb10">
+<a href="/company/"><img alt="企業情報" class="img-responsive img-responsive-center latest_img" src="/cms/ce/common2015/images/index/citizen_corp_bnr.jpg" style="opacity: 1;"></a>
+</p>
+</div>
+
+<div class="col-sm-4 col-md-12">
+<p class="mb10">
+<a href="/csr/"><img alt="csr" class="img-responsive img-responsive-center latest_img" src="/cms/ce/common2015/images/index/citizen_csr_bnr.jpg" style="opacity: 1;"></a>
+</p>
+</div>
+
+<div class="col-sm-4 col-md-12">
+<p class="mb10">
+<a href="/recruit_top/"><img alt="採用情報" class="img-responsive img-responsive-center latest_img" src="/cms/ce/common2015/images/index/citizen_recruit_bnr.jpg" style="opacity: 1;"></a>
+</p>
+</div>
+
+<div class="col-sm-4 col-md-12">
+<p class="mb10">
+<a href="/keyproducts/led/" target="_blank"><img alt="LED WORLD" class="img-responsive img-responsive-center latest_img" src="/cms/ce/common2015/images/index/citizen_ledworld_bnr.jpg" style="opacity: 1;"></a>
+</p>
+</div>
+
+<div class="col-sm-4 col-md-12">
+<p class="mb10">
+<a href="/company/download"><img alt="PDFダウンロード" class="img-responsive img-responsive-center latest_img" src="/cms/ce/common2015/images/index/citizen_download_bnr.jpg" style="opacity: 1;"></a>
+</p>
+</div>
+</div>
+<!-- /col-md-4 --></div>
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+</div><!--/contents_-->
+</div><!--/container_-->
+
+
+
+<div class="forcms_block">
+	<footer id="global-footer" role="contentinfo">
+		<script>
+			$(document).ready(function() {
+				$('.toggle-footer').each(function() {
+					var next = $(this).parent('.basic_ttl3').next('.sitemap_link_list');
+					$(this).click(function() {
+						$(this).toggleClass('on');
+						$(next).slideToggle();
+					});
+				});
+			});
+		</script>
+		<div class="container">
+			<div class="row pt10 pb20">
+				<div class="col-sm-3">
+	
+	<h4 class="basic_ttl3"><a href="/company">会社情報</a><span class="toggle-footer dn">会社概要</span></h4>
+	<ul class="sitemap_link_list">
+		<li class="dn"><a href="/company/">会社概要</a></li>
+		<li><a href="/company/message">社長メッセージ</a></li><!--
+		--><li><a href="/company/outline">会社案内</a>
+		<li><a href="/company/rinen">経営理念</a></li>
+		<li><a href="/company/outline#outline">会社概要</a>
+		<li><a href="/company/group">事業所案内</a></li>
+		<li><a href="/company/outline#officer">役員一覧</a></li>
+		<li><a href="/company/history">会社沿革</a></li>
+		<li><a href="/company/download">PDFダウンロード</a></li>
+	</ul>
+	
+				</div><!-- /col-sm-3 -->
+	
+	
+				<div class="col-sm-3">
+	
+	<h4 class="basic_ttl3"><a href="/products/">製品情報</a><span class="toggle-footer dn">製品情報</span></h4>
+	<ul class="sitemap_link_list">
+		<li class="dn"><a href="/products/">製品情報</a></li>
+		<li><a href="/products/led_category">照明用LED</a></li>
+		<li><a href="/products/citiled_category">小型チップLED</a></li>
+		<li><a href="/products/tactile_category">タクティルスイッチ</a></li>
+		<li><a href="/products/horticultureled_category/detail/CITILED_COB_Horticulture_series">植物育成LED</a></li>
+		<li><a href="/products/citiled_category/discontinued/2019">高感度光センサー</a></li>
+		<li><a href="/products/news_list">お知らせ一覧</a></li>
+		<li><a href="/products/search">製品検索</a></li>
+	</ul>
+	
+				</div><!-- /col-sm-3 -->
+	
+	
+				<div class="col-sm-3">
+	
+	<h4 class="basic_ttl3"><a href="/csr">CSR</a><span class="toggle-footer dn">CSR</span></h4>
+	<ul class="sitemap_link_list">
+		<li class="dn"><a href="/csr/">CSR</a></li>
+		<li><a href="/csr/vision">CSRビジョン</a></li>
+		<li><a href="/csr/customer">品質への取り組み</a></li>
+		<li><a href="/csr/environment">環境への取り組み</a></li>
+	</ul>
+	
+	<h4 class="basic_ttl3"><a href="/recruit_top">採用情報</a><span class="toggle-footer dn">採用情報</span></h4>
+	<ul class="sitemap_link_list">
+		<li><a href="/recruit">新卒採用情報</a></li>
+		<li><a href="/recruit_top/carrier">中途採用情報</a></li>
+	</ul>
+				</div><!-- /col-sm-3 -->
+	
+	
+				<div class="col-sm-3">
+	
+	<h4 class="basic_ttl3"><a href="/news">お知らせ</a><span class="toggle-footer dn">お知らせ</span></h4>
+	<ul class="sitemap_link_list">
+		<li class="dn"><a href="/news">お知らせ</a></li>
+		<li><a href="/news/category_ja/01">会社情報</a></li>
+		<li><a href="/news/category_ja/02">製品情報</a></li>
+		<li><a href="/news/category_ja/03">イベント情報</a></li>
+	</ul>
+	
+	
+				</div><!-- /col-sm-3 -->
+	
+	
+			</div><!--/row -->
+	
+			<div class="row pb10">
+				<div class="col-md-12 col-xs-12">
+					<div class="footer_menu_area h_text6 pt5 hidden-print"><!-- footer_menu_area -->
+						<ul class="list-inline">
+							<li><a href="/other/sitemap">サイトマップ</a></li>
+							<li><a href="/other/notice">サイトのご利用について</a></li>
+							<li><a href="/other/privacy_group">シチズングループプライバシーポリシー</a></li>
+							<li><a href="/other/privacy">プライバシーポリシー</a></li>
+						</ul>
+					</div>
+				</div><!-- /footer_menu_area -->
+				<div class="col-md-12  col-xs-12 text-right h_text6 pt5 copyright">
+					&copy; 2025 CITIZEN ELECTRONICS CO., LTD. All Rights reserved.
+				</div>
+			</div>
+		</div><!-- /container1 -->
+	
+	
+	<p id="page-top" class="hidden-print"><a href="#global-header"><i class="fa fa-angle-up"></i></a></p>
+	</footer>
+	</div>
+
+
+</div><!--/wrap-->
+
+<!-- 追加 -->
+<script src="/cms/ce/js/bootstrap.min.js"></script>
+<script src="/cms/ce/js/stellar.js"></script><!-- /パララックス効果 -->
+<script src="/cms/ce/js/waypoints.min.js"></script>
+<script src="/cms/ce/js/script.js"></script>
+<script src="/cms/ce/js/jquery.flexslider-min.js"></script>
+<script src="/cms/ce/js/jquery.prettyPhoto.js"></script>
+<script src="/cms/ce/js/smoothscroll.js"></script>
+<script src="/cms/ce/js/rollover.js"></script>
+<script src="/cms/ce/js/jquery.particleground.min.js"></script>
+<!--
+<script src="/cms/ce/js/mapstyle.js"></script>
+-->
+<script src="/cms/ce/js/user-script.js"></script>
+
+
+<script>
+$(document).ready(function() {
+	appMaster.preLoader();
+	appMaster.smoothScroll();
+/*
+	appMaster.animateScript();
+	appMaster.revSlider();
+	appMaster.stellar();
+	appMaster.maps();
+	appMaster.isoTop();
+	appMaster.canvasHack();
+*/
+});
+</script>
+
+    <script src="/cms/ce/js/owl.carousel.js"></script>
+    <style>
+    #owl-demo .item{
+        margin: 0px 3px 0;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 240px;
+/*        width:100%;;	/**/
+        height: auto;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        items : 3,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        loop: true,
+
+	  	autoplay:true,
+	    autoplayTimeout:3000,
+	    autoplayHoverPause:true
+      });
+
+    $('.text').each(function(k,v){
+        var $this = $(this)
+        setTimeout(function(){
+            $this.css({
+                transform: 'matrix(1, 0, 0, 1, 0, 0)',
+            	opacity: 1
+            });
+        },80*k);
+    });
+        setTimeout(function(){
+            $('.smp-key .sub').fadeIn('slow');
+        },2200);
+
+            jQuery('#particles').particleground({
+                dotColor: 'rgba(255,255,255,0.2)',
+                lineColor: 'rgba(255,255,255,0.7)',
+                particleRadius: 3,
+                density: 3000,
+                lineWidth: 0.1,
+                proximity: 120
+            });
+    });
+    </script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1232150-34"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1232150-34');
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 942534725;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/942534725/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- //追加 -->
+</body>
+</html>
+

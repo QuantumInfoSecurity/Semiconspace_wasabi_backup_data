@@ -1,0 +1,1296 @@
+
+<!DOCTYPE html>
+<html>
+    <head><title>
+
+</title> 
+        <meta name="description" content=""/>
+        <meta name="keywords" content="404">
+        <meta name="author" content="">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="CODE_LANGUAGE" content="C#" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><link rel="shortcut icon" href="/Developer Portal 2/Images/favicon.svg" /><link href="https://fonts.googleapis.com/css?family=Exo+2:500,700,300,400,200" rel="stylesheet" type="text/css" /><link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" type="text/css" /><link href="/Developer Portal 2/Styles/main.min.css?v=20240426" rel="stylesheet" /><link href="/Developer Portal 2/Scripts/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" /><link rel="stylesheet" href="//ajax.aspnetcdn.com/ajax/jquery.ui/1.10.4/themes/smoothness/jquery-ui.css" /><link href="/Developer Portal 2/Styles/tagit/jquery.tagit.css" rel="stylesheet" /><link href="/Developer Portal 2/Styles/tagit/tagit.ui-zendesk.css" rel="stylesheet" />
+        <script src="/Developer Portal 2/Scripts/Dependencies/jquery-1.10.2.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/Dependencies/bootstrap.min.js"> </script>
+        <script src="/Developer Portal 2/Scripts/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/Dependencies/jquery-ui.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/Dependencies/jquery-migrate-1.2.1.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/jquery.ba-bbq.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/Dependencies/knockout-3.0.0.js"> </script>
+        <script src="/Developer Portal 2/Scripts/Knockout/knockout.command.min.js"> </script>
+        <script src="/Developer Portal 2/Scripts/jQuery.utils.js"></script>
+        <script src="/Developer Portal 2/Scripts/jquery.cookie.js"></script>
+        <script src="/Developer Portal 2/Scripts/tag-it.min.js"></script>
+        <script src="/Developer Portal 2/Scripts/sierra.migrate.js"></script>
+        <script src="/Developer Portal 2/Scripts/traffic-source.js"></script>
+        <script src="/Developer Portal 2/Scripts/geoHelper.js"></script>
+        <script type="text/javascript">
+    var lookupIdVisitor = "f32713ba8d734f8a816096c31dee412a";
+
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1799992300']);
+    _elqQ.push(['elqTrackPageView']);
+
+    _elqQ.push(['elqDataLookup', escape(lookupIdVisitor), '']);
+_elqQ.push(['elqGetCustomerGUID']);
+
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img03.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load);
+    })();
+
+    function elqTrackFlashClick(URL, referrer) {
+        _elqQ.push(['elqTrackPageView', URL, referrer]);
+    }
+</script><script defer data-domain="source.sierrawireless.com" src=https://plausible.io/js/script.js></script>
+
+<!-- OneTrust Cookies Consent Notice start for sierrawireless.com -->
+<script src=https://cdn.cookielaw.org/scripttemplates/otSDKStub.js  type="text/javascript" charset="UTF-8" data-domain-script="e1ac3a13-9cd8-4aa2-8921-0115436a9c88-test" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for sierrawireless.com -->
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KV28SC4J');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+function getipdata(apikey, callback) {
+    var ipdataUrl = "https://api.ipdata.co/";
+    var params = apikey;
+    var xhttp = new XMLHttpRequest(); 
+    
+    xhttp.addEventListener('load', callback);
+    xhttp.addEventListener('error', function() { console.log("Request to "+ipdataUrl+params+" failed"); });
+    
+    xhttp.open("GET", ipdataUrl + params, true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send();
+}
+
+function getgeojs(callback) {
+    var geoJsUrl = "https://get.geojs.io/v1/ip/geo.json";
+    var xhttp = new XMLHttpRequest(); 
+    
+    xhttp.addEventListener('load', callback);
+    xhttp.addEventListener('error', function() { console.log("Request to "+ geoJsUrl +" failed"); });
+    
+    xhttp.open("GET", geoJsUrl, true);
+    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhttp.send();
+}
+
+getipdata('?api-key=44c0eae5a776386a149a95e993b486459b1ed69a67beed954a3d7b4a', function() {
+    window.ipdata = JSON.parse(this.responseText);
+
+    if (!window.ipdata || (!window.ipdata.countryCode || window.ipdata.countryCode === "")) {
+       getgeojs(function() {
+         window.geojs = JSON.parse(this.responseText);
+       })
+    }
+});
+</script>
+        <script type="text/javascript" src="//img.en25.com/i/elqCfg.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="//img.en25.com/i/elqCfg.min.js"></script>
+    </head>
+    <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src=https://www.googletagmanager.com/ns.html?id=GTM-KV28SC4J height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <form method="post" action="/404/" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="611B4751" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="drmk1e57KPFGWysL3WEEPItGP5SLfzdmSiRTXocBJKHUtStyrRHZMtYjNwUvPwg75wjAHDDh1aUOQguEVKWeWZbNjrf2kUxR3vhfcmr52iY5dfbd+Vz4RuZHChF1I0CMLmfK5PUtpuH0gfD3lHYbUgPCx8Wi2rVCRQE+9F4WvjTQCrSwDqZzkacEw4gDD/ka6uxNgMWoR7dXY0yczvAqkdDAQSJIHj5Cm+t8+WgnOXw=" />
+</div>
+            
+
+<div id="headerWrapper" class="navbar-fixed-top">
+    <div id="control-header-wrapper">
+        <div id="signInDialog" style="display: none;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="colLeft col-sm-4">
+                        <div class="row">
+                            <h3>Sign in to the Source</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="row">
+                            <a class="pull-right" href="javascript:;" id="btnClose">Close</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 authentication">
+                                <div class="col-xs-4">
+                                    <div class="inline-form">
+                                        <div class="form-group">
+                                            <label for="loginUsername">User Name</label>
+                                            <input type="text" class="form-control" id="loginUsername" data-bind="enterKey: loginOrTabCmd">
+                                            <div class="login-failed-container">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4">
+                                    <div class="inline-form">
+                                        <div class="form-group">
+                                            <label for="loginPassword">Password</label>
+                                            <input type="password" class="form-control" id="loginPassword" data-bind="enterKey: loginOrTabCmd">
+                                            <div class="login-failed-container">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <div class="inline-form">
+                                        <div class="form-group">
+                                            <button id="btnLogin" type="button" class="btn btn-default" data-bind="click: loginCmd, enable: !loginCmd.isExecuting()">ENTER</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2">
+                                    <div class="inline-form">
+                                        <div class="form-group link-forgot-container">
+                                            <a href="https://www.sierrawireless.com/account/forgot-user-name/" class="link-forgot-password" tabindex="-1">Forgot user name?</a>
+                                            <a href="https://www.sierrawireless.com/account/reset-password/" class="link-forgot-password" tabindex="-1">Forgot password?</a>
+                                            <a href="https://www.sierrawireless.com/account/website-support" class="link-forgot-password" tabindex="1">Need support?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <div class="login-failed-container">
+                                    <p data-bind="visible: !hasError">&nbsp;</p>
+                                    <p class="danger" data-bind="visible: showUserNameError">
+                                        <span class="glyphicon glyphicon-exclamation-sign" style="color: yellow"></span>
+                                        Note: Your user name is not your email address.
+                                    </p>
+                                    <p class="danger" data-bind="visible: showLockedoutError">
+                                        <span class="glyphicon glyphicon-exclamation-sign" style="color: yellow"></span>
+                                        Your account is locked out! Please click 
+                                        <a href="https://www.sierrawireless.com/account/reset-password/">here</a> to unlock your account.
+                                    </p>
+                                    <p class="danger" data-bind="visible: showActivationError">
+                                        <span class="glyphicon glyphicon-exclamation-sign" style="color: yellow"></span>
+                                        Your account is not activated yet. Please check your email and click on the activation link that was sent to you when you registered to our site.<br />
+                                        Did not received the activation email? Please click <a href="https://www.sierrawireless.com/account/website-support/">here</a> to contact us.
+                                    </p>
+                                    <p class="danger" data-bind="visible: showPasswordError">
+                                        <span class="glyphicon glyphicon-exclamation-sign" style="color: yellow"></span>
+                                        Login failed, username or password is incorrect.
+
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="control-header">
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://www.sierrawireless.com" target="_blank" class="button pull-right">
+                        <div class="wave-icon">
+                            <img src="/Developer Portal 2/images/Buttons/img-button.svg" alt="" />
+                        </div>
+                        <span class="link-caption">sierrawireless.com</span>
+                    </a>
+                    <ul class="quickLinks nav navbar-nav pull-right">
+                         
+                            <li class="first">
+                                <a id="ctl14_hpSignUp" href="https://sierrawireless.com/sso/signup">sign up</a>
+                            </li>
+                            <li><a id="ctl14_signInSso" href="https://sierrawireless.com/sso/login?redirectUrl=https://source.sierrawireless.com/404/">sign in</a></li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="col-sm-3">
+                    <a id="ctl14_lnkLogo" href="/"><img src="/-/media/developer-zone/logos/sw-is-now-semtech-source-logo-02.ashx" id="ctl14_logoImage" class="img-responsive site-logo" alt="sitelogo" /></a>
+                </div>
+
+                <div class="col-sm-9">
+                    <div class="navbar-container pull-right">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+
+                        <div class="collapse navbar-collapse pull-right">
+                            <ul class="mainNavigation nav navbar-nav">
+                                
+                                        <li id="ctl14_rptMainNavigation_navLi_0">
+                                            <a id="ctl14_rptMainNavigation_hlNavigationLink_0" href="/">Home</a>
+                                        </li>
+                                    
+                                        <li id="ctl14_rptMainNavigation_navLi_1">
+                                            <a id="ctl14_rptMainNavigation_hlNavigationLink_1" href="/resources/">Search</a>
+                                        </li>
+                                    
+                                        <li id="ctl14_rptMainNavigation_navLi_2">
+                                            <a id="ctl14_rptMainNavigation_hlNavigationLink_2" href="/iot-blog/">Blog</a>
+                                        </li>
+                                    
+                                        <li id="ctl14_rptMainNavigation_navLi_3">
+                                            <a id="ctl14_rptMainNavigation_hlNavigationLink_3" href="https://forum.sierrawireless.com" target="_blank">Forum</a>
+                                        </li>
+                                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<div id="headerWrapperSpaceHolder"></div>
+
+<!-- Modal -->
+<div class="modal fade" id="pickProductOfInterests" tabindex="-1" role="dialog" aria-labelledby="titleLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="titleLabel">Pick your Product Interest</h4>
+        </div>
+        <div class="modal-body">
+            <select name="ctl14$dwnProductOfInterest" id="ctl14_dwnProductOfInterest" class="form-control">
+	<option value=""> -- Product Interest -- </option>
+	<option value="AirPrime">Embedded Solutions</option>
+	<option value="AirLink">Gateway Solutions</option>
+	<option value="AirVantage">IoT Platform</option>
+	<option value="Cloud and Connectivity">IoT SIM</option>
+	<option value="-">Not Sure</option>
+
+</select>
+            <div id="productInterestErrorMessage" class="danger" style="display:none;margin-top:1vw;">
+                <span class="glyphicon glyphicon-exclamation-sign" style="color: darkorange"></span>
+                Please select product interest
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <a id="btnSubmitProductOfIterests" href="javascript:void(0);" class="btn btn-primary">Submit</a>
+        </div>
+    </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<script type="text/javascript">
+    function htmlEncode(value) {
+        return $('<div/>').text(value).html().replace(/&/g, '%26');
+    }
+    function htmlDecode(value) {
+        return $('<div/>').html(value).text();
+    }
+    jQuery(function () { 
+        var $modal = $('#pickProductOfInterests');
+        var keyboard = false; // Prevent to close by ESC
+        var backdrop = 'static'; // Prevent to close on click outside the modal
+        var show = false;
+
+        if (typeof $modal.data('bs.modal') === 'undefined') { // Modal did not open yet
+            $modal.modal({
+                keyboard: keyboard,
+                backdrop: backdrop,
+                show: show
+            });
+        } else { // Modal has already been opened
+            $modal.data('bs.modal').options.keyboard = keyboard;
+            $modal.data('bs.modal').options.backdrop = backdrop;
+            $modal.data('bs.modal').options.show = show;
+
+            if (keyboard === false) {
+                $modal.off('keydown.dismiss.bs.modal'); // Disable ESC
+            } else { // 
+                $modal.data('bs.modal').escape(); // Resets ESC
+            }
+        }
+
+        $modal.on('show.bs.modal', function (e) {
+            $("#headerWrapper").css('z-index', 0);
+            $("#homeProductSelectorCarouselWrapper").css('z-index', 0);
+        });
+
+        $modal.on('hide.bs.modal', function (e) {
+            setTimeout(function () {
+                $("#headerWrapper").css('z-index', '');
+                $("#homeProductSelectorCarouselWrapper").css('z-index', '');
+            }, 500);
+        });
+
+        $("#ctl14_dwnProductOfInterest").change(function () {
+            if ($("#ctl14_dwnProductOfInterest").val()) {
+                $("#productInterestErrorMessage").hide();
+            }
+            else {
+                $("#productInterestErrorMessage").show();
+            }
+        });
+
+        $("#btnSubmitProductOfIterests").on("click", function (event) {
+            var userInfoEndpoint = '';
+        var pageSSOSendToEloqua = 'https://sierrawireless.com/sso/sendToEloqua';
+        jQuery.getResults(userInfoEndpoint, function (result) {
+            //success
+            if (result) {
+                if (result.name) {
+                    $("#ctl14_hpCurrentUserProfile").text(result.name);
+                } else if (result.email) {
+                    $("#ctl14_hpCurrentUserProfile").text(result.email);
+                }
+
+                var payload = result;
+
+                //server call
+
+                var url = pageSSOSendToEloqua.toLowerCase();
+                var productOfInterest = $("#ctl14_dwnProductOfInterest").val();
+
+                payload.productInterest = productOfInterest;
+
+                if (!payload.productInterest) {
+                    $("#productInterestErrorMessage").show();
+                    return;
+                } else {
+                    $("#productInterestErrorMessage").hide();
+                }
+
+                jQuery.postAndGetResults(url, payload, function (postToEloquaResult) {
+                    console.log(postToEloquaResult)
+                    if (postToEloquaResult.success) {
+                        $('#pickProductOfInterests').modal('hide');
+                    }
+                    }, function () {
+                        //complete
+                    });
+            }
+        },
+            function (a, b, c) {
+                //error
+                console.log(c);
+                if (c === "Unauthorized") {
+                    window.location.href = "https://sierrawireless.com/sso/login" + '?redirectUrl=' + window.location.protocol + "//" + window.location.host + window.location.pathname;;
+                }
+            },
+            function () {
+                //complete
+            });
+        });
+    });
+    
+   
+</script>
+
+<script type="text/javascript">
+    window.DevportalLoginVm = {
+        showLogin: function () {
+            window.location.href = 'https://sierrawireless.com/sso/login' + '?redirectUrl=' + window.location.protocol + "//" + window.location.host + window.location.pathname;
+        }
+    }
+</script>
+
+
+    <script type="text/javascript">
+        jQuery(function () {
+
+            var $spaceHolder = jQuery('#headerWrapperSpaceHolder');
+            var $headerWrapper = jQuery('#headerWrapper');
+
+            setTimeout(function () {
+                $spaceHolder.height($headerWrapper.height());
+            }, 50);
+
+            jQuery(window).resize(function () {
+                $spaceHolder.height($headerWrapper.height());
+            });
+
+            if ((typeof Sitecore === 'undefined') == false) {
+                jQuery('#headerWrapper').removeClass('navbar-fixed-top');
+                jQuery('#headerWrapperSpaceHolder').hide();
+            }
+
+            if ($(".welcome-container").length > 0) {
+                var userInfoEndpoint = '';
+                jQuery.getResults(userInfoEndpoint, function (result) {
+                        //success
+                    if (result) {
+                            if (result.name) {
+                                $("#ctl14_hpCurrentUserProfile").text(result.name);
+                            } else if (result.email) {
+                                $("#ctl14_hpCurrentUserProfile").text(result.email);
+                            }
+
+                            var payload = {
+                                almsEmail: result.email,
+                                userName: result.name
+                            };
+
+                            //server call
+                            var url = '/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/SSOLogin'.toLowerCase();
+                            jQuery.postAndGetResults(url, payload, function (result) {
+                                
+                                if (result.success == true) {
+                                    $.cookie('sso-email', payload.almsEmail, { expires: 365, path: '/', domain: '.sierrawireless.com' });
+
+                                    
+                                }
+
+                            }, function () {
+                               //complete
+                            });
+                        }
+                    },
+                    function (a, b, c) {
+                        //error
+                        console.log(c);
+                        if (c === "Unauthorized") {
+                            window.location.href = "https://sierrawireless.com/sso/login" + '?redirectUrl=' + window.location.protocol + "//" + window.location.host + window.location.pathname;;
+                        }
+                    },
+                    function () {
+                        //complete
+                    });
+            }
+
+        });   
+    </script>
+
+            
+<div class="mainContent singleColumnLayout">
+    <div class="section-alternate">
+        <div class="container-fluid">
+            <div class="sectionHeaderContainer">
+                <div class="sectionTitle">
+                    <div class="row">
+                        <h1 class="title">
+                            404
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div class="abstract">
+<h2>Well, this is awkward.</h2>
+<h4>Despite our best efforts, the resource we were both expecting to see either has been moved during our redesign or has been replaced.&nbsp;&nbsp;</h4>
+<p>Options: You can try our search located at the top of this page, check out our <a href="/resources/">resources section</a>, or return to our <a href="/">homepage</a>.</p>
+</div>
+                            
+                        </div>
+                    </div>
+
+                    <script type="text/javascript">
+                        jQuery(function() {
+                            jQuery('.ProductDetailsContainer *[style]').removeAttr('style');
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div id="footerWrapper">
+                
+
+<div class="container-fluid">
+        <div class="colLeft">
+            <a id="ctl15_hlLogoLink" href="https://www.sierrawireless.com"><img id="ctl15_imgFooterLogo" class="img-responsive" src="/-/media/developer-zone/logos/semtech-source-logo-white.ashx" /></a>
+        
+            <div class="copyrightMessage">
+                ©2025  All rights reserved
+            </div>
+        </div>
+        <div class="colRight">
+            <div class="row socialMedia">
+                <div class="col-sm-4">
+                    <div>
+                        Networks
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row footer-socal">
+                        
+                                <div class="social-item">
+                                    
+                                    <span class="st_sharethis_custom">sharethis</span><script type="text/javascript" src="//w.sharethis.com/button/buttons.js?publisher=f12a905f-558a-46e1-8cac-e75c4f4a4372&amp;type=website&amp;post_services=email%2Cfacebook%2Ctwitter%2Cmyspace%2Cdigg%2Csms%2Cwindows_live%2Cdelicious%2Cstumbleupon%2Creddit%2Cgoogle_bmarks%2Clinkedin%2Cbebo%2Cybuzz%2Cblogger%2Cyahoo_bmarks%2Cmixx%2Ctechnorati%2Cfriendfeed%2Cpropeller%2Cwordpress%2Cnewsvine%2Cxanga%2Cslashdot&amp;linkfg=%23AFA00C"></script><script type="text/javascript">stLight.options({publisher: "f12a905f-558a-46e1-8cac-e75c4f4a4372", doNotHash: true, doNotCopy: true, hashAddressBar: true});</script>
+                                </div>
+                            
+                                <div class="social-item">
+                                    <a id="ctl15_rptSocialIcons_hpSocialLink_1" href="https://twitter.com/sierradeveloper" target="_blank"><img id="ctl15_rptSocialIcons_imgSocialIcon_1" class="img-responsive" src="/-/media/developer-zone/devices-images/twitter.ashx" /></a>
+                                    
+                                </div>
+                            
+                                <div class="social-item">
+                                    <a id="ctl15_rptSocialIcons_hpSocialLink_2" name="rssFooterNavigator" href="/rss/?rssitem={4EEFF677-6A3A-47C2-B43C-FA7ED937DAB7}"><img id="ctl15_rptSocialIcons_imgSocialIcon_2" class="img-responsive" src="/-/media/developer-zone/devices-images/rss.ashx" /></a>
+                                    
+                                </div>
+                            
+                                <div class="social-item">
+                                    <a id="ctl15_rptSocialIcons_hpSocialLink_3" href="https://www.sierrawireless.com" target="_blank"><img id="ctl15_rptSocialIcons_imgSocialIcon_3" class="img-responsive" src="/-/media/developer-zone/icons/semtech.ashx" /></a>
+                                    
+                                </div>
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="nav nav-pills footer-links">
+                    
+                            <li><a id="ctl15_rptQuickLinks_hpQuickLink_0" href="https://www.sierrawireless.com/iot-blog/">Blog</a></li>
+                        
+                            <li><a id="ctl15_rptQuickLinks_hpQuickLink_1" href="https://www.sierrawireless.com/how-to-buy/source-contact">Contact Us</a></li>
+                        
+                            <li><a id="ctl15_rptQuickLinks_hpQuickLink_2" href="/legal/">Legal</a></li>
+                        
+                            <li><a id="ctl15_rptQuickLinks_hpQuickLink_3" href="https://www.sierrawireless.com/privacy/">Privacy</a></li>
+                        
+                </ul>
+            </div>
+        </div>
+     <div class="clearfix"></div>
+</div>
+            </div>
+            
+            <div id="eloquaSubscriptionCtaPanel" class="eloqua-subscription-cta hide">
+	
+                <div class="eloqua-subscription-cta-close">&#215;</div>
+                <div class="eloqua-subscription-cta-container">
+                    
+                    <div id="submit-container">
+                        <div class="container-row">
+                            <div class="container-cell email-cell">
+                                <div class="title">
+                                    Get updates on this product
+                                </div>
+                                <span class="email-prefix hide">Welcome back </span>
+                                <span id="lblEmailLabel" class="email-label hide"></span>
+                            </div>
+                            <div class="container-cell has-buttons">
+                                <a id="btnEloquaSubscribe" class="eloqua-subscription-cta-submit hide" data-popup="pnlEloquaSubscriptionPopupWindow" data-redirect-url="" href="javascript:void(0)">Subscribe</a>
+                                <a id="btnEloquaUnsubscribe" class="eloqua-subscription-cta-submit disabled-gray hide" href="javascript:void(0)">Subscribed</a>
+                            </div>
+                        </div>
+                        <div class="container-row">
+                            <div class="container-cell email-cell">
+                                <div class="eloqua-not-you-container hide">
+                                    <a id="btnNotYou" class="eloqua-not-you" href="javascript:void(0);">Not you?</a>
+                                </div>
+                            </div>
+                            <div class="container-cell results-container">
+                                <div id="pnlToSubscriptionPage" class="result-container-subscription-permanent-link hide">
+		
+                                    <a href="//www.sierrawireless.com/subscriptions/">Manage your subscription</a>
+                                
+	</div>
+                            </div>
+                        </div>
+                    </div>
+                                
+                    <div id="result-container-unsubscribed"  class="message-text hide">
+                        You have been successfully <strong>unsubscribed</strong> to this product. To access your subscription click <a href="//www.sierrawireless.com/subscriptions/">here</a>.
+                    </div>
+                </div>
+                            
+            
+</div>
+            
+            
+
+            <div id="pnlEloquaSubscriptionPopupWindow" class="popup-window compact hide">
+	
+                <div class="popup-layout-table">
+                    <div class="popup-layout-row">
+                        <div class="popup-layout-blank-col">
+
+                        </div>
+                         <div class="popup-layout-main-col">
+                            <div class="window-content light-gray">
+                                <div class="close-container">
+                                    <a href="" class="close-popup-window"><span class="glyphicon glyphicon-remove close-popup-window"></span></a>
+                                </div>
+                                <div class="window-content-container">
+                                    <div class="container-fluid">
+                                        <div class="row popup-title">
+                                            <div class="col-md-12 text-center">
+                                                <h3>Get updates on this product</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                    <div class="hubspot-form-post-response"></div>
+                                    <iframe src="/developer portal 2/hubspot.html" class="hubspot-iframe" style="display: none;"></iframe>
+                                    <script>
+                                        window.adjustHBIframe = function (iframes) {
+                                            if (iframes && iframes.length > 0) {
+                                                let hubHubSpotIframe = $(iframes[0]);
+                                                let hubWrapperHubSpotIframe = $(".hubspot-iframe");
+
+                                                var iframeWin = iframes[0].contentWindow;
+                                                $(iframeWin).on('resize', function () {
+                                                    if (hubWrapperHubSpotIframe && hubWrapperHubSpotIframe.length > 0) {
+                                                        hubWrapperHubSpotIframe.attr("style", hubHubSpotIframe.attr("style"));
+
+                                                        if ($(iframeWin).height() > 50) {
+                                                            hubWrapperHubSpotIframe.height($(iframeWin).height());
+                                                        }
+                                                        else {
+                                                            hubWrapperHubSpotIframe.height(100);
+                                                        }
+                                                    }
+                                                });
+
+                                                if (hubWrapperHubSpotIframe && hubWrapperHubSpotIframe.length > 0) {
+                                                    hubWrapperHubSpotIframe.attr("style", hubHubSpotIframe.attr("style"));
+                                                    hubWrapperHubSpotIframe.height($(iframeWin).height());
+                                                    hubWrapperHubSpotIframe.show();
+                                                }
+                                            }
+                                        }
+                                    </script>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popup-layout-blank-col">
+                        </div>
+                    </div>
+                </div>
+            
+</div>
+        </form>
+        
+        
+            <script type="text/javascript">
+
+            window.setUpEloquCta = function (configuration) {
+                jQuery(".eloqua-subscription-cta-close").click(function() {
+                    jQuery(".eloqua-subscription-cta").hide();
+                });
+
+                jQuery("input").each(function() {
+                    jQuery(this).attr("name", jQuery(this).attr("id"));
+                });
+
+                if (configuration && configuration.ShowCta) {
+                    jQuery(".eloqua-subscription-cta").removeClass("hide");
+
+                    if (configuration.ShowEmailLabel) {
+                        if (jQuery("#lblEmailLabel").hasClass("hide")) {
+                            jQuery("#lblEmailLabel").removeClass("hide");
+                            jQuery("#lblEmailAddressLabel").hide();
+                        }
+                        jQuery("#lblEmailLabel").html(configuration.EmailLabel);
+                    } else {
+                        if (!jQuery("#lblEmailLabel").hasClass("hide")) {
+                            jQuery("#lblEmailLabel").addClass("hide");
+                            jQuery("#lblEmailLabel").html("");
+                            jQuery("#lblEmailAddressLabel").show();
+                        }
+                    }
+
+                    
+
+                    if (configuration.ShowUnsubscribeButton) {
+                        if (jQuery("#btnEloquaUnsubscribe").hasClass("hide")) {
+                            jQuery("#btnEloquaUnsubscribe").removeClass("hide");
+                        }
+                    } else {
+                        if (!jQuery("#btnEloquaUnsubscribe").hasClass("hide")) {
+                            jQuery("#btnEloquaUnsubscribe").addClass("hide");
+                        }
+                    }
+
+                    if (configuration.ShowSubscribeButton) {
+                        if (jQuery("#btnEloquaSubscribe").hasClass("hide")) {
+                            jQuery("#btnEloquaSubscribe").removeClass("hide");
+                        }
+                    } else {
+                        if (!jQuery("#btnEloquaSubscribe").hasClass("hide")) {
+                            jQuery("#btnEloquaSubscribe").addClass("hide");
+                        }
+                    }
+
+                    if (configuration.ShowSubscriptionHyperlink) {
+                        if (jQuery("#pnlToSubscriptionPage").hasClass("hide")) {
+                            jQuery("#pnlToSubscriptionPage").removeClass("hide");
+                        }
+                    }
+                    else {
+                        if (!jQuery("#pnlToSubscriptionPage").hasClass("hide")) {
+                            jQuery("#pnlToSubscriptionPage").addClass("hide");
+                        }
+                    }
+
+                    if (!jQuery("#result-container-subscribed").hasClass("hide")) {
+                        jQuery("#result-container-subscribed").addClass("hide");
+                    }
+
+                    if (!jQuery("#result-container-unsubscribed").hasClass("hide")) {
+                        jQuery("#result-container-unsubscribed").addClass("hide");
+                    }
+
+                    if (configuration.ShowNotYouHyperlink) {
+                        if (jQuery(".eloqua-not-you-container").hasClass("hide")) {
+                            jQuery(".eloqua-not-you-container").removeClass("hide");
+                            jQuery(".email-prefix").removeClass("hide");
+
+
+                            jQuery("#btnNotYou").on("click", function() {
+                                jQuery(".email-prefix").addClass("hide");
+
+                                if (!jQuery("#btnEloquaUnsubscribe").hasClass("hide")) {
+                                    jQuery("#btnEloquaUnsubscribe").addClass("hide");
+                                }
+
+                                if (jQuery("#btnEloquaSubscribe").hasClass("hide")) {
+                                    jQuery("#btnEloquaSubscribe").removeClass("hide");
+                                }
+
+                                if (!jQuery(".eloqua-not-you-container").hasClass("hide")) {
+                                    jQuery(".eloqua-not-you-container").addClass("hide");
+                                }
+
+                                if (!jQuery(".eloqua-not-you-container").hasClass("hide")) {
+                                    jQuery(".eloqua-not-you-container").addClass("hide");
+                                }
+
+                                jQuery("#txtEmailAddress").val("");
+
+                                
+
+                                if (jQuery("#pnlToSubscriptionPage").hasClass("hide")) {
+                                    jQuery("#pnlToSubscriptionPage").removeClass("hide");
+                                }
+
+                                if (!jQuery("#lblEmailLabel").hasClass("hide")) {
+                                    jQuery("#lblEmailLabel").addClass("hide");
+                                    jQuery("#lblEmailLabel").html("");
+                                    jQuery("#lblEmailAddressLabel").show();
+                                }
+                            });
+                        }
+                    } else {
+                        if (!jQuery(".eloqua-not-you-container").hasClass("hide")) {
+                            jQuery(".eloqua-not-you-container").addClass("hide");
+                            jQuery(".email-prefix").addClass("hide");
+                        }
+                    }
+                }
+            };
+
+            jQuery(function () {
+                var showPromotionalBanner = sessionStorage.getItem('show-promotion-banner');
+                if (showPromotionalBanner) {
+                    if (showPromotionalBanner === "false") {
+                        jQuery(".promotional-banner").addClass("hide");
+                    } else {
+                        jQuery(".promotional-banner").removeClass("hide");
+                    }
+                }
+                else {
+                    jQuery(".promotional-banner").removeClass("hide");
+                }
+
+                jQuery(".promotion-banner-close-button").on("click", function() {
+                    jQuery(this).parent().hide();
+                    sessionStorage.setItem('show-promotion-banner', "false");
+                });
+
+                var $headerWrapper = jQuery('#headerWrapper');
+                var causeRepaintsOn = jQuery("h1, h2, h3, p");
+                jQuery(window).resize(function () {
+                    causeRepaintsOn.css("z-index", 1);
+                });
+                //add table-responsive class to all tables
+                jQuery('table').addClass('table-responsive');
+                //adjust anchors
+                jQuery(document).click(function(e) {
+                    var $target = jQuery(e.target);
+                    if ($target.is('a')) {
+                        var href = $target.attr('href') || '';
+                        if (href.length > 1) {
+                            var index = href.lastIndexOf('#');
+                            if (index == 0) {
+                                var anchorName = href.substring(index + 1);
+                                if (anchorName.length > 0) {
+                                    var anchors = jQuery('a[name="' + anchorName + '"]');
+                                    if (anchors.length > 0) {
+                                        jQuery('html, body').animate({
+                                            scrollTop: jQuery(anchors[0]).offset().top - $headerWrapper.outerHeight()
+                                        }, 500);
+                                        return false;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+
+                if (false && false === false) {
+                    var userInfoEndpoint = '';
+                    jQuery.getResults(userInfoEndpoint, function (result) {
+                        if (result) {
+                            if (result.name) {
+                                if (result.email) {
+                                    console.log(result.email);
+                                    jQuery("#txtEmailAddress").val(result.email);
+                                    SetElqContent2(result.email);
+                                }
+                            }
+                        }
+                    },
+                    function (a, b, c) {
+                        //error
+                        console.log(c);
+                    },
+                    function () {
+                        //complete
+                    });
+                }
+                else if ('' !== '') {
+                    window.setUpEloquCta(JSON.parse(''));
+                }
+
+                var PopupWindowTrigger = function (triggerCTA) {
+                    var popup = null;
+                    var handlePopupClick = function (event) {
+                        if (jQuery(event.target).is('.popup-window, .popup-layout-blank-col, .popup-layout-main-col , .close-popup-window')) {
+                            popup.addClass('hide');
+                            event.preventDefault();
+                            jQuery("#window-submit-container").show();
+                            jQuery("#result-container-subscribed").addClass("hide");
+                            jQuery(".popup-title").removeClass("hide");
+                            jQuery(".form-data").removeClass("subscribed");
+                        }
+                    }
+
+                    triggerCTA.click(function (event) {
+                        var id = triggerCTA.data('popup');
+                        popup = $('#' + id);
+                        if (popup.length > 0) {
+                            popup.addClass('initiate').removeClass('hide');
+                            popup.css('top', event.pageY).css('left', event.pageX);
+                            window.setTimeout(function () {
+                                popup.removeClass('initiate').css('top', '').css('left', '');
+                                if (popup.find('.window-content').height() > $(window).height()) {
+                                    popup.css('overflow-y','scroll')
+                                }
+                            }, 0)
+                            popup.click(handlePopupClick);
+                        }
+                    })
+                }
+
+                jQuery('*[data-popup]').each(function () {
+                    var trigger = jQuery(this);
+                    var pwt = new PopupWindowTrigger(trigger);
+                });
+            });
+
+            window.emailGroupId = 0;
+            window.eloquaSubscriptionCallback = null;
+            window.eloquaCookieEmail = null;
+            var isAjaxPost = false;
+            function redirectToSubscriptions(txtEmailClientId, btnEloquaSubscribe, subscribeStatus) {
+                if (isAjaxPost) return;
+
+                isAjaxPost = true;
+
+                var apiUrl = "https://sierrawireless.com/api";
+                var urlToRedirect = jQuery(btnEloquaSubscribe).attr("data-redirect-url");
+
+                if (!jQuery(btnEloquaSubscribe).hasClass("disabled")) {
+                    jQuery(btnEloquaSubscribe).addClass("disabled");
+                }
+
+                var email = jQuery(txtEmailClientId).val();
+
+                if (urlToRedirect && urlToRedirect != "") {
+
+                    if (!jQuery("#txtEmailAddress").hasClass("hide")) {
+                        if (!IsValidCtaForm(email)) {
+                            isAjaxPost = false;
+                            if (jQuery(btnEloquaSubscribe).hasClass("disabled")) {
+                                jQuery(btnEloquaSubscribe).removeClass("disabled");
+                            }
+                            return;
+                        }
+                    }
+
+                    if (!email || email === "") {
+                        email = "";
+                    }
+
+                    if (window.eloquaCookieEmail && (!email || email === "")) {
+                        email = window.eloquaCookieEmail;
+                    }
+
+                    /*if (email === "") {
+                        return;
+                    }*/
+
+                    var offerName = "".toLowerCase();
+                    if (0 <= 0) {
+                        offerName = window.emailGroupName ? window.emailGroupName.toLowerCase() : "";
+                    }
+                    offerName = offerName.replace(/\s+/g, '-');
+                    offerName = offerName.replace(/[^a-zA-Z0-9-]/g, "");
+
+                    var subscription = {
+                        EmailAddress: email,
+                        Subscribe: subscribeStatus,
+                        EmailGroupId: 0,
+                        CustomerGuid: window.GetElqCustomerGUID ? window.GetElqCustomerGUID() : "",
+                        CampaignOffer: "subscription",
+                        CampaignOfferName: offerName,
+                        CampaignOfferNameOriginal: offerName,
+                        CampaignOfferTypeOriginal: "subscription" 
+                    };
+
+                    if (window.trafficHelper) {
+
+                        if (window.trafficHelper.trafficSource) {
+                            var campaignType = window.trafficHelper.trafficSource.type ? window.trafficHelper.trafficSource.type.replace("(", "").replace(")", "") : null;
+                            var campaignSource = window.trafficHelper.trafficSource.source ? window.trafficHelper.trafficSource.source.replace("(", "").replace(")", "") : null;
+                            var campaignMedium = window.trafficHelper.trafficSource.medium ? window.trafficHelper.trafficSource.medium.replace("(", "").replace(")", "") : null;
+                            var campaignName = window.trafficHelper.trafficSource.campaign ? window.trafficHelper.trafficSource.campaign.replace("(", "").replace(")", "") : null;
+                            var campaignTypeOriginal = window.trafficHelper.trafficSource.type ? window.trafficHelper.trafficSource.type.replace("(", "").replace(")", "") : null;
+                            var campaignSourceOriginal = window.trafficHelper.trafficSource.source ? window.trafficHelper.trafficSource.source.replace("(", "").replace(")", "") : null;
+                            var campaignMediumOriginal = window.trafficHelper.trafficSource.medium ? window.trafficHelper.trafficSource.medium.replace("(", "").replace(")", "") : null;
+                            var campaignNameOriginal = window.trafficHelper.trafficSource.campaign ? window.trafficHelper.trafficSource.campaign.replace("(", "").replace(")", "") : null;
+
+                            subscription.CampaignType = campaignType ? campaignType.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignSource = campaignSource ? campaignSource.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignMedium = campaignMedium ? campaignMedium.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignName = campaignName ? campaignName.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignTypeOriginal = campaignTypeOriginal ? campaignTypeOriginal.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignSourceOriginal = campaignSourceOriginal ? campaignSourceOriginal.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignMediumOriginal = campaignMediumOriginal ? campaignMediumOriginal.replace("(", "").replace(")", "") : "";
+                            subscription.CampaignNameOriginal = campaignNameOriginal ? campaignNameOriginal.replace("(", "").replace(")", "") : "";
+                        }
+                
+                        if (window.trafficHelper.generateLSC) {
+                            subscription.MarketingLeadSourceCode = window.trafficHelper.generateLSC(subscription.CampaignOffer, offerName);
+                            subscription.mostRecentLeadSource = window.trafficHelper.generateLSC(subscription.CampaignOffer, offerName);
+                        }
+
+                        if (window.trafficHelper.determineCID) {
+                            var source, medium;
+                            if(window.trafficHelper.trafficSource) {
+                                source = window.trafficHelper.trafficSource.source ? window.trafficHelper.trafficSource.source.replace("(", "").replace(")", "") : null;
+                                medium = window.trafficHelper.trafficSource.medium ? window.trafficHelper.trafficSource.medium.replace("(", "").replace(")", "") : null;
+                            }
+                            subscription.CampaignId = window.trafficHelper.determineCID(subscription.CampaignOffer, source, medium);
+                        }
+                    }
+
+                    if (subscription.EmailGroupId <= 0) {
+                        subscription.EmailGroupId = window.emailGroupId;
+                        subscription.CampaignOfferName = window.emailGroupName;
+                        subscription.CampaignOfferNameOriginal = window.emailGroupName;
+                    }
+
+                    subscription.MarketingLeadSourceCode = subscription.MarketingLeadSourceCode ? subscription.MarketingLeadSourceCode.replace("(", "").replace(")", "") : null;
+                    subscription.mostRecentLeadSource = subscription.mostRecentLeadSource ? subscription.mostRecentLeadSource.replace("(", "").replace(")", "") : null;
+
+                    //IOTWEB - 74051
+                    subscription.CampaignName = "referral";
+                    subscription.CampaignNameOriginal = "referral";
+                    subscription.CampaignId = "7011M000001dVGMQA2";
+                    subscription.MarketingLeadSourceCode = "rf_source.sierrawireless.com_rf_subscription__referral";
+                    subscription.mostRecentLeadSource = "rf_source.sierrawireless.com_rf_subscription__referral";
+                    subscription.CampaignMedium = "referral";
+                    subscription.CampaignMediumOriginal = "referral";
+                    subscription.CampaignType = "referral";
+                    subscription.CampaignTypeOriginal = "referral";
+                    subscription.CampaignSource = "source.sierrawireless.com";
+                    subscription.CampaignSourceOriginal = "source.sierrawireless.com";
+
+                    //IOTWEB - 74681
+                    var geoInfo = window.getGeoIpInfo();
+                    console.log(geoInfo);
+
+                    if (geoInfo) {
+                        subscription.sfdcCountry = geoInfo.countryCode;
+                        subscription.sfdcStateProvince = geoInfo.stateName;
+                    }
+                    //END IOTWEB - 74681
+
+                    var dataToSend = JSON.stringify(subscription);
+                    var req = {
+                        url: apiUrl + "/subscription", 
+                        type: "POST",
+                        crossDomain: true,
+                        dataType: "json",
+                        contentType: "application/json; charset=utf-8",
+                        data: dataToSend
+                    };
+
+                    jQuery.ajax(req).done(function(response) {
+                        var subscriptionResponse = response;
+                        var setEloquaCookieDto = {
+                            EloquaCookieEmail: email
+                        }
+
+                        var setEloquaCookieRequest = {
+                            url: apiUrl + "/seteloquacookieemail", 
+                            type: "POST",
+                            crossDomain: true,
+                            dataType: "json",
+                            contentType: "application/json; charset=utf-8",
+                            data: JSON.stringify(setEloquaCookieDto)
+                        };
+
+                        jQuery.ajax(setEloquaCookieRequest).done(function(cookieResponse) {
+                            if (subscriptionResponse === subscription.Subscribe) {
+                                jQuery("#window-submit-container").hide();
+                                //jQuery(".result-container-subscription-permanent-link").hide();
+
+                                if (response) {
+                                    jQuery("#result-container-subscribed").removeClass("hide");
+                                    jQuery(".popup-title").addClass("hide");
+                                    jQuery(".form-data").addClass("subscribed");
+                                } else {
+                                    jQuery("#result-container-unsubscribed").removeClass("hide");
+                                }
+
+                                if (!jQuery(".eloqua-not-you-container").hasClass("hide")) {
+                                    jQuery(".eloqua-not-you-container").addClass("hide");
+                                    jQuery(".email-prefix").addClass("hide");
+                                }
+                         
+                                var setCookiePayload = {
+                                    eloquaCookieEmail: cookieResponse.EloquaCookieEmail
+                                }
+
+                                jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/SetCurrentEloquaEmailBasedOnCookie'.toLowerCase(),
+                                    setCookiePayload,
+                                    function(postResult) {
+                                        window.eloquaCookieEmail = cookieResponse.EloquaCookieEmail;
+                                    },
+                                    function() {
+
+                                    });
+
+                                if (window.eloquaSubscriptionCallback) {
+                                    var payload = {
+                                        emailGroupId: subscription.EmailGroupId,
+                                        eloquaCookieEmail: cookieResponse.EloquaCookieEmail
+                                    };
+                                    jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/GetCurrentEloquaConfiguration'.toLowerCase(),
+                                        payload,
+                                        function(postResult) {
+                                            window.eloquaSubscriptionCallback(subscription.EmailGroupId, response, postResult);
+                                        },
+                                        function() {
+                                        
+                                        });
+                                }
+
+                                if (jQuery(btnEloquaSubscribe).hasClass("disabled")) {
+                                    jQuery(btnEloquaSubscribe).removeClass("disabled");
+                                }
+                            }
+                            isAjaxPost = false;
+                        }).fail(function() {
+                            if (jQuery(btnEloquaSubscribe).hasClass("disabled")) {
+                                jQuery(btnEloquaSubscribe).removeClass("disabled");
+                            }
+                            isAjaxPost = false;
+                        });
+
+                    }).fail(function() {
+                        if (jQuery(btnEloquaSubscribe).hasClass("disabled")) {
+                            jQuery(btnEloquaSubscribe).removeClass("disabled");
+                        }
+                        isAjaxPost = false;
+                    });
+                }
+            }
+
+            function IsValidCtaForm(email) {
+                if (!email || email === "") {
+                    if (jQuery(".window-submit-error-container").hasClass("hide")) {
+                        jQuery(".window-submit-error-container").removeClass("hide");
+                    }
+
+                    if (jQuery(".email-required").hasClass("hide")) {
+                        jQuery(".email-required").removeClass("hide");
+                    }
+
+                    if (!jQuery(".email-notvalid").hasClass("hide")) {
+                        jQuery(".email-notvalid").addClass("hide");
+                    }
+
+                    return false;
+                }
+
+                var emailRegex = /^[A-Z0-9_'%=+!`#~$*?^{}&|-]+([\.][A-Z0-9_'%=+!`#~$*?^{}&|-]+)*@[A-Z0-9-]+(\.[A-Z0-9-]+)+$/i;
+                if (!emailRegex.test(email)) {
+                    if (jQuery(".window-submit-error-container").hasClass("hide")) {
+                        jQuery(".window-submit-error-container").removeClass("hide");
+                    }
+
+                    if (!jQuery(".email-required").hasClass("hide")) {
+                        jQuery(".email-required").addClass("hide");
+                    }
+
+                    if (jQuery(".email-notvalid").hasClass("hide")) {
+                        jQuery(".email-notvalid").removeClass("hide");
+                    }
+
+                    return false;
+                }
+
+                if (!jQuery(".window-submit-error-container").hasClass("hide")) {
+                    jQuery(".window-submit-error-container").addClass("hide");
+                }
+
+                if (!jQuery(".email-required").hasClass("hide")) {
+                    jQuery(".email-required").addClass("hide");
+                }
+
+                if (!jQuery(".email-notvalid").hasClass("hide")) {
+                    jQuery(".email-notvalid").addClass("hide");
+                }
+
+                return true;
+            }
+
+            function SetElqContent2(email) {
+                console.log('SetElqContent2');
+                var emailAddress = email;
+
+                if (emailAddress) {
+                    var emailGroup = 0;
+
+                    if (0 <= 0) {
+                        emailGroup = window.emailGroupId;
+                    }
+
+                    if (emailGroup > 0) {
+                        var payload = {
+                            emailGroupId: emailGroup,
+                            eloquaCookieEmail: emailAddress
+                        };
+                        jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/GetCurrentEloquaConfigurationBasedOnCookie'.toLowerCase(),
+                            payload,
+                            function (postResult) {
+                                console.log(postResult);
+                                window.setUpEloquCta(postResult);
+
+                                window.eloquaCookieEmail = emailAddress;
+                            },
+                            function () {
+
+                            });
+                    } else {
+                        var setCookiePayload = {
+                            eloquaCookieEmail: emailAddress
+                        }
+                        jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/SetCurrentEloquaEmailBasedOnCookie'.toLowerCase(),
+                            setCookiePayload,
+                            function (postResult) {
+                                window.eloquaCookieEmail = emailAddress;
+                            },
+                            function () {
+
+                            });
+                    }
+
+                    jQuery("#txtEmailAddress").val(emailAddress);
+                }
+            }
+
+            function SetElqContent() {
+                console.log('SetElqContent');
+                if (true && false === false) {
+                    console.log('SetElqContent');
+                    var emailAddress = GetElqContentPersonalizationValue("V_Email_Address");
+                    console.log('SetElqContent ' + emailAddress);
+                    console.log('EmailGroupId ' + 0);
+
+                    if (emailAddress) {
+                        var emailGroup = 0;
+
+                        if (0 <= 0) {
+                            emailGroup = window.emailGroupId;
+                        }
+
+                        if (emailGroup > 0) {
+                            var payload = {
+                                emailGroupId: emailGroup,
+                                eloquaCookieEmail: emailAddress
+                            };
+                            jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/GetCurrentEloquaConfigurationBasedOnCookie'.toLowerCase(),
+                                payload,
+                                function(postResult) {
+                                    window.setUpEloquCta(postResult);
+
+                                    window.eloquaCookieEmail = emailAddress;
+                                },
+                                function() {
+
+                                });
+                        } else {
+                            var setCookiePayload = {
+                                eloquaCookieEmail: emailAddress
+                            }
+                            jQuery.postAndGetResults('/Developer Portal 2/Ajax/DeveloperPortalAjaxService.asmx/SetCurrentEloquaEmailBasedOnCookie'.toLowerCase(),
+                                setCookiePayload,
+                                function(postResult) {
+                                    window.eloquaCookieEmail = emailAddress;
+                                },
+                                function() {
+
+                                });
+                        }
+                    }
+                    jQuery("#txtEmailAddress").val(emailAddress);
+                }
+                else {
+                    jQuery("#txtEmailAddress").val("");
+                }
+                // When the Eloqua Lookup script is loaded, a function named: GetElqContentPersonalizationValue will be available to us to lookup for the email address.
+            }
+
+            </script>
+        
+        <!--[if lte IE 9]>
+            <script src="/Developer Portal 2/Scripts/ie8-9.js" type="text/javascript"></script>
+        <![endif]--> 
+        <script>
+            jQuery(document).ready(function(){
+                window.setTimeout(function(){
+                    jQuery('.eloqua-subscription-cta').addClass('active');
+                },0);
+            })
+        </script>
+        
+    </body>
+</html>

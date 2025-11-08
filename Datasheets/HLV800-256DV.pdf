@@ -1,0 +1,1785 @@
+<!DOCTYPE html><html>
+<head>
+
+<title>Vortex86DX PC/104 SBC with Data Acquisition - Datasheet</title>
+
+<link rel="stylesheet" type="text/css" href="/css/jkmegamenu.css">
+<meta charset="UTF-8"><link rel="stylesheet" type="text/css" href="/CreditOrders/UI/Controls/Css/FieldPanels.css " />
+<link rel="stylesheet" type="text/css" href="/css/mainnew.css?v=2 " />
+<link rel="stylesheet" type="text/css" href="/css/homepage.css" />
+<link rel="stylesheet" type="text/css" href="/css/menu.css" />
+<link rel="icon" href="/favicon.png" />
+<script language="JavaScript"  src="/CreditOrders/UI/Controls/Scripts/FieldValidation.js"></script>
+<script language="JavaScript"  src="/CreditOrders/UI/Controls/Scripts/misc.js"></script>
+<script language="JavaScript"  src="/css/main.js"></script>
+<script language="JavaScript"  src="/css/tooltip.js"></script>
+<script language="JavaScript"  src="/css/slideshow5_online.js"></script>
+<script language="JavaScript"  src="/css/slideshow5_online_content.js"></script>
+<script language="JavaScript"  src="/css/anylinkvertical.js"></script>
+<script language="JavaScript"  src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script language="JavaScript"  src="/css/dw_tabs.js"></script>
+<script language="JavaScript"  src="/css/jkmegamenu.js"></script>
+<script language="JavaScript"  src="/css/megamenu.js"></script>
+<noscript><link rel=stylesheet type=text/css href="/css/other.css"></noscript>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+</head>
+
+<body  >
+<div id="megamenu1" class="megamenu">
+
+<div class="column">
+	<h3><a href="/products">Products Overview</a></h3>
+<!-- 	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/products/#processors">Processor Modules</a></h3>
+	<ul>
+	<li><a href="/products/sbcs.php">Single Board Computers</a></li>
+	<li><a href="/products/nvidiasolutions.php">NVIDIA Solutions</a></li>
+<!--	<li><a href="/products/coms.php">COM-based SBCs</a></li>  --.
+<!--	<li><a href="/products/embeddedready.php">Embedded-Ready Subsystems</a></li>-->
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+
+	<h3><a href="/products/#ioexpansion">I/O Expansion Modules</a></h3>
+	<ul>
+	<li><a href="/products/analog.php">Analog I/O</a></li>
+	<li><a href="/products/digital.php">Digital I/O & Timers</a></li>
+	<li><a href="/products/communications.php">Communications Modules</a></li>
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+
+	<h3><a href="/products/#systems">Systems</a></h3>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+
+	<h3><a href="/products/#enclosures">Enclosures & Accessories</a></h3>
+	<ul>
+	<li><a href="/products/enclosures.php">Enclosures</a></li>
+	<li><a href="/products/power.php">Power Supplies</a></li>
+	<li><a href="/products/storage.php">Mass Storage</a></li>	
+	<li><a href="/products/accessories.php">Accessories</a></li>
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+
+	<h3><a href="/products/software">Software</a></h3>
+	<ul>
+	<li><a href="/products/software">Operating System Support Software</a></li>
+	<li><a href="/products/ud70">Universal Driver</a></li>
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+
+	<h3><a href="/services/customization">Custom Products</a></h3>
+</div>
+
+</div>
+
+<div id="megamenu2" class="megamenu">
+<div class="column">
+	<h3><a href="/solutions/com-based-sbcs.php">COM-based SBCs</a></h3>
+
+</div>
+
+<br style="clear: left" />  
+<div class="column">
+	<h3><a href="/solutions/2-in-1-sbcs.php">2-in-1 SBCs</a></h3>
+
+</div>
+
+<br style="clear: left" />
+<div class="column">
+	<h3><a href="/solutions/custom">Custom Solutions</a></h3>
+</div>
+<br style="clear: left" /> 
+<div class="column">
+	<h3><a href="/services/custrug.php">Ruggedization</a></h3>
+</div>
+<br style="clear: left" /> 
+
+
+
+<div class="column">
+	<h3><a href="/solutions/lifecycle">Lifecycle Extension</a></h3>
+</div>
+
+</div>
+
+<div id="megamenu3" class="megamenu">
+
+<div class="column">
+	<h3><a href="/aerospace">Aerospace/Defense</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" />
+
+<div class="column">
+	<h3><a href="/energy">Energy</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" />
+<div class="column">
+	<h3><a href="/industrial">Industrial Automation</a></h3>
+</div>
+<br style="clear: left" />
+<div class="column">
+	<h3><a href="/instrumentation">Instrumentation</a></h3>
+</div>
+<br style="clear: left" />
+<div class="column">
+	<h3><a href="/medical">Medical</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+<br style="clear: left" />
+
+<div class="column">
+	<h3><a href="/transportation">Transportation</a></h3>
+</div>
+
+</div>
+
+<div id="megamenu4" class="megamenu">
+
+<div class="column">
+	<h3><a href="/support/">Support Overview</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/support">Technical Resources</a></h3>
+	<ul>
+	<li><a href="/support/productsupport">Product-Specific Literature</a></li>
+	<li><a href="/support/productsupport">Product-Specific Downloads</a></li>
+	<li><a href="/support/techliterature">Other Technical Literature</a></li>
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/support/request">Contact Technical Support</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/support/rma">Request an RMA</a></h3>
+</div>
+
+</div>
+
+
+
+<div id="megamenu5" class="megamenu">
+
+<div class="column">
+	<h3><a href="/aboutus/">About Diamond Systems</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/aboutus/diamondadvantage.php">The Diamond Advantage</a></h3>
+<!--	<p class='menuspace'>&nbsp;</p> -->
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/articles">Markets & Applications</a></h3>
+	<ul>
+	<li><a href="/transportation">Transportation Systems</a></li>
+	<li><a href="/medical">Medical Equipment</a></li>
+	<li><a href="/energy">Energy Management</a></li>
+	<li><a href="/industrial">Industrial Automation</a></li>
+	<li><a href="/aerospace">Aerospace & Defense</a></li>
+	</ul>
+</div>
+
+<br style="clear: left" /> 
+
+<div class="column">
+	<h3><a href="/news/">News</a></h3>
+</div>
+
+<br style="clear: left" />
+
+<div class="column">
+	<h3><a href="/careers/">Career Opportunities</a></h3>
+</div>
+
+</div>
+
+
+
+<div id="megamenu6" class="megamenu">
+
+<div class="column">
+   <div class="column">
+	<h3><a href="/sales/">How to Order</a></h3>
+</div>
+
+<br style="clear: left" />
+	<div class="column">
+	<h3><a href="/sales/us">U.S. Sales Reps List</a></h3>
+</div>
+
+<br style="clear: left" />
+	<div class="column">
+	<h3><a href="/sales/worldwide">Worldwide Distributors List</a></h3>
+</div>
+
+<br style="clear: left" />
+	<div class="column">
+	<h3><a href="/request_info">Request Information</a></h3>
+</div>
+
+<br style="clear: left" />
+	<div class="column">
+	<h3><a href="/sales/terms.php">Terms &amp; Conditions</a></h3>
+</div>
+
+<br style="clear: left" />
+	<div class="column">
+	<h3><a href="/sales/Warranty.pdf">Warranty Statement</a></h3>
+</div>
+
+<br style="clear: left" /> 
+
+
+</div>
+
+</div>
+<div id="vmegamenu1" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">3.5" Form Factor</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jasper" ><b>Jasper</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jasper" >Rugged COM Express carrier board and SBC with 11th Gen Core i7 processor</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/venus" ><b>Venus</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/venus" >3.5 inch Core i7 7th Gen Rugged SBC with PCI/104-Express expansion</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/athenaiv" ><b>Athena IV</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/athenaiv" >COM-based PC/104 SBC with Data Acquisition</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helios" ><b>Helios</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helios" >PC/104 SBC with 800MHz Vortex86 CPU & Data Acquisition</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helix" ><b>Helix</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helix" >PC/104 SBC with 1GHz Vortex86DX3 CPU and data acquisition</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/samson" ><b>Samson</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/samson" >Low-cost, wide-temperature PC104 SBC with Bay Trail E3845/E3825 processor </a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/aries" ><b>Aries</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/aries" >PC/104-<i>Plus</i> SBC with Intel E3845 CPU & Data Acquisition</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/saturn" ><b>Saturn</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/saturn" >Rugged Apollo Lake x7-E3950 SBC with Data Acquisition and PCIe/104 Expansion</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCI/104-Express</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gemini" ><b>GEMINI</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gemini" >Rugged, I/O-Rich SBC Using COM Express Compact Type 6 CPU Modules</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">COM Express</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/zeta" ><b>Zeta</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/zeta" >Ultra-Small COM-Express SBC with Integrated Data Acquisition</a></h3></div></td></tr></table></div><div id="vmegamenu2" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Single Board Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/athenaiv" ><b>Athena IV</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/athenaiv" >COM-based PC/104 SBC with Data Acquisition</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helios" ><b>Helios</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/helios" >PC/104 SBC with 800MHz Vortex86 CPU & Data Acquisition</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">I/O Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32dx" ><b>Diamond-MM-32DX-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32dx" >16-bit Analog I/O PC/104 Module with Advanced Automatic Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32x" ><b>Diamond-MM-32X-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32x" >32-Channel Analog I/O PC/104 Module with Auto-Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rat" ><b>Diamond-MM-16R-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rat" >PC/104 16-Bit Analog I/O Module with Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616" ><b>Ruby-MM-1616A</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616" >PC/104 module with 16 16-Bit D/A outputs & 48 DIO</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gpiomm" ><b>GPIO-MM-XT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gpiomm" >PC/104 module with 48 line digital I/O & 10 counter/timers</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/opmm1616" ><b>Opal-MM-1616</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/opmm1616" >PC/104 Module with 16 optoisolated inputs & 16 relay outputs </a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmm" ><b>Onyx-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmm" >PC/104 module with 48-line digital I/O & 3 counter/timers</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmmdio" ><b>Onyx-MM-DIO</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmmdio" >PC/104 module with 48-line digital I/O</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/pearlmm" ><b>Pearl-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/pearlmm" >PC/104 module with 16 SPDT relay outputs</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/ir104" ><b>IR104-PBF</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/ir104" >PC/104 module with 20 optoisolated inputs & 20 relay outputs</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8pl" ><b>Emerald-MM-8PL-XT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8pl" >8-port RS-232/422/485 PC/104 Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm" ><b>Emerald-MM-4M</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm" >4 RS-232/422/485 port PC/104 Serial Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmmopto" ><b>Emerald-MM-Opto</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmmopto" >Quad Opto-Isolated RS-232/422/485 PC/104 Module with DIO</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon24000" ><b>Epsilon-24000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon24000" >Managed 16/26-Port Gigabit Ethernet Switch</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Power Supplies</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermm" ><b>Jupiter-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermm" >50 Watt DC/DC PC/104 Power Supply, Extended Temperature</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermmlp" ><b>Jupiter-MM-LP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermmlp" >25 Watt Low-Cost PC/104 DC/DC Power Supply, Extended Temp</a></h3></div></td></tr></table></div><div id="vmegamenu9" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Single Board Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/aries" ><b>Aries</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/aries" >PC/104-<i>Plus</i> SBC with Intel E3845 CPU & Data Acquisition</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">I/O Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rpat" ><b>Diamond-MM-16RP-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rpat" >PC/104 16-Bit Analog I/O Module with Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616ap" ><b>Ruby-MM-1616AP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616ap" >PC/104-<i>Plus</i> module with 16 16-Bit D/A outputs & 48 DIO</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8plus" ><b>Emerald-MM-8PLUS</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8plus" >8-Port PC/104-<i>Plus</i> Serial Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/janusmm4lp" ><b>Janus-MM-LP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/janusmm4lp" >Dual or Quad CAN Port Module with 16 DIO</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/mercatorii" ><b>Mercator II</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/mercatorii" >PC/104-<i>Plus</i> I/O Expansion Module with Quad Ethernet & Digital I/O</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Power Supplies</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupiter5000" ><b>Jupiter-MM-5000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupiter5000" >218 Watt DC/DC PC/104-Plus Power Supply, Extended Temperature</a></h3></div></td></tr></table></div><div id="vmegamenu10" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"></table></div><div id="vmegamenu11" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">I/O Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon12g2" ><b>Epsilon-12G2</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon12g2" >Managed 14-Port Gigabit Ethernet Switch</a></h3></div></td></tr></table></div><div id="vmegamenu13" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Single Board Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/herculesiii" ><b>Hercules III</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/herculesiii" >EBX SBC with 1.6GHz Intel Atom E680T CPU, Data Acquisition, & DC/DC Power Supply</a></h3></div></td></tr></table></div><div id="vmegamenu14" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Rugged Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/geode" ><b>GEODE-Jasper</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/geode" >Quick-Ship expandable rugged systems based on Intel Core i7 processors</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/geodeosb" ><b>GEODE-Osbourne</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/geodeosb" >Rugged expandable systems based on NVIDIA Jetson AX Orin with GMSL support</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecomjsp" ><b>SabreCom-JSP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecomjsp" >Scalable performance with generous I/O expansion capability</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecom" ><b>SabreCom-VNS</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecom" >Rugged Mission Computers with Core i7 processor</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecom300" ><b>SabreCom 300</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sabrecom300" >Rugged combined SBC + Ethernet switch</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Rugged Ethernet Switches</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sn24000" ><b>SabreNet-24000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sn24000" >Rugged Layer 3 managed Ethernet Switch with 24x 1G Cu + 4x 10G Cu/fiber ports</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sn12000" ><b>SabreNet-12000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/sn12000" >Rugged Layer 2&3 managed Ethernet switch with 12 1Gbe copper ports</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/raptorepsilon" ><b>Raptor-Epsilon</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/raptorepsilon" >Rugged 8-Port Gigabit Ethernet Switch</a></h3></div></td></tr></table></div><div id="vmegamenu15" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"></table></div><div id="vmegamenu16" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td><div class="column">
+	<h3><a href="/products/m2flashdisks" ><b>M.2 Flashdisks</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/m2flashdisks" >2230 / 2242 / 2280 SATA and NVMe mass storage</a></h3></div></td></tr><tr><td><div class="column">
+	<h3><a href="/products/msatafd" ><b>mSATA Flashdisks</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/msatafd" >mSATA MLC & SLC Flashdisk Solid-State Storage</a></h3></div></td></tr><tr><td><div class="column">
+	<h3><a href="/products/satadom" ><b>SATA-DOM Flashdisks</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/satadom" >SATA DOM MLC & SLC Solid-State Storage</a></h3></div></td></tr><tr><td><div class="column">
+	<h3><a href="/products/flashdisk" ><b>IDE Flashdisks</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/flashdisk" >IDE Solid-State Storage & Programming Board Accessory</a></h3></div></td></tr></table></div><div id="vmegamenu17" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Cables</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/cables" ><b>Cables</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/cables" >I/O Cables for Diamond's embedded computer boards</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/proto104" ><b>Proto-104</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/proto104" >PC/104 format prototype board </a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/stb104" ><b>STB-104</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/stb104" >PC/104 format screw terminal board</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/hddmount" ><b>ACC-HDDMOUNT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/hddmount" >PC/104 Hard disk drive mounting board for PC/104 stacks</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Adapters</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu18" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td><div class="column">
+	<h3><a href="/products/software" ><b>OS & Driver Software</b></a></h3></td></tr><tr><td><div class="column">
+	<h3><a href="/products/dscud" ><b>Universal Driver Software</b></a></h3></td></tr></table></div><div id="vmegamenu20" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32dx" ><b>Diamond-MM-32DX-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32dx" >16-bit Analog I/O PC/104 Module with Advanced Automatic Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32x" ><b>Diamond-MM-32X-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dmm32x" >32-Channel Analog I/O PC/104 Module with Auto-Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rat" ><b>Diamond-MM-16R-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rat" >PC/104 16-Bit Analog I/O Module with Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rpat" ><b>Diamond-MM-16RP-AT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/diamondmm16rpat" >PC/104 16-Bit Analog I/O Module with Autocalibration</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616" ><b>Ruby-MM-1616A</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616" >PC/104 module with 16 16-Bit D/A outputs & 48 DIO</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616ap" ><b>Ruby-MM-1616AP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/rubymm1616ap" >PC/104-<i>Plus</i> module with 16 16-Bit D/A outputs & 48 DIO</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe MiniCard</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpedaq0804" ><b>DS-MPE-DAQ0804</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpedaq0804" >Analog I/O PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu21" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gpiomm" ><b>GPIO-MM-XT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gpiomm" >PC/104 module with 48 line digital I/O & 10 counter/timers</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmm" ><b>Onyx-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmm" >PC/104 module with 48-line digital I/O & 3 counter/timers</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmmdio" ><b>Onyx-MM-DIO</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/onyxmmdio" >PC/104 module with 48-line digital I/O</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/opmm1616" ><b>Opal-MM-1616</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/opmm1616" >PC/104 Module with 16 optoisolated inputs & 16 relay outputs </a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/pearlmm" ><b>Pearl-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/pearlmm" >PC/104 module with 16 SPDT relay outputs</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/ir104" ><b>IR104-PBF</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/ir104" >PC/104 module with 20 optoisolated inputs & 20 relay outputs</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe MiniCard</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpegpio" ><b>DS-MPE-GPIO</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpegpio" >Digital I/O with FPGA PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu22" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8pl" ><b>Emerald-MM-8PL-XT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8pl" >8-port RS-232/422/485 PC/104 Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm" ><b>Emerald-MM-4M</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm" >4 RS-232/422/485 port PC/104 Serial Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmmopto" ><b>Emerald-MM-Opto</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmmopto" >Quad Opto-Isolated RS-232/422/485 PC/104 Module with DIO</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8plus" ><b>Emerald-MM-8PLUS</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8plus" >8-Port PC/104-<i>Plus</i> Serial Module</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCI/104-Express</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8el" ><b>Emerald-MM-8EL</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8el" >4/8-Port PCI/104-Express Serial Port Module</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe MiniCard</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4m" ><b>DS-MPE-SER4M</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4m" >4-Port High Speed Serial PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4opt" ><b>DS-MPE-SER4OPT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4opt" >4-Port Opto-Isolated Serial PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu23" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/mercatorii" ><b>Mercator II</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/mercatorii" >PC/104-<i>Plus</i> I/O Expansion Module with Quad Ethernet & Digital I/O</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe MiniCard</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpege210" ><b>DS-MPE-GE210</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpege210" >Gigabit Ethernet PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu24" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/janusmm4lp" ><b>Janus-MM-LP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/janusmm4lp" >Dual or Quad CAN Port Module with 16 DIO</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PCIe MiniCard</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpecan2l" ><b>DS-MPE-CAN2L</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpecan2l" >Dual CAN 2.0 PCIe MiniCard Module</a></h3></div></td></tr></table></div><div id="vmegamenu25" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">I/O Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpecan2l" ><b>DS-MPE-CAN2L</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpecan2l" >Dual CAN 2.0 PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpedaq0804" ><b>DS-MPE-DAQ0804</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpedaq0804" >Analog I/O PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpege210" ><b>DS-MPE-GE210</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpege210" >Gigabit Ethernet PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpegpio" ><b>DS-MPE-GPIO</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpegpio" >Digital I/O with FPGA PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4m" ><b>DS-MPE-SER4M</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4m" >4-Port High Speed Serial PCIe MiniCard Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4opt" ><b>DS-MPE-SER4OPT</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/dsmpeser4opt" >4-Port Opto-Isolated Serial PCIe MiniCard Module</a></h3></div></td></tr></table></div><div id="vmegamenu26" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Single Board Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gemini" ><b>GEMINI COM-Based SBC</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/gemini" >Rugged, I/O-Rich SBC and Carrier Board for COM Express Compact Type 6 CPU Modules</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">I/O Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8el" ><b>Emerald-MM-8EL</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/emeraldmm8el" >4/8-Port PCI/104-Express Serial Port Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" ><b>E104-MPE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/e104mpe" >PCI/104-Express Quad PCIe MiniCard Carrier</a></h3></div></td></tr></table></div><div id="vmegamenu27" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jmm7500" ><b>Jupiter-MM-7500</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jmm7500" >80W DC/DC Power Supply for Rugged Applications with MIL-STD Compliance</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermm" ><b>Jupiter-MM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermm" >50 Watt DC/DC PC/104 Power Supply, Extended Temperature</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermmlp" ><b>Jupiter-MM-LP</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupitermmlp" >25 Watt Low-Cost PC/104 DC/DC Power Supply, Extended Temp</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">PC/104-Plus</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupiter5000" ><b>Jupiter-MM-5000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jupiter5000" >218 Watt DC/DC PC/104-Plus Power Supply, Extended Temperature</a></h3></div></td></tr></table></div><div id="vmegamenu28" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"></table></div><div id="vmegamenu30" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">PC/104</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps8130" ><b>EPS-8130</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps8130" >Managed 8-Port Gigabit Ethernet Switch</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon24000" ><b>Epsilon-24000</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon24000" >Managed 16/26-Port Gigabit Ethernet Switch</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Small form factor</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12002l" ><b>EPS-12002L</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12002l" >12+2 port compact rugged L2/L3 managed 1G/10G Ethernet switch</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12000cm" ><b>EPS-12000-CM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12000cm" >Miniature L2/L3 Managed Ethernet Switch</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon12g2" ><b>Epsilon-12G2</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsilon12g2" >Managed 14-Port Gigabit Ethernet Switch</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps24g4x" ><b>EPS-24G4X</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps24g4x" >Managed 28-Port Gigabit Switch with 4 10G SFP+ Ports and IEEE-1588 Capability</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Ethernet Switch Modules</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx4" ><b>EPSM-10GX4</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx4" >Compact Managed 28-Port Rugged Gigabit Ethernet Switch Module with 4 10G ports and IEEE-1588 PTP Support</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx" ><b>EPSM-10GX</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx" >Ultra-Compact Managed 26-Port Gigabit Ethernet Switch Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm12g2f" ><b>EPSM-12G2F</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm12g2f" >Low-cost 26-port gigabit managed Ethernet switch module with embedded software</a></h3></div></td></tr></table></div><div id="vmegamenu31" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">Single Board Computers</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/zeta" ><b>Zeta</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/zeta" >Ultra-Small COM-Express SBC with Integrated Data Acquisition</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Ethernet Switches</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx" ><b>EPSM-10GX</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/epsm10gx" >Ultra-Compact Managed 26-Port Gigabit Ethernet Switch Module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12000cm" ><b>EPS-12000-CM</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/eps12000cm" >Miniature L2/L3 Managed Ethernet Switch</a></h3></div></td></tr></table></div><div id="vmegamenu32" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td colspan="4"><div class="vsubhead">AGX Orin Solutions</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/osbourneer" ><b>Osbourne-ER</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/osbourneer" >Rugged Nvidia Jetson AGX Orin carrier and solution</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/osbourne" ><b>OSBOURNE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/osbourne" >AGX Orin Carrier Board and Development Kit</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jbosbourne" ><b>JetBox Osbourne</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jbosbourne" >NVIDIA Jetson AGX Orin Industrial Computer System</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">ORIN Nano / NX</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jackson" ><b>Jackson</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jackson" >Orin Nano & Orin NX Carrier and Development Kit</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jacksoner" ><b>Jackson-ER</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jacksoner" >Rugged Orin NX / Orin Nano carrier board</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">Nano and NX Solutions</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/floyd" ><b>FLOYD</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/floyd" >Carrier board for Jetson Nano, Xavier NX, and TX2 NX</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxfloyd" ><b>JETBOX-FLOYD</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxfloyd" >NVIDIA Jetson Nano / NX AI-at-the-edge computing platform</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/floydsc" ><b>Floyd-SC</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/floydsc" >Compact Expandable Carrier Board for Nvidia&#174; Jetson&trade; Nano / NX / TX2 NX GPU</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jbfloydsc" ><b>Jetbox Floyd-SC</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jbfloydsc" >Compact system for Jetson Nano, TX2 NX, and Xavier NX modules</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxnano" ><b>JETBOX-nano&#8482;</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxnano" >Rugged, durable enclosure for NVIDIA Jetson Nano development kit</a></h3></div></td></tr><tr><td colspan="4"><div class="vsubhead">AGX Xavier Module Solutions</div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/elton" ><b>ELTON</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/elton" >Rugged Nvidia Jetson AGX Xavier carrier board with PCIe/104 expansion</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/midielton" ><b>MIDI-ELTON</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/midielton" >NVIDIA Jetson AGX Xavier high performance AI-at-the-edge computing platform</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/stevie" ><b>STEVIE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/stevie" >Low cost, feature-rich carrier for NVIDIA Jetson AGX Xavier module</a></h3></div></td></tr><tr><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxstevie" ><b>JETBOX-STEVIE</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/jetboxstevie" >Compact NVIDIA Jetson AGX Xavier AI-at-the-edge computing system</a></h3></div></td></tr></table></div><div id="vmegamenu33" class="vmegamenu"><table border="0" cellpadding="0" cellspacing="0"><tr><td><div class="column">
+	<h3><a href="/products/saturn" ><b>Saturn</b></a></h3></td><td width="15px"></td><td><div class="column">
+	<h3><a href="/products/saturn" >Rugged Apollo Lake x7-E3950 SBC with Data Acquisition and PCIe/104 Expansion</a></h3></div></td></tr></table></div><a name="top"></a><!-- main menu begins --><center class='datasheetpages'><table border='0'  cellpadding='0' cellspacing='0' bgcolor='white' width='600px'><tr><td><table border=0 cellpadding=0 cellspacing=0 width='100%' id='toptab'><tr><td><table border=0 cellpadding=0 cellspacing=0 width=100%><tr valign=bottom ><td align=left><table border=0 cellpadding=0 cellspacing=0 width='100%'>
+        <tr><td><table border='0' cellpadding='0' cellspacing='0' width='100%'>
+          <tr>
+          <td><!--<table border='0' cellpadding='0' cellspacing='5' width='455px'>
+          <tr><td align='center' style='font-weight:bold;color:red;font-size: 16px;font-style: italic;'><span style='color:white;font-size: 15px;'></span> The Perfect Fit for Imperfect Environments</td></tr>
+          <tr><td align='center' style='color:white;font-size: 12px;font-weight:bold;'>Optimizing features, size &amp; cost </td></tr>
+          </table>--></td>
+          <td width='95px'><!--<table border='0' cellpadding='0' cellspacing='0' width='95px' class='mainmenubar'>
+           <tr>
+           <td class='mainMenuLink'><a class='mainMenuLink'
+            style='font-size: 13px; color: #FFFFFF; font-weight: bold; padding-left: 8px' href='https://www.diamondsystems.com/request_info'>Contact Us</a></td>
+            </tr>
+          </table>--></td>
+            <td width='100%' align='right'><table border=0 width='100%'  cellpadding=0 cellspacing=0><tr>
+            <td align='right'  width='100%'><!--<table border=0 cellpadding=1 cellspacing=0>
+            <form name='searchform' method=get action="https://www.diamondsystems.com/search">
+            <tr>
+                <td><input name="searchtext" id="searchtext"class="searchBox" size=20
+                 onclick='document.getElementById("searchtext").style.backgroundImage = "url(../images/navbar/searchbkbl.jpg)";'></td>
+                <td><input type="image" src="/images/navbar/searchs.gif" alt="Search" border=0>&nbsp;&nbsp;</td>
+            </tr>
+            </form>
+            </table>--></td></tr></table></td></tr>
+            <tr height='5px'><td colspan='3'></td></tr>
+                <tr>
+
+        <td colspan='3' width='100%' align=left><!--<table border='0' width='100%' cellpadding=0 cellspacing=0><tr class='mainmenubar'>
+        </tr></table>--></td>
+
+    </tr></table></td>
+                </tr></table></td>
+            <td class="homebanner" align=right><!--<table bgcolor="#7030A0" border=0 cellpadding=0 cellspacing=0>
+            <tr valign=bottom>
+                <td width=2><img src="/images/pix.gif" width=1 height=80></td>
+
+                <td><table border=0 cellpadding=0 cellspacing=0>
+
+                    <tr class="auxMenu">
+
+                        <td valign=top align=left><img src="/images/navbar/corner_ul.gif" width=3 height=4></td>
+                        <td><img src="/images/pix.gif" width=1 height=80></td>
+
+                        <td align=right><table border=0 cellpadding=2 cellspacing=0>
+                            <tr><td align=right><span class="auxMenu">you are not logged in:<br>
+<a href="http://www.diamondsystems.com/login" class="auxMenuLink"><strong>login</strong></a> | <a href="http://www.diamondsystems.com/signup" class="auxMenuLink"><strong>signup</strong></a><br><a href="http://www.diamondsystems.com/lostpassword" class="auxMenuLink"><strong>lost password?</strong></a></span></td></tr>
+                        </table></td>
+
+                        <td><img src="/images/pix.gif" width=1 height=80></td>
+                        <td valign=top align=right><img src="/images/navbar/corner_ur.gif" width=3 height=4></td>
+
+                    </tr>
+
+                </table></td>
+            </tr>
+            </table>--></td>
+
+        </tr>
+
+    </table></td>
+</tr>
+
+<!--<tr>
+    <td><img src="/images/pix.gif" width=1 height=1></td>
+</tr>--></table><table border='0' cellpadding='0' cellspacing='0' id='container'><tr><td>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr><td valign='top'>
+<!--<table border='0' cellpadding='0' cellspacing='0' width='165px'><tr><td>
+    <div id='tabset1' class='tabset'>
+
+    <ul class='tabnavs'>
+    <li class='tabnava' valign='bottom'><a href='#one'>By<br>Function</a></li>
+    <li class='tabnavb'><a href='#two'>By Form<br>Factor</a></li>
+    </ul>
+
+    <div id='one' class='tabpane activePane'>
+    <table border='0' cellspacing='0' cellpadding='0'>
+<tr><td id='vmegaanchor0'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor0").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor0").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor0").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor0").style.cursor = "auto";'  onclick='window.location="/products/nvidiasolutions.php";'          align='left'  nowrap    class="vmenu"><a href='/products/nvidiasolutions.php'>NVIDIA&#8482; Solutions</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor1'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor1").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor1").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor1").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor1").style.cursor = "auto";'  onclick='window.location="/products/ethernetsw";'          align='left'  nowrap    class="vmenu"><a href='/products/ethernetsw'>Ethernet Switches</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor2'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor2").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor2").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor2").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor2").style.cursor = "auto";'  onclick='window.location="/products/sbcs.php";'          align='left'  nowrap    class="vmenu"><a href='/products/sbcs.php'>Single-Board Computers</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor3'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor3").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor3").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor3").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor3").style.cursor = "auto";'  onclick='window.location="/products/analog.php";'          align='left'  nowrap    class="vmenu"><a href='/products/analog.php'>Analog I/O</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor4'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor4").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor4").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor4").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor4").style.cursor = "auto";'  onclick='window.location="/products/digital.php";'          align='left'  nowrap    class="vmenu"><a href='/products/digital.php'>Digital I/O</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor5'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor5").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor5").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor5").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor5").style.cursor = "auto";'  onclick='window.location="/products/communications.php";'          align='left'  nowrap    class="vmenu"><a href='/products/communications.php'>Serial I/O</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor6'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor6").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor6").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor6").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor6").style.cursor = "auto";'  onclick='window.location="/products/ethernetio.php";'          align='left'  nowrap    class="vmenu"><a href='/products/ethernetio.php'>Ethernet I/O</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor7'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor7").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor7").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor7").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor7").style.cursor = "auto";'  onclick='window.location="/products/canio.php";'          align='left'  nowrap    class="vmenu"><a href='/products/canio.php'>CAN I/O</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor8'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor8").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor8").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor8").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor8").style.cursor = "auto";'  onclick='window.location="/products/power.php";'          align='left'  nowrap    class="vmenu"><a href='/products/power.php'>Power Supplies</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor9'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor9").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor9").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor9").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor9").style.cursor = "auto";'  onclick='window.location="/products/ruggedsystems";'          align='left'  nowrap    class="vmenu"><a href='/products/ruggedsystems'>Rugged Systems</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor10'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor10").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor10").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor10").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor10").style.cursor = "auto";'  onclick='window.location="/products/enclosures.php";'          align='left'  nowrap    class="vmenu"><a href='/products/enclosures.php'>Enclosures</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor11'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor11").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor11").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor11").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor11").style.cursor = "auto";'  onclick='window.location="/products/storage.php";'          align='left'  nowrap    class="vmenu"><a href='/products/storage.php'>Mass Storage</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor12'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor12").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor12").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor12").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor12").style.cursor = "auto";'  onclick='window.location="/products/accessories.php";'          align='left'  nowrap    class="vmenu"><a href='/products/accessories.php'>Accessories</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor13'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor13").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor13").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor13").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor13").style.cursor = "auto";'  onclick='window.location="/products/software";'          align='left'  nowrap    class="vmenu"><a href='/products/software'>Software</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor14'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor14").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor14").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor14").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor14").style.cursor = "auto";'  onclick='window.location="/services/customization";'          align='left'  nowrap    class="vmenu"><a href='/services/customization'>Customization</a></td></tr></table></td></tr></table>
+    </div>
+
+    <div id='two' class='tabpane'>
+    <table border='0' cellspacing='0' cellpadding='0'>
+<tr><td id='vmegaanchor15'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor15").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor15").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor15").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor15").style.cursor = "auto";'  onclick='window.location="/pc104";'          align='left'  nowrap    class="vmenu"><a href='/pc104'>PC/104</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor16'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor16").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor16").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor16").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor16").style.cursor = "auto";'  onclick='window.location="/pc104";'          align='left'  nowrap    class="vmenu"><a href='/pc104'>PC/104-<i>Plus</i></a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor17'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor17").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor17").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor17").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor17").style.cursor = "auto";'  onclick='window.location="/pc104";'          align='left'  nowrap    class="vmenu"><a href='/pc104'>PCI/104-Express</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor18'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor18").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor18").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor18").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor18").style.cursor = "auto";'  onclick='window.location="/products/saturn";'          align='left'  nowrap    class="vmenu"><a href='/products/saturn'>PCIe/104</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor19'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor19").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor19").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor19").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor19").style.cursor = "auto";'  onclick='window.location="/products/herculesiii";'          align='left'  nowrap    class="vmenu"><a href='/products/herculesiii'>EBX</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor20'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor20").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor20").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor20").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor20").style.cursor = "auto";'  onclick='window.location="/products/vega";'          align='left'  nowrap    class="vmenu"><a href='/products/vega'>COM Express</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor21'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor21").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor21").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor21").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor21").style.cursor = "auto";'  onclick='window.location="/products/zeta";'          align='left'  nowrap    class="vmenu"><a href='/products/zeta'>COM Express Mini</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor22'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor22").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor22").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor22").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor22").style.cursor = "auto";'  onclick='window.location="/products/minicards.php";'          align='left'  nowrap    class="vmenu"><a href='/products/minicards.php'>PCIe MiniCard</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor23'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor23").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor23").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor23").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor23").style.cursor = "auto";'  onclick='window.location="/aboutus/emx.php";'          align='left'  nowrap    class="vmenu"><a href='/aboutus/emx.php'>EMX</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor24'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor24").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor24").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor24").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor24").style.cursor = "auto";'  onclick='window.location="/http://www.diamondsystems.com/featurepak.php";'          align='left'  nowrap    class="vmenu"><a href='/http://www.diamondsystems.com/featurepak.php'>FeaturePak</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor25'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor25").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor25").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor25").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor25").style.cursor = "auto";'  onclick='window.location="/products/ethernetsw";'          align='left'  nowrap    class="vmenu"><a href='/products/ethernetsw'>Ethernet Switches</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor26'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor26").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor26").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor26").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor26").style.cursor = "auto";'  onclick='window.location="/products/ruggedsystems";'          align='left'  nowrap    class="vmenu"><a href='/products/ruggedsystems'>Rugged Systems</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor27'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor27").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor27").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor27").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor27").style.cursor = "auto";'  onclick='window.location="/products/enclosures.php";'          align='left'  nowrap    class="vmenu"><a href='/products/enclosures.php'>Enclosures</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor28'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor28").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor28").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor28").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor28").style.cursor = "auto";'  onclick='window.location="/products/storage.php";'          align='left'  nowrap    class="vmenu"><a href='/products/storage.php'>Mass Storage</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor29'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor29").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor29").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor29").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor29").style.cursor = "auto";'  onclick='window.location="/products/accessories.php";'          align='left'  nowrap    class="vmenu"><a href='/products/accessories.php'>Accessories</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor30'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor30").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor30").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor30").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor30").style.cursor = "auto";'  onclick='window.location="/products/software";'          align='left'  nowrap    class="vmenu"><a href='/products/software'>Software</a></td></tr></table></td></tr>
+<tr><td id='vmegaanchor31'  height='20px'
+
+             align='left' width='165px' class="vmenutop" ><table  border='0' cellpadding='0' cellspacing=0 width='100%' ><tr height='20px'><td width='100%' valign='middle' 
+            onmouseover='document.getElementById("vmegaanchor31").style.backgroundImage =
+            "url(/images/navbar/vmenubuttonover.jpg)";
+              document.getElementById("vmegaanchor31").style.cursor = "pointer";'
+             onmouseout='document.getElementById("vmegaanchor31").style.backgroundImage =
+              "url(/images/navbar/vmenubutton.jpg)";
+              document.getElementById("vmegaanchor31").style.cursor = "auto";'  onclick='window.location="/services/customization";'          align='left'  nowrap    class="vmenu"><a href='/services/customization'>Customization</a></td></tr></table></td></tr>
+
+
+
+</table>
+    </div>
+    </div><!--<tr><td align=center class='graybox'><b>Whitepapers</b></td></tr>-->
+<!--<tr><td><table cellpadding='0' cellspacing='10' class='lowerbox' width='100%'>-->
+<!--<tr><td>-->
+<!--  <p style="font-size:11px;"><a href='/support/whitepaperreq.php' >Designing Embedded Computers for Rugged Applications</a>-->
+<!-- </p>-->
+<!--</td></tr>-->
+<!--</table></td></tr>-->
+<!--<tr height="12px"><td></td></tr>-->
+<!--<tr><td align=center class="graybox"><b>Application Articles</b></td></tr>-->
+<!--<tr><td><table cellpadding='0' cellspacing='10' class="lowerbox" width="100%">-->
+<!--<tr><td>-->
+<!--   <p style="font-size:11px;"><a href="http://www.diamondsystems.com/articles/37">Building Automation</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/38">Paper Processing</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/34">Train Controller</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/32">Wind Instrument</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/33">Lung Simulator</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/31">Gas Analyzer</a>-->
+<!--      <br><a href="http://www.diamondsystems.com/articles/27">Weapon System</a></p>-->
+<!--<p style="font-size: 11px;">Visit our <a  href="http://www.diamondsystems.com/articles" target="new">Markets & Applications</a> page.</p>-->
+<!--</td></tr>-->
+<!--</table></td></tr>-->
+<!--<tr height="12px"><td></td></tr>-->
+<!--<tr><td>-->
+<!--<form method="post" action="http://oi.vresp.com?fid=cd8cbe402f" target="vr_optin_popup" onsubmit="window.open( 'http://www.verticalresponse.com', 'vr_optin_popup', 'scrollbars=yes,width=600,height=450' ); return true;" >-->
+<!---->
+<!---->
+<!---->
+<!--  <div style="font-family: verdana; font-size: 11px; width: 200px; padding: 10px; border: 1px solid #000000; background: #dddddd">-->
+<!---->
+<!--    <strong><span style="color: #333333;">Sign Up for our eNewsletter Today!</span></strong><br/><br/>-->
+<!---->
+<!--    <label style="color: #333333;">Email Address:</label><br/>-->
+<!---->
+<!--    <input name="email_address" size="15" style="margin-top: 5px; border: 1px solid #999; padding: 3px;"/><br/>-->
+<!---->
+<!--    <input type="submit" value="Submit" style="margin-top: 5px; border: 1px solid #999; padding: 3px;"/><br/>-->
+<!---->
+<!---->
+<!--  </div>-->
+<!---->
+<!--</form>-->
+<!--</td></tr>-->
+</table>
+
+</td><td width='15px'></td><td valign='top'>
+<table border='0' cellpadding='0' cellspacing='0' width='100%'><tr><td valign='top'>
+<!-- end of main menu -->
+
+<!--<br><center><div><font color=red>Our database is currently down for repairs, we apologize for any inconvenience this may cause.</font></div></center><Br>-->
+
+<script language='JavaScript'>jkmegamenu.definemenu("vmegaanchor0", "vmegamenu32", "mouseover");jkmegamenu.definemenu("vmegaanchor1", "vmegamenu30", "mouseover");jkmegamenu.definemenu("vmegaanchor2", "vmegamenu1", "mouseover");jkmegamenu.definemenu("vmegaanchor3", "vmegamenu20", "mouseover");jkmegamenu.definemenu("vmegaanchor4", "vmegamenu21", "mouseover");jkmegamenu.definemenu("vmegaanchor5", "vmegamenu22", "mouseover");jkmegamenu.definemenu("vmegaanchor6", "vmegamenu23", "mouseover");jkmegamenu.definemenu("vmegaanchor7", "vmegamenu24", "mouseover");jkmegamenu.definemenu("vmegaanchor8", "vmegamenu27", "mouseover");jkmegamenu.definemenu("vmegaanchor9", "vmegamenu14", "mouseover");jkmegamenu.definemenu("vmegaanchor10", "vmegamenu15", "mouseover");jkmegamenu.definemenu("vmegaanchor11", "vmegamenu16", "mouseover");jkmegamenu.definemenu("vmegaanchor12", "vmegamenu17", "mouseover");jkmegamenu.definemenu("vmegaanchor13", "vmegamenu18", "mouseover");jkmegamenu.definemenu("vmegaanchor15", "vmegamenu2", "mouseover");jkmegamenu.definemenu("vmegaanchor16", "vmegamenu9", "mouseover");jkmegamenu.definemenu("vmegaanchor17", "vmegamenu26", "mouseover");jkmegamenu.definemenu("vmegaanchor18", "vmegamenu33", "mouseover");jkmegamenu.definemenu("vmegaanchor19", "vmegamenu13", "mouseover");jkmegamenu.definemenu("vmegaanchor20", "vmegamenu11", "mouseover");jkmegamenu.definemenu("vmegaanchor21", "vmegamenu31", "mouseover");jkmegamenu.definemenu("vmegaanchor22", "vmegamenu25", "mouseover");jkmegamenu.definemenu("vmegaanchor23", "vmegamenu10", "mouseover");jkmegamenu.definemenu("vmegaanchor24", "vmegamenu28", "mouseover");jkmegamenu.definemenu("vmegaanchor25", "vmegamenu30", "mouseover");jkmegamenu.definemenu("vmegaanchor26", "vmegamenu14", "mouseover");jkmegamenu.definemenu("vmegaanchor27", "vmegamenu15", "mouseover");jkmegamenu.definemenu("vmegaanchor28", "vmegamenu16", "mouseover");jkmegamenu.definemenu("vmegaanchor29", "vmegamenu17", "mouseover");jkmegamenu.definemenu("vmegaanchor30", "vmegamenu18", "mouseover");</script></td></tr></table></td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+               <table border=0 cellpadding=0 cellspacing=0 width='100%'><table border=0 cellpadding=0 cellspacing=0 width=100%>
+                 <tr><td style='background-image:url("/images/navbar/datasheetbanner.jpg");
+               background-repeat:no-repeat;
+                background-position:left top;'
+                 ><table border=0 cellpadding=0 cellspacing=0 width=100%>
+                 <tr height='20px'><td></td></tr>
+                 <tr><td valign='top'>
+                  <table border=0 cellpadding=0 cellspacing=0 width='100%'>
+                    <tr>
+                    <td width='10px'></td><td colspan='3' ><span class='productName' style='font-weight:bold'>HELIOS</span>&nbsp;&nbsp;<span class='description' style='font-weight:bold'>PC/104 Low-Power SBC with Vortex86DX CPU and Data Acquisition</span></td></tr></table></td>
+                  <td valign="top"> <table border=0 cellpadding=0 cellspacing=0 width=100%><tr><td valign='top' align='right'><img src='/images/navbar/datasheetlogo.gif' width='200px'></td>
+                 <td width='20px'></td></tr></table></td></tr><tr><td>&nbsp;&nbsp;&nbsp;<img src='../images/pc104 logo jdm 120.png' alt='PC104' title='PC104' width='120px'> &nbsp;&nbsp;&nbsp;<img src='../images/2-in-1 50.gif' alt='2 in 1' title='2 in 1' width='50px'> </td></tr><tr><td align='right' style='font-size:14px'>     </td>
+                 <td width='20px'></td></tr> </table></td></tr></table></td></tr></table></td></tr></table></td></tr><tr><td><table border='0' cellpadding='0' cellspacing='0'><tr><td valign='top' width='400px'> <table border='0' cellpadding='0' cellspacing='10'><tr><td align='center'><img src='../images/products/helios/helios av angle fd 300h.jpg'  border='0'
+                          alt='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' title='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' ></td></tr><tr height='12px'><td></td></tr><tr><td class='normaltext' align='center'><b>Helios with heat sink and flashdisk installed</b></td></tr><tr height='12px'><td></td></tr><tr><td align='center'><img src='../images/products/helios/hlv800-256dv hsk 300h.jpg'  border='0'
+                          alt='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' title='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' ></td></tr><tr height='12px'><td></td></tr><tr><td class='normaltext' align='center'><b>Helios DV model with DIO</b></td></tr></table></td><td valign='top' width='250px'>
+<table border=0  width=100%  cellpadding=0 cellspacing=0>
+<tr>
+    <td><table border=0 width=100% cellpadding=0 cellspacing=0>
+    <tr>
+        <td style='background-color: #4260c2;color: white;font-size:15px;padding-top:3px;padding-bottom:3px;' valign=middle align=center>FEATURES</td>
+    </tr>
+    </table></td>
+</tr>
+<tr>
+    <td><table border=0 width=100% cellpadding=2 cellspacing=0>
+<tr height="18px" valign=top bgcolor=white>
+<td colspan='2' style='font-size:15px;font-weight:bold;vertical-align:bottom;padding-left:10px'>CPU Features
+</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Vortex86DX CPU at 1GHz or 800MHz</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>256MB of soldered DRAM</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>On-board 2MB bootable flash drive with FreeDOS installed</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>4 USB 2.0 ports</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>2 RS-232, 2 RS-232/422/485 serial ports</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>10/100Base-T Ethernet</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>1 IDE UDMA-100 port</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Flashdisk interface</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>CRT and LVDS LCD</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>PC/104 ISA expansion bus</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>-40&deg;C to +85&deg;C operation</td>
+</tr>
+<tr height="18px" valign=top bgcolor=white>
+<td colspan='2' style='font-size:15px;font-weight:bold;vertical-align:bottom;padding-left:10px'>Data Acquisition
+</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>16 wide-range analog inputs, +/-10V down to 0-1.25V</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>16-bit A/D resolution</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Single-channel, multi-channel round robin, and multi-channel scan sampling</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>250KHz maximum sample rate</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>2048 A/D sample FIFO with programmable threshold</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Interrupt-based A/D data transfer with FIFO support</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Programmable input ranges</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>4 wide-range analog outputs with simultaneous update capability</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>12-bit D/A resolution</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Multi-range autocalibration for highest accuracy</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>40 digital I/O lines with programmable direction</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>16-bit and 24-bit counter/timers</td>
+</tr>
+<tr  valign=top bgcolor=white>
+<td colspan='2' style='font-size:12px;padding-left:10px'>Field-upgradeable logic circuit for performance upgrades or custom designs</td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td></tr><tr height='12px'><td></td></tr><tr><td colspan='2'></td></tr><tr height='12px'><td></td></tr></table></td></tr><tr><td><p class="normaltext"><p class="normaltext">Helios is a low power, mid-range performance PC/104 form factor single board computer combining a highly integrated CPU with Diamond Systems renowned high-accuracy data acquisition circuitry on a single board, reducing size and cost while increasing ruggedness. Helios utilizes a Vortex integrated single chip CPU operating at 800MHz or 1GHz, and 256MB of DRAM soldered on-board.</p>
+<p class="normaltext">Helios incorporates advanced features such as four USB 2.0 ports, an IDE hard drive interface, mounting capability for a solid state flashdisk up to 4GB, and CRT/LVDS LCD graphics. Helios also provides a 10/100Base-T Ethernet interface, two RS-232 serial ports, two RS-232/422/485 serial ports and legacy keyboard and mouse interfaces.</p>
+<p class="normaltext">Helios includes an on-board 2MB bootable flash drive with FreeDOS installed. This flash drive offers additional cost savings for DOS applications, since no additional storage medium is required. It also enables you to quickly verify Helios's operation. Just connect keyboard, monitor, and power, and Helios boots up to DOS so you can verify proper working condition as well as test the various features on the single board computer.</p>
+<p class="normaltext">Helios is extremely rugged, featuring on-board soldered DRAM and -40&deg;C to +85&deg;C fan-less operation. Optional hardwired jumpers and latching connectors are available for increased resistance to shock and vibration. Conformal coating is available as an extra cost option.</p></p>
+<p>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">System Block Diagram</span></td>
+</tr>
+</table>
+</p>
+<p><table border='0' cellpadding='0' cellspacing='0' width='100%'><tr><td align='left'><table border='0' cellpadding='0' cellspacing='10'><tr><td align='center'><img src='../images/products/helios/helios blk diagram 650.gif'  border='0'
+                          alt='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' title='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' ></td></tr></table></td></tr></table></p>
+<p>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">Cable kit for Helios</span></td>
+</tr>
+</table>
+</p>
+<p class="normaltext">The Helios cable kit includes cables for Helios input and output. Many cables are also available individually.</p><br>
+                  <table  cellpadding=0 cellspacing=0 border=0>
+                  <tr><td align=center><img src="../images/products/helios/helioscablekit.jpg" alt="Helios Cable Kit" border=0  width="100%" > </td></tr></table>
+                 <br><p class="normaltext"> C-HLV-KIT includes the following cables:</p>
+                 <table border=0   bgcolor="FFFFFF" cellpadding=4 cellspacing=1 style="width: 100%">
+                 <tr>
+                 <td align=center class="purple_bg"><span class="simpleTableHeading">No.</span></td>
+                  <td align=center class="purple_bg"><span class="simpleTableHeading">Qty</span></td>
+                  <td align=center class="purple_bg"><span class="simpleTableHeading">Cable</span></td>
+                   <td align=center class="purple_bg"><span class="simpleTableHeading">Description</span></td>
+                   <td align=center class="purple_bg"><span class="simpleTableHeading">Drawing</span></td>
+                  </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981004</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">IDE, 44 conductor 2mm ribbon cable</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981004_A.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">2</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981006</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Output power cable</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981006_A1.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">3</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981009</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Power I/O cable</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981009_B_Cable100mil1x9CrmpPowerInput.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">4</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">2</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981082</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Dual USB 2.0 type A</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981082_B 2mm2x5Crimp-Usbx2.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">5</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981083</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Keyboard/Mouse, 2mm 2x4 crimp to 2x Mini-DIN-6</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981083_A 2mm2x5Crimp-Ps2x2.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981084</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">VGA, 2x5 2mm latching to DD15F</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981084_A.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">7</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981161</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">RJ45PNL-CRIMP2x5 2mm, 12"</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981161_C RJ45_Pnl-Crimp2X5 2MM.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">8</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981163</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">CRIMP50xIDC50FxIDC50F, 21 0.1"x2MMx2MM Data Acquisition</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981163_B Crimp2x25-IDC50F 2MM-IDC50F 2MM.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">9</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981164</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Cable, IDC20F to IDC20F, 2mm pitch, 12" length</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981164_A IDC20F 2MM-IDC20F 2MM.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">10</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981166</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">IDC40F 2mm-DB9Mx4, 12" Serial Ports 1-4</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981166_A IDC40F 2MM-DB9Mx4.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">11</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981169	</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">Ribbon cable for GPIO, A/D, and misc</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981169_A_Cable2mm2x5Crmp-2mm2x5Idc.pdf' target='_blank'>Show</a></span></td>
+                          </tr><tr>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">12</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">1</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">6981180</span></td>
+                          <td bgcolor="#FFFFFF" align=left><span class="simpleTableItem">External Battery</span></td>
+                          <td bgcolor="#FFFFFF" align=center><span class="simpleTableItem"><a href='../images/products/cables/6981180_A Cable External Bat.pdf' target='_blank'>Show</a></span></td>
+                          </tr> </table>
+<p>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">Helios Development Kits</span></td>
+</tr>
+</table>
+</p>
+<p class="normaltext"><p class="normaltext">A Helios System Development Kit (DK-HLV800A-01) is available with all the components you need to get started on your embedded design project. The kit contains a Helios 800MHz SBC with 256MB of RAM and integrated data acquisition, 128MB flashdisk module with a bootable Linux image installed, cable kit, and software CD.</p>
+<p class="normaltext">A software development kit for Linux is also available. The <a href="/products/linuxdevkit">Helios Linux Kit</a> (SDK-HLV-LNX) contains a 256MB flashdisk with a bootable linux image pre-loaded, a software CD with the linux tool chain and a backup image, and documentation.</p></p>
+<p>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">Integrated Data Acquisition</span></td>
+</tr>
+</table>
+</p>
+<p class="normaltext"><p class="normaltext">Helios includes a complete autocalibrating jumperless analog and digital I/O circuit similar to our top-of-the-line PC/104 analog I/O board. It contains 16 analog inputs with 16-bit resolution and 250KHz sample rate, backed by a 2048 sample FIFO with programmable threshold. Programmable input ranges from a wide-range +/-10V down to 0-1.25V are provided. The analog circuitry also includes 4 D/A channels with 12-bit resolution and jumperless output range selection and simultaneous update capability. On the digital side, Helios provides 40 digital I/O lines with programmable direction, as well as two counter/timers for A/D sample rate control, pulse counting, frequency generation, or other applications. Its advanced control logic has more features and flexibility to fit almost any application, such as internal/external A/D clock source, scan and single-sample modes, and our exclusive programmable FIFO threshold that lets you tune the board's performance to your application. The data acquisition circuit is fully supported by our Universal Driver software for a wide range of operating systems.</p></p><p><table border='0' cellpadding='0' cellspacing='0' width='100%'><tr><td align='left'><table border='0' cellpadding='0' cellspacing='10'><tr><td align='center'><img src='../images/products/helios/Helios DAQ block diagram.gif'  border='0'
+                          alt='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' title='Helios: Processor Modules, Rugged, wide-temperature SBCs in PC/104, PC/104-<i>Plus</i>, EPIC, EBX, and other compact form-factors., PC/104' ></td></tr></table></td></tr></table></p>
+<p style='clear: both;'>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">Specifications</span></td>
+</tr>
+</table>
+</p>
+   <div id="orderfrm">
+<p>
+<a name="quote"></a>
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td><img src="/images/diamond_bullet_big.gif"></td>
+    <td><span class="sectionHeading">Models and Accessories</span></td>
+</tr>
+</table>
+</p>
+
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td width=20>&nbsp;</td>
+<td>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td colspan=5>
+
+    	<table height=100% width=100% border=0 cellpadding=0 cellspacing=0><tr>
+        <td class="purple_bg" valign=top align=left><img src="/images/navbar/corner_ul.gif"></td>
+        <td class="purple_bg"><span class="orderFormHeading">Helios</span></td>
+
+        <td class="purple_bg" valign=top align=right><img src="/images/navbar/corner_ur.gif"></td>
+
+    	</tr>
+		</table>
+    </td>
+
+</tr>
+<tr>
+    <td colspan=3>
+    <table border=0 width=100% height=100% cellpadding=2 cellspacing=0>
+        <tr>
+        <td bgcolor="#EEEEEE" align=center>
+        	<span class="orderFormColumn">Available Models:
+        	</span>
+        </td>
+        </tr>
+    </table>
+    </td>
+
+    <!--<td >
+    <table border=0 width=100% height=100% cellpadding=2 cellspacing=0>
+        <tr>
+        <td bgcolor="#EEEEEE" align=center>
+        	<span class="orderFormColumn">Available quantity:
+        	</span>
+        </td>
+        </tr>
+    </table>
+    </td>-->
+
+</tr><tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName">HLV800-256AV</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios SBC, 800MHz Vortex86DX, 256MB RAM, full data acquisition, VGA/LCD video</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc">Available</span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">0</span></td>
+        </tr></table></td>-->
+
+                    <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                        <td valign=middle><a href='https://shop.diamondsystems.com/shop/hlv800-256av' target='_blank'>Buy Now</a></td>
+                    </tr></table></td>
+            
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName">HLV800-256DV</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios SBC, 800MHz Vortex86DX, 256MB RAM, digital I/O, VGA/LCD video</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc">Available</span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">29</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName">HLV1000-256AV</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios SBC, 1GHz Vortex86DX, 256MB RAM, full data acquisition, VGA/LCD video</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc">Available</span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">0</span></td>
+        </tr></table></td>-->
+
+                    <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                        <td valign=middle><a href='https://shop.diamondsystems.com/shop/hlv1000-256av' target='_blank'>Buy Now</a></td>
+                    </tr></table></td>
+            
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName">HLV1000-256DV</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios SBC, 1GHz Vortex86DX, 256MB RAM, digital I/O, VGA/LCD video</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc">Available</span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">29</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName">DK-HLV800A-01</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios Development Kit with HLV800-256AV SBC, cables and software</span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc">Available</span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">0</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr>
+    <td bgcolor="#EEEEEE" colspan=4><table border=0 height=100% width=100% cellpadding=3 cellspacing=0>
+        <tr><td><span class="orderFormBottom">Please <a href="/login?redirect=">login</a> or <a href="/signup?redirect=">signup</a> for an online quote request.</span></td></tr>
+    </table></td>
+</tr>
+
+</table>
+
+</td>
+</tr></table>
+<div id='pop_overlay' onclick='hide_pop()'><div class='popup-overlay' id='p-over'><div class='popup-content' id='p-cont'><p><table border="1" style="padding:10px; text-align:left">
+<tr>
+<td>Available:</td>
+<td>This model is generally available from stock. It is a mainstream or focus product in active promotion.</td>
+</tr>
+<tr>
+<td>Coming soon:</td>
+<td>This is a preview of an upcoming product or model. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> for an expected availability date.</td>
+</tr>
+<tr>
+<td>EOL:</td>
+<td>End of life. This product is no longer in production, but it may still be available in
+stock or manufacturable. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> if you are interested in buying this product. If there is no stock on hand, then a minimum order quantity will apply.</td>
+</tr>
+<tr>
+<td>MOQ or Minimum Order Quantity:</td>
+<td>This model is not generally stocked but is buildable on demand. If we have it in stock you may purchase up to the available quantity. If it is out of stock then a minimum order quantity is required to meet the factory minimum lot size. This designation usually applies to less popular models of a current product or older products that have low customer demand. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> for further information.</td>
+</tr>
+</table>
+
+</p></div></div></div>
+<br><br>
+
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td width=20>&nbsp;</td>
+<td>
+
+<table border=0 cellpadding=0 cellspacing=2>
+
+<tr>
+    <td colspan=5>
+
+    	<table height=100% width=100% border=0 cellpadding=0 cellspacing=0><tr>
+        <td class="purple_bg" valign=top align=left><img src="/images/navbar/corner_ul.gif"></td>
+        <td class="purple_bg"><span class="orderFormHeading">Cables and accessories</span></td>
+
+        <td class="purple_bg" valign=top align=right><img src="/images/navbar/corner_ur.gif"></td>
+
+    	</tr>
+		</table>
+    </td>
+
+</tr>
+<tr>
+    <td colspan=3>
+    <table border=0 width=100% height=100% cellpadding=2 cellspacing=0>
+        <tr>
+        <td bgcolor="#EEEEEE" align=center>
+        	<span class="orderFormColumn">Available Models:
+        	</span>
+        </td>
+        </tr>
+    </table>
+    </td>
+
+    <!--<td >
+    <table border=0 width=100% height=100% cellpadding=2 cellspacing=0>
+        <tr>
+        <td bgcolor="#EEEEEE" align=center>
+        	<span class="orderFormColumn">Available quantity:
+        	</span>
+        </td>
+        </tr>
+    </table>
+    </td>-->
+
+</tr><tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcablekit=13&searchckit=Search" class="catalogTypeLink">C-HLV-KIT</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Helios SBC cable kit </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">4</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=51&searchcable=Search" class="catalogTypeLink">6981004</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, IDC,Ribbon IDC to IDC 44 POS HDD, 12"L Ribbon </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">30</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=54&searchcable=Search" class="catalogTypeLink">6981006</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, Power Out, 4 pos Female to 22013047 4 pos and 22013067 IDC Skt 4 pos </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">42</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=66&searchcable=Search" class="catalogTypeLink">6981009</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, Power I/O, Stranded x9 to Trim wires x9, 12"L </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">41</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=25&searchcable=Search" class="catalogTypeLink">6981082</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, Dual USB, 2mm 2x5 conn to 2x USB Type A Female, 12"L </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">18</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=67&searchcable=Search" class="catalogTypeLink">6981083</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, PS/2 Keyboard/Mouse, 2mm 2x4 conn to 2x Mini-DIN-6, 12"L </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">78</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=21&searchcable=Search" class="catalogTypeLink">6981084</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, VGA, 2mm 2x5 conn to DD15F, 12"L </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">4</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=68&searchcable=Search" class="catalogTypeLink">6981161</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">RJ45PNL-CRIMP2x5 2mm, 12" </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">29</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=69&searchcable=Search" class="catalogTypeLink">6981163</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, Crimp 2x25 0.1" to IDC2x25F 2mm to IDC2x25F 2mm, 21"L Ribbon </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">24</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=19&searchcable=Search" class="catalogTypeLink">6981164</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, IDC20F to IDC20F, 2mm pitch, 12" length </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">11</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=70&searchcable=Search" class="catalogTypeLink">6981166</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">IDC40F 2mm-DB9Mx4, 12" Serial Ports 1-4 </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">39</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#FFFFFF"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr valign=middle>
+
+        <td class="purple_bg" width=3><img src="/images/pix.gif" width=1 height=1></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle nowrap><span class="modelName"><a href="cables?selcable=71&searchcable=Search" class="catalogTypeLink">6981180</a></span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelDesc">Cable, External Battery, Conn 1x2 0.1" to strip off flying wires, 6"L </span></td>
+        </tr></table></td>
+
+        <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle><span class="modelAvailability modelDesc"></span></td>
+        </tr></table></td>
+        <!--<td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+            <td valign=middle align=center nowrap ><span class="modelquantity">39</span></td>
+        </tr></table></td>-->
+
+                            <td valign=middle bgcolor="#EEEEEE"><table border=0 width=100% height=100% cellpadding=2 cellspacing=0><tr>
+                                <td valign=middle></td>
+                            </tr></table></td>
+                    
+</tr>
+<tr>
+    <td bgcolor="#FFFFFF" colspan=4><table border=0 height=100% width=100% cellpadding=3 cellspacing=0>
+        <tr><td><span class="orderFormBottom">Please <a href="/login?redirect=">login</a> or <a href="/signup?redirect=">signup</a> for an online quote request.</span></td></tr>
+    </table></td>
+</tr>
+
+</table>
+
+</td>
+</tr></table>
+<div id='pop_overlay' onclick='hide_pop()'><div class='popup-overlay' id='p-over'><div class='popup-content' id='p-cont'><p><table border="1" style="padding:10px; text-align:left">
+<tr>
+<td>Available:</td>
+<td>This model is generally available from stock. It is a mainstream or focus product in active promotion.</td>
+</tr>
+<tr>
+<td>Coming soon:</td>
+<td>This is a preview of an upcoming product or model. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> for an expected availability date.</td>
+</tr>
+<tr>
+<td>EOL:</td>
+<td>End of life. This product is no longer in production, but it may still be available in
+stock or manufacturable. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> if you are interested in buying this product. If there is no stock on hand, then a minimum order quantity will apply.</td>
+</tr>
+<tr>
+<td>MOQ or Minimum Order Quantity:</td>
+<td>This model is not generally stocked but is buildable on demand. If we have it in stock you may purchase up to the available quantity. If it is out of stock then a minimum order quantity is required to meet the factory minimum lot size. This designation usually applies to less popular models of a current product or older products that have low customer demand. <a href="https://diamondsystems.com/support/request/inquiry">Contact Sales</a> for further information.</td>
+</tr>
+</table>
+
+</p></div></div></div></div> </td></tr></table></td></tr></table>
+<table width="100%" cellpadding='0' cellspacing='0' border='0'><tr><td height="30px" valign="center" class="dsfooter" >
+
+<a href="https://www.diamondsystems.com/">www.diamondsystems.com</a> | <a href="https://www.diamondsystems.com/">Sunnyvale, California USA</a> | <a href="https://www.diamondsystems.com/">+1-650-810-2500</a> | <a href="https://www.diamondsystems.com/"><br>sales@diamondsystems.com</a></td></tr></td></tr>
+        </table></td></tr></table></center><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-714649-1', 'auto');
+  ga('send', 'pageview');</script>
+
+</body>
+</html>

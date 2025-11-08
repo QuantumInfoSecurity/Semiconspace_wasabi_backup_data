@@ -1,0 +1,1205 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>JMK105BJ105KV-F  ｜Change PartNumber｜TAIYO YUDEN CO., LTD.</title>
+		<meta name="description" content="JMK105BJ105KV-F   is renamed to null." />
+		<meta name="keywords"  content="JMK105BJ105KV-F  ,null,Change PartNumber,TY-COMPAS,TAIYO YUDEN" />
+		
+	
+	<meta charset="utf-8">
+	
+	<meta name="format-detection" content="telephone=no">
+	<link rel="shortcut icon" href="/TYCOMPAS/favicon.ico">
+	
+	
+	
+	
+	
+	<meta http-equiv="content-language" content="en-US, en-CA">
+	<script type="text/javascript" src="/TYCOMPAS/js/vue/2.5.13/vue.min.js" ></script>
+	
+	<script type="text/javascript" src="/TYCOMPAS/js/jquery/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/jquery/jquery.csv.min.js"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/jquery/jquery.color.js"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/jquery/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/jquery/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/TYCOMPAS/ut/js/dialogMessages.js?ver=14.8.0.5" ></script>
+	<script type="text/javascript" src="/TYCOMPAS/ut/js/appDefinitions.js?u=M" ></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/commonUtil.min.js?ver=14.8.0.5"></script>
+	
+	<script type="text/javascript"  src="/TYCOMPAS/js/min/components.min.js?ver=14.8.0.5" ></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/definition.min.js?ver=14.8.0.5"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/app/effectManager.js?ver=14.8.0.5"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/qMan.min.js?ver=14.8.0.5"></script>
+	
+	<script type="text/javascript"  src="/TYCOMPAS/js/min/app.min.js?ver=14.8.0.5" ></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/hoverLargeImage.min.js?ver=14.8.0.5"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/toPageTopComponent.min.js?ver=14.8.0.5"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/pagerInfo.min.js?ver=14.8.0.5"></script>
+	<script type="text/javascript" src="/TYCOMPAS/js/min/tyInfoManager.min.js?ver=14.8.0.5"></script>
+	
+	<script type="text/javascript" src="/TYCOMPAS/js/min/gdpr.min.js?ver=14.8.0.5"></script>
+	
+	<script type="text/javascript" src="/TYCOMPAS/js/min/precautions.min.js?ver=14.8.0.5"></script>
+	<link type="text/css" rel="stylesheet" href="/TYCOMPAS/css/min/reset.min.css?ver=14.8.0.5" />
+	<link type="text/css" rel="stylesheet" href="/TYCOMPAS/css/min/tyc.min.css?ver=14.8.0.5" />
+	<link href="/TYCOMPAS/css/lib/fontawesome/5.14.0/css/all.min.css" rel="stylesheet" />
+	
+	<script type="text/javascript"  src="/TYCOMPAS/js/min/applicationLogger.min.js?ver=14.8.0.5" defer></script>
+
+
+	<script type="text/javascript" src="/TYCOMPAS/js/min/commonHeader.min.js?ver=14.8.0.5"></script>
+
+		<link type="text/css" rel="stylesheet" href="/TYCOMPAS/css/min/renewal.min.css?ver=14.8.0.5"/>
+	</head>
+	<body id="product_renewal">
+		
+		<header id="header" class="norm">
+	
+	<div id="logo">
+		<a href="./searcherMain" class="applogger" log-layers="Click,Logo,TYCOMPAS">
+			<img class="compas" src="/TYCOMPAS/image/Common/img_compass.png"  title="TYCOMPAS"  alt=""/>
+			
+			<img class="logo" src="/TYCOMPAS/image/Common/logo.png"  title="TYCOMPAS" alt="TY-COMPAS"/>
+		</a>
+	</div>
+	<div class="rightside_contents">
+		<div id="yuden_logo">
+			
+			
+			 
+			
+			
+			<a href="https://www.yuden.co.jp/en/" target="_blank" class="applogger" log-layers="Click,Logo,TAIYO YUDEN">
+				<img src="/TYCOMPAS/image/Common/yuden_logo.gif" title="TAIYO YUDEN"  alt="TAIYO YUDEN" />
+			</a>
+			
+		</div>
+		<div id="header_func">
+			<ul class="func_list">
+
+				<li id="region" class="func" @mouseenter="region_on" @mouseleave="region_off">
+					<span>Select Region</span>
+ 					<ul class="region_list">
+
+						<li class="list"><a href="/TYCOMPAS/jp/detail" @click="changeRegion">日本</a></li>
+						<li class="list"><a href="/TYCOMPAS/ut/detail" @click="changeRegion">North America</a></li>
+						<li class="list"><a href="/TYCOMPAS/ap/detail" @click="changeRegion">Asia Pacific</a></li>
+						<li class="list"><a href="/TYCOMPAS/eu/detail" @click="changeRegion">Europe</a></li>
+						<li class="list"><a href="/TYCOMPAS/cs/detail" @click="changeRegion">中国</a></li>
+						<li class="list"><a href="/TYCOMPAS/kr/detail" @click="changeRegion">한국</a></li>
+						<li class="list"><a href="/TYCOMPAS/or/detail" @click="changeRegion">Other Regions</a></li>
+					</ul>
+				</li>
+				<li class="func">
+					<a id="versionInfo" href="javascript:void('versionInfo');" @click="showVersionInfo()">Version info.</a>
+				</li>
+				<li class="func" id="caseStudy">
+					<a class="precausions applogger"
+						href="/PreCautions/PRECAUTIONS_en.html?ver=14.8.0.5"
+						log-layers="Click,Precaution"
+						>PRECAUTIONS AND DISCLAIMERS</a>
+					
+					
+			</ul>
+		</div>
+	</div>
+</header>
+		<div id="container">
+			<div>
+				<div id="content"><span style="text-decoration:underline;">JMK105BJ105KV-F   is renamed.</span><br />Please select the new part number for your intended use.</div>
+				<div id="linkContent">
+					<table>
+						<thead>
+							<tr>
+								<th>Previous Part Number</th>
+								<th>New Part Number</th>
+								<th colspan="2">
+									Applications
+									<a href="/application_guide/Appli_e.pdf" target="_blank"><i class="fas fa-question-circle" style="color:#1a85d3;"></i></a>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td rowspan="2">JMK105BJ105KV-F  </td>
+								<td class="ProductNo">
+									<a href="./detail?pn=MSASJ105SB5105KFNA01&amp;u=M">MSASJ105SB5105KFNA01</a>
+								</td>
+								<td class="SR6"><img src="/TYCOMPAS/image/Common/icon_SR6-C_AP0.png" title="(S)General Equipment(Incl. Mobile Devices)" alt="(S)General Equipment(Incl. Mobile Devices)" /></td>
+								<td id="AP0">(S)General Equipment(Incl. Mobile Devices)</td>
+							</tr>
+							<tr>
+								
+								<td class="ProductNo">
+									<a href="./detail?pn=MLASJ105SB5105KFNA01&amp;u=M">MLASJ105SB5105KFNA01</a>
+								</td>
+								<td class="SR6"><img src="/TYCOMPAS/image/Common/icon_SR6-C_AP4.png" title="(L)Medical (International Class. I ・ II)" alt="(L)Medical (International Class. I ・ II)" /></td>
+								<td id="AP4">(L)Medical (International Class. I ・ II)</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			
+		</div>
+		<footer id="footer">
+	<div id="PageFooter">
+		<span>Copyright&copy; 2011 - 2025 TAIYO YUDEN CO.,LTD. All Rights Reserved</span>
+	</div>
+	
+	
+	<hr style="border:0;clear:both;" />
+</footer>	
+		
+<div id="MessageBox">
+	<div v-if="display" class="bg"  @click="outerClick">
+		<div @click.stop="ignore" class="outer_box" >
+			<div class="title_box" >
+				<div  @click="hide" v-show="removable">
+					<i class="fas fa-times close" ></i>
+				</div>
+				<div class="title" >{{title}}</div>
+			</div>
+			<div class="message_box" style="text-align:left;">
+				<div class="mark" >
+					<i v-if="type=='info'" class="fa fa-info-circle" aria-hidden="true"></i>
+					<i v-if="type=='warn' || type=='error'" :class="type" class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+					<i v-if="type=='confirm'" class="fa confirm fa-question-circle" aria-hidden="true"></i>
+
+				</div>
+				<div class="message" >
+					<div v-html="message"></div>
+					<div class="button_box">
+						<div v-if="type=='confirm'" class="confirm" >
+							<button @click="okClick">{{buttonOK}}</button>
+							<button @click="cancelClick">{{buttonCancel}}</button>
+						</div>
+						<div v-else><button @click="okClick">{{buttonOK}}</button></div>
+					</div>
+				</div>
+				<hr style="clear:both;border-width:0;" />
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	</body>
+
+
+
+
+<script type="text/x-template" id="product-search-template">
+	<form id="search" @submit="search" @keydown.enter="onEnterSelect" novalidate>
+		<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+		<div>
+			<input v-if="isSM" type="email" style="ime-mode:disabled;" autocomplete="off" placeholder="-Wildcard(*,?)-" @click="showSuggest" @keydown.esc="resetSuggest" @focus="onFocus" @keydown.down.stop="onDownArrow" @keydown.up.stop="onUpArrow"  v-model="labelText" />
+			<input v-else type="email" style="ime-mode:disabled;" autocomplete="off" placeholder="-Wildcard(*,?) available-" @click="showSuggest" @keydown.esc="resetSuggest" @focus="onFocus" @keydown.down.stop="onDownArrow" @keydown.up.stop="onUpArrow"  v-model="labelText" />
+			<ul>
+				<li v-for="item in dataList" @click="onSelect(item,$event)" @mousemove="onMouseMove">{{item}}</li>
+			</ul>
+		</div>
+	</form>
+</script>
+
+<script type="text/x-template" id="simple-product-search-template">
+	<form id="topSearch" @submit="search" @keydown.enter="onEnterSelect">
+		<div>
+		<input type="text" name="pn" style="ime-mode:disabled;" autocomplete="off" placeholder="-Wildcard(*,?) available-" @click="showSuggest" @keydown.esc="resetSuggest" @focus="onFocus" @keydown.down.stop="onDownArrow" @keydown.up.stop="onUpArrow"  v-model="prm.pn" />
+		<ul>
+			<li v-for="item in dataList" @click="onSelect(item,$event)" @mousemove="onMouseMove">{{item}}</li>
+		</ul>
+		</div>
+		<input type="hidden" name="u" v-model="prm.u" />
+	</form>
+</script>
+
+<script type="text/x-template" id="history-search-template">
+	<div class="historySearchBox" style="position:relative" >
+		<i class="fas fa-chevron-down" @click="onFocus"></i>
+		<input v-if="dataList.length > 0"  class="history_input" type="text" autocomplete="off" placeholder="-- Choose from List --" @keydown.enter="onEnterSelect"  @keydown.esc="resetSuggest" @focus="onFocus" @keydown.down.stop="onDownArrow" @keydown.up.stop="onUpArrow" @keydown="keyRefuse" />
+		<input v-else type="text" autocomplete="off" disabled="disabled" placeholder=" - No History - " />
+		<ul>
+			<li v-for="item in dataList" @click="onSelect(item,$event)" @mousemove="onMouseMove">{{item}}</li>
+		</ul>
+	</div>
+</script>
+
+<script type="text/x-template" id="menu-controll-template">
+	<div id="menuController"  @click="menuClick">
+		<img style="width:12px" src="/TYCOMPAS/image/SpecificationSearcher/menu.png" />
+		
+	</div>
+</script>
+
+<script type="text/x-template" id="common-facet-header-template">
+	<div class="head">
+		<div class="set_mark"  :class="{on : hasCondition(prm,head)}" @click.stop="clear"><i class="fa fa-circle" aria-hidden="true"></i></div>
+		<div v-if="showCheckBtn" class="chk detailapplogger" :class="{active : hasAllCondition()}" @click="appendParam" :log-layers="'Search,' + head.parent + ',SelectAll'" :log-msg="head.id=='Seri' ? head.extraId : head.id">&nbsp;</div>
+		<div v-if="dialogFile" class="help"><a target="_blank" :href="'/application_guide/' + dialogFile" class="applogger" log-layers="Search,Click,Guide"><i class="fas fa-question-circle link_mark"></i></a></div>
+		<span class="open_mark">－</span>
+		<span v-if="!isSelectableRangeFacetMode()" class="k" v-html="head.name">title of header</span>
+		<span v-else="isSelectableRangeFacetMode()" class="k">
+			<select v-model="localSelectableKey">
+				<option v-for="opt in selectableRangeFacetList" :value="opt.id" v-html="opt.name">optionName</option>
+			</select>
+		</span>
+		<span class="restrict" v-if="head.restrict > 0">※Internal Only.</span>
+	</div>
+</script>
+<script type="text/x-template" id="lineup-facet-template">
+	<div>
+		<header-component :showCheckBtn="true" v-if="item.Layer == 1" :head="{'id': 'Seri' , 'name':item.LineUpName,data:item , 'parent':'Lineup' ,'extraId':item.LineUpId}" @clear="clearLineup" :prm="prm"  @append-param="appendParam"></header-component>
+		<div class="body">
+			<ul class="body list-component">
+				<li is="lineup-component" @append-param="appendParam" :showCheckBtn="true" @search="search" v-for="child in item.Children" :lowSpeedMode="lowSpeedMode" :lineup-child="child" :extra="item.LineUpId" :prm="prm"></li>
+			</ul>
+		</div>
+	</div>
+</script>
+
+
+<script type="text/x-template" id="list-facet-template">
+	<div>
+		<header-component  @append-param="appendParam" :showCheckBtn="true" :head="head" :prm="prm" @clear="clear" :dialogMessage="item.message" :dialogFile="item.dialogFile" :targets="item.searchItemTargets"></header-component>
+		<div class="body">
+			<ul class="list-component" :title="item.message">
+				<li is="list-component"  v-for="target in item.searchItemTargets"  @search="listSearch" :low-speed-mode="lowSpeedMode" :prm="prm"  :list="{'count':target.productCount, 'dataId':target.searchItemTargetId, 'name': target.searchItemTargetName , 'prmKey':item.searchItemId, 'hoverMessage':target.hoverMessage}" ></li>
+			</ul>
+		</div>
+	</div>
+</script>
+
+<script type="text/x-template" id="common-list-template">
+	<li :class="{unbind : list.count==0 && lowSpeedMode == false }" @click="listClick(list,prm)" >
+		<div class="set_mark" :class="{sel : contains(prm[list.prmKey],list.dataId)}" >&nbsp;</div>
+		<div class="list" :title="list.hoverMessage">
+			<a v-if="list.name" :href="'javascript:void(\'' + list.dataId + '\');'">{{list.name}}</a>
+			<a v-else :href="'javascript:void(\'' + list.dataId + '\');'">{{list.dataId}}</a>
+			<span class="c" v-if="lowSpeedMode == false">{{list.count}}</span>
+		</div>
+	</li>
+</script>
+
+<script type="text/x-template" id="advanced-facet-template">
+	<div>
+		<header-component  :showCheckBtn="false" :head="{id : adv.GraphType,name : adv.gTitle, restrict : adv.IpRestriction}" :prm="prm" @clear="clear"></header-component>
+		<div class="body">
+			<div class="slider_area">
+				<div is="slider-component" :detail-item="{dataId: adv.GraphType}" :mySliderValue="mySliderValue" @setSlider="setSlider" />
+			</div>
+			<div class="x-title" v-html="adv.gXLabel"></div>
+			<div class="x-keyvalue-table">
+				<div class="x-value range" v-if="mySliderValue=='range'">
+					<input type="text" class="min" v-model="xMinValue" />～<input type="text" class="max" v-model="xMaxValue" />
+				</div>
+				<div class="x-value match" v-else>
+					<input type="text" class="match" v-model="xMatchValue" />
+				</div>
+				<div class="x-unit">
+					<select v-model="xUnitValue">
+						<option v-for="dir in adv.X" :value="dir" v-html="dir"></option>
+					</select>
+				</div>
+			</div>
+			<div class="y-title" v-html="adv.gYLabel"></div>
+			<div class="y-keyvalue-table">
+				<div class="y-value">
+					<span class="yDirection" v-if="adv.gDirection == 0">&le;</span>
+					<span class="yDirection" v-if="adv.gDirection == 1">&ge;</span>
+					<input type="text" v-model="yValue" />
+				</div>
+				<div class="y-unit">
+					<select v-model="yUnitValue">
+						<option v-for="dir in adv.Y" :value="dir" v-html="dir"></option>
+					</select>
+				</div>
+				<div class="adv_button"><button type="submit" @click="searchClick"><i aria-hidden="true" class="fa fa-search"></i></button></div>
+			</div>
+		</div>
+	</div>
+</script>
+
+
+<script type="text/x-template" id="range-facet-template">
+	<div v-show="isShowable()">
+		<header-component  :showCheckBtn="false" :selectableRangeFacetList="selectableRangeFacetList" :selectableRangeFacetKey="selectableRangeFacetKey" :head="head" :prm="prm" @clear="clear" @changeSelectableRangeFacetKey="changeSelectableRangeFacetKey"></header-component>
+		<div class="body">
+			<div class="slider_area">
+				<div is="slider-component" :detail-item="item" :mySliderValue="mySliderValue" @setSlider="setSlider" />
+			</div>
+			<div class="unit_area">
+				<div is="unit-component" :detail-item="item" :myUnitValue="myUnitValue" @setUnitValue="setUnitValue" />
+			</div>
+			<hr style="border-width:0;margin-bottom:4px;" />
+			<div class="virtualRow">
+				<div class="sort">
+					<img :src="mySortImage[mySortCounter]" :alt="mySortCounter" @click="sortCounterClick" />
+				</div>
+				<div class="match" v-if="mySliderValue=='match'">
+					<div is="source-suggest-component" :detail-item="item" @setValue="setMatchValue" @setText="setMatchText" :myText="matchText" :myValue="matchValue" :myUnitValue="myUnitValue" :mySortCounter="mySortCounter" :unitChangeTimer="unitChangeTimer"></div>
+				</div>
+				<div class="range" v-if="mySliderValue=='range'">
+					<div is="source-suggest-component" :detail-item="item" @setValue="setMinValue" @setText="setMinText" :myText="minText" :myValue="minValue" :myUnitValue="myUnitValue" :maxValue="maxValue" :mySortCounter="mySortCounter" :unitChangeTimer="unitChangeTimer"></div><span>～</span><div is="source-suggest-component" :detail-item="item" @setValue="setMaxValue" @setText="setMaxText" :myText="maxText" :myValue="maxValue" :myUnitValue="myUnitValue"  :minValue="minValue" :mySortCounter="mySortCounter" :unitChangeTimer="unitChangeTimer"></div>
+				</div>
+			</div>
+			<hr style="border-width:0" />
+		</div>
+	</div>
+</script>
+
+
+<script type="text/x-template" id="source-suggest-template">
+	<div class="source_suggest_component">
+		<div v-if="mySortCounter==2" class="source_component">
+			<source-select-component :detailItem="detailItem" :myValue="myValue" :myUnitValue="myUnitValue" @setValue="setValue" @setText="setText" :minValue="minValue" :maxValue="maxValue" />
+		</div>
+		<div v-else class="suggest_component">
+			<suggest-component :detailItem="detailItem" :mySortCounter="mySortCounter" :myValue="myValue" :myText="myText" :myUnitValue="myUnitValue" @setText="setText" @setValue="setValue" :minValue="minValue" :maxValue="maxValue" :unitChangeTimer="unitChangeTimer" />
+		</div>
+	</div>
+</script>
+<script type="text/x-template" id="suggest-template">
+	<div class="suggest_box">
+		<i class="fas fa-chevron-down"  @click="onFocus"></i>
+		<input type="text"  @focus="onFocus"  @keydown.down.stop="onDownArrow" @keydown.up.stop="onUpArrow" @keydown.enter.stop="onEnterSelect" v-model="labelText" />
+		<ul>
+			<li value=""  @click="onSelect({label:'',value:''},$event)" >&nbsp;</li>
+			<li v-for="item in showFilter" :value="[item.searchItemTargetValue ? item.searchItemTargetValue : item.searchItemTargetId]" v-if="filter(item)" @click="onSelect(item,$event)">{{item[myUnitValue] ? item[myUnitValue] : item.searchItemTargetId}}</li>
+		</ul>
+	</div>
+</script>
+<script type="text/x-template" id="sm-suggest-template">
+	<div class="suggest_box">
+		<input type="text" v-model="myText" readonly="true" @click="showAssistBox" />
+		<div v-if="display" class="assist_box" @click="hideAssistBox" :class="{'show' : display}">
+			<div class="assist_ui" @click.stop="ignore">
+				<div class="title">{{detailItem.specificationName}}<span v-if="myUnitValue != ''" style="display:inline">[{{myUnitValue}}]</span></div>
+				<div class="about_settings">
+					<p>Display range setting…</p>
+					<select v-model="aboutIndex" @change="checkReset">
+						<option value="0"></option>
+						<option v-for="idx in Object.keys(effectiveTree)" :value="idx">{{effectiveTree[idx].label}}</option>
+					</select>
+				</div>
+				<div class="value_settings" v-if="aboutIndex > 0">
+					<p>Value setting…</p>
+					<select  @change="emitValue">
+						<option value=""></option>
+						<option v-for="item in effectiveTree[aboutIndex].list" :value="item.searchItemTargetValue ? item.searchItemTargetValue : item.searchItemTargetId" :selected="item.searchItemTargetValue == myValue || item.searchItemTargetId == myValue">{{item[myUnitValue] ? item[myUnitValue] : item.searchItemTargetId}}</option>
+					</select>
+
+				</div>
+				<div class="closer"><button @click="hideAssistBox">Close</button></div>
+			</div>
+		</div>
+	</div>
+</script>
+<script type="text/x-template" id="source-select-template">
+	<select @change="setMyValue">
+		<option value="" ></option>
+		<option v-for="item in sortFilter()" :value="[item.searchItemTargetValue ? item.searchItemTargetValue : item.searchItemTargetId]" :selected="item.searchItemTargetValue == myValue || item.searchItemTargetId == myValue">{{item[myUnitValue] ? item[myUnitValue] : item.searchItemTargetId}}</option>
+	</select>
+</script>
+
+
+<script type="text/x-template" id="unit-template">
+	<div>
+		Unit：
+		<select v-if="detailItem.unitInfo && detailItem.unitInfo.length > 0" @change="setUnitValue">
+			<option v-for="unit in detailItem.unitInfo" :value="unit" :selected="unit==myUnitValue">{{unit}}</option>
+		</select>
+		<span v-else-if="myUnitValue != ''">{{myUnitValue}}</span>
+		<span v-else >{{unitInfo[detailItem.dataUnit]}}</span> 
+	</div>
+</script>
+
+
+<script type="text/x-template" id="slider-template">
+	<div>
+		<input :id="detailItem.dataId + '_match'" type="radio" class="match" value="match" :name="detailItem.dataId + '_radio'" v-model="mySlider" /><label :for="detailItem.dataId + '_match'" class="match">Match</label><input :id="detailItem.dataId + '_range'"  type="radio" class="range" value="range" :name="detailItem.dataId + '_radio'" v-model="mySlider" /><label :for="detailItem.dataId + '_range'" class="range">Range</label>
+	</div>
+</script>
+
+<script type="text/x-template" id="lineup-template">
+	<li class="layer_box" v-if="String(lineupChild.isLayer)=='true'">
+		<div class="lineup_set_mark detailapplogger"  :class="{on : hasCondition()}" @click="detailLog(extra +',' +lineupChild.LineUpId);appendParam(allIdList,true)" @click.stop="clear"><i class="fa fa-circle" aria-hidden="true"></i></div>
+		<div class="chk detailapplogger" :class="{active : hasAllCondition()}" @click="appendParam(allIdList)" log-layers="'Search,LineUp,SelectAll'" :log-msg="extra+','+lineupChild.LineUpId">&nbsp;</div>
+		<ul>
+			<li class="layer" :style="'background:none;background-color:#' + lineupChild.Color + ';\''" v-html="lineupChild.LineUpName"></li>
+			<li is="lineup-component" @append-param="appendParam" v-for="child in lineupChild.Children"  :lowSpeedMode="lowSpeedMode" :lineup-child="child" :prm="prm"  @search="search" :extra="extra+','+lineupChild.LineUpId" ></li>
+		</ul>
+	</li>
+	<li v-else-if="String(lineupChild.isLayer)!='true'" :class="{unbind : lowSpeedMode==false && lineupChild.productCount==0}" @click="detailSearchLog(lineupChild);search(lineupChild,prm)">
+		<div class="set_mark" :class="{sel : contains(prm['Seri'],lineupChild.LineUpId)}" >&nbsp;</div>
+		<div class="list">
+			<a v-if="lineupChild.LineUpName" :href="'javascript:void(\'' + lineupChild.LineUpId + '\');'" v-html="lineupChild.LineUpName"></a>
+			<a v-else :href="'javascript:void(\'' + lineupChild.LineUpId + '\');'">{{lineupChild.LineUpId}}</a>
+			<span v-if="!lowSpeedMode" class="c">{{lineupChild.productCount}}</span>
+		</div>
+	</li>
+</script>
+
+
+<script type="text/x-template" id="record-header-template">
+	<thead>
+		<tr>
+			<th v-if="pickerable">Display</th>
+			<th v-if="pickerable">Color</th>
+			<th v-if="deletable"></th>
+			<th v-for="header in headers" v-if="isVisible(header.dataId) && isShowable(header.dataId)" >
+				<div :class="header.dataId">
+					<span v-html="header.specificationName"></span>
+					<!/*-- 用途のみ --*/>
+					<div class="howabout" v-if="header.dataId == 'SR6'"><i @click="showSR6()" class="fas fa-question-circle"></i></div>
+				</div>
+			</th>
+			<th><div class="taildummy"></div></th>
+		<tr>
+		<tr class="sort" v-if="!pickerable">
+			<td v-for="header in headers" v-if="isVisible(header.dataId) && isShowable(header.dataId)" >
+				<a v-if="header.dataId!='SR6' && sortIdMap[header.dataId] != '' && header.sortTargetDataId!=null "  href="javascript:void('sort_asc');"  @click="sortSearch(sortIdMap[header.dataId],'a')">
+					<img v-if="indexOf(sortIdMap[header.dataId],'a') >= 0" src="/TYCOMPAS/image/Common/btn_sort_up_active.png" />
+					<img v-else src="/TYCOMPAS/image/Common/btn_sort_up.png" />
+				</a>
+				<a v-if="header.dataId!='SR6' && sortIdMap[header.dataId] != '' && header.sortTargetDataId!=null "  href="javascript:void('sort_desc');" @click="sortSearch(sortIdMap[header.dataId],'d')">
+					<img v-if="indexOf(sortIdMap[header.dataId],'d') >= 0" src="/TYCOMPAS/image/Common/btn_sort_bottom_active.png" />
+					<img v-else src="/TYCOMPAS/image/Common/btn_sort_bottom.png" />
+				</a>
+				<span v-if="indexOf(sortIdMap[header.dataId]) >= 0">{{indexOf(sortIdMap[header.dataId]) + 1}}</span>
+			</td>
+			<td></td>
+		</tr>
+	</thead>
+</script>
+<script type="text/x-template" id="sm-sort-template">
+    <div id="smSortComponent">
+		<div v-for="idx in sortColumnCount" is="sort-layer-component" :prm="prm" :headers="headers" :sortKeyList="sortKeyList" :sortDirList="sortDirList":sortList="sortList" :idx="idx" @setSortDirection="setSortDirection"></div>
+		<div class="sortCloser" @click="hide"><i class="fas fa-angle-double-up"></i></div>
+	</div>
+</script>
+<script type="text/x-template" id="sm-sort-layer-template">
+	<div class="sortLayer">
+		{{idx}}
+		<select v-model="sortKeyList[idx-1]">
+			<option value="" selected="selected"></option>
+			<option v-for="head in sortList" :value="head.sortPrm">{{stripHtml(head.specificationName)}}</option>
+		</select>
+		<div class="sortUp sort" :class="[sortDirList[idx-1] == 'a' ? 'current' : '']" @click="setSortDirection('a')"><i class="fas fa-caret-up"></i></div>
+		<div class="sortDn sort" :class="[sortDirList[idx-1] == 'd' ? 'current' : '']" @click="setSortDirection('d')"><i class="fas fa-caret-down"></i></div>
+	</div>
+</script>
+
+
+<script type="text/x-template" id="sm-page-jumper-template">
+	<div id="pageJumper">
+		<select v-model="pageNumber">
+			<option v-for="page in calcList()" :value="page" :selected="page==pager.currentPage">{{page}}</option>
+		</select>
+	</div>
+</script>
+<script type="text/x-template" id="page-jumper-template">
+	<div id="pageJumperOLD">
+		<form @submit="pageJump">
+		<input type="search" name="jumpertext" autocomplete="off" ref="input" :placeholder="'to '+pager.totalPage" list="jumperList" :value="pager.currentPage" @change="changeValue"/>
+			<datalist id="jumperList">
+				<option v-for="page in calcList()" :value="page" />
+			</datalist>
+		</input>
+		<button type="submit">go</button>
+		</form>
+	</div>
+</script>
+<script type="text/x-template" id="pager-template">
+	<td class="pager_area">
+		<ul>
+			<li :class="[calcPager.currentPage >2 ? '' : 'none']" @click="pagerLog('Click','First');pagerClick(prm,1)" class="first jump" ><a href="javascript:void('first');">&lt;&lt;</a></li>
+			<li :class="[calcPager.currentPage >=2 ? '' : 'none']" @click="pagerLog('Click','Prev');pagerClick(prm,calcPager.currentPage - 1)" class="prev jump" ><a href="javascript:void('prev');">&lt;</a></li>
+			<li v-for="pg in calcPager.navigationList" class="page" :class="{'active' : pg==prm['pg']}">
+				<a :href="'javascript:void(\'page ' + pg + '\');'" @click="pagerLog('Click',pg);pagerClick(prm,pg)">{{pg}}</a>
+			</li>
+			<li :class="[calcPager.currentPage < calcPager.totalPage ? '' : 'none']" @click="pagerLog('Click','Next');pagerClick(prm,calcPager.currentPage + 1)" class="next jump" ><a href="javascript:void('next');">&gt;</a></li>
+			<li :class="[calcPager.currentPage < calcPager.totalPage - 1 ? '' : 'none']" @click="pagerLog('Click','Last');pagerClick(prm,calcPager.totalPage)" class="last jump" ><a href="javascript:void('last');">&gt;&gt;</a></li>
+			<li class="pager_description">
+				<span class="start">{{calcPager.start}}</span>
+				<span class="end">{{calcPager.end}}</span>
+				<span class="totalPage">{{calcPager.totalRec}}</span>
+			</li>
+		</ul>
+		<div v-if="showJumper && calcPager.totalPage > 1" is="jumper-component" :prm="prm" :pager="calcPager" @search="pagerClick"></div>
+	</td>
+</script>
+<script type="text/x-template" id="sm-pager-template">
+	<div class="pager_area">
+			<div class="pager_description">
+				<span class="start">{{calcPager.start}}</span>
+				<span class="end">{{calcPager.end}}</span>
+				<span class="totalPage">{{calcPager.totalRec}}</span>
+			</div>
+			<div :class="[calcPager.currentPage >=2 ? '' : 'none']" @click="pagerClick(prm,calcPager.currentPage - 1)" class="prev jump" ><a href="javascript:void('prev');">&lt;</a></div>
+			<div :class="[calcPager.currentPage < calcPager.totalPage ? '' : 'none']" @click="pagerClick(prm,calcPager.currentPage + 1)" class="next jump" ><a href="javascript:void('next');">&gt;</a></div>
+	    	<div v-if="showJumper && calcPager.totalPage > 1" is="jumper-component" :prm="prm" :pager="calcPager" @search="pagerClick"></div>
+            <hr />
+	</div>
+</script>
+
+
+
+<script type="text/x-template" id="sm-record-list-template">
+	<article>
+		<div class="header">
+			<div class="itemImage"><img :src="'/TYCOMPAS/image/ProductIcons/s_'+record.PicFile" alt="" /></div>
+			<div class="itemButtons">
+				<i class="fas fa-list" :class="[hasMyList() ? 'active' : '']" @click="mylistCtrl" ></i>
+				<i v-if="record.Comparison"class="fas fa-chart-line" :class="[hasGraph() ? 'active' : '']" @click="graphCtrl" ></i>
+			</div>
+			<div class="itemMain">
+				<h3 v-if="isEqItem">{{record.PartNumber}}</h3>
+				<h3 v-else><a target="_blank" :href="toDetail()" class="applogger" log-layers="Result,Click,PartNumber">{{record.PartNumber}}</a></h3>
+				<div class="icons">
+					<img v-if="record.SR2 == 'MP' && record.ModifiedDate && record.ModifiedDate >  (new Date() - (new Date(2001,12,1) - new Date(2001,6,1))) / 1000" :src="'/TYCOMPAS/image/Common/icon_new.png'" />
+					<img v-if="record.SR2" :src="'/TYCOMPAS/image/Common/icon_' + record.SR2 + '.png'" />
+					<img v-if="record.EHS == 'RoHS compliance'" alt="RoHS" src="/TYCOMPAS/image/Common/icon_RoHS.png" />
+					<img v-if="record['AEC-Q200'] != null && record['AEC-Q200']!=''" :alt="record['AEC-Q200']" :src="'/TYCOMPAS/image/Common/icon_' + record['AEC-Q200'] + '.png'" />
+					<img v-if="(isDisplayColumn('SR6') && isVisible('SR6') && isShowable('SR6')) && record.SR6" :src="'/TYCOMPAS/image/Common/icon_' + record.SR6.replace('@','_') + '.png'" :alt="getSR6Name(record.SR6)" />
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div v-for="(header,index) in headers" v-if="header.dataId!='SR6' && isDisplayColumn(header.dataId) && isVisible(header.dataId) && isShowable(header.dataId)" class="keyvalue">
+				<span  v-html="stripHtml(header.specificationName)" class="key"></span>&nbsp;
+				<span v-if="getValue(header)" class="value">{{getValue(header)}}</span>
+			</div>
+
+		</div>
+	</article>
+</script>
+<script type="text/x-template" id="color-picker-template">
+	<div class="picker" >
+		<div class="current" @click="showPicker" :style="'background-color:#'+ color + ';min-width:'+ minPaletteSize + ';min-height:'+ minPaletteSize + ';'"></div>
+		<div v-if="visible" class="picker_box">
+			<ul>
+				<li class="paletteOuter" v-for="(clr,index) in colorList">
+					<div @click="setColor(record.PartNumber,clr,index)" :style="'min-width:'+ minListPaletteSize + ';min-height:' + minListPaletteSize +';background-color:#' + clr + ';'"></div>
+				</li>
+			</ul>
+		</div>
+		<div v-if="visible" class="pickerBackground" @click="hidePicker"></div>
+	</div>
+</script>
+<script type="text/x-template" id="record-list-template">
+	<tr>
+		<td v-if="pickerable" style="text-align:center;"><input type="checkbox" checked="checked" @click="setHide" /></td>
+		<td v-if="pickerable" style="text-align:center;"><div :is="'picker-component' + idx" :record="record" :color="color" @set-color="setColor"></div></td>
+		<td v-if="deletable"><button @click="deleteCtrl(record.PartNumber)">delete</button></td>
+		<td is="column-component"  v-for="head in headers" v-if="isVisible(head.dataId) && isShowable(head.dataId)" :prm="prm" :column="{'key':head.searchItemId ? head.searchItemId : head.dataId,'value':record[head.searchItemId ? head.searchItemId : head.dataId],'partNumber':record.PartNumber,'ModifiedDate':record.ModifiedDate}" :graphs="graphs" @graphCtrl="graphCtrl" :mylists="mylists" @mylistCtrl="mylistCtrl" :extra="extra" ></td>
+		<td is="column-component" :prm="prm" :column="{'key':'PartNumber', 'value':record.PartNumber, 'opt':'tail'}"  :extra="extra"></td>
+	</tr>
+</script>
+<script type="text/x-template" id="record-column-template">
+	<td v-if="column.key == 'PartNumber'" class="PartNumber">
+		<a :href="'./detail?pn='+encodeURIComponent(column.value) + '&u=' + prm.u" target="_blank" @click="applog(['Result','Click','PartNumber'+ (column.opt ? '_'+column.opt : '') ],column.value + (extra? ',' + extra : ''))">{{column.value}}</a>
+	</td>
+	<td v-else-if="column.key == 'OldName'" class="OldName">
+		<span v-html="column.value" />
+	</td>
+	<td v-else-if="column.key == 'PicFile'" :class="column.key">
+		<img :src="'../image/ProductIcons/s_'+column.value" :part-number="column.partNumber" />
+	</td>
+	<td v-else-if="column.key == 'PdfFile'" :class="column.key" class="pdf" >
+		<a target="_blank" v-if="column.value != ''" @click="applog(['Result','Download','SpecSheet'],column.partNumber + (extra? ',' + extra : ''));trackingGA(column.partNumber,column.partNumber +'_SS.pdf')" :href="'./specSheet?pn=' + encodeURIComponent(column.partNumber)" ><img :src="'../image/Common/icon_pdf.png'" /></a>
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'SR2'" :class="column.key"  @mouseover="hoverIn" @mouseout="hoverOut">
+		<img v-if="column.value == 'MP' && column.ModifiedDate && column.ModifiedDate >  (new Date() - (new Date(2001,12,1) - new Date(2001,6,1))) / 1000" :src="'/TYCOMPAS/image/Common/icon_new.png'"  :title="sr2mapping[column.value]" />
+		<img v-else :src="'../image/Common/icon_' + column.value + '.png'"/>
+		<span class="hoverMessage" v-if="hover" v-html="sr2mapping[column.value]"></span>
+	</td>
+	<td v-else-if="column.key == 'SR6'"  :class="column.key" @mouseover="hoverIn" @mouseout="hoverOut" >
+		<img v-if="column.value" :src="'../image/Common/icon_' + column.value.replace('@','_') + '.png'" :alt="getSR6Name(column.value)"></img>
+		<span class="hoverMessage" v-if="hover" v-html="getSR6Name(column.value)"></span>
+	</td>
+	<td v-else-if="column.key == 'CirFile'" :class="column.key" >
+		<a target="_blank" v-if="column.value == 1" @click="applog(['Result','Download','CirFile'],column.partNumber + (extra? ',' + extra : ''));trackingGA(column.partNumber,'cir_file')" :href="'./download?pn=' + encodeURIComponent(column.partNumber) + '&fileType=cir_file'"><img src="/TYCOMPAS/image/Common/icon_spice.png" /></a>
+		<a target="_blank" v-else-if="column.value == 2" @click="applog(['Result','Download','CirFile'],column.partNumber + (extra? ',' + extra : ''));trackingGA(column.partNumber,'cir_file')" :href="spyceUrl + '?productNo=' + encodeURIComponent(column.partNumber)"><img src="/TYCOMPAS/image/Common/icon_spice.png" /></a>
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'SparaFile'" :class="column.key" >
+		<a target="_blank" v-if="column.value == 1" @click="applog(['Result','Download','SparaFile'],column.partNumber + (extra? ',' + extra : ''));trackingGA(column.partNumber,'Spara_file')" :href="'./download?pn=' + encodeURIComponent(column.partNumber) + '&fileType=Spara_file'"><img src="/TYCOMPAS/image/Common/icon_spara.png" /></a>
+		<a target="_blank" v-else-if="column.value == 2" @click="applog(['Result','Download','SparaFile'],column.partNumber + (extra? ',' + extra : ''));trackingGA(column.partNumber,'Spara_file')" :href="spyceUrl + '?productNo=' + encodeURIComponent(column.partNumber)"><img src="/TYCOMPAS/image/Common/icon_spara.png" /></a>
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'EHS'" :class="column.key" >
+		<img v-if="column.value == 'RoHS compliance'" alt="RoHS" src="/TYCOMPAS/image/Common/icon_RoHS.png" title="RoHS compliance"/>
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'AEC-Q200'" :class="column.key" >
+		<img v-if="column.value != null && column.value!=''" :alt="column.value" :src="'../image/Common/icon_' + column.value + '.png'" title="AEC-Q200 qualified"/>
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'Comparison'" :class="column.key" >
+		<input v-if="column.value" type="checkbox" @change="graphCtrl(column.partNumber)" :checked="hasGraph()" />
+		<span v-else>-</span>
+	</td>
+	<td v-else-if="column.key == 'MyList'" :class="column.key" >
+		<input type="checkbox" @change="mylistCtrl(column.partNumber)" :checked="hasMyList()" />
+	</td>
+	<td v-else-if="column.key != 'ModifiedDate'" :class="column.key" v-html="column.value">
+	</td>
+</script>
+
+
+<script type="text/x-template" id="graphtabs-template">
+        <div>
+			<div class="graphVisibleButton">
+				<button v-if="!isVisible" @click="show">{{ showbutton }}</button>
+				<button v-if="isVisible" @click="hide">{{ hidebutton }}</button>
+			</div>
+            <div class="graphtabs" v-show="isVisible" id="nav_tab">
+              <ul>
+                <li v-for="tab in tabs" :class="{ 'is-active': tab.isActive }">
+                    <a @click="selectTab(tab)">{{ tab.name }}</a>
+                </li>
+              </ul>
+            </div>
+			<table  id="graphTable" v-show="isVisible">
+				<tr>
+    				<td>
+						<div v-for="tab in tabs" v-bind:id="tab.idname" class="chartdiv" v-show="tab.isActive" :class="[lineCheckVisible ? 'narrow' : 'wide']"></div>
+					</td>
+					<td class="slotColumn">
+		            	<div class="tabs-details">
+        		        	<slot></slot>
+            			</div>
+					</td>
+				</tr>
+			</table>
+        </div>
+</script>
+<script type="text/x-template" id="graphtab-template">
+        <div v-show="isActive">
+        	<slot></slot>
+    		<table class="slotTable">
+    		<tr>
+    			<td colspan="2">
+					<div class="serishunt" v-if="lineidxcnt > 1">
+		        		<input type="radio"  id="series" value=0 v-model="lineIndex" @change="serishuntClick()">
+		    			<label for="series">Series</label>
+		    			<input type="radio"  id="shunt" value=1 v-model="lineIndex" @change="serishuntClick()">
+		    			<label for="shunt">Shunt</label>
+						<br>
+					</div>
+				</td>
+			</tr>
+			<tr>
+
+				<td v-show="( allchklst.length > 1 || legendFlag==2 ) && legendFlag > 0" class="lineVisibleCheckColumn">
+					<div class="linevisible_chk">
+					<table  v-for="list in ginfolist_obj" v-if="ginfolist_obj.length > 1 || legendFlag==2">
+						<tr>
+							<td>
+								<input type="checkbox"  :id="encodeURIComponent(list.productNo) + '_' + list.graphType + '_' + list.lineType" v-if="list.lineIndex === 0 && list.productVisible" v-model="list.lineVisible" @change="lineVisibleChange(list,$event)">
+							</td>
+							<td>
+								<hr class="linehr" v-if="list.lineIndex === 0 && list.productVisible" width="18px" :size="list.lineSize" :color="'#'+list.lineColor">
+							</td>
+							<td>
+   								<label v-if="list.lineIndex === 0 && list.productVisible" :for="encodeURIComponent(list.productNo) + '_' + list.graphType + '_' + list.lineType">{{list.lineName}}</label>
+							</td>
+						</tr>
+					</table>
+					</div>
+		    	</td>
+		    	<td class="slotColumn" colspan="">
+					<div class="axisconfig">
+						<div class="xaxisconfig">
+							<label for="xaxistitlelabel">[{{ xaxistitlelabel }}]</label>
+							<br>
+							<label for="minlabel">{{ minlabel }}</label>
+							<input v-model="xmin" type="text" class="axisinput" :disabled=isXminDisabled>
+							<input type="checkbox" :id="'xminauto'+gtype" v-model="xminauto">
+							<label :for="'xminauto'+gtype">Auto</label>
+							<br>
+							<label for="maxlabel">{{ maxlabel }}</label>
+							<input v-model="xmax" type="text" class="axisinput" :disabled=isXmaxDisabled>
+							<input type="checkbox" :id="'xmaxauto'+gtype" v-model="xmaxauto">
+							<label :for="'xmaxauto'+gtype">Auto</label>
+							<br>
+							<label for="unitlabel">{{ unitlabel }}</label>
+
+							<select v-model="xunitselected" class="axisunit" v-bind:disabled="xunitdisable">
+								<option v-for="xunit in xunits" v-bind:value="xunit.value">
+									{{ xunit.text }}
+								</option>
+							</select>
+							<div class="linear_log">
+								<input type="radio" :id="'xlogarithm'+gtype" value="true" v-model="xlogmode" :disabled=isXlogDisabled>
+								<label :for="'xlogarithm'+gtype">Logarithm</label>
+								<br>
+								<input type="radio" :id="'xlinear'+gtype" value="false" v-model="xlogmode">
+								<label :for="'xlinear'+gtype">Linear</label>
+							</div>
+						</div>
+						<div class="yaxisconfig">
+							<label for="yaxistitlelabel">[{{ yaxistitlelabel }}]</label>
+							<br>
+							<input v-model="ymin" type="text" class="axisinput" :disabled=isYminDisabled>
+							<input type="checkbox" :id="'yminauto'+gtype" v-model="yminauto">
+							<label :for="'yminauto'+gtype">Auto</label>
+							<br>
+							<input v-model="ymax" type="text" class="axisinput" :disabled=isYmaxDisabled>
+							<input type="checkbox" :id="'ymaxauto'+gtype" v-model="ymaxauto">
+							<label :for="'ymaxauto'+gtype">Auto</label>
+							<br>
+							<select v-model="yunitselected" class="axisunit" v-bind:disabled="yunitdisable">
+								<option v-for="yunit in yunits" v-bind:value="yunit.value">
+									{{ yunit.text }}
+								</option>
+							</select>
+							<div class="linear_log">
+								<input type="radio" :id="'ylogarithm'+gtype" value="true" v-model="ylogmode" :disabled=isYlogDisabled>
+								<label :for="'ylogarithm'+gtype">Logarithm</label>
+								<br>
+								<input type="radio" :id="'ylinear'+gtype" value="false" v-model="ylogmode">
+								<label :for="'ylinear'+gtype">Linear</label>
+							</div>
+						</div>
+						<div class="applyButtons">
+							<button v-on:click="defaultButtonClick">{{ defbutton }}</button>
+							<button v-on:click="applyButtonClick">{{ applybutton }}</button>
+						</div>
+					</div>
+					<div class="slotBottoms">
+						<div class="allCheckBox" v-if="( allchklst.length > 1 || legendFlag==2 ) && legendFlag > 0">
+						<table class="lineallchk" v-for="allchk in allchklst" >
+							<tr>
+								<td>
+									<input :id="'allchk_' + gtype +allchk.label" type="checkbox" v-model="allchk.stat" v-bind:disabled="allchk.disable" @change="allCheckChange(allchk.lineName,$event) ">
+								</td>
+								<td>
+									<label :for="'allchk_' + gtype +allchk.label">{{allchk.label}}</label>
+								</td>
+							</tr>
+						</table>
+						</div>
+						<div class="controlButtons">
+							<div class="savedataButton">
+								<button v-on:click="savedataButtonClick">{{ savedatabutton }}</button>
+							</div>
+							<div class="saveChartButton">
+								<button @click="saveChartButtonClick">{{ savechartbutton }}</button>
+							</div>
+						</div>
+					</div>
+					<hr style="clear:both;border-width:0;" />
+				</td>
+			</tr>
+    		</table>
+        </div>
+</script>
+<script type="text/x-template" id="sm-graphtabs-template">
+        <div>
+            <div class="graphtabs" id="nav_tab">
+              <ul>
+                <li v-for="tab in tabs" :class="{ 'is-active': tab.isActive }">
+                    <a @click="selectTab(tab)">{{ tab.name }}</a>
+                </li>
+              </ul>
+            </div>
+			<table  id="graphTable">
+				<tr>
+    				<td>
+						<div v-for="tab in tabs" v-bind:id="tab.idname" class="chartdiv" v-show="tab.isActive" :class="['smartp']"></div>
+					</td>
+				</tr>
+				<tr>
+					<td class="slotColumn">
+		            	<div class="tabs-details">
+        		        	<slot></slot>
+            			</div>
+					</td>
+				</tr>
+			</table>
+        </div>
+</script>
+<script type="text/x-template" id="sm-graphtab-template">
+        <div class="graphconfig" v-show="isActive">
+        	<slot></slot>
+    		<table class="slotTable">
+				<tr>
+    				<td>
+						<div class="serishunt" v-if="lineidxcnt > 1">
+		        			<input type="radio"  id="series" value=0 v-model="lineIndex" @change="applyButtonClick()">
+		    				<label for="xlogarithm">Series</label>
+		    				<input type="radio"  id="shunt" value=1 v-model="lineIndex" @change="applyButtonClick()">
+		    				<label for="xlinear">Shunt</label>
+							<br>
+						</div>
+					</td>
+				</tr>
+				<tr>
+		    		<td class="graphConfigColumn">
+						<table class="axisconfig">
+							<tr>
+								<td>
+								</td>
+								<td colspan="2">
+									<label class="axislabel" for="xaxistitlelabel">[{{ xaxistitlelabel }}]</label>
+								</td>
+								<td colspan="2">
+									<label class="axislabel" for="yaxistitlelabel">[{{ yaxistitlelabel }}]</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="minlabel">{{ minlabel }}</label>
+								</td>
+								<td class="xaxisconfig">
+									<input v-model="xmin" type="text" class="axisinput" :disabled=isXminDisabled>
+								</td>
+								<td>
+									<input type="checkbox" :id="'xminauto'+gtype" v-model="xminauto">
+									<label :for="'xminauto'+gtype">Auto</label>
+								</td>
+								<td class="yaxisconfig">
+									<input v-model="ymin" type="text" class="axisinput" :disabled=isYminDisabled>
+								</td>
+								<td>
+									<input type="checkbox" :id="'yminauto'+gtype" v-model="yminauto">
+									<label :for="'yminauto'+gtype">Auto</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="maxlabel">{{ maxlabel }}</label>
+								</td>
+								<td class="xaxisconfig">
+									<input v-model="xmax" type="text" class="axisinput" :disabled=isXmaxDisabled>
+								</td>
+								<td>
+									<input type="checkbox" :id="'xmaxauto'+gtype" v-model="xmaxauto">
+									<label :for="'xmaxauto'+gtype">Auto</label>
+								</td>
+								<td class="yaxisconfig">
+									<input v-model="ymax" type="text" class="axisinput" :disabled=isYmaxDisabled>
+								</td>
+								<td>
+									<input type="checkbox" :id="'ymaxauto'+gtype" v-model="ymaxauto">
+									<label :for="'ymaxauto'+gtype">Auto</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="unitlabel">{{ unitlabel }}</label>
+								</td>
+								<td class="xaxisunit" colspan="2">
+									<select v-model="xunitselected" class="axisunit" v-bind:disabled="xunitdisable">
+										<option v-for="xunit in xunits" v-bind:value="xunit.value">
+											{{ xunit.text }}
+										</option>
+									</select>
+								</td>
+								<td class="yaxisunit"colspan="2">
+									<select v-model="yunitselected" class="axisunit" v-bind:disabled="yunitdisable">
+										<option v-for="yunit in yunits" v-bind:value="yunit.value">
+											{{ yunit.text }}
+										</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td colspan="2">
+									<input type="radio" :id="'xlogarithm'+gtype" value="true" v-model="xlogmode" :disabled=isXlogDisabled>
+									<label :for="'xlogarithm'+gtype">Logarithm</label>
+								</td>
+								<td colspan="2">
+									<input type="radio" :id="'ylogarithm'+gtype" value="true" v-model="ylogmode" :disabled=isYlogDisabled>
+									<label :for="'ylogarithm'+gtype">Logarithm</label>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td colspan="2">
+									<input type="radio" :id="'xlinear'+gtype" value="false" v-model="xlogmode">
+									<label :for="'xlinear'+gtype">Linear</label>
+								</td>
+								<td colspan="2">
+									<input type="radio" :id="'ylinear'+gtype" value="false" v-model="ylogmode">
+									<label :for="'ylinear'+gtype">Linear</label>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="5">
+									<div class="applyButtons">
+										<button v-on:click="defaultButtonClick">{{ defbutton }}</button>
+										<button v-on:click="applyButtonClick(true)">{{ applybutton }}</button>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td class="lineVisibleCheckColumn">
+						<div class="linevisible_chk" v-if="ginfolist_obj.length > 0">
+						<table>
+							<tr>
+								<td>
+									<table  v-for="list in ginfolist_obj" v-if="ginfolist_obj.length > 0">
+										<tr>
+											<td>
+												<input type="checkbox"  v-if="list.lineIndex === 0 && list.productVisible" v-model="list.lineVisible" @change="lineVisibleChange(list,$event)">
+											</td>
+											<td>
+												<hr class="linehr" v-if="list.lineIndex === 0 && list.productVisible" width="18px" :size="list.lineSize" :color="'#'+list.lineColor">
+											</td>
+											<td>
+   												<label v-if="list.lineIndex === 0 && list.productVisible">{{list.productNo}} - {{list.lineName}}</label>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td>
+
+								</td>
+								<td v-show="( allchklst.length > 1 || legendFlag==2 ) && legendFlag > 0">
+									<table class="lineallchk" v-for="allchk in allchklst" >
+										<tr>
+											<td>
+												<input :id="'allchk_' + gtype +allchk.label" type="checkbox" v-model="allchk.stat" v-bind:disabled="allchk.disable" @change="allCheckChange(allchk.lineName,$event) ">
+											</td>
+											<td>
+												<label :for="'allchk_' + gtype +allchk.label">{{allchk.label}}</label>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+						</div>
+		    		</td>
+				</tr>
+    		</table>
+        </div>
+</script>
+
+<script type="text/x-template" id="graph-control-template">
+	<td style="white-space:nowrap;">
+		<div class="graph_box counter_box">
+			<a href="javascript:void('show_graph');" >
+				<img v-if="counter > 0" src="/TYCOMPAS/image/Common/btn_graph.png" @click="showGraph"  title="Display Charts"   />
+				<img v-else src="/TYCOMPAS/image/Common/btn_graph_disable.png"  title="Display Charts"  style="cursor:default;" />
+				<div v-if="counter > 0" class="counter" @click="showGraph">{{counter}}</div>
+			</a>
+		</div>
+		<div class="graph_box delete_box">
+			<a href="javascript:void('delete_graph');">
+				<img v-if="counter > 0" src="/TYCOMPAS/image/Common/btn_graph_clear.png"  title="Cancel all the check marks for graph."  @click="removeAll" />
+				<img v-else src="/TYCOMPAS/image/Common/btn_graph_clear_disable.png"  title="Cancel all the check marks for graph." style="cursor:default;" />
+			</a>
+		</div>
+	</td>
+</script>
+
+<script type="text/x-template" id="mylist-control-template">
+	<td>
+		<div class="mylist_box counter_box">
+			<a href="javascript:void('show_mylist')" @click="showMyList">
+				<img v-if="counter > 0" src="/TYCOMPAS/image/Common/btn_showMyList.png"  title="Go to MyList"    />
+				<img v-else src="/TYCOMPAS/image/Common/btn_showMyList_disable.png"  title="Go to MyList"   style="cursor:default;" />
+				<div v-if="counter > 0" class="counter">{{counter}}</div>
+			</a>
+		</div>
+	</td>
+</script>
+<script type="text/x-template" id="setting-template">
+	<td id="control_display" class="control_display">
+		<div class="setting_mark"><a href="javascript:void('settings')" @click="show">
+			<img src="/TYCOMPAS/image/Common/btn_setting.png"  title="Display item change"  />
+		</a></div>
+		<div v-if="display" id="settingDummy" @click="hide">
+			<div class="detail" @click.stop="dummy">
+				<div class="box display_box">
+					<div class="title" >
+						<span class="word">Display item change</span>
+
+						<button @click="selectAll"><i class="far fa-check-square"></i>&nbsp;Select all</button>
+						<button @click="setDefault">Default</button>
+					</div>
+					<hr />
+					<div class="container_box">
+						<div v-for="header in headers" class="container" v-if="isVisible(header.dataId)">
+							<input type="checkbox" :checked="isChecked(header.dataId)" :id="'setting_' + header.dataId" :disabled="header.dataId == 'PartNumber'" @change="showCtrl(header)" />
+							<label :for="'setting_' + header.dataId">{{stripHtml(header.specificationName)}}</label>
+						</div>
+					</div>
+				</div>
+				<div v-if="!isCrossRef" class="box options">
+					<div class="title">Option</div>
+					<hr />
+					<div class="container_box">
+						
+						<div class="container menu_hide">
+							<input type="checkbox"  id="menuAutoHideMd" v-model="destMenuAutoHide" @change="checkMenuAutoHide" />
+							<label for="menuAutoHideMd">Automatically hide menu</label>
+						</div>
+					</div>
+				</div>
+				<div class="button"><button @click="okClick">OK</button></div>
+			</div>
+		</div>
+	</td>
+</script>
+<script type="text/x-template" id="unit-radio-template">
+	<td id="unitRadioGroup">
+		<span v-for="(value,key) in unitInfo">
+			<input type="radio" name="unit_radio" :id="'unit_' + key" :value="key" v-model="prm.u" />
+			<label :for="'unit_' + key">{{value}}</label>
+		</span>
+	</td>
+</script>
+
+<script type="text/x-template" id="sm-header-menu-template">
+	<div id="smHeaderMenu">
+		<div id="smMenuController" @click="showMenu"><i class="fa fa-bars menu_icon" aria-hidden="true"></i></div>
+		<div v-if="display" id="showMenuDummy" @click="hide" >
+		<ul v-if="display" @click.stop="function(){}">
+			<li v-if="search" @click="showSort">
+				<div id="smSortController" >
+				<i class="fa fa-sort" aria-hidden="true"></i>Sort results
+				</div>
+			</li>
+			<li v-if="search || crossref" @click="showSettings">
+				<div id="smSettingController" >
+				<i class="fa fa-cog" aria-hidden="true"></i>Display item change
+				</div>
+			</li>
+			<li id="smMyList" >
+				<div>
+					<a href="./pickup?u=M" @click="showPickupFromTop">
+					<i class="fas fa-list" ></i>Go to MyList
+					</a>
+				</div>
+			</li>
+			
+			<li v-if="search && graphs.length > 0"  @click="showGraph">
+				<div id="smGraph">
+				<i class="fas fa-chart-line" ></i>Display Charts
+				<span class="count">{{graphs.length}}</span>
+				</div>
+			</li>
+			<li v-if="search && graphs.length > 0"  @click="deleteGraph">
+				<div id="smGraphDel">
+				<i class="fas fa-chart-line" style="opacity:0.3" ></i>Cancel all the check marks for graph.
+				</div>
+			</li>
+			<li v-if="search" @click="showHelp">
+				<div id="smHelp" >
+				<i class="fa fa-question-circle" aria-hidden="true"></i>HELP
+				</div>
+			</li>
+			<li v-if="graph" @click="showGraphHelp">
+				<div id="smHelp" >
+				<i class="fa fa-question-circle" aria-hidden="true"></i>HELP
+				</div>
+			</li>
+			
+			
+			<li v-if="crossref && crgraphs.length > 0" @click="showCrossrefGraph">
+				<div id="crGraph" >
+				<i class="fas fa-chart-line" ></i>Display Charts
+				</div>
+			</li>
+			
+			<li v-if="crossref && crgraphs.length > 0" @click="deleteCrossrefGraph">
+				<div id="smGraphDel">
+				<i class="fas fa-chart-line" style="opacity:0.3" ></i>Cancel all the check marks for graph.
+				</div>
+			</li>
+			
+			
+			<li v-if="pickup && pickupGraphs.length > 0"  @click="showGraphFromPickup">
+				<div>
+				<i class="fas fa-chart-line" ></i>Display Charts
+				<span class="count">{{pickupGraphs.length}}</span>
+				</div>
+			</li>
+			<li v-if="pickup && pickupGraphs.length > 0"  @click="deletePickupGraph">
+				<div>
+				<i class="fas fa-chart-line" style="opacity:0.3" ></i>Cancel all the check marks for graph.
+				</div>
+			</li>
+			
+			<li @click="showVersionInfo">
+				<div><i class="fa fa-info-circle" aria-hidden="true"></i>Version info.</div>
+			</li>
+			<li id="smRegion">
+				<div><i class="fa fa-globe" aria-hidden="true"></i>Select region</div>
+				<div id="smMenu_region">
+					<select v-model="region">
+						<option value="jp" :selected="region == 'jp'">日本</option>
+						<option value="ut" :selected="region == 'ut'">North America</option>
+						<option value="ap" :selected="region == 'ap'">Asia Pacific</option>
+						<option value="eu" :selected="region == 'eu'">Europe</option>
+						<option value="cs" :selected="region == 'cs'">中国</option>
+						<option value="kr" :selected="region == 'kr'">한국</option>
+						<option value="or" :selected="region == 'or'">Other Regions</option>
+					</select>
+				</div>
+			</li>
+			<li @click="showPrecautions">
+				<div><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>PRECAUTIONS AND DISCLAIMERS</div>
+			</li>
+			</ul>
+		</div>
+	</div>
+</script>
+<script type="text/x-template" id="sm-pickup-template">
+	<div class="productCategoryBox"  v-if="showId == classificationId && productNoList && productNoList.length > 0">
+		<div class="settings">
+			<i class="fa fa-cog" @click="showSettings"></i>
+		</div>
+		<div class="productCategoryInfo">
+			<span><a :href="'./specificationSearcher?cid=' + classificationId + '&u=' + unit" v-html="categoryName">カテゴリ名</a></span>&nbsp;
+		</div>
+		<div  class="unitBox" >
+			<span class="count">{{records.length}}Results</span>-&nbsp;<span>Unit</span>：<span></span>
+		</div>
+		<hr />
+		<div class="productList" v-if="records.length > 0">
+			<div class="resultTable resultBody">
+			<article v-for="(record,index) in records" :prm="prm"  :hidelist="hidelist" :showlist="showlist" is="record-component" :headers="headers" :record="record"  :class="{even : index % 2 == 0}" class="record" :graphs="graphs" @graph-ctrl="graphCtrl" :mylists="productNoList" @delete-ctrl="deleteCtrl" @mylist-ctrl="mylistCtrl"></article>
+			</div>
+		</div>
+		<div ref="setting-component" is="setting-component" :headers="headers" :showlist="showlist" :hidelist="hidelist" :low-speed-mode="false" @setshowlist="setShowList" class="setting_buttons" :classificationId="classificationId"></div>
+	</div>
+</script>
+<script type="text/x-template" id="pickup-template">
+	<div class="productCategoryBox" v-if="records.length > 0">
+		<div class="productCategoryInfo">
+			<span>{{categoryName}}</span>&nbsp;-&nbsp;<span class="count">{{records.length}}Results</span>
+			<button v-if="!displayResult" @click="showResult">Display List</button>
+			<button v-else   @click="hideResult">Hide List</button>
+		</div>
+		<hr />
+		<div v-if="displayResult" class="resultBody productList">
+			<table class="resultTable">
+			<thead is="record-header-component" :hidelist="hidelist" :showlist="showlist" :prm="prm" :headers="headers"></thead>
+			<tbody v-if="records.length > 0"  >
+				<tr v-for="(record,index) in records" :prm="prm"  :hidelist="hidelist" :showlist="showlist" is="record-component" :headers="headers" :record="record"  :class="{even : index % 2 == 0}" class="record" :graphs="graphs" @graph-ctrl="graphCtrl" :mylists="productNoList" @delete-ctrl="deleteCtrl" @mylist-ctrl="mylistCtrl"></tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+</script>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FSWVXM8068"></script>
+<script type="text/javascript" src="/TYCOMPAS/js/google/analytics.js?ver=14.8.0.5"></script>
+<script type="text/javascript" src="/TYCOMPAS/js/min/transition.min.js?ver=14.8.0.5"></script>
+</html>

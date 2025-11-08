@@ -1,0 +1,1885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- OneTrust Cookies Consent Notice start for belfuse.com -->
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="920663a7-62c8-489f-97a0-358ae311fea3"></script>
+        <script type="text/javascript">
+            function OptanonWrapper() { }
+        </script>
+        <!-- OneTrust Cookies Consent Notice end for belfuse.com -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="preload" href="/media/images/brands/cui/CUI-Hero.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Logo-Bel-L-H_white_500px.png" as="image" type="image/png">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Power-When-You-Need-It.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Customizable-Power-Adapters.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Product_External-AC-DC.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Product_Internal-AC-DC.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Product_DC-DC.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Custom-Solutions-BG.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/brands/cui/CUI-Custom-Solutions.jpg" as="image" type="image/jpeg">
+            <link rel="preload" href="/media/images/hero/belf-overlay-1.png" as="image" type="image/png">
+            <link rel="preload" href="/media/images/logo/logo-bel.png" as="image" type="image/png">
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                        })(window,document,'script','dataLayer','GTM-5K9RJLTF');</script>
+    <!-- End Google Tag Manager -->
+    <meta content="Partner with CUI&#x27;s expert team to determine and design the best-fit power solution for your application." name="description" />
+<meta content="CUI Inc. | Bel" property="og:title" />
+<meta content="Partner with CUI&#x27;s expert team to determine and design the best-fit power solution for your application." property="og:description" />
+<meta content="https://www.belfuse.com/company/brands/cui-inc" property="og:url" />
+<meta content="Bel" property="og:site_name" />
+<meta content="en" property="og:locale" />
+<meta content="CUI Inc. | Bel" name="twitter:title" />
+<meta content="Partner with CUI&#x27;s expert team to determine and design the best-fit power solution for your application." name="twitter:description" />
+<meta content="https://www.belfuse.com/company/brands/cui-inc" name="twitter:url" />
+
+    <title>CUI Inc. | Bel</title>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <link href="https://www.belfuse.com/company/brands/cui-inc" rel="canonical" />
+    <link href="/OrchardCore.Resources/Styles/bootstrap.min.css?v=reuifCerl4QKoYExhBO4VjxKkF2sMRVM62rCuQjgnRo" rel="stylesheet" type="text/css" />
+<link href="/CinchOrchardCoreCMS.BelfuseTheme/css/company-brands.min.css?v=UT0YwLEDcCQ5VfeYbgZQGAioDn7SRHrFi8IPXCotOvE" rel="stylesheet" type="text/css" />
+<link href="/CinchOrchardCoreCMS.BelfuseTheme/css/nav.min.css?v=z0kZpIluVbk8vZ-9X7f49VdFnOAbk2bLugCYdSd5Jpk" rel="stylesheet" type="text/css" />
+<link href="/CinchOrchardCoreCMS.BelfuseTheme/css/site.min.css?v=umXQZoBlwLazJv-09F6qRjgea_Oi6qf06v6hzWQpTsE" rel="stylesheet" type="text/css" />
+<link href="/CinchOrchardCoreCMS.BelfuseTheme/css/components.min.css?v=zcjUHb1adfrUjoNK-aubZKIbQHKt3sHdeUtQCO7Lt2M" rel="stylesheet" type="text/css" />
+<link href="/CinchOrchardCoreCMS.BelfuseTheme/css/search_nav.min.css?v=Iis5-UtTOudPLYjJfNN2WzE7Ifj_YkoCuOhza5whfOA" rel="stylesheet" type="text/css" />
+
+    <!-- Dun & Bradstreet Pixel -->
+    <!--For opt-out information on Visitor Intelligence, please visit: https://d41.co/-->
+    <script type="text/javascript" async defer src="//api9812.d41.co/sync/"></script>
+    <script type="text/javascript" src="//v2.d41.co/tags/dnb_coretag_v6.min.js"></script>
+    <script type="text/javascript">
+        dnbvid.getData("api9812", "json", "T", {}, function (dnb_Data) {
+            //Mapping goes here
+            if (dnb_Data.status == 200) { //status == 200 represents a match
+                //Basic example: myVar = dnb_Data.duns ? dnb_Data.duns : ""
+                //Advanced example: myVar = dnb_Data.naicsCodes ? dnb_Data.naicsCodes.substr(1,5) : ""
+            }
+
+            //The empty array between "T" and "function(dnb_Data)" can be used to pass back data
+            //Example: {"p1": "value1", "p2": variable2}
+            //"value1" will be recorded on our end as-is
+            //variable2 will be recorded as the value of said variable, assuming it is defined
+            //"p1" through "p10" exist
+        });
+    </script>
+    <!-- End Dun & Bradstreet Pixel -->
+</head>
+<body dir="ltr">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K9RJLTF"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+
+
+
+
+<div id="site-navigation" class="no-print">
+    
+<div id="desktop-nav">
+    <div class="top-nav">
+        <a class="Standalone-Link font-body-sm" href="/company/careers" target="_self">Bel Careers</a>
+        <a class="Standalone-Link font-body-sm" href="https://ir.belfuse.com/" target="_blank">Investor Relations</a>
+    </div>
+    <nav id="desktop-navbar" class="navbar navbar-expand-xxl">
+        <div class="nav-group">
+            <a class="navbar-brand" href="/">
+                <img class="logo-belf" src="/media/images/logo/logo-bel.png" alt="Bel Logo" />
+
+            </a>
+            <div class="navbar-subnav">
+                <ul class="navbar-nav me-auto">
+                        <li class="nav-item nav-l0 ">
+<a class="BelfText BelfLink StandaloneLink ColorWhite nav-l0 " href="/products" target="_self">
+    Products
+</a>                                <div class="products-dropdown dropdown-menu" aria-labelledby="products-toggle">
+                                    <div class="belf-card">
+                                        <ul class="nav-l1-ul">
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink " href="/products/circuit-protection" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Circuit Protection
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="circuit-protection-dropdown nav-l2-ul  " aria-labelledby="circuit-protection-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/circuit-protection/fuses" target="_self">
+    Fuses
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/circuit-protection/ptc-resettable-fuses" target="_self">
+    PTC Resettable Fuses
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/circuit-protection/accessories" target="_self">
+    Accessories
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink " href="/products/chokes-coils-inductors" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Chokes, Coils, Inductors
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="chokes,-coils,-inductors-dropdown nav-l2-ul  " aria-labelledby="chokes,-coils,-inductors-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/common-mode-chokes" target="_self">
+    Common Mode Chokes
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/smd-inductors" target="_self">
+    SMD Inductors
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/through-hole-inductors" target="_self">
+    Through Hole Inductors
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/ferrite-beads" target="_self">
+    Ferrite Beads
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/linear-chokes" target="_self">
+    Linear Chokes
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/charging-coils" target="_self">
+    Charging Coils
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/chokes-coils-inductors/design-kits" target="_self">
+    Design Kits
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink " href="/products/ethernet" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Ethernet
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="ethernet-dropdown nav-l2-ul  " aria-labelledby="ethernet-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/ethernet/magjacks-icms" target="_self">
+    MagJacks&#xAE; (ICMs)
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/ethernet/magnetic-modules" target="_self">
+    Magnetic Modules
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink " href="/products/power-supplies" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Power Supplies
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="power-supplies-dropdown nav-l2-ul  " aria-labelledby="power-supplies-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/ac-dc-converters" target="_self">
+    AC-DC Converters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/dc-dc-converters" target="_self">
+    DC-DC Converters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/dc-ac-inverters" target="_self">
+    DC-AC Inverters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/battery-chargers" target="_self">
+    Battery Chargers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/desktop-wall-plug-adapters" target="_self">
+    Desktop &amp; Wall Plug Adapters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/power-shelves-racks" target="_self">
+    Power Shelves &amp; Racks
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/power-supplies/accessories" target="_self">
+    Accessories
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink " href="/products/transformers" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Transformers
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="transformers-dropdown nav-l2-ul  " aria-labelledby="transformers-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/poe-transformers" target="_self">
+    POE Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/single-phase-transformers" target="_self">
+    Single Phase Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/three-phase-transformers" target="_self">
+    Three Phase Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/auto-transformers" target="_self">
+    Auto Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/smps-transformers" target="_self">
+    SMPS Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/current-sense-transformers" target="_self">
+    Current Sense Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/products/transformers/accessories" target="_self">
+    Accessories
+</a>                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item nav-l0 ">
+<a class="BelfText BelfLink StandaloneLink ColorWhite nav-l0 no-action" href="" target="_self">
+    Markets
+</a>                                <div class="markets-dropdown dropdown-menu" aria-labelledby="markets-toggle">
+                                    <div class="belf-card">
+                                        <ul class="nav-l1-ul">
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/e-mobility" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    EV / eMobility
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/medical" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Medical
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/railway" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Railway
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/industrial" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Industrial
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/networking-data-centers" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Networking & Data Centers
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/market/consumer-iot" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Consumer & IoT
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item nav-l0 ">
+<a class="BelfText BelfLink StandaloneLink ColorWhite nav-l0 no-action" href="" target="_self">
+    Resources
+</a>                                <div class="resources-dropdown dropdown-menu" aria-labelledby="resources-toggle">
+                                    <div class="belf-card">
+                                        <ul class="nav-l1-ul">
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/resource-library" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Resource Library
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/design-tools/stock-check" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Distributor Inventory
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/resources/quality-center" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Quality Center
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink no-action" href="" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Design Tools
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="design-tools-dropdown nav-l2-ul  " aria-labelledby="design-tools-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/design-tools/cad-model-library" target="_self">
+    CAD Model Library
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/design-tools/competitor-xref" target="_self">
+    Competitor Cross Reference
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink no-action" href="" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Document Search
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="document-search-dropdown nav-l2-ul  " aria-labelledby="document-search-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/document-search/datasheet-library" target="_self">
+    Datasheet Library
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/document-search/installation-instructions" target="_self">
+    Installation Instructions
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/document-search/brochures-and-catalogs" target="_self">
+    Brochures &amp; Catalogs
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/document-search/compliance-certifications" target="_self">
+    Compliance Certifications
+</a>                                                        </ul>
+                                                    </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="nav-item nav-l0 ">
+<a class="BelfText BelfLink StandaloneLink ColorWhite nav-l0 no-action" href="" target="_self">
+    Company
+</a>                                <div class="company-dropdown dropdown-menu" aria-labelledby="company-toggle">
+                                    <div class="belf-card">
+                                        <ul class="nav-l1-ul">
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/company/about-us" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    About Bel
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/company/news" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Bel News
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink no-action" href="" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Locations
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="locations-dropdown nav-l2-ul  " aria-labelledby="locations-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/locations/north-america" target="_self">
+    North America
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/locations/emea" target="_self">
+    Europe, Middle East &amp; Africa
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/locations/apac" target="_self">
+    Asia Pacific
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1 BelfLinkDropdown">
+                                                        <a class="BelfLink no-action" href="" target="_self">
+                                                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Our Brands
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                                                        </a>
+                                                        <ul class="our-brands-dropdown nav-l2-ul  " aria-labelledby="our-brands-toggle">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/brands/cui-inc" target="_self">
+    CUI Inc
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/brands/eos-power" target="_self">
+    EOS Power
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/brands/melcher" target="_self">
+    Melcher&#x2122;
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2  " href="/company/brands/signal-transformer" target="_self">
+    Signal Transformer
+</a>                                                        </ul>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="/company/careers" target="_blank">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Careers
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                                    <li class="desktop-nav-l1 nav-item nav-l1">
+                                                        <a class="BelfLink " href="https://ir.belfuse.com/" target="_blank">
+                                                            <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Investor Relations
+</span>
+    </div>
+</div>
+                                                        </a>
+                                                    </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-rfq-sample-container">
+            <form id="formSearch" class="d-flex" action="" method="post">
+                
+<div id="customSearch-container" data-anchor="right">
+    <input type="hidden" id="searchText" name="searchText" value="" />
+    <div class="input-search-dark3">
+        <div class="SearchIcon"></div>
+        <input type="text" spellcheck="true" class="siteSearchInput" placeholder="Search by part number or keyword" aria-label="search-input" />
+        <button type="button" class="btn_search" aria-label="Search">
+            <div class="SearchIcon2"></div>
+        </button>
+    </div>
+    <div class="customSearch-autocomplete"></div>
+</div>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I46-ereMJxIsP7p4RJ8ZBRNsVGSGSXt7Bdzy1lCRuTsYEdTn0KOdjKaGiY10BQpYPfbZjVskl1XXEjth0k0EDruc_H6kSTfd7ml_aDJ9EDD0LRs35OkFxbr-47UpXteitkYxcGUS01GgZxesXHwZHg" /></form>
+                <div class="rfq-sample-container">
+                        <div class="link-rfq-sample">
+                            <a href="/request-for-quote">
+                                <div id="qty-rfq" class="qty-container-rfq-sample">
+                                </div>
+                                <img class="img-solid" src="/media/icons/Basket.png" alt="Quote Icon" />
+
+                                <span class="text-rfq-sample MainCaption">
+                                    RFQ
+                                </span>
+                            </a>
+                        </div>
+                </div>
+            <div class="link-compare">
+                <a href="/compare-products">
+                    <div id="qty-compare" class="qty-container-compare">
+                        <span class="qty-compare MainCaption">0</span>
+                    </div>
+                    <img class="img-solid" src="/media/icons/Comparison.png" alt="Compare Icon" />
+
+                    <span class="text-compare MainCaption">
+                        Compare
+                    </span>
+                </a>
+            </div>
+            <a href="/company/contact-us" class="contact-bel belf-button-outlined-default">
+                <span class="belf-text-body-bold">
+                    Contact Bel
+                </span>
+            </a>
+        </div>
+    </nav>
+</div>
+    
+<div id="mobile-nav">
+    <nav id="mobile-navbar" class="navbar navbar-expand-xxl">
+        <a class="navbar-brand" href="/">
+            <img class="logo-belf" src="/media/images/logo/logo-bel.png" alt="Cinch Logo" />
+
+        </a>
+        <div class="search-rfq-sample-container-mobile">
+            <form id="formSearch2" action="" method="post">
+                
+<div id="customSearch-container" data-anchor="center">
+    <input type="hidden" id="searchText" name="searchText" value="" />
+    <div class="input-search-dark3">
+        <div class="SearchIcon"></div>
+        <input type="text" spellcheck="true" class="siteSearchInput" placeholder="Search by part number or keyword" aria-label="search-input" />
+        <button type="button" class="btn_search" aria-label="Search">
+            <div class="SearchIcon2"></div>
+        </button>
+    </div>
+    <div class="customSearch-autocomplete"></div>
+</div>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I46-ereMJxIsP7p4RJ8ZBRNsVGSGSXt7Bdzy1lCRuTsYEdTn0KOdjKaGiY10BQpYPfbZjVskl1XXEjth0k0EDruc_H6kSTfd7ml_aDJ9EDD0LRs35OkFxbr-47UpXteitkYxcGUS01GgZxesXHwZHg" /></form>
+                <div class="rfq-sample-container">
+                        <div class="link-rfq-sample">
+                            <a href="/request-for-quote">
+                                <div id="qty-rfq" class="qty-container-rfq-sample top">
+                                </div>
+                                <img class="img-solid" src="/media/icons/Basket.png" alt="Quote Icon" />
+
+                            </a>
+                        </div>
+                </div>
+            <div class="link-compare">
+                <a href="/compare-products">
+                    <div id="qty-compare" class="qty-container-compare">
+                        <span class="qty-compare MainCaption">0</span>
+                    </div>
+                    <img class="img-solid" src="/media/icons/Comparison.png" alt="Compare Icon" />
+
+                    <span class="text-compare MainCaption">
+                        Compare
+                    </span>
+                </a>
+            </div>
+            <a href="/company/contact-us" class="contact-bel belf-button-outlined-default">
+                <span class="belf-text-body-bold">
+                    Contact Bel
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <img class="img-solid" src="/media/icons/icon-burger-menu.svg" alt="toggle icon" />
+
+                </span>
+            </button>
+        </div>
+        <div class="navbar-subnav offcanvas offcanvas-start" id="mobileNav">
+            <div class="offcanvas-header">
+                <div></div>
+                <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <img src="/media/icons/xmark-solid.svg" alt="close icon" />
+
+                </button>
+            </div>
+            <ul class="navbar-nav me-auto">
+                    <li class="nav-item nav-l0 ">
+                        <button id="products-toggle" type="button" class="nav-link nav-link-mobile toggle-dropdown" data-bs-toggle="dropdown" data-bs-auto-Close="outside" aria-expanded="false">
+                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Products
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                        </button>
+                            <div class="products-dropdown dropdown-menu dropdown-slide" aria-labelledby="products-toggle">
+                                <div class="belf-card">
+                                    <div class="nav-l1-header">
+                                        <button type="button" class="btn-close text-reset close-submenu" aria-label="Close">
+                                            <img src="/media/icons/icon-arrow-left-blue.svg" alt="arrow left icon" />
+
+                                        </button>
+                                            <a class="BelfLink " href="#" rel="nofollow" target="_self">
+                                                <h5>Products</h5>
+                                            </a>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <img src="/media/icons/xmark-solid.svg" alt="close icon" />
+
+                                        </button>
+                                    </div>
+                                    <ul class="nav-l1-ul">
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#circuitprotectionCollapse" aria-expanded="false" aria-controls="circuitprotectionCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Circuit Protection
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="circuitprotectionCollapse" class="circuitprotectionCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/circuit-protection/fuses" target="_self">
+    Fuses
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/circuit-protection/ptc-resettable-fuses" target="_self">
+    PTC Resettable Fuses
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/circuit-protection/accessories" target="_self">
+    Accessories
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#chokes_coils_inductorsCollapse" aria-expanded="false" aria-controls="chokes_coils_inductorsCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Chokes, Coils, Inductors
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="chokes_coils_inductorsCollapse" class="chokes_coils_inductorsCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/common-mode-chokes" target="_self">
+    Common Mode Chokes
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/smd-inductors" target="_self">
+    SMD Inductors
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/through-hole-inductors" target="_self">
+    Through Hole Inductors
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/ferrite-beads" target="_self">
+    Ferrite Beads
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/linear-chokes" target="_self">
+    Linear Chokes
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/charging-coils" target="_self">
+    Charging Coils
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/chokes-coils-inductors/design-kits" target="_self">
+    Design Kits
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#ethernetCollapse" aria-expanded="false" aria-controls="ethernetCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Ethernet
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="ethernetCollapse" class="ethernetCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/ethernet/magjacks-icms" target="_self">
+    MagJacks&#xAE; (ICMs)
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/ethernet/magnetic-modules" target="_self">
+    Magnetic Modules
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#powersuppliesCollapse" aria-expanded="false" aria-controls="powersuppliesCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Power Supplies
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="powersuppliesCollapse" class="powersuppliesCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/ac-dc-converters" target="_self">
+    AC-DC Converters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/dc-dc-converters" target="_self">
+    DC-DC Converters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/dc-ac-inverters" target="_self">
+    DC-AC Inverters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/battery-chargers" target="_self">
+    Battery Chargers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/desktop-wall-plug-adapters" target="_self">
+    Desktop &amp; Wall Plug Adapters
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/power-shelves-racks" target="_self">
+    Power Shelves &amp; Racks
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/power-supplies/accessories" target="_self">
+    Accessories
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#transformersCollapse" aria-expanded="false" aria-controls="transformersCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Transformers
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="transformersCollapse" class="transformersCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/poe-transformers" target="_self">
+    POE Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/single-phase-transformers" target="_self">
+    Single Phase Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/three-phase-transformers" target="_self">
+    Three Phase Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/auto-transformers" target="_self">
+    Auto Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/smps-transformers" target="_self">
+    SMPS Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/current-sense-transformers" target="_self">
+    Current Sense Transformers
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/products/transformers/accessories" target="_self">
+    Accessories
+</a>                                                    </ul>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav-item nav-l0 ">
+                        <button id="markets-toggle" type="button" class="nav-link nav-link-mobile toggle-dropdown" data-bs-toggle="dropdown" data-bs-auto-Close="outside" aria-expanded="false">
+                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Markets
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                        </button>
+                            <div class="markets-dropdown dropdown-menu dropdown-slide" aria-labelledby="markets-toggle">
+                                <div class="belf-card">
+                                    <div class="nav-l1-header">
+                                        <button type="button" class="btn-close text-reset close-submenu" aria-label="Close">
+                                            <img src="/media/icons/icon-arrow-left-blue.svg" alt="arrow left icon" />
+
+                                        </button>
+                                            <a class="BelfLink no-action" href="#" rel="nofollow" target="_self">
+                                                <h5>Markets</h5>
+                                            </a>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <img src="/media/icons/xmark-solid.svg" alt="close icon" />
+
+                                        </button>
+                                    </div>
+                                    <ul class="nav-l1-ul">
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/e-mobility" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    EV / eMobility
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/medical" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Medical
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/railway" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Railway
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/industrial" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Industrial
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/networking-data-centers" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Networking & Data Centers
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/market/consumer-iot" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Consumer & IoT
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav-item nav-l0 ">
+                        <button id="resources-toggle" type="button" class="nav-link nav-link-mobile toggle-dropdown" data-bs-toggle="dropdown" data-bs-auto-Close="outside" aria-expanded="false">
+                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Resources
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                        </button>
+                            <div class="resources-dropdown dropdown-menu dropdown-slide" aria-labelledby="resources-toggle">
+                                <div class="belf-card">
+                                    <div class="nav-l1-header">
+                                        <button type="button" class="btn-close text-reset close-submenu" aria-label="Close">
+                                            <img src="/media/icons/icon-arrow-left-blue.svg" alt="arrow left icon" />
+
+                                        </button>
+                                            <a class="BelfLink no-action" href="#" rel="nofollow" target="_self">
+                                                <h5>Resources</h5>
+                                            </a>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <img src="/media/icons/xmark-solid.svg" alt="close icon" />
+
+                                        </button>
+                                    </div>
+                                    <ul class="nav-l1-ul">
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/resource-library" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Resource Library
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/design-tools/stock-check" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Distributor Inventory
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/resources/quality-center" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Quality Center
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#designtoolsCollapse" aria-expanded="false" aria-controls="designtoolsCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Design Tools
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="designtoolsCollapse" class="designtoolsCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/design-tools/cad-model-library" target="_self">
+    CAD Model Library
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/design-tools/competitor-xref" target="_self">
+    Competitor Cross Reference
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#documentsearchCollapse" aria-expanded="false" aria-controls="documentsearchCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Document Search
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="documentsearchCollapse" class="documentsearchCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/document-search/datasheet-library" target="_self">
+    Datasheet Library
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/document-search/installation-instructions" target="_self">
+    Installation Instructions
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/document-search/brochures-and-catalogs" target="_self">
+    Brochures &amp; Catalogs
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/document-search/compliance-certifications" target="_self">
+    Compliance Certifications
+</a>                                                    </ul>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="nav-item nav-l0 ">
+                        <button id="company-toggle" type="button" class="nav-link nav-link-mobile toggle-dropdown" data-bs-toggle="dropdown" data-bs-auto-Close="outside" aria-expanded="false">
+                            <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorBlue04">
+    Company
+</span>
+    </div>
+    <img src="/media/icons/nav-right-arrow-blue.svg" alt="arrow right icon" />
+
+</div>
+                        </button>
+                            <div class="company-dropdown dropdown-menu dropdown-slide" aria-labelledby="company-toggle">
+                                <div class="belf-card">
+                                    <div class="nav-l1-header">
+                                        <button type="button" class="btn-close text-reset close-submenu" aria-label="Close">
+                                            <img src="/media/icons/icon-arrow-left-blue.svg" alt="arrow left icon" />
+
+                                        </button>
+                                            <a class="BelfLink no-action" href="#" rel="nofollow" target="_self">
+                                                <h5>Company</h5>
+                                            </a>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                            <img src="/media/icons/xmark-solid.svg" alt="close icon" />
+
+                                        </button>
+                                    </div>
+                                    <ul class="nav-l1-ul">
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/company/about-us" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    About Bel
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/company/news" target="_self">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Bel News
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#locationsCollapse" aria-expanded="false" aria-controls="locationsCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Locations
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="locationsCollapse" class="locationsCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/locations/north-america" target="_self">
+    North America
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/locations/emea" target="_self">
+    Europe, Middle East &amp; Africa
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/locations/apac" target="_self">
+    Asia Pacific
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+<button type="button" class="nav-link nav-link-mobile collapsed" data-bs-toggle="collapse" data-bs-target="#ourbrandsCollapse" aria-expanded="false" aria-controls="ourbrandsCollapse">
+                                                        <div class="ListItem">
+    <div>
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Our Brands
+</span>
+    </div>
+    <img class="DownIcon" src="/media/icons/arrow-down.svg" alt="arrow down icon" />
+
+    <img class="UpIcon" src="/media/icons/icon-arrow-up-gray.svg" alt="arrow up icon" />
+
+</div>
+                                                    </button>
+                                                    <ul id="ourbrandsCollapse" class="ourbrandsCollapse nav-l2-ul collapse">
+<a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/brands/cui-inc" target="_self">
+    CUI Inc
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/brands/eos-power" target="_self">
+    EOS Power
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/brands/melcher" target="_self">
+    Melcher&#x2122;
+</a><a class="BelfText BelfLink StandaloneLink ColorGrey07 nav-item nav-l2" href="/company/brands/signal-transformer" target="_self">
+    Signal Transformer
+</a>                                                    </ul>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="/company/careers" target="_blank">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Careers
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                            <li class="mobile-nav-l1 nav-item nav-l1">
+                                                    <a class="BelfLink" href="https://ir.belfuse.com/" target="_blank">
+                                                        <div class="ListItem">
+    <div>
+        
+        <span class="belf-text-body-md BelfText ColorGrey07">
+    Investor Relations
+</span>
+    </div>
+</div>
+                                                    </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </li>
+            </ul>
+            <hr/>
+            <a class="mobile-link BelfText ColorBlue04" href="/company/careers">
+                <h5>Bel Careers</h5>
+            </a>
+            <a class="mobile-link BelfText ColorBlue04" href="https://ir.belfuse.com/">
+                <h5>Investor Relations</h5>
+            </a>
+                <div class="rfq-sample-container">
+                        <div class="link-rfq-sample">
+                            <a href="/request-for-quote">
+                                <div id="qty-rfq" class="qty-container-rfq-sample side">
+                                </div>
+                                <img class="img-solid" src="/media/icons/Basket.png" alt="Quote Icon" />
+
+                                <span class="text-rfq-sample MainCaption">
+                                    RFQ
+                                </span>
+                            </a>
+                        </div>
+                </div>
+            <div class="link-compare">
+                <a href="/compare-products">
+                    <div id="qty-compare" class="qty-container-compare">
+                        <span class="qty-compare MainCaption">0</span>
+                    </div>
+                    <img class="img-solid" src="/media/icons/Comparison.png" alt="Compare Icon" />
+
+                    <span class="text-compare MainCaption">
+                        Compare
+                    </span>
+                </a>
+            </div>
+            <a href="/company/contact-us" class="contact-bel belf-button">
+                <span class="belf-text-body-bold font-body-bold">
+                    Contact Bel
+                </span>
+            </a>
+            <form id="formSearch2" action="" method="post">
+                
+<div id="customSearch-container" data-anchor="center">
+    <input type="hidden" id="searchText" name="searchText" value="" />
+    <div class="input-search-dark3">
+        <div class="SearchIcon"></div>
+        <input type="text" spellcheck="true" class="siteSearchInput" placeholder="Search by part number or keyword" aria-label="search-input" />
+        <button type="button" class="btn_search" aria-label="Search">
+            <div class="SearchIcon2"></div>
+        </button>
+    </div>
+    <div class="customSearch-autocomplete"></div>
+</div>
+            <input name="__RequestVerificationToken" type="hidden" value="CfDJ8I46-ereMJxIsP7p4RJ8ZBRNsVGSGSXt7Bdzy1lCRuTsYEdTn0KOdjKaGiY10BQpYPfbZjVskl1XXEjth0k0EDruc_H6kSTfd7ml_aDJ9EDD0LRs35OkFxbr-47UpXteitkYxcGUS01GgZxesXHwZHg" /></form>
+        </div>
+    </nav>
+</div>
+</div>
+
+    <div class="content">
+        
+
+
+
+<div id="BrandsPage">
+    
+
+<section class="flow">
+<div class="widget widget-h-t-m-l-widget widget-align-justify widget-size-100">
+    <div class="widget-body">
+        <style>
+  .brand-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+    padding: 64px 16px;
+    border-image: fill 1 linear-gradient(to top, #004986 5%, rgba(0, 116, 112, 0.8)  );
+    background-image: url('/media/images/brands/cui/CUI-Hero.jpg');
+    background-size: cover;
+    min-height: 280px;
+    img {
+      flex-grow: 0;
+      max-height: 100%;
+    }
+  }
+</style>
+<div class="brand-hero">
+  <div>
+    <img src="/media/images/brands/cui/CUI-Logo-Bel-L-H_white_500px.png" alt="CUI Inc. Logo">
+  </div>
+</div>
+
+
+    </div>
+</div>
+<div class="widget widget-h-t-m-l-widget widget-align-justify widget-size-100">
+    <div class="widget-body">
+        <style>
+  .brand-intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px 0;
+    .brand-intro-content {
+      flex-grow: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 0;
+    }
+    img.brand-intro-image {
+      max-width: 580px;
+      flex-grow: 1;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .brand-intro {
+      flex-direction: column-reverse;
+      align-items: stretch;
+      gap: 48px;
+      
+      .brand-intro-content {
+        align-self: stretch;
+      }
+      img.brand-intro-image {
+        align-self: stretch;
+        flex-grow: 0;
+        border-radius: 8px;
+        max-width: unset;
+      }
+    }
+  }
+
+  @media screen and (max-width:  599px) {
+    .brand-intro {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: stretch;
+      gap: 48px;
+      
+      img.brand-intro-image {
+		max-height: unset;
+        max-width: unset;
+  		align-self: stretch;
+  		flex-grow: 0;
+  		border-radius: 8px;
+  		box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+</style>
+<div class="brand-intro belf-content-wrapper">
+  <div class="brand-intro-content">
+    <h1 class="ColorGrey06 belf-text-header-md">Power When You Need It</h1>
+    <p class="ColorGrey06 belf-text-body-regular">CUI Inc brought an extensive range of AC-DC power supplies and DC-DC converters the strengthen the Bel product offering expanding our ability to serve the consumer, IoT, industrial, and medical sectors.<br/><br/>Established in 1989, CUI joined Bel through acquisition in 2019. Since their founding CUI was known for the engineer focused approach and exceptional technical resources. This has helped Bel as we continue to grow in our ability to serve our customers.</p>
+  </div>
+  <img class="brand-intro-image" src="/media/images/brands/cui/CUI-Power-When-You-Need-It.jpg" alt="Power When You Need It Image" />
+</div>
+
+
+
+    </div>
+</div>
+<div class="widget widget-h-t-m-l-widget widget-align-justify widget-size-100">
+    <div class="widget-body">
+        <style>
+  .brand-products {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 48px;
+      padding: 80px 0;
+      border-top: solid 1px #f1f1f1;
+    .brand-products-tab-list {
+      align-self: stretch;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      padding: 0;
+    }
+    .brand-products-panel {
+      align-self: stretch;
+      flex-grow: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 80px;
+      padding: 0;
+      .brand-products-panel-content {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 0;
+      }
+      img { 
+        flex-grow: 1;
+        max-height: 340px;
+      }
+    }
+    .belf-tabs-panel {
+      padding-top: 0;
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .brand-products {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 48px;
+      border-top: solid 1px #f1f1f1;
+      .brand-products-tab-list {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 0;
+        flex-wrap: wrap;
+        border-bottom: 0;
+        .belf-tab {
+          flex-grow: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          padding: 8px 16px;
+          border-radius: 8px;
+        }
+        .belf-tab > a {
+	        font-weight: bold;
+        }
+      }
+      .brand-products-panel {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+        padding: 0;
+      }
+    }
+  }
+
+  @media screen and (max-width:  599px) {
+    .brand-products {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 48px;
+      border-top: solid 1px #f1f1f1;
+      .brand-products-tab-list {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 0;
+        flex-wrap: wrap;
+        border-bottom: 0;
+        .belf-tab {
+          flex-grow: 0;
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          padding: 8px 16px;
+          border-radius: 8px;
+        }
+        .belf-tab > a {
+	        font-weight: bold;
+        }
+      }
+      .brand-products-panel {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: stretch;
+        gap: 48px;
+        padding: 0;
+        .brand-products-panel-content {
+            align-self: stretch;
+            flex-grow: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 0;
+        }
+      }
+    }
+  }
+</style>
+  <div class="brand-products belf-content-wrapper">
+    <h2 class="belf-text-header-md">
+      Our Products
+    </h2>
+    <div class="belf-tabs-container brand-products-tab-list">
+      <div class="belf-tab belf-text-body-regular" data-tab-id="tab-content-customizable-power-adaptors" aria-selected="true">
+        <a href="" target="_self">Customizable Power Adapters</a>
+      </div>
+      <div class="belf-tab belf-text-body-regular" data-tab-id="tab-content-plug-adapters" aria-selected="false">
+        <a href="" target="_self">Desktop &amp; Wall Plug Adapters</a>
+      </div>
+      <div class="belf-tab belf-text-body-regular" data-tab-id="tab-content-ac-dc-converters" aria-selected="false">
+        <a href="" target="_self">AC-DC Converters</a>
+      </div>
+      <div class="belf-tab belf-text-body-regular" data-tab-id="tab-content-dc-dc-converters" aria-selected="false">
+        <a href="" target="_self">DC-DC Converters</a>
+      </div>  
+    </div>
+    <div class="belf-tabs-panel">
+      <div id="tab-content-customizable-power-adaptors" class="brand-products-panel CinchHide">
+        <div class="brand-products-panel-content">
+          <h3 class="belf-text-header-sm">Customizable Power Adapters</h3>
+          <span class="belf-text-body-regular">CUI offers a versatile range of customizable wall plugs and desktop power adapters. We provide comprehensive support to ensure your power supply integrates seamlessly into your product design, providing options for branding, mechanical, and electrical modifications.</span>
+          <a href="/custom-power-adapters" class="belf-button-solid-default">Customize Now</a>
+        </div>
+        <img src="/media/images/brands/cui/CUI-Customizable-Power-Adapters.jpg" alt="CUI Inc Customizable Power Adaptors Image">
+      </div>
+      <div id="tab-content-plug-adapters" class="brand-products-panel CinchHide">
+        <div class="brand-products-panel-content">
+          <h3 class="belf-text-header-sm">Desktop &amp; Wall Plug Adapters</h3>
+          <span class="belf-text-body-regular">Our external AC-DC power supplies come in a variety of wall plug and desktop adapter configurations. With a full suite of safety approvals and high efficiency, CUI external power supplies are designed to keep your products running at peak performance.</span>
+          <a href="/products/power-supplies/desktop-wall-plug-adapters" class="belf-button-solid-default">View Products</a>
+        </div>
+        <img src="/media/images/brands/cui/CUI-Product_External-AC-DC.jpg" alt="CUI Inc External AC-DC Power Supplies Image">
+      </div>
+      <div id="tab-content-ac-dc-converters" class="brand-products-panel CinchHide">
+        <div class="brand-products-panel-content">
+          <h3 class="belf-text-header-sm">AC-DC Converters</h3>
+          <span class="belf-text-body-regular">Available in a variety of wall plug and desktop adapter configurations, CUI’s line of external AC-DC power supplies serve varied markets including consumer and medical. Offering a full suite of safety approvals and high efficiency, our external power supplies are designed to keep your products running at peak performance.</span>
+          <a href='/products/power-supplies/ac-dc-converters#!%7B"Brand"%3A%7B"v"%3A%5B"CUI"%5D%7D%7D' class='belf-button-solid-default'>View Products</a>
+        </div>
+        <img src="/media/images/brands/cui/CUI-Product_Internal-AC-DC.jpg" alt="CUI Inc Internal AC-DC Power Supplies Image">
+      </div>
+      <div id="tab-content-dc-dc-converters" class="brand-products-panel CinchHide">
+        <div class="brand-products-panel-content">
+          <h3 class="belf-text-header-sm">DC-DC Converters</h3>
+          <span class="belf-text-body-regular">Focused on quality and expertise, our DC-DC converter line provides a diverse selection of package configurations, input and output voltage options, protections, and special features.</span>
+          <a href='/products/power-supplies/dc-dc-converters#!%7B"Brand"%3A%7B"v"%3A%5B"CUI"%5D%7D%7D' class='belf-button-solid-default'>View Products</a>
+        </div>
+        <img src="/media/images/brands/cui/CUI-Product_DC-DC.jpg" alt="CUI Inc DC-DC Converters Image">
+      </div>
+    </div>
+</div>
+
+
+    </div>
+</div>
+<div class="widget widget-h-t-m-l-widget widget-align-justify widget-size-100">
+    <div class="widget-body">
+        <style>
+  .brand-final-cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 80px 0;
+    border-image: fill 1 linear-gradient(to top, #F1F1F1 5%, rgba(255, 255, 255, 0));
+    background-image: url("/media/images/brands/cui/CUI-Custom-Solutions-BG.jpg");
+    background-size: cover;
+    background-position: center;
+    .brand-final-cta-card {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 80px;
+      align-items: center;
+      padding: 80px 48px;
+      border-radius: 16px;
+      box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      img {
+        flex-grow: 0;
+        width: fit-content;
+        border-radius: 8px;
+      }
+      .brand-final-cta-card-content {
+          max-width: 500px;
+          flex-grow: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 16px;
+          padding: 0;
+      }
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    .brand-final-cta {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      margin: 0;
+      padding: 80px 32px;
+      .brand-final-cta-card {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 48px;
+        padding: 80px 48px;
+        border-radius: 16px;
+
+        .brand-final-cta-card-content {
+            align-self: stretch;
+            flex-grow: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 0;
+            max-width: unset;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 599px) {
+    .brand-final-cta {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: stretch;
+      margin: 0;
+      padding: 80px 16px;
+      .brand-final-cta-card {
+        align-self: stretch;
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 48px;
+        padding: 80px 16px;
+        border-radius: 16px;
+        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        max-width: unset;
+        .brand-final-cta-card-content {
+          align-self: stretch;
+          flex-grow: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          gap: 16px;
+          padding: 0;
+          max-width: unset;
+        }
+      }
+    }
+  }
+</style>
+<div class="brand-final-cta">
+    <div class="brand-final-cta-card belf-content-wrapper">
+      <img src="/media/images/brands/cui/CUI-Custom-Solutions.jpg" alt="Custom Solutions Image"/>
+      <div class="brand-final-cta-card-content">
+        <h2 class="belf-text-header-sm">Power Products Tailored to Your Needs</h2>
+        <p class="belf-text-body-regular">
+          The range of CUI products includes AC-DC power supplies and DC-DC converters, featuring desktop adapters, wall plug adapters, custom adapters, board mount, and chassis mount options.<br/><br/>Discover our customizable power solutions, tailored to seamlessly integrate into your product design. If an off-the-shelf product won’t meet your need, our team can modify a solution to meet your specifications.
+        </p>
+        <a href="/company/contact-support" class="belf-button-solid-default">Contact Sales Team</a>
+      </div>
+  </div>
+</div>
+
+
+    </div>
+</div>
+</section>
+
+</div>
+
+    </div>
+    
+
+
+<footer class="site-footer no-print">
+    <div class="footer-subscribe-contact-container">
+        <div class="footer-subscribe-contact">
+            <div class="footer-subscribe">
+                <form id="FooterSubscriptionForm" data-source="footer">
+                    <span class="subscribe-title">Stay Informed</span>
+                    <span class="subscribe-instr">Get the latest product updates, technical insights, and engineering tools delivered to your inbox.</span>
+                    <div class="input-text">
+                        <div class="email-subscribe">
+                            <input class="Text-Input" placeholder="Enter email address" type="email" name="subscriber-email-address" id="footer-subscriber-email-address" aria-label="Enter email address" required/>
+                            <button id="footer-btn-subscribe" type="submit" class="belf-button-solid-default">Subscribe</button>
+                        </div>
+                        <span id="footer-email-address-error" class="belf-text-body-md BelfText error-text MainCaption BelfHide">
+    
+</span>
+                        <span id="footer-subscribe-message-container" class="belf-text-body-md BelfText MainBody-2 BelfHide">
+    
+</span>
+                    </div>
+                    <input id="g-recaptcha-response-1" name="g-recaptcha-response" type="hidden" value="" /><script src="https://www.google.com/recaptcha/api.js?render=6LcFkZQqAAAAAJNLUT87Nfg6VeOXX-hAOL7uKzO1&hl=en"></script><script>function updateReCaptcha1() {grecaptcha.execute('6LcFkZQqAAAAAJNLUT87Nfg6VeOXX-hAOL7uKzO1', {action: 'homepage'}).then(function(token){document.getElementById('g-recaptcha-response-1').value = token;});}grecaptcha.ready(function() {setInterval(updateReCaptcha1, 100000); updateReCaptcha1()});</script>
+
+                </form>
+            </div>
+            <div class="footer-contact-us">
+                <span class="contact-us-title">Contact Us</span>
+                <a class="Standalone-Link" href="/company/contact-sales">Find a Representative</a>
+                <a class="Standalone-Link" href="/company/contact-distribution">Distribution Partners</a>
+                <a class="Standalone-Link" href="/company/contact-support">Bel Support Line</a>
+                <div class="media-links">
+                    <div class="SocialShare">
+    <a class="BelfLink" href="https://www.linkedin.com/company/belfuseinc" target="_blank">
+        
+<div class="CinchIcon" aria-label="share on LinkedIn">
+    <i class="fa-brands fa-linkedin fa-xl "></i>
+</div>
+
+    </a>
+    <a class="BelfLink" href="https://www.youtube.com/@BelFuseInc?utm_source=website&amp;utm_medium=social-footer" target="_blank">
+        
+<div class="CinchIcon" aria-label="share on YouTube">
+    <i class="fa-brands fa-youtube fa-xl "></i>
+</div>
+
+    </a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-logo-container">
+        <div class="footer-logo">
+            <div class="footer-content">
+                <a class="navbar-brand" href="/">
+                    <img class="logo-belf" alt="Bel logo" src="/media/images/logo/logo-bel.png">
+                </a>
+            </div>
+        </div>
+        <div class="footer-nav">
+            <div class="footer-content">
+                <div class="collapseWrapper">
+                    <span class="footer-nav-l0">
+                        Who We Are
+                    </span>
+                    <button class="footer-nav-l0 collapsed" data-bs-toggle="collapse" data-bs-target="#who-we-are" aria-expanded="false" aria-controls="Who We Are">
+                        Who We Are
+                        <img class="DownIcon" src="/media/icons/arrow-down-white.svg" alt="arrow down icon" />
+
+                        <img class="UpIcon" src="/media/icons/arrow-up-white.svg" alt="arrow up icon" />
+
+                    </button>
+                    <div class="collapse" id="who-we-are">
+                        <ul>
+                                <li class="footer-nav-l1">
+                                    <a href="/company/about-us" target="_self", class="">About Bel</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/company/careers" target="_blank", class="">Careers</a>
+                                </li>
+                            <li class="footer-nav-l1">
+                                <a href="https://www.cinch.com" target="_self", class="">Cinch Connectivity Solutions</a>
+                            </li>
+                            <li class="footer-nav-l1">
+                                <a href="https://enercon.co.il/" target="_blank" , class="">Enercon Technologies</a>
+                            </li>
+                            <li class="footer-nav-l1">
+                                <a href="https://milpower.com" target="_blank" , class="">MilPower Source</a>
+                            </li>
+                            <li class="footer-nav-l1">
+                                <a href="https://ir.belfuse.com" target="_self", class="">Investor Relations</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapseWrapper">
+                    <span class="footer-nav-l0">
+                        Our Products
+                    </span>
+                    <button class="footer-nav-l0 collapsed" data-bs-toggle="collapse" data-bs-target="#our-products" aria-expanded="false" aria-controls="Our Products">
+                        Our Products
+                        <img class="DownIcon" src="/media/icons/arrow-down-white.svg" alt="arrow down icon" />
+
+                        <img class="UpIcon" src="/media/icons/arrow-up-white.svg" alt="arrow up icon" />
+
+                    </button>
+                    <div class="collapse" id="our-products">
+                        <ul>
+                                    <li class="footer-nav-l1">
+                                        <a href="/products/circuit-protection" target="_self", class="">Circuit Protection</a>
+                                    </li>
+                                    <li class="footer-nav-l1">
+                                        <a href="/products/chokes-coils-inductors" target="_self", class="">Chokes, Coils, Inductors</a>
+                                    </li>
+                                    <li class="footer-nav-l1">
+                                        <a href="/products/ethernet" target="_self", class="">Ethernet</a>
+                                    </li>
+                                    <li class="footer-nav-l1">
+                                        <a href="/products/power-supplies" target="_self", class="">Power Supplies</a>
+                                    </li>
+                                    <li class="footer-nav-l1">
+                                        <a href="/products/transformers" target="_self", class="">Transformers</a>
+                                    </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapseWrapper">
+                    <span class="footer-nav-l0">
+                        Tools & Helpful Links
+                    </span>
+                    <button class="footer-nav-l0 collapsed" data-bs-toggle="collapse" data-bs-target="#tools-helpful-links" aria-expanded="false" aria-controls="Tools & Helpful Links">
+                        Tools & Helpful Links
+                        <img class="DownIcon" src="/media/icons/arrow-down-white.svg" alt="arrow down icon" />
+
+                        <img class="UpIcon" src="/media/icons/arrow-up-white.svg" alt="arrow up icon" />
+
+                    </button>
+                    <div class="collapse" id="tools-helpful-links">
+                        <ul>
+                                <li class="footer-nav-l1">
+                                    <a href="/design-tools/stock-check" target="_self", class="">Stock Check</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/design-tools/competitor-xref" target="_self", class="">Cross Reference Tool</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/resources/quality-center" target="_self", class="">Quality Center</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/document-search/compliance-certifications" target="_self", class="">Compliance Certifications</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/document-search/installation-instructions" target="_self", class="">Installation Instructions</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/terms-conditions" target="_blank" , class="">Terms and Conditions</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collapseWrapper">
+                    <span class="footer-nav-l0">
+                        Resources
+                    </span>
+                    <button class="footer-nav-l0 collapsed" data-bs-toggle="collapse" data-bs-target="#resources" aria-expanded="false" aria-controls="Resources">
+                        Resources
+                        <img class="DownIcon" src="/media/icons/arrow-down-white.svg" alt="arrow down icon" />
+
+                        <img class="UpIcon" src="/media/icons/arrow-up-white.svg" alt="arrow up icon" />
+
+                    </button>
+                    <div class="collapse" id="resources">
+                        <ul>
+                                <li class="footer-nav-l1">
+                                    <a href="/resource-library" target="_self", class="">Resource Library</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/design-tools/cad-model-library" target="_self", class="">CAD Model Library</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/document-search/drawing-library" target="_self", class="">Drawing Library</a>
+                                </li>
+                                <li class="footer-nav-l1">
+                                    <a href="/document-search/datasheet-library" target="_self", class="">Datasheet Library</a>
+                                </li>
+                            <li class="footer-nav-l1">
+                                <a href="https://www.belfuse-extranet.com/login.php" target="_self" , class="">Bel Extranet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="footer-content">
+            <span class="copyright">
+                Copyright &copy; 2025, Bel All Rights Reserved.
+            </span>
+            <a class="ecia" href="https://www.ecianow.org/" target="_blank">
+                <img src="/media/images/logo/ECIA-Member-Americas-BlueBlack-RGB.png" alt="ECIA logo" />
+            </a>
+            <div class="misc-links">
+                <a class="gdpr" href="/bel-gdpr-privacy-notice" target="_blank">Bel GDPR</a>
+                <a class="ca-policy" href="/california-consumer-privacy-act" target="_blank">CA Policy</a>
+                <a class="cookie-policy" href="/cookie-notice" target="_blank">Cookie Policy</a>
+                <a class="privacy-statement" href="/privacy-policy" target="_blank">Privacy Statement</a>
+                <a class="china-privacy" href="/media/documents/privacy-policy/China-Business-Partner-Personal-Information-Protection-Statement.pdf" target="_blank">China Privacy</a>
+                <a class="hk-privacy" href="/media/documents/privacy-policy/HongKong-Privacy-Statement.pdf" target="_blank">Hong Kong Privacy</a>
+                <a id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Preferences</a>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="/OrchardCore.Resources/Scripts/jquery.min.js?v=18gYmxQA0hqk-Lq7l7LStkk8zKEG9xQfA4qjl1bTBhE"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/components.min.js?v=5ZI5kG4vYFtOEBpkcuSP-C8yHWDkGt7rtgMoGeMzfPg"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/searchNav.min.js?v=Xzk5Z-RbnIX4rcKSZnTqNKPwP-BPM0j_FTCuHzsFoZ4"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/documentIntercept.min.js?v=uNSP2qLo9IflJLh5aZDOxcDmM98aSGiHyVnuWU5LI-8"></script>
+<script src="/OrchardCore.Resources/Scripts/popper.min.js?v=opng-X5k1M5uDUvXbW8uRcxP46CoHxtCjrYpsWlxSrc"></script>
+<script src="/OrchardCore.Resources/Scripts/bootstrap.min.js?v=W3BVkmhP32G5ZCevLlQBkw3dAcHMJFn4rvjB4Pgu0hA"></script>
+<script src="/OrchardCore.Resources/Vendor/fontawesome-free/js/all.min.js?v=qq1ob4lpAizCQs1tkv5gttMXUlgpiHyvG3JcCIktRvs"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/scripts.min.js?v=sdgrJQ6YQJ6vHsPVP9F_ntqwraGqnqzKlrrTKV9uEJM"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/nav.min.js?v=bfi_XoXWZ4-KQr83uh6iJVQrEpDol4gIBVdfMfWwp20"></script>
+<script src="/CinchOrchardCoreCMS.BelfuseTheme/js/footer.min.js?v=hOraA03A_6v45vSOGmL-9khzcpu-hf1cAAMv0vSxtq4"></script>
+</body>
+</html>

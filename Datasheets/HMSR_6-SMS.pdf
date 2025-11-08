@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    
+	<!-- OneTrust Cookies Consent Notice start for www.lem.com -->
+
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="f9a65936-d6cc-46b4-9cf1-1ead3aee9007" ></script>
+	<script type="text/javascript">
+	function OptanonWrapper() { }
+	</script>
+	<!-- OneTrust Cookies Consent Notice end for www.lem.com -->
+
+
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NM869JJ');</script>
+	<!-- End Google Tag Manager -->
+
+    <meta charset="utf-8" />
+<meta name="description" content="With LEM HMSR Integrated Current Sensors series, get all the benefits from a Current Sensor IC with a unique robustness. Discover HMSR SMS, HMSR DA Series." />
+<meta name="keywords" content="LEM, Transducer, Current Sensor, Current transducer, Voltage transducer, Current measurement, Voltage measurement, Danfysik, Hall effect, Measuring current, Measuring voltage, Energy meter" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="en" href="https://www.lem.com/en/hmsr-series" />
+<link rel="alternate" hreflang="ja" href="https://www.lem.com/jp/hmsr-series" />
+<link rel="alternate" hreflang="zh" href="https://www.lem.com/cn/hmsr-series" />
+<link rel="icon" href="/themes/custom/lem/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://www.lem.com/en/hmsr-series" />
+<link rel="shortlink" href="https://www.lem.com/en/node/9871" />
+
+    <title>HMSR Current Sensor ICs for efficient energy measurement</title>
+    <link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/components/progress.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/components/ajax-progress.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/align.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/fieldgroup.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/container-inline.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/clearfix.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/details.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/hidden.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/item-list.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/js.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/nowrap.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/position-container.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/reset-appearance.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/resize.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-counter.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-report-counters.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/system-status-report-general-info.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/system/components/tablesort.module.css?t203lq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.element.details.toggle.css?t203lq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.element.message.css?t203lq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.form.css?t203lq" />
+<link rel="stylesheet" media="all" href="/core/modules/layout_discovery/layouts/onecol/onecol.css?t203lq" />
+<link rel="stylesheet" media="all" href="/modules/contrib/webform/css/webform.theme.classy.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/assets/vendor/normalize-css/normalize.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/stable/css/core/normalize-fixes.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/action-links.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/breadcrumb.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/button.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/collapse-processed.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/container-inline.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/details.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/exposed-filters.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/field.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/form.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/icons.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/inline-form.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/item-list.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/link.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/links.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/menu.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/more-link.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/pager.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tabledrag.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tableselect.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tablesort.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/tabs.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/textarea.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/ui-dialog.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/file.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/messages.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/node.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/contrib/classy/css/components/progress.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/custom/lem/dist/assets/css/timeline.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/custom/lem/dist/assets/css/style.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/custom/lem/dist/assets/css/extra.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/custom/lem/dist/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css?t203lq" />
+<link rel="stylesheet" media="all" href="/themes/custom/lem/tmp/css/merge.css?t203lq" />
+
+    
+      </head>
+  <body class="path-node page-node-type-page">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K4FSLW4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+	
+
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<header class="js-header">
+    <div class="header-desktop show-for-large">
+                        <div class="bg--light-gray header-desktop__secondary">
+        <div class="row column">
+            <div class="top-bar top-bar--secondary clearfix float">
+                
+
+
+<nav class="float-right">
+
+    <ul class="menu">
+        <li class="top-bar__lang">
+                                    <select class="transparent small language-switcher show-for-large" data-select-location="href">
+                                                    <option
+                                    selected="selected"
+                                
+                
+                value="/en/hmsr-series">EN</option>
+                                                                <option
+                                
+                
+                value="/jp/hmsr-series">JP</option>
+                                                                <option
+                                
+                
+                value="/cn/hmsr-series">CN</option>
+                        </select>
+
+    <ul class="header-mobile-nav__top-menu menu hide-for-large">
+                                    
+                                
+                                                <li><a href="/en/hmsr-series" class="rounded-bt active">EN</a></li>
+                                                
+                                
+                                                <li><a href="/jp/hmsr-series" class="rounded-bt">JP</a></li>
+                                                
+                                
+                                                <li><a href="/cn/hmsr-series" class="rounded-bt">CN</a></li>
+                    
+				
+		
+                <li id="search-btn"><a href="javascript:void(0)" class="rounded-bt"><span class="icon icon icon-LEM_icons_set_loupe"></span></a></li>
+    </ul>
+
+
+                    </li>
+    </ul>
+</nav>
+<nav role="navigation" aria-labelledby="block-lem-account-menu-menu" id="block-lem-account-menu" class="block block-menu navigation menu--account">
+    
+        
+
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-headerright-menu" id="block-headerright" class="block block-menu navigation menu--header-right">
+    
+        
+      <nav class="float-right">
+        <ul class="menu">
+                            <li><a class="color--dark-gray" href="/en/check-stock">Check Stock</a></li>
+                            <li><a class="color--dark-gray" href="/en/candidates">Career</a></li>
+                            <li><a class="color--dark-gray" href="/en/investors">Investors</a></li>
+                            <li><a class="color--dark-gray" href="/en/form/contact-us">Contact</a></li>
+                    </ul>
+    </nav>
+
+
+
+  </nav>
+
+            </div>
+        </div>
+    </div>
+
+                                <div class="header-desktop__main js-scroll-leave js-scroll-reverse" data-scrollanimation="pin|toggle-class">
+        <div class="row column">
+
+            <!-- .top-bar.top-bar--primary -->
+            <div class="top-bar top-bar--primary">
+                <div class="top-bar-left">
+                    <!-- <h1 class="show-for-sr">LEM</h1> -->
+                    <a href="/en" class="header-desktop__logo icon icon-LEM_icons_set_logo color--secondary"></a>
+                </div>
+
+                    
+                        
+                        
+                                    <nav class="top-bar-right header-desktop-nav">
+                        <ul class="main-navigation menu js-nav-tabs" data-tabs="jjec3l-tabs" data-link-class="js-nav-tabs-item"
+                        data-panel-class="js-nav-panes" id="nav-tabs">
+                
+                
+                                <li class="link-3 main-navigation__item js-nav-tabs-item" role="presentation">
+                                            <a href="#panel-3" role="tab" aria-controls="panel-3" id="panel-3-label">Products</a>
+                                    </li>
+                
+                            
+                
+                
+                                <li class="link-1 main-navigation__item js-nav-tabs-item" role="presentation">
+                                            <a href="#panel-1" role="tab" aria-controls="panel-1" id="panel-1-label">Applications</a>
+                                    </li>
+                
+                            
+                
+                
+                                <li class="link-5 main-navigation__item js-nav-tabs-item" role="presentation">
+                                            <a href="#panel-5" role="tab" aria-controls="panel-5" id="panel-5-label">Support</a>
+                                    </li>
+                
+                            
+                
+                
+                                <li class="link-4 main-navigation__item js-nav-tabs-item" role="presentation">
+                                            <a href="#panel-4" role="tab" aria-controls="panel-4" id="panel-4-label">About Lem</a>
+                                    </li>
+                
+                                <li class="main-navigation__item--search js-nav-tabs-item"><a href="#panel-search"><span class="show-for-sr">Search</span><span class="icon icon icon-LEM_icons_set_loupe"></span></a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                    </div>
+                                        
+                        <div class="header-nav-panes js-nav-panes" data-tabs-content="nav-tabs">
+                
+                    <div class="header-nav-pane js-nav-panes-item" id="panel-3" role="tabpanel" aria-hidden="false" aria-labelledby="panel-3-label">
+    <div class="row">
+                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column header-nav-products">
+                    <article>
+
+                        						                        <div class="h4 menu-title"><a href="/en/current-sensors">Current Sensors</a></div>
+                        <div class="header-nav-products__labels">
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=45-90" class="label secondary-alt">45-90 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=90-180" class="label secondary-alt">90-180 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=187.5-375" class="label secondary-alt">187.5-375 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=375-750" class="label secondary-alt">375-750 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=750-1500" class="label secondary-alt">750-1500 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=1500-3000" class="label secondary-alt">1500-3000 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=3000-6000" class="label secondary-alt">3000-6000 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=6000-12000" class="label secondary-alt">6000-12000 A</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=52&amp;nominal_val=12000-24000" class="label secondary-alt">12000-24000 A</a>
+                                                        <a href="/en/product-list?measurement=52&amp;accordion=nominal_val" class="label secondary-alt">Other value</a>
+                        </div>
+
+                        <ul class="menu--nav">
+                        </ul>
+                    </article>
+
+                    <a href="/en/product-list?measurement=52" class="tiny-cta header-nav-pane__bottom-link">All Current Sensors</a>
+                </div>
+            </div>
+                                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column header-nav-products">
+                    <article>
+
+                        						                        <div class="h4 menu-title"><a href="/en/voltage-sensors">Voltage Sensors</a></div>
+                        <div class="header-nav-products__labels">
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=25-50" class="label secondary-alt">25-50 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=50-100" class="label secondary-alt">50-100 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=100-200" class="label secondary-alt">100-200 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=200-400" class="label secondary-alt">200-400 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=400-800" class="label secondary-alt">400-800 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=800-1600" class="label secondary-alt">800-1600 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=1600-3200" class="label secondary-alt">1600-3200 V</a>
+                                                                                                                                                            <a href="/en/product-list?measurement=82&amp;nominal_val=3200-6400" class="label secondary-alt">3200-6400 V</a>
+                                                    </div>
+
+                        <ul class="menu--nav">
+                        </ul>
+                    </article>
+
+                    <a href="/en/product-list?measurement=82" class="tiny-cta header-nav-pane__bottom-link">All Voltage Sensors</a>
+                </div>
+            </div>
+                                    <div class="columns header-nav-pane__column-wrapper">
+                <ul class="header-nav-pane__column header-nav-products">
+                    <article>             
+                        <ul class="menu--nav">
+                            																	 <div class="h4 menu-title"><a href="/en/integrated-current-sensors">Integrated Current Sensors</a></div>
+								                            																	<li><a href="/en/go-series">GO Series</a></li>
+								                            																	<li><a href="/en/hmsr-series">HMSR Series</a></li>
+								                                                    </ul>
+                    </article>
+																		<a href="/en/integrated-current-sensors" class="tiny-cta header-nav-pane__bottom-link">All Integrated Current Sensors</a>
+						                    						                    						                                    </ul>
+            </div>
+                            <div class="columns header-nav-pane__column-wrapper">
+                <ul class="header-nav-pane__column header-nav-products">
+                    <article>
+						                        <div class="h4 menu-title"><a href="/en/rogowski-coil ">Rogowski Coil</a></div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/art">ART Series</a></li>
+                                                            <li><a href="/en/aru">ARU Series</a></li>
+                                                            <li><a href="https://www.lem.com/en/arh">ARH Series</a></li>
+                                                            <li><a href="/en/integrator-rogowski-coils">INTEGRATORS FOR ROGOWSKI COILS</a></li>
+                                                    </ul>
+                    </article>
+                </ul>
+            </div>
+                            <div class="columns header-nav-pane__column-wrapper">
+                <ul class="header-nav-pane__column header-nav-products">
+                    <article>
+						                        <div class="h4 menu-title"><a href="/en/energy-meters ">Energy Meters</a></div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/dces">DCES</a></li>
+                                                            <li><a href="/en/dcbm-400-600">DCBM 400 &amp; 600</a></li>
+                                                            <li><a href="/en/dcbm-100">DCBM 100</a></li>
+                                                            <li><a href="/en/tema4g">TEMA4G</a></li>
+                                                            <li><a href="/en/em4tii">EM4T II</a></li>
+                                                    </ul>
+                    </article>
+                                        <a href="/en/product-list?measurement=88" class="tiny-cta header-nav-pane__bottom-link">All Energy Meters</a>
+                </ul>
+            </div>
+            </div>
+</div>
+                    
+
+                
+                    
+<div class="header-nav-pane header-nav-pane--pad3 js-nav-panes-item" id="panel-1" role="tabpanel" aria-hidden="false" aria-labelledby="panel-1-label">
+    <div class="row">
+                            <div class="columns">
+                <ul class="menu--nav menu--autocolumn menu--autocolumn-4">
+                                                                    
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/battery-management-system">Automotive Battery Management</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/electric-vehicle-supply-equipment">EV Chargers</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/automotive-motor-control">Automotive Motor Control</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/smart-grid">Smart Grid</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/welding">Welding</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/automation">Automation</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/drives">Drives</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/high-precision">High Precision</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/power-supplies">Power Supplies</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/renewable-energies">Renewable Energies</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/trackside">Trackside</a>
+                                                                                            </li>
+                                                                                            
+                                                    
+                                                                                                                    <li>
+                                <a href="/en/traction">Traction</a>
+                                                                                            </li>
+                                                            </ul>
+            </div>
+            </div>
+</div>
+                    
+
+                
+                    <div class="header-nav-pane js-nav-panes-item" id="panel-5" role="tabpanel" aria-hidden="false" aria-labelledby="panel-5-label">
+
+    <div class="row">
+
+                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column">
+                    <article>
+                        <div class="h4 menu-title">After Sales & RMA</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/after-sales-rma#authorization">Merchandize authorization</a></li>
+                                                            <li><a href="/en/after-sales-rma#rma-category">RMA Categories</a></li>
+                            
+                                                                                                                </ul>
+                    </article>
+                                            <a href="/en/after-sales-rma" class="tiny-cta header-nav-pane__bottom-link">All after sales and RMA</a>
+                                    </div>
+            </div>
+        
+                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column">
+                    <article>
+                        <div class="h4 menu-title">Downloads</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/downloads#applicationnotes">Application Notes</a></li>
+                                                            <li><a href="/en/downloads#brochures">Brochures</a></li>
+                                                            <li><a href="/en/downloads#certifications">Certificates</a></li>
+                                                    </ul>
+                    </article>
+                                            <a href="/en/downloads" class="tiny-cta header-nav-pane__bottom-link">All Downloads</a>
+                                    </div>
+            </div>
+        
+                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column">
+                    <article>
+                        <div class="h4 menu-title">Technical FAQs</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/faqs#general">General</a></li>
+                                                    </ul>
+                    </article>
+                                            <a href="/en/faqs" class="tiny-cta header-nav-pane__bottom-link">All Technical FAQs</a>
+                                    </div>
+            </div>
+            </div>
+</div>
+
+                    
+
+                
+                    <div class="header-nav-pane js-nav-panes-item" id="panel-4" role="tabpanel" aria-hidden="false" aria-labelledby="panel-4-label">
+    <div class="row">
+                    <div class="columns header-nav-pane__column-wrapper">
+                <div class="header-nav-pane__column">
+                    <article>
+                        <div class="h4 menu-title">Company Information</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/company-information#company-history">History</a></li>
+                                                            <li><a href="/en/company-information#board-of-directors">Board of Directors &amp; Committees</a></li>
+                                                            <li><a href="/en/company-information#strategy-committee">Organization</a></li>
+                                                            <li><a href="/en/company-information#values">Values</a></li>
+                                                            <li><a href="/en/company-information#sustainability">Sustainability</a></li>
+                                                            <li><a href="/en/company-information#compliance">Compliance</a></li>
+                            														<li><a href="/en/our-locations">Our locations</a></li>
+                        </ul>
+                    </article>
+                                            <a href="/en/company-information" class="tiny-cta header-nav-pane__bottom-link">All Company Information</a>
+                                    </div>
+            </div>
+        
+
+        <div class="columns header-nav-pane__column-wrapper">
+
+            <div class="header-nav-pane__column">
+                                    <article>
+
+                        <div class="h4 menu-title">Quality & Environment</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/quality-environment#certificates">Quality</a></li>
+                                                            <li><a href="/en/quality-environment#environment">Environment</a></li>
+                                                    </ul>
+                    </article>
+                                            <a href="/en/quality-environment" class="tiny-cta header-nav-pane__bottom-link">All Quality & Environment</a>
+                                    				                    <article>
+                        <div class="h4 menu-title">Our partners</div>
+                        <ul class="menu--nav">
+                                                            <li><a href="/en/suppliers">Become a LEM Supplier</a></li>
+                                                            <li><a href="/en/suppliers#terms-conditions">Our general terms &amp; conditions</a></li>
+                            																								<li><a href="/en/distributors">Our distributors</a></li>
+															                        </ul>
+                    </article> 
+                                                    <article>
+                        <div class="h4 menu-title">News & Events</div>
+                    </article>
+                                            <a href="/en/news" class="tiny-cta header-nav-pane__bottom-link">All News & Events</a>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+                    
+
+                
+                <div class="header-nav-pane header-nav-pane--pad js-nav-panes-item bg--primary-alt" id="panel-search">
+                    <form  id="desktop-search-form" class="search-nav-block search-nav-block--smaller search-nav-block--nomargin js-autocomplete row">
+                      <div class="row">
+                        <div class="columns shrink">
+                          <label for="search-label" class="text-right middle search-nav-block__label color--white">What do you need ?</label>
+                        </div>
+                        <div class="columns shrink nopad--right">
+                          <select class="search-nav-block__select js-select"id="desktop-search-type" >
+                              <option value="product">Product information</option>
+                              <!-- <option value="applications">Application details</option> -->
+                              <option value="support">Check Stock</option>
+                              <option value="node">Global information</option>
+                          </select>
+                        </div>
+                        <div class="columns nopad">
+                          <input type="text" name="q" class="search-nav-block__input light" id="search-label" placeholder="Find datasheets, 3D design, series..." data-source="product">
+                        </div>
+                        <div class="columns shrink">
+                          <button type="submit" class="button primary-alt search-nav-block__button">GO</button>
+                        </div>
+                      </div>
+                    </form>
+                </div>
+            </div>
+
+                    
+    
+
+
+
+
+
+    </div>
+
+            </div>
+
+            <!-- .header-mobile -->
+
+
+
+<div class="header-mobile js-mobile-header hide-for-large">
+    <div class="top-bar">
+        <button class="icon icon-LEM_icons_set_burger color--primary js-mobile-menu"></button>
+        <a href="/en" class="header-mobile__logo icon icon-LEM_icons_set_logo color--secondary"></a>
+    </div>
+    <nav class="header-mobile__nav header-mobile-nav js-mobile-nav">
+                <select class="transparent small language-switcher show-for-large" data-select-location="href">
+                                                    <option
+                                    selected="selected"
+                                
+                
+                value="/en/hmsr-series">EN</option>
+                                                                <option
+                                
+                
+                value="/jp/hmsr-series">JP</option>
+                                                                <option
+                                
+                
+                value="/cn/hmsr-series">CN</option>
+                        </select>
+
+    <ul class="header-mobile-nav__top-menu menu hide-for-large">
+                                    
+                                
+                                                <li><a href="/en/hmsr-series" class="rounded-bt active">EN</a></li>
+                                                
+                                
+                                                <li><a href="/jp/hmsr-series" class="rounded-bt">JP</a></li>
+                                                
+                                
+                                                <li><a href="/cn/hmsr-series" class="rounded-bt">CN</a></li>
+                    
+				
+		
+                <li id="search-btn"><a href="javascript:void(0)" class="rounded-bt"><span class="icon icon icon-LEM_icons_set_loupe"></span></a></li>
+    </ul>
+
+<div id="block-lemnavigationmobile" class="block block-colossal-menu block-colossal-menu-blocklem-navigation-mobile">
+  
+    
+      
+        <ul class="main-navigation js-drilldown" data-drilldown data-auto-height="true" data-animate-height="true">
+    
+                                    <li class="main-navigation__item">
+                <a href="javascript:void(0)">Products</a>
+                <!-- Sub menu -->
+<ul class="main-navigation">
+        <li class="main-navigation__item"><a href="/en/product-list?measurement=52">Current Sensors</a></li>
+
+        <li class="main-navigation__item"><a href="/en/product-list?measurement=82">Voltage Sensors</a></li>
+
+        <li class="main-navigation__item"><a href="/en/product-list?measurement=88">All Energy Meters</a></li>
+	
+			<li class="main-navigation__item"><a href="/en/integrated-current-sensors">Integrated Current Sensors</a></li>
+	
+            <li class="main-navigation__item--secondary"><a href="entity:node/9937">Rogowski Coil</a></li>
+    </ul>
+                
+            </li>
+                                                        <li class="main-navigation__item">
+                <a href="javascript:void(0)">Applications</a>
+                <ul class="main-navigation">
+                            
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/battery-management-system">Automotive Battery Management</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/electric-vehicle-supply-equipment">EV Chargers</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/automotive-motor-control">Automotive Motor Control</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/smart-grid">Smart Grid</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/welding">Welding</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/automation">Automation</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/drives">Drives</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/high-precision">High Precision</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/power-supplies">Power Supplies</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/renewable-energies">Renewable Energies</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/trackside">Trackside</a>
+                                            </li>
+                                    
+                    
+                                                    <li class="main-navigation__item">
+                <a href="/en/traction">Traction</a>
+                                            </li>
+            </ul>
+                
+            </li>
+                                                        <li class="main-navigation__item">
+                <a href="javascript:void(0)">Support</a>
+                <ul class="main-navigation">
+            <li class="main-navigation__item"><a href="/en/after-sales-rma">All after sales and RMA</a></li>
+    
+            <li class="main-navigation__item"><a href="/en/downloads">All Downloads</a></li>
+    
+            <li class="main-navigation__item"><a href="/en/faqs">All Technical FAQs</a></li>
+    
+                
+</ul>
+                
+            </li>
+                                                        <li class="main-navigation__item">
+                <a href="javascript:void(0)">About Lem</a>
+                <ul class="main-navigation">
+            <li class="main-navigation__item"><a href="/en/company-information">All Company Information</a></li>
+    
+            <li class="main-navigation__item"><a href="/en/quality-environment">All Quality & Environment</a></li>
+    	
+            <li class="main-navigation__item"><a href="">All Suppliers</a></li>
+    	
+            <li class="main-navigation__item"><a href="/en/news">All News & Events</a></li>
+    
+            <li class="main-navigation__item--secondary"></li>
+    
+</ul>
+                
+            </li>
+                                                        <li class="link-18 main-navigation__item--secondary">
+                <a href="/en/check-stock" data-drupal-link-system-path="node/10075">Order Online</a>
+            </li>
+                                                        <li class="link-11 main-navigation__item--secondary">
+                <a href="/en/candidates" data-drupal-link-system-path="node/9932">Career</a>
+            </li>
+                                                        <li class="link-10 main-navigation__item--secondary">
+                <a href="/en/investors" data-drupal-link-system-path="node/6239">Investors</a>
+            </li>
+                                                        <li class="link-17 main-navigation__item--secondary">
+                <a href="/en/form/contact-us" data-drupal-link-system-path="webform/contact_dynamics365">Contact</a>
+            </li>
+                            </ul>
+        
+
+
+  </div>
+
+    </nav>
+
+<div class="header-nav-pane-mobile header-nav-pane--pad js-nav-panes-item bg--primary-alt" id="panel-search" role="tabpanel" aria-hidden="false" aria-labelledby="panel-search-label">
+  <form class="search-nav-block search-nav-block--smaller search-nav-block--nomargin
+   js-autocomplete"  id="search-form" action="/en/product-list" data-once="form-updated" data-drupal-form-fields="search-label">
+    <div class="row">
+      <div class="columns shrink" >
+        <label for="search-label" class="text-right middle search-nav-block__label color--white">What do you need ?</label>
+      </div>
+      <div class="columns shrink nopad--right  mobile-select">
+     <select class="search-nav-block__select js-select"  id="search-type">
+            <option value="product">Product information</option>
+            <!-- <option value="applications">Application details</option> -->
+            <option value="order_online">Check Stock</option>
+            <option value="node">Global information</option>
+        </select>
+      </div>
+      <div class="columns nopad">
+        <input type="text" name="keys" class="search-nav-block__input light" id="search-label-mobile" placeholder="Find datasheets, 3D design, series..." data-source="product" autocomplete="off">
+      </div>
+      <div class="columns shrink">
+        <button type="submit" class="button primary-alt search-nav-block__button">GO</button>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+<!-- /.header-mobile -->
+
+    </header>
+
+<div class="page">
+      <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-lem-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article data-history-node-id="9871" about="/en/hmsr-series" class="node node--type-page node--view-mode-full">
+
+  
+    
+
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <section class="block block-block-content block-block-content1fd060e1-441f-4efc-a5be-7483d10819e1 section-header">
+  <div class="row align-center text-center">
+    <div class="column small-12 medium-10">
+
+      <!-- .section-header__breadcrumb -->
+          <nav class="section-header__breadcrumb" aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+                            <li class="breadcrumb__item">
+                                            <a href="/en" itemprop="url"><span >Home</span></a>
+                                    </li>
+            
+                            <li class="breadcrumb__item">
+                    <span class="show-for-sr">lem_current_page : </span> <span>HMSR Series</span>
+                </li>
+                    </ul>
+    </nav>
+	
+<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+					{
+			  "@type": "ListItem",
+			  "position": 1,
+			  "name": "Home",
+			  "item": "https://www.lem.com/en"
+			},
+									{
+			  "@type": "ListItem",
+			  "position": 2,
+			  "name": "HMSR Series"
+			}
+				]
+	}
+</script>
+      <!-- /.section-header__breadcrumb -->
+
+      <header>
+                  <h1 class="section-header__title">HMSR Series - High Insulated Integrated Current Sensor</h1>
+          <div class="section-header__description">
+			<p>The best solution for harsh environments. Available in both analog and digital ∆∑ bitstream outputs.</p><style>
+.cta-contact {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Blue */
+.cta-contact {
+  border-color: #1ec8f0;
+  color: dodgerblue
+}
+.cta-contact:hover {
+  background: #1ec8f0;
+  color: white;
+}
+</style><div><a style="text-decoration:none;" href="https://www.lem.com/en/check-stock?q=hmsr&amp;exact=false"><button class="cta-contact">Order now</button></a> <a style="text-decoration:none;" href="https://www.lem.com/en/distributors"><button class="cta-contact">Distributor List</button></a> <a style="text-decoration:none;" href="https://www.lem.com/en/form/contact-us"><button class="cta-contact">Contact Sales</button></a></div>
+          </div>
+              </header>
+      <!-- <div>
+    <ul class="section-header__socials menu addthis_toolbox" itemscope="itemscope" itemtype="http://schema.org/Organization">
+        <li><a href="#" class="rounded-bt rounded-bt--light addthis_button_email" itemprop="sameAs"><span class="icon icon icon-LEM_icons_set_mail"></span></a></li>
+        <li><a href="#" class="rounded-bt rounded-bt--light addthis_button_facebook" itemprop="sameAs"><span class="icon icon icon-LEM_icons_set_facebook"></span></a></li>
+        <li><a href="#" class="rounded-bt rounded-bt--light addthis_button_twitter" itemprop="sameAs"><span class="icon icon icon-LEM_icons_set_twitter"></span></a></li>
+        <li><a href="#" class="rounded-bt rounded-bt--light addthis_button_linkedin" itemprop="sameAs"><span class="icon icon icon-LEM_icons_set_linkedin"></span></a></li>
+        <li class="social-print"><a href="javascript:window.print();" class="rounded-bt rounded-bt--light"><span class="icon icon-printer"></span></a></li>
+    </ul>
+</div> -->
+    </div>
+  </div>
+</section>
+
+
+    
+<div class="row column" >
+                          
+
+      <!-- .section-text -->
+          <section class="block block-block-content block-block-content5bdf79fe-a429-4515-9e01-2af5ff01d903 section section-text" id="block-basic-30971" >
+        
+    
+    
+    <div class="section__content" data-scrollAnimation="fade">
+
+      <div class="row align-center">
+
+        <div class="columns small-12 large-8 section-text__content">
+                                <div class="section-text__content-description color--dark-gray text-left">
+                      
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>The HMSR Series is the latest range of <a href="https://www.lem.com/en/integrated-current-sensors"><u>Integrated Current Sensors</u></a> by LEM. It was designed for our customers to get all the benefits from a Current Sensor IC but with a new isolation concept that allows unique robustness.</p><p>HMSR allows 4.95kV guaranteed and characterized up to 5.66kV in laboratory. The series has a pre-mold design to isolate the primary bar and a special footprint to allow 8mm dCp/dCI on the landing pad. The integrated micro core inside the HMSR makes it very immune to external magnetic field and great accuracy. It is ideal for applications in solar DC side, chargers, etc.</p></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+  <!-- /.section-text -->
+
+</div>
+
+                
+<div _class="row column"  class="block block-block-content block-block-content41134579-8060-487a-a80d-5ee61354a82f section section--more-margin section-image-text row column">
+           
+
+    <!-- .section-image-text -->
+                  <section >
+          <div class="row">
+        <div class="column small-12 large-8 large-offset-2">
+          <header class="section__common-title section-common-title section-common-title--secondary" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle">
+            <div class="field field--name-field-block-subtitle field--type-string field--label-hidden field__item">Combines performance with incredible robustness</div>
+      </div>
+            
+            <h2 class="section-common-title__title">HMSR SMS</h2>
+            
+          </header>
+        </div>
+      </div>
+    
+        <div class="section__content" data-scrollAnimation="stagger">
+
+      <div class="row align-middle align-center">
+                <div class="js-scroll-stagger columns small-12 section-image-text__img medium-6 large-5">
+                  
+            <div class="field field--name-field-block-picture field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/2023-06/hmsr-300x300_0.jpg" width="300" height="300" alt="HMSR Series ICS Integrated Current Sensors" typeof="foaf:Image" />
+
+</div>
+      
+        </div>
+
+                <div class="js-scroll-stagger columns small-12 section-image-text__content medium-6 large-5">
+                  <div class="section-image-text__content-description color--dark-gray text-left">
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h3 style="color:#0032B4;">Key features</h3><ul><li>Open loop multi-range <a href="https://www.lem.com/en/current-sensors"><u>current sensor</u></a></li><li>Voltage output</li><li>Double overcurrent detection</li><li>Single power supply +5 V</li><li>Galvanic separation between primary and secondary</li><li>Low power consumption</li><li>Compact design for surface mount PCB mounting</li><li>Factory calibrated</li><li>High bandwidth, very low loss magnetic core</li></ul><h3 style="color:#0032B4;">Applications</h3><ul><li>Small drives</li><li>HVAC inverters</li><li>Appliances</li><li>Solar inverters</li></ul></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+    
+  </section>
+  <!-- /.section-image-text -->
+
+</div>
+<section class="section section-twocols section-twocols--gray section-product-download" >
+
+    <div class="row align-middle" data-scrollAnimation="stagger">
+      <div class="column small-12 large-4 section-twocols__left">
+
+        <div class="row">
+          <div class="js-scroll-stagger column small-12 xlarge-9">
+            <header class="section-twocols__title section-alt-title">
+              <div class="section-alt-title__suptitle color--secondary-alt">Download</div>
+              <h3 class="section-alt-title__title marged-top--2 color--secondary">TECHNICAL DOCUMENTATION   </h3>
+            </header>
+          </div>
+        </div>
+
+      </div>
+      <div class="column small-12 large-8 section-twocols__right">
+
+        <div class="row">
+          <div class="js-scroll-stagger column small-12 xlarge-11 xlarge-offset-1">
+
+            <table class="stack transparent">
+
+                            <tr>
+                <td><a target="_blank" class="file-icon-link" href="/sites/default/files/2025-06/hmsr-series_v6.pdf">Download Datasheet</a></td>
+              </tr>
+              				                    <tr>
+                <td><a target="_blank" class="file-icon-link" href="/sites/default/files/2023-05/Gerber_HMSR-SMS.zip">Download Gerber file</a></td>
+              </tr>
+                                          <tr>
+                <td><a href="/sites/default/files/2023-05/LEM%20HMSR-SMS%20step%20files.zip" target="_blank"> Download 3D</a></td>
+              </tr>
+                                          <tr>
+                <td><a href="/sites/default/files/2023-05/hmsr-sms_user_guide.pdf" target="_blank"> Download User guide</a></td>
+              </tr>
+                                          <tr>
+                <td><a href="/sites/default/files/2025-01/ICS_Demo_Boards_Application_Note_1.pdf" target="_blank"> Download Application Notes</a></td>
+              </tr>
+              			                <tr>
+                <td><a href="/sites/default/files/2025-03/ICS_Selection%20Guide_A4_Version_0.pdf" target="_blank"> Download Selection Guide</a></td>
+              </tr>
+              			                <tr>
+                <td><a href="/sites/default/files/2025-04/HMSR-SMS.zip" target="_blank"> Download Spice Model</a></td>
+              </tr>
+                          </table>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  
+                  
+<div class="row column">
+      <!-- .section-text -->
+          <section class="block block-block-content block-block-content1e989519-369c-423e-a491-70528f0e5cc6 section section-text" ">
+          <div class="row">
+        <div class="column small-12 large-12">
+          <header class="section__common-title section-common-title" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle"></div>
+            
+            <h2 class="section-common-title__title">HMSR SMS at a glance</h2>
+            
+          </header>
+        </div>
+      </div>
+    
+    <div class="section__content" data-scrollAnimation="fade">
+
+      <div class="row align-center">
+
+        <div class="columns small-12 large-12 section-text__content">
+                                <div class="section-text__content-description color--dark-gray text-left">
+                      
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><style type="text/css">table {
+    margin-bottom: 0.8125rem;
+    border-radius: 0;
+  }
+  table td{
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+  }
+  table tbody td, table tbody  {
+    padding: 1.25rem 1.25rem 1.125rem;
+  }
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    table {
+      font-size: 12px;
+    }
+  }
+  .btn {
+  background-color: #0032b4;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style><div style="overflow-x:auto;"><table class="views-table views-view-table cols-7" style="height:100%;width:100%;"><thead><tr><th class="views-field views-field-title; text-align-center" id="view-title-table-column" scope="col"><p class="text-align-center">Product name</p></th><th><p class="text-align-center">Order Parts</p></th><th><p class="text-align-center">Order<br>Demoboard</p></th><th class="views-field views-field-title; text-align-center" id="view-field-product-measurement-table-column" scope="col"><p class="text-align-center">Nominal<br>sensitivity [mV/A]</p></th><th class="views-field views-field-title; text-align-center" id="view-field-product-nominal-value-table-column" scope="col"><p class="text-align-center">Current<br>measurement<br>range [Apeak]</p></th><th class="views-field views-field-title; text-align-center" id="view-field-product-accuracy-table-column" scope="col"><p class="text-align-center">Nominal<br>current [Arms]1</p></th><th class="views-field views-field-title; text-align-center" id="view-field-supply-voltage-table-column" scope="col"><p class="text-align-center">Supply Voltage [Uc]</p></th><th class="views-field views-field-title; text-align-center" id="view-field-product-secondary-nominal-table-column" scope="col"><p class="text-align-center">Ratiometric<br>Voltage output</p></th><th class="views-field views-field-title; text-align-center" id="view-field-product-secondary-nominal-table-column" scope="col"><p class="text-align-center">Temp.&nbsp;range [°C]</p></th></tr></thead><tbody><tr><td class="text-align-center">HMSR 6-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+6-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+6-SMS+DEMO+BOARD&amp;exact=true" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">133,33</td><td class="text-align-center">± 15</td><td class="text-align-center">± 6</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR 8-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+8-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+8-SMS+DEMO+BOARD&amp;exact=true" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">100</td><td class="text-align-center">± 20</td><td class="text-align-center">± 8</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR 10-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+10-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+10-SMS+DEMO+BOARD&amp;exact=true" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">80</td><td class="text-align-center">± 25</td><td class="text-align-center">±10</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR 15-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+15-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+15-SMS+DEMO+BOARD&amp;exact=true" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">53,33</td><td class="text-align-center">± 37.5</td><td class="text-align-center">±15</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR 20-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+20-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+20-SMS+DEMO+BOARD&amp;exact=true" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">40</td><td class="text-align-center">± 50</td><td class="text-align-center">± 20</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR 30-SMS</td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=HMSR+30-SMS&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td><p class="text-align-center"><a href="https://www.lem.com/en/check-stock?q=90.T4.20.200.0&amp;exact=false" target="_blank"><button class="btn"><i class="fa fa-shopping-cart"></i></button></a></p></td><td class="text-align-center">26,67</td><td class="text-align-center">± 75</td><td class="text-align-center">± 30</td><td class="text-align-center">5V</td><td class="text-align-center">No</td><td class="text-align-center">-40 to 125°C</td></tr></tbody></table><p>&nbsp;</p></div></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.section-text -->
+
+</div>
+
+                
+<div _class="row column"  class="block block-block-content block-block-content5ef3571f-bdb2-4dbc-8f5a-b326fc3e163b section section--more-margin section-image-text row column">
+           
+
+    <!-- .section-image-text -->
+                  <section >
+          <div class="row">
+        <div class="column small-12 large-8 large-offset-2">
+          <header class="section__common-title section-common-title section-common-title--secondary" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle">
+            <div class="field field--name-field-block-subtitle field--type-string field--label-hidden field__item">The first Integrated Current Sensor with digital output</div>
+      </div>
+            
+            <h2 class="section-common-title__title">HMSR DA  </h2>
+            
+          </header>
+        </div>
+      </div>
+    
+        <div class="section__content" data-scrollAnimation="stagger">
+
+      <div class="row align-middle align-center">
+                <div class="js-scroll-stagger columns small-12 section-image-text__img medium-6 large-5">
+                  
+            <div class="field field--name-field-block-picture field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/2023-06/hmsr-DA-300x300.jpg" width="300" height="300" alt="HMSR DA Integrated current sensor" typeof="foaf:Image" />
+
+</div>
+      
+        </div>
+
+                <div class="js-scroll-stagger columns small-12 section-image-text__content medium-6 large-5">
+                  <div class="section-image-text__content-description color--dark-gray text-left">
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>HMSR DA is the 1st integrated current sensor with a Sigma Delta bitsream output. Capable of reaching up to 13 bits of effective resolution, the HMSR DA will be the perfect fit for your low noise current sensing needs.</p><h3 style="color:#0032B4;">Key features</h3><ul><li>Replaces shunt and digital isolator for reduced cost and footprint</li><li>Offers efficient performance for servo drives, robotics and other high precision applications</li><li>Sigma Digital bitstream output with 10 MHz clock in or out</li><li>High resolution with an effective number of bits (ENOB) 11 to 13 bits</li><li>Different output modes: Single ended CMOS, Differential RS422, LVDS</li><li>Fast internal OCD of 2 µs</li></ul><h3 style="color:#0032B4;">Applications</h3><ul><li>Small drives</li><li>HVAC Inverters</li><li>Appliances</li><li>Solar Inverters.</li></ul></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+    
+  </section>
+  <!-- /.section-image-text -->
+
+</div>
+<section class="section section-twocols section-twocols--gray section-product-download" >
+
+    <div class="row align-middle" data-scrollAnimation="stagger">
+      <div class="column small-12 large-4 section-twocols__left">
+
+        <div class="row">
+          <div class="js-scroll-stagger column small-12 xlarge-9">
+            <header class="section-twocols__title section-alt-title">
+              <div class="section-alt-title__suptitle color--secondary-alt">Download</div>
+              <h3 class="section-alt-title__title marged-top--2 color--secondary">Technical documentation </h3>
+            </header>
+          </div>
+        </div>
+
+      </div>
+      <div class="column small-12 large-8 section-twocols__right">
+
+        <div class="row">
+          <div class="js-scroll-stagger column small-12 xlarge-11 xlarge-offset-1">
+
+            <table class="stack transparent">
+
+                            <tr>
+                <td><a target="_blank" class="file-icon-link" href="/sites/default/files/2024-01/hmsr-da_series_V1.0.pdf">Download Datasheet</a></td>
+              </tr>
+              				                                                			                <tr>
+                <td><a href="/sites/default/files/2025-03/ICS_Selection%20Guide_A4_Version_2.pdf" target="_blank"> Download Selection Guide</a></td>
+              </tr>
+              			              </table>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+  
+                  
+<div class="row column">
+      <!-- .section-text -->
+          <section class="block block-block-content block-block-content49ef9939-1595-48a1-9299-b538e650f3d2 section section-text" ">
+          <div class="row">
+        <div class="column small-12 large-12">
+          <header class="section__common-title section-common-title" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle"></div>
+            
+            <h2 class="section-common-title__title">HMSR DA at a glance</h2>
+            
+          </header>
+        </div>
+      </div>
+    
+    <div class="section__content" data-scrollAnimation="fade">
+
+      <div class="row align-center">
+
+        <div class="columns small-12 large-12 section-text__content">
+                                <div class="section-text__content-description color--dark-gray text-center">
+                      
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><style type="text/css">table {
+    margin-bottom: 0.8125rem;
+    border-radius: 0;
+  }
+
+  table td{
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  table tbody td, table tbody  {
+    padding: 1.25rem 1.25rem 1.125rem;
+  }
+
+  /* Responsive Styles */
+  @media only screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    table {
+      font-size: 12px;
+    }
+  }
+</style><div style="overflow-x:auto;"><table class="views-table views-view-table cols-7" style="height:100%;width:100%;"><thead><tr><th class="views-field views-field-title; text-align-center" id="view-title-table-column" scope="col">Product name</th><th class="views-field views-field-title; text-align-center" id="view-field-product-measurement-table-column" scope="col">Nominal<br>Sensitivity [%/A]</th><th class="views-field views-field-title; text-align-center" id="view-field-product-nominal-value-table-column" scope="col">Current<br>measurement<br>range [Apeak]</th><th class="views-field views-field-title; text-align-center" id="view-field-product-accuracy-table-column" scope="col">Nominal<br>current [Arms]1</th><th class="views-field views-field-title; text-align-center" id="view-field-supply-voltage-table-column" scope="col">Supply<br>Voltage [Uc]</th><th class="views-field views-field-title; text-align-center" id="view-field-product-secondary-nominal-table-column" scope="col">Output Mode</th><th class="views-field views-field-title; text-align-center" id="view-field-product-secondary-nominal-table-column" scope="col">Temp.&nbsp;range [°C]</th></tr></thead><tbody><tr><td class="text-align-center">HMSR DA 10/4– 50000</td><td class="text-align-center">4</td><td class="text-align-center">± 10</td><td class="text-align-center">±4</td><td class="text-align-center">5V</td><td class="text-align-center">2W CMOS CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 10/4 – 54000</td><td class="text-align-center">4</td><td class="text-align-center">± 10</td><td class="text-align-center">±4</td><td class="text-align-center">5V</td><td class="text-align-center">4W RS 422 CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 15/6 – 50000</td><td class="text-align-center">2,666</td><td class="text-align-center">± 15</td><td class="text-align-center">±6</td><td class="text-align-center">5V</td><td class="text-align-center">2W CMOS CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 15/6 – 54000</td><td class="text-align-center">2,666</td><td class="text-align-center">± 15</td><td class="text-align-center">±6</td><td class="text-align-center">5V</td><td class="text-align-center">4W RS 422 CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 25/10 – 50000</td><td class="text-align-center">1,6</td><td class="text-align-center">± 25</td><td class="text-align-center">±10</td><td class="text-align-center">5V</td><td class="text-align-center">2W CMOS CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 25/10 – 54000</td><td class="text-align-center">1,6</td><td class="text-align-center">± 25</td><td class="text-align-center">±10</td><td class="text-align-center">5V</td><td class="text-align-center">4W RS 422 CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 75/30 – 50000</td><td class="text-align-center">0,533</td><td class="text-align-center">± 75</td><td class="text-align-center">±30</td><td class="text-align-center">5V</td><td class="text-align-center">2W CMOS CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr><tr><td class="text-align-center">HMSR DA 75/30 – 54000</td><td class="text-align-center">0,533</td><td class="text-align-center">± 75</td><td class="text-align-center">±30</td><td class="text-align-center">5V</td><td class="text-align-center">4W RS 422 CLK Out</td><td class="text-align-center">-40 to 125°C</td></tr></tbody></table></div></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- /.section-text -->
+
+</div>
+<!-- .section-twocols -->
+    <section class="block block-block-content block-block-content2abe9ce2-d3f7-4085-ac1d-83aac31cb24c section section-twocols section-twocols--gray" ">
+                                      <div class="row align-middle" data-scrollAnimation="stagger">
+
+      
+    <div class="column small-12 large-5 xlarge-4 section-twocols__left">
+      <header class="section-twocols__title section-alt-title js-scroll-stagger">
+        <div class="section-alt-title__suptitle color--secondary-alt">
+            <div class="field field--name-field-block-subtitle field--type-string field--label-hidden field__item">VIDEO</div>
+      </div>
+        
+                    <h2 class="section-alt-title__title marged-top--2 color--secondary">HMSR DA, the first ICS with Sigma Delta bitstream ouput</h2>
+                
+					
+		      </header>
+    </div>
+
+        <div class="column small-12 large-7 xlarge-offset-1 section-twocols__right nopad">
+      <div class="flex-video widescreen nomargin js-scroll-stagger">
+        <iframe allowfullscreen="allowfullscreen" src="https://www.youtube-nocookie.com/embed/nyuWVuV_CPQ?autoplay=0" width="854" height="480" frameborder="0"></iframe>
+      </div>
+    </div>
+      </div>
+
+</section>
+<!-- /.section-twocols -->
+                
+<div class="row column" >
+                          
+
+      <!-- .section-text -->
+          <section class="block block-block-content block-block-content883d186b-25f3-46f1-8c11-29fa91e36735 section section-text" id="block-basic-89407" >
+          <div class="row">
+        <div class="column small-12 large-8 large-offset-2">
+          <header class="section__common-title section-common-title" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle"></div>
+            
+            <h2 class="section-common-title__title">Standards &amp; Certificates   </h2>
+            
+          </header>
+        </div>
+      </div>
+     
+    <div class="section__content" data-scrollAnimation="fade">
+
+      <div class="row align-center">
+
+        <div class="columns small-12 large-8 section-text__content">
+                                <div class="section-text__content-description color--dark-gray text-left">
+                      
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><table class="views-table views-view-table cols-7" style="height: 100%; width: 100%;">
+	<thead>
+		<tr>
+			<th class="views-field views-field-title" id="view-field-product-measurement-table-column" scope="col">HMSR Series</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>IEC 61800-5-1: 2007</td>
+		</tr>
+		<tr>
+			<td>IEC 62109-1: 2010</td>
+		</tr>
+		<tr>
+			<td>IEC 60950-1: 2005</td>
+		</tr>
+		<tr>
+			<td>UL 1577: 2014 (pending)</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+  <!-- /.section-text -->
+
+</div>
+
+                
+<div _class="row column"  class="block block-block-content block-block-content922d75ec-4003-46b0-be3f-1167739c9570 section section--more-margin section-image-text row column">
+           
+
+    <!-- .section-image-text -->
+                  <section >
+          <div class="row">
+        <div class="column small-12 large-8 large-offset-2">
+          <header class="section__common-title section-common-title section-common-title--secondary" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle"></div>
+            
+            <h2 class="section-common-title__title">Download our Current Sensor IC Whitepaper</h2>
+            
+          </header>
+        </div>
+      </div>
+    
+        <div class="section__content" data-scrollAnimation="stagger">
+
+      <div class="row align-middle align-center">
+                <div class="js-scroll-stagger columns small-12 section-image-text__img medium-6 large-4">
+                  
+            <div class="field field--name-field-block-picture field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/2024-11/ICS-Whitepaper-cover.jpg" width="697" height="870" alt="ICS whitepaper cover" typeof="foaf:Image" />
+
+</div>
+      
+        </div>
+
+                <div class="js-scroll-stagger columns small-12 section-image-text__content medium-6 ">
+                  <div class="section-image-text__content-description color--dark-gray text-left">
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" data-teams="true" dir="ltr">Explore the world of <strong>integrated current sensors</strong> with our comprehensive <strong>whitepaper</strong>.&nbsp;</span></p><p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" data-teams="true" dir="ltr">As electronics become more powerful and compact,<strong> isolated current sensors</strong> offer a solution for accurate, reliable current sensing in space-constrained applications.</span></p><p><span class="ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" data-teams="true" dir="ltr">This guide provides an in-depth look into the efficient and safe applications of these sensors, reflecting LEM's commitment to innovation and sustainability.</span></p><p class="text-align-center"><a class="use-ajax button" href="https://www.lem.com/en/whitepaper-integrated-current-sensors" data-dialog-type="modal" data-once="ajax" tabindex="-1">Download the whitepaper</a></p></div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+    
+  </section>
+  <!-- /.section-image-text -->
+
+</div>
+                
+<div class="row column" >
+                          
+
+      <!-- .section-text -->
+          <section class="block block-block-content block-block-content2a60a70a-e186-45d7-8d4f-f3b023d39fe3 section section-text" id="block-basic-97468" >
+          <div class="row">
+        <div class="column small-12 large-8 large-offset-2">
+          <header class="section__common-title section-common-title" data-scrollAnimation="fade">
+            <div class="section-common-title__suptitle"></div>
+            
+            <h2 class="section-common-title__title">STILL WANT TO KNOW MORE ABOUT INTEGRATED CURRENT SENSORS?</h2>
+            
+          </header>
+        </div>
+      </div>
+     
+    <div class="section__content" data-scrollAnimation="fade">
+
+      <div class="row align-center">
+
+        <div class="columns small-12 large-8 section-text__content">
+                                <div class="section-text__content-description color--dark-gray text-center">
+                      
+            
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><a class="use-ajax button" data-dialog-type="modal" data-once="ajax" href="/en/form/contact-us" tabindex="-1">Contact us</a></p>
+</div>
+      
+          </div>
+                  </div>
+
+      </div>
+
+    </div>
+    
+  </section>
+  <!-- /.section-text -->
+
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+</div>
+    	<footer id="main-footer" class="bg--light-gray main-footer js-footer">
+		<div class="row">    
+			<div class="columns small-12 medium-3 large-4 xlarge-3 js-scroll-stagger">
+	<div class="main-footer__container">
+		<p class="main-footer__title title--underlined color--secondary">Useful links</p>
+		<div class="main-footer__content">
+										<ul class="menu vertical medium-horizontal simple secondary-footer__menu">
+            <li><a href="/en/global-privacy-notice">Global Privacy Notice</a></li>
+            <li><a href="https://www.lem.com/en/cookies-policy">Cookies Policy</a></li>
+            <li><a href="/en/terms-use">Terms of use</a></li>
+            <li><a href="/en/terms-sale">Terms of sales</a></li>
+            <li><a href="/en/faqs">FAQs</a></li>
+            <li><a href="/en/form/contact-us">Contact</a></li>
+    </ul>
+					</div>
+	</div>
+</div><div id="block-newsletter" class="columns small-12 medium-5 large-4 xlarge-4 js-scroll-stagger">
+	<div class="main-footer__container">
+		<p class="main-footer__title title--underlined color--secondary">Stay Informed</p>
+		<div class="main-footer__content">
+							
+            <div class="field field--name-field-webform field--type-webform field--label-hidden field__item"><form class="webform-submission-form webform-submission-add-form webform-submission-newsletter-dynamics365-form webform-submission-newsletter-dynamics365-add-form webform-submission-newsletter-dynamics365-block_content-18-form webform-submission-newsletter-dynamics365-block_content-18-add-form webform-submission-newsletter-dynamics365-block-content-18-add-form js-webform-details-toggle webform-details-toggle" data-drupal-selector="webform-submission-newsletter-dynamics365-block-content-18-add-form" action="/en/hmsr-series" method="post" id="webform-submission-newsletter-dynamics365-block-content-18-add-form" accept-charset="UTF-8">
+  
+  <div id="edit-form" class="js-form-item form-item js-form-type-item form-type-item js-form-item-form form-item-form form-no-label"  id="edit-form" class="js-form-item form-item js-form-type-item form-type-item js-form-item-form form-item-form form-no-label">
+        <div data-form-id="d106790d-8cfd-ee11-a1fe-6045bd927d3f" data-form-api-url="https://public-eur.mkt.dynamics.com/api/v1.0/orgs/81d75d91-37f0-ed11-a80b-000d3a486d57/landingpageforms" data-cached-form-url="https://assets-eur.mkt.dynamics.com/81d75d91-37f0-ed11-a80b-000d3a486d57/digitalassets/forms/d106790d-8cfd-ee11-a1fe-6045bd927d3f">&nbsp;</div><script src="https://cxppusa1formui01cdnsa01-endpoint.azureedge.net/eur/FormLoader/FormLoader.bundle.js"></script><script>
+    // Define the findInputByLabelText function in the global scope
+  function findInputByLabelText(labelText) {
+    var labels = document.querySelectorAll('label[title="' + labelText + '"]');
+    for (var i = 0; i &lt; labels.length; i++) {
+      var label = labels[i];
+      var inputId = label.getAttribute("for");
+      if (inputId) {
+        var inputElement = document.getElementById(inputId);
+        if (inputElement) {
+          return inputElement;
+        }
+      }
+    }
+    return null;
+  }
+
+  document.addEventListener("d365mkt-afterformload", function() {
+    function populateFormFields() {
+
+      //Find the right fields based on their name
+      let referrerUrlField = findInputByLabelText("Referrer URL");
+      let utmSourceField = findInputByLabelText("UTM Source");
+      let utmCampaignField = findInputByLabelText("UTM Campaign");
+      let utmMediumField = findInputByLabelText("UTM Medium");
+      let utmContentField = findInputByLabelText("UTM Content");
+
+      // Retrieve values from sessionStorage
+      let sessionReferrer = sessionStorage.getItem("referrer");
+      let sessionUtmSource = sessionStorage.getItem("utm_source") || "N/A";
+      let sessionUtmCampaign = sessionStorage.getItem("utm_campaign") || "N/A";
+      let sessionUtmMedium = sessionStorage.getItem("utm_medium") || "N/A";
+      let sessionUtmContent = sessionStorage.getItem("utm_content") || "N/A";
+
+      // Populate the form fields with sessionStorage values
+      referrerUrlField.value = sessionReferrer;
+      utmSourceField.value = sessionUtmSource;
+      utmCampaignField.value = sessionUtmCampaign;
+      utmMediumField.value = sessionUtmMedium;
+      utmContentField.value = sessionUtmContent;
+    }
+
+    populateFormFields();
+    console.log("d365mkt-afterformload");
+  });
+  </script>
+        </div>
+<input autocomplete="off" data-drupal-selector="form-7l8mbm13plpok2pvpdh6dzjheddpharhpbhysbwg35a" type="hidden" name="form_build_id" value="form-7L8MBM13PLPok2pVpDH6dzJhEdDphaRhPBHysbWg35A" />
+<input data-drupal-selector="edit-webform-submission-newsletter-dynamics365-block-content-18-add-form" type="hidden" name="form_id" value="webform_submission_newsletter_dynamics365_block_content_18_add_form" />
+
+
+  
+</form>
+</div>
+      
+					</div>
+	</div>
+</div><div  id="block-contactfooter" class="columns small-12 medium-4 large-4 xlarge-4 xlarge-offset-1 js-scroll-stagger">
+	<div class="main-footer__container">
+        <span class="icon icon-LEM_icons_set_logo color--secondary secondary-footer__logo"></span>
+		<div class="main-footer__content">
+							 
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="main-footer__country">Headquarters</div>
+
+<div class="main-footer__adress color--dark-gray-secondary">LEM International SA<br />
+Route du Nant-d’Avril, 152<br />
+1217 Meyrin<br />
+Switzerland</div>
+
+<div class="main-footer__phone"><strong itemprop="telephone">Tel. : <a href="tel:0041227061111">+41 22 706 11 11</a></strong><br />
+<strong itemprop="faxNumber">Fax : +41 22 794 94 78</strong></div>
+</div>
+      
+						<div class="main-footer__container">
+		<p class="main-footer__title title--underlined color--secondary">Follow Us</p>
+		<div class="main-footer__content main-footer__social">
+									<a target="_blank" href="https://www.youtube.com/channel/UCZ_jNYN-jN7m2fd_ygf36aA" data-tracking="Actions Social buttons|Clic social|youtube"><span class="icon icon-LEM_icons_set_youtube"></span></a>
+									<a target="_blank" href="https://www.linkedin.com/company/lem" data-tracking="Actions Social buttons|Clic social|linkedin"><span class="icon icon-LEM_icons_set_linkedin"></span></a>
+					<a target="_blank" href="https://twitter.com/LEM_Inc" data-tracking="Actions Social buttons|Clic social|twitter"><span class="icon icon-LEM_icons_set_twitter"></span></a>
+						</div>
+</div>
+		</div>
+	</div>
+</div> 
+		</div>
+	</footer>
+
+
+  </div>
+
+    
+        
+
+    <!-- button-information--back-to-top -->
+    <a href="#block-lem-content" class="button-information button-information--back-to-top show-for-large" data-scrollAnimation="scroll-to"><span class="icon-LEM_icons_set_arrow-up"></span></a>
+    <!-- ./button-information -->
+
+    <!-- button-information--back-to-top -->
+    <a href="https://www.lem.com/en/form/contact-us#contact_form" class="button-information"><i class="fa fa-solid fa-envelope"></i></a>
+    <!-- ./button-information -->
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"en\/","currentPath":"node\/9871","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFT1sOAiEMvBDCkUyBLpIUmtC6Bk9vdXf92Rh_2unM9JUIRGaIIOjShpdKX9xQBArKUXfOpvFAQ6MB1Sc6gsl3veYqiVccM3DHxOQIWyjEEegiOqn24mSKGvvZ9sC42IywZ4_mx64-o0Il8QLrf5NyKfTbtp9_0t_hROrNmvz26AsvP2xC","theme":"lem","theme_token":null},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"csp":{"nonce":"tKCGr-fcAJz2S7P_BBrkFw"},"user":{"uid":0,"permissionsHash":"3a808a43d47ed169810f79f4cbd3d45a34acda3188f76e9ab6e7687f0df8e5cd"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/sites/default/files/languages/en_zqVqyW_E9grs0Cm7zdLotoNrj4aMj8RKqaMYIZfoigc.js?t203lq"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.4.6"></script>
+<script src="/core/misc/drupal.js?v=10.4.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.4.6"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0"></script>
+<script src="/core/misc/progress.js?v=10.4.6"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/debounce.js?v=10.4.6"></script>
+<script src="/core/misc/announce.js?v=10.4.6"></script>
+<script src="/core/misc/message.js?v=10.4.6"></script>
+<script src="/core/misc/ajax.js?v=10.4.6"></script>
+<script src="/themes/contrib/stable/js/ajax.js?v=10.4.6"></script>
+<script src="/core/misc/jquery.form.js?v=4.3.0"></script>
+<script src="/core/modules/views/js/base.js?v=10.4.6"></script>
+<script src="/core/modules/views/js/ajax_view.js?v=10.4.6"></script>
+<script src="/modules/contrib/views_infinite_scroll/js/infinite-scroll.js?v=10.4.6"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5835575555316357"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/three.js/0.145.0/three.min.js"></script>
+<script src="/themes/custom/lem/dist/assets/js/vendors.js?v=1"></script>
+<script src="/themes/custom/lem/dist/assets/js/app.js?v=1"></script>
+<script src="/themes/custom/lem/dist/assets/js/lb.js?v=1"></script>
+<script src="/themes/custom/lem/dist/assets/js/extra.js?v=1"></script>
+<script src="/themes/custom/lem/dist/assets/js/timeline.js?v=1"></script>
+<script src="/themes/custom/lem/dist/assets/js/panel_search.js?v=1"></script>
+<script src="/themes/custom/lem/tmp/js/merge.js?v=1"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.save.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/js/webform.element.details.toggle.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/js/webform.element.message.js?v=10.4.6"></script>
+<script src="/core/misc/form.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/js/webform.behaviors.js?v=10.4.6"></script>
+<script src="/core/misc/states.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/js/webform.states.js?v=10.4.6"></script>
+<script src="/modules/contrib/webform/js/webform.form.js?v=10.4.6"></script>
+
+      </body>
+</html>

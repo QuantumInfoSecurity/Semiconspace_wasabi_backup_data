@@ -1,0 +1,2967 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+
+<!--[if IE]><style>div { zoom: 1; /* trigger hasLayout */ }</style><![endif]-->
+<!-- META -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"40b3e098a7",applicationID:"29832197"};;/*! For license information please see nr-loader-rum-1.296.0.min.js.LICENSE.txt */
+(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let s in a)if(void 0!==e[s])try{if(null===e[s]){r[s]=null;continue}Array.isArray(e[s])&&Array.isArray(t[s])?r[s]=Array.from(new Set([...e[s],...t[s]])):"object"==typeof e[s]&&"object"==typeof t[s]?r[s]=i(e[s],t[s]):r[s]=e[s]}catch(e){r[s]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>o,f:()=>s});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function s(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const o=e=>(0,i.a)(e,a)},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.296.0",i="PROD",a="CDN"},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>d,bv:()=>a,gm:()=>s,mw:()=>o,sb:()=>u});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),s=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===s?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(s.navigator?.userAgent),u=c&&"undefined"==typeof SharedWorker,d=((()=>{const e=s.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>u,Ze:()=>f,x3:()=>d});var n=r(241),i=r(836),a=r(606),s=r(860),o=r(646);const c={};function u(e,t){const r={staged:!1,priority:s.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function d(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&g(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,g(e)}function g(e){const t=Array.from(c[e]);t.every((([e,t])=>t.staged))&&(t.sort(((e,t)=>e[1].priority-t[1].priority)),t.forEach((([t])=>{c[e].delete(t),p(e,t)})))}function p(e,t,r=!0){const s=e?i.ee.get(e):i.ee,c=a.i.handlers;if(!s.aborted&&s.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=s.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)m(e[t],r);Object.entries(r).forEach((([e,t])=>{Object.values(t||{}).forEach((t=>{t[0]?.on&&t[0]?.context()instanceof o.y&&t[0].on(e,t[1])}))}))}}s.isolatedBacklog||delete c[t],s.backlog[t]=null,s.emit("drain-"+t,[])}}function m(e,t){var r=e[1];Object.values(t[r]||{}).forEach((t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}}))}},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>o,ee:()=>c});var n=r(384),i=r(990),a=r(646),s=r(607);const o="nr@context:".concat(s.W),c=function e(t,r){var n={},s={},d={},l=!1;try{l=16===r.length&&u.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var o=g(n);m(e).forEach((e=>{e.apply(o,r)}));var u=v()[s[e]];u&&u.push([f,e,r,o]);return o},get:h,listeners:m,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach((([e,n])=>{s[n]=t,t in r||(r[t]=[])}))},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach((e=>{delete f.backlog[e]}))},isBuffering:function(e){return!!v()[s[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,o,(()=>new a.y(o))):new a.y(o)}function p(e,t){n[e]=m(e).concat(t)}function m(e){return n[e]||[]}function h(t){return d[t]=d[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),u=(0,n.Zm)();u.ee||(u.ee=c)},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=s;var i=a.handlers={};function a(e,t,r,a){s(a||n.d,i,e,t,r)}function s(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var s=t[a]=t[a]||{};(s[r]=s[r]||[]).push([e,i])}},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>o,bz:()=>s});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function s(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function o(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const s=[];for(var o=0;o<e;o++)s.push(a(r,i++).toString(16));return s.join("")}},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>s,H3:()=>n,g:()=>u,iL:()=>c,tS:()=>o,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,s=18e5,o={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},u={OFF:0,FULL:1,ERROR:2}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>s});var n=r(241);const i=new Set,a={};function s(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout((()=>{i=clearTimeout(i)}),t)),n||(clearTimeout(i),i=setTimeout((()=>{e.apply(this,r)}),t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},910:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every((e=>{if(i.has(e))return i.get(e);const t="function"==typeof e&&e.toString().includes("[native code]");return t||(0,n.R)(64,e?.name||e?.toString()),i.set(e,t),t}))}},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,Qr:()=>o,sB:()=>s});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function s(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function o(e){if(i())return e();(0,n.sp)("popstate",e)}},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>s,US:()=>d,Zm:()=>o,bQ:()=>u,dV:()=>c,pV:()=>l});var n=r(154),i=r(863),a=r(910);const s={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function c(){let e=o();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function u(e,t){let r=o();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function d(e,t){o()[e]=t}function l(){return function(){let e=o();const t=e.info||{};e.info={beacon:s.beacon,errorBeacon:s.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),c(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>o,TZ:()=>n,rs:()=>i,xV:()=>s});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",s="storeSupportabilityMetrics",o="storeEventMetrics"},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(){return this.#e(i.dT)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>u,BL:()=>o,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>h,Pl:()=>n,Tb:()=>l,U2:()=>a,V1:()=>k,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>s,nb:()=>m,o5:()=>d});const n="api-",i="addPageAction",a="addToTrace",s="addRelease",o="finished",c="interaction",u="log",d="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",m="setApplicationVersion",h="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",k="measure"},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const s="experimental.marks",o="experimental.measures",c="experimental.resources",u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),l=r(944),f=r(122);const g="[data-nr-mask]",p=e=>(0,f.a)(e,(()=>{const e={feature_flags:[],experimental:{marks:!1,measures:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{allow_registered_children:!0,duplicate_registered_data:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{get capture_marks(){return e.feature_flags.includes(s)||e.experimental.marks},set capture_marks(t){e.experimental.marks=t},get capture_measures(){return e.feature_flags.includes(o)||e.experimental.measures},set capture_measures(t){e.experimental.measures=t},capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(c)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(g):""===t||null===t?e.mask_selector=g:(0,l.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var m=r(154),h=r(324);let v=0;const b={buildEnv:h.F3,distMethod:h.Xs,version:h.xv,originTime:m.WN},y={appMetadata:{},customTransaction:void 0,denyList:void 0,disabled:!1,entityManager:void 0,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,jsAttributesMetadata:{bytes:0},get harvestCount(){return++v}},_=e=>{const t=(0,f.a)(e,y),r=Object.keys(b).reduce(((e,t)=>(e[t]={value:b[t],writable:!1,configurable:!0,enumerable:!0},e)),{});return Object.defineProperties(t,r)};var w=r(701);const x=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var k=r(836),A=r(241);const S={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},T=e=>(0,f.a)(e,S),R=new Set;function E(e,t={},r,s){let{init:o,info:c,loader_config:u,runtime:d={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();o=e.init,c=e.info,u=e.loader_config}e.init=p(o||{}),e.loader_config=T(u||{}),c.jsAttributes??={},m.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,g=[c.beacon,c.errorBeacon];R.has(e.agentIdentifier)||(f.proxy.assets&&(x(f.proxy.assets),g.push(f.proxy.assets)),f.proxy.beacon&&g.push(f.proxy.beacon),function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach((r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})}))}(e),(0,n.US)("activatedFeatures",w.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),d.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?g:[]],d.ptid=e.agentIdentifier,d.loaderType=r,e.runtime=_(d),R.has(e.agentIdentifier)||(e.ee=k.ee.get(e.agentIdentifier),e.exposed=l,(0,A.W)({agentIdentifier:e.agentIdentifier,drained:!!w.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),R.add(e.agentIdentifier)}},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>d,K7:()=>c,P3:()=>u,XX:()=>i,Yy:()=>o,df:()=>a,qY:()=>n,v4:()=>s});const n="events",i="jserrors",a="browser/blobs",s="rum",o="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},u={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},d={[c.pageViewEvent]:s,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:o,[c.genericEvents]:"ins"}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.296.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.296.0.PROD:",i.l=(r,n,a,s)=>{if(e[r])e[r].push(n);else{var o,c;if(void 0!==a)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){o=l;break}}if(!o){c=!0;var f={296:"sha512-lrmGpRDjvlBIao5/NFiStZMFgndEnITYeioTL+NeVr05bbhiZI5UvxqJM2Zai/fnk6AsnadU4+xNFKwGMmkXkw=="};(o=document.createElement("script")).charset="utf-8",o.timeout=120,i.nc&&o.setAttribute("nonce",i.nc),o.setAttribute("data-webpack",t+a),o.src=r,0!==o.src.indexOf(window.location.origin+"/")&&(o.crossOrigin="anonymous"),f[s]&&(o.integrity=f[s])}e[r]=[n];var g=(t,n)=>{o.onerror=o.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],o.parentNode&&o.parentNode.removeChild(o),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:o}),12e4);o.onerror=g.bind(null,o.onerror),o.onload=g.bind(null,o.onload),c&&document.head.appendChild(o)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=a);var s=i.p+i.u(t),o=new Error;i.l(s,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),s=r&&r.target&&r.target.src;o.message="Loading chunk "+t+" failed.\n("+a+": "+s+")",o.name="ChunkLoadError",o.type=a,o.request=s,n[1](o)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[s,o,c]=r,u=0;if(s.some((t=>0!==e[t]))){for(n in o)i.o(o,n)&&(i.m[n]=o[n]);if(c)c(i)}for(t&&t(r);u<s.length;u++)a=s[u],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.296.0.PROD"]=self["webpackChunk:NRBA-1.296.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var s=i(163);var o=i(908),c=i(863),u=i(261),d=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const s=a||i;!s||s[e]&&s[e]!==r.prototype[e]||(s[e]=function(){(0,o.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,d.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:u.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function m(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,o.p)(u.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var h=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var k=i(389);class A extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise(((t,r)=>{this.ee.on("manual-start-all",(0,k.J)((()=>{(0,h.Ak)(e.agentIdentifier,this.featureName),t()})))})):(0,h.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;let a;this.onAggregateImported=new Promise((e=>{a=e}));const s=async()=>{let s;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,305));s=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),this.featureName===n.K7.sessionReplay&&this.abortHandler?.()}try{if(!this.#t(this.featureName,s,e.init))return(0,h.Ze)(this.agentIdentifier,this.featureName),void a(!1);const{Aggregate:n}=await t();this.featAggregate=new n(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),a(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,h.Ze)(this.agentIdentifier,this.featureName,!0),a(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)((()=>s()),!0):s()}#t(e,t,r){switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var S=i(630),T=i(614);class R extends A{static featureName=S.T;constructor(e){var t;super(e,S.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(u.Fw,(function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,o.p)(u.Pl+u.Fw,[(0,c.t)()],void 0,void 0,t.ee))}),t),this.ee.on("api-send-rum",((e,t)=>(0,o.p)("send-rum",[e,t],void 0,this.featureName,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,108))))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,d.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)((e=>{t(e,"DOMContentLoaded")})),(0,b.GG)((e=>{t(e,"load")})),(0,b.Qr)((e=>{t(e,"navigate")})),this.ee.on(T.tS.UPDATE,((t,r)=>{(0,d.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})}))}}var E=i(843),N=i(878),j=i(782);class I extends A{static featureName=j.T;constructor(e){super(e,j.T),y.RI&&((0,E.u)((()=>(0,o.p)("docHidden",[(0,c.t)()],void 0,j.T,this.ee)),!0),(0,N.sp)("pagehide",(()=>(0,o.p)("winPagehide",[(0,c.t)()],void 0,j.T,this.ee))),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,350)))))}}class O extends A{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",(e=>{(0,o.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)})),this.importAggregator(e,(()=>i.e(296).then(i.bind(i,373))))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(R),this.runSoftNavOverSpa=[...this.desiredFeatures].some((e=>e.featureName===n.K7.softNav)),(0,s.j)(this,e,e.loaderType||"agent"),t=this,p(u.cD,(function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return m(t,e,r,u.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)}),t),function(e){p(u.Dl,(function(t){if("string"==typeof t||null===t)return m(e,"enduser.id",t,u.Dl,!0);(0,l.R)(41,typeof t)}),e)}(this),function(e){p(u.nb,(function(t){if("string"==typeof t||null===t)return m(e,"application.version",t,u.nb,!1);(0,l.R)(42,typeof t)}),e)}(this),function(e){p(u.d3,(function(){e.ee.emit("manual-start-all")}),e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach((r=>{t[r]=!!e[r]?.enabled})),t}(this.init),t=[...this.desiredFeatures];t.sort(((e,t)=>n.P3[e.featureName]-n.P3[t.featureName])),t.forEach((t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter((e=>!(e in this.features)));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)}))}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[R,I,O],loaderType:"lite"})})()})();</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":2,"licenseKey":"40b3e098a7","agent":"","transactionName":"NVYAbUpQVhIDW0JeWwwcJExWUkwIDVYZREQLUAdUV1VdDREWQF5RFUBYT1FUTz4PXWlTVRZSEVFdVEw=","applicationID":"29832197","errorBeacon":"bam.nr-data.net","applicationTime":688}</script>
+<!-- Standard Favicon -->
+<link rel="icon" type="image/x-icon" href="/static/img/icons/SnapEDA.ico"/>
+<!-- Google+ publisher -->
+<link href="https://plus.google.com/105383266825551010805" rel="publisher">
+
+<style>
+.join-hook-container{
+    background-image: url(/static/img/join-hook-bg.png);
+}
+.social-facebook a {
+  background-image: url(/static/img/icons/face.png);
+}
+.social-linkedin a{
+    background-image: url(/static/img/icons/linkedin.png);
+}
+.social-twitter a{
+    background-image: url(/static/img/icons/twitter.png);
+}
+</style>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!-- Convertize -->
+<script src="//pixel.convertize.io/3693.js" charset="UTF-8"></script>
+
+
+
+
+    <title>
+        D4193-125 datasheet by  | SnapMagic Search
+    </title>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+    <link href="/static/css/core.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- EXTRA_HEAD -->
+    
+        
+<meta name="keywords" content="symbols, footprints, D4193-125, D4193-125 by , download, spice models, free, cad library, cad part, pcb, eagle symbol, eagle footprint, altium, kicad, orcad, diptrace" />
+<meta name="description" content="See D4193-125 datasheet by  or download in pdf. SHCS-0-80-125, Micro-D Hardware Socket Head Cap Screw . Explore a symbol, footprint, 3D model and download for free on SnapMagic Search. Exports to OrCAD, Allegro, Altium, PADS, Eagle, KiCad, Diptrace &amp; Pulsonix.">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+<style>
+
+.base{
+	padding-bottom: 0 !important;
+}
+body{
+	overflow: hidden;
+}
+.sct-header{
+    background-color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    height:58px;
+}
+.sct-header.ver2{
+    background-color: #314d6f !important;
+    background-size: 140px auto;
+    padding: 0px !important;
+    height: 160px !important;
+}
+
+.center2{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+}
+.sct-header.ver2 .center2{
+    background: #fff;
+    overflow: hidden; 
+    border-radius: 8px;
+    height: 64px !important;
+}
+.texas-img{
+    float: left;
+    width: 100px;
+    margin: 20px;
+}
+.me-logo{
+    float: left;
+    width: 130px;
+    padding-top: 5px;
+}
+.me-available{
+	float: left;
+    margin: 18px 10px 0px 50px;
+    font-weight: 400;
+    color: #777;
+}
+
+.me-button{
+	float:right;
+	margin-top:12px;
+	padding: 7px 15px;
+}
+.ad_buy{
+
+	margin-right: 10px;
+}
+.me-iframe{
+	width:100%;
+	min-height:100%;
+}
+
+.me-pricing{
+    float: left;
+    margin: 10px 20px 0px 30px;
+    text-align: left;
+}
+
+.pricing{
+    font-weight: 800!important;
+    font-stretch: ultra-condensed;
+    font-style: italic;
+    color: #ff761a!important;
+    padding-right: 20px;
+}
+.part-img{
+    float:left;
+    margin: 0px 0px 0px 30px;
+    width: 53px;
+}
+
+.me-pricing p{
+    margin-bottom: 0;
+    color:#0D4F85;
+}
+
+.me-pricing p span{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.placeholder-i{
+    font-size: 40px;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+
+.me-pricing p{
+  color: #004A85;
+}
+.sct-header.ver2{
+  background-color: #004A85 !important;
+}
+
+.s-btn.blue, .s-btn-icon.blue i{
+  border: 1px solid #304E70;
+  background-color: #304E70;
+  box-shadow: none !important;
+}
+
+.s-btn.blue:hover {
+  color: #304E70;
+  background: #fff;
+}
+
+.ds-bk-section {
+  display: flex !important;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px !important;
+  position: relative;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.get-symbol {
+  background-image: url(/static_files/images/alert-orange.png);
+  width: 336px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.link-color {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.s-btn {
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.ab-new-design .bg-elipse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 320px;
+}
+
+.ab-new-design .order-pricing {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+  display: inline;
+}
+
+.ab-new-design .orders-available {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.ab-new-design .price-start {
+  background: #FF761A;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 4px 10px 4px 10px;
+  width: auto;
+  text-transform: UPPERCASE;
+  display: inline-flex;
+}
+
+.ab-new-design .btn-banner {
+  z-index: 100 !important;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px; 
+  color: #fff; 
+}
+
+.ab-new-design .btn-banner:hover {
+  background: #ffffff;
+  color: #FF761A;
+}
+
+.ab-new-design .banner-buttons {
+  position: absolute;
+  z-index: 1000;
+  right: 24px;
+  top: 4px;
+}
+
+.sct-header.ver2 .ab-new-design .center2 {
+  background: #1E4B7F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab-new-design .part-img {
+  width: 60px;
+  height: 60px;
+}
+
+.ab-new-design {
+  cursor: pointer;
+  position: absolute;
+  left: calc((100vw /2) - 400px);
+  top: 5px;
+} 
+
+.datasheet-banner {
+  position: static;
+  cursor: pointer;
+  left: calc(50vw - 330px);
+}
+
+.datasheet-banner.view-part{
+  max-width: 948px;
+  width: auto;
+}
+
+.datasheet-banner .center2 {
+    background: #fff;
+    overflow: hidden;
+    padding: 0px!important;
+    border-radius: 5px; 
+}
+.datasheet-banner .texas-img-section {
+    padding: 20px;
+}
+
+.datasheet-banner .img-section {
+    padding: 20px;
+    border: 1px solid #ff761a;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-left: 135px;
+    position: relative;
+    min-width: 30px;
+}
+
+.datasheet-banner .me-logo { 
+    width: 50px;
+    padding: 0px; 
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.datasheet-banner .info-section {
+    display: flex;
+    padding: 6px 10px 6px 20px;
+}
+
+.datasheet-banner .info-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 280px; 
+}
+
+.datasheet-banner .t1 {
+    font-size: 14px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+    font-weight:bold;
+}
+
+.datasheet-banner .part-name {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+}
+
+.t1 img{
+    margin-left: 5px;
+}
+
+
+.datasheet-banner .t2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 50em;
+    height: 1.5em;
+    font-weight:normal;
+    text-align: left;
+    color:#696969;
+}
+
+.datasheet-banner .t4 {
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+    line-height: 120%;
+    display: -webkit-box;
+}
+
+.vertical-text{
+    margin: 20px 20px 20px 40px;
+    text-align: -webkit-left;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datasheet-banner .btn-buy-part {
+    margin: 0px 0px 0px 20px !important;
+    padding: 10px 16px 10px 16px !important;
+}
+ 
+.get-symbol-footprint {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 295px;
+  height: 56px;
+  padding: 0;
+  margin: 0px 32px 0px 10px !important;
+  border: none !important;
+}
+
+.vertical-divider-2 {
+    position: relative;
+    height: 60px;
+    width: 2px;
+}
+
+.divider-line-2 {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    top: -16px;
+    left: 0px;
+    background: #1E4B7F;
+}
+
+.vertical-divider {
+    position: absolute;
+    height: 80px;
+    width: 135px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.divider-line {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    top: -16px;
+    left: 0px;
+    background: #1E4B7F;
+}
+
+#nav-logo-link {
+  margin: 10px !important;
+}
+
+.ti-info {
+    margin-left: 30px;
+    min-width: 260px !important;
+}
+
+.ti-info .info-text-section {
+    color: #304E70 !important;
+    width: 180px;
+}
+
+.ti-info .text-1 {
+    color: #304E70 !important;
+    font-size: 11px;
+}
+
+.ti-info .text-2 {
+    color: #304E70 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-24 {
+  padding-right: 24px;
+}
+
+.t3{
+    color:#696969;
+    overflow: hidden;
+    max-width:800px;
+}
+
+@media (max-width: 1600px){
+    .t3{
+        white-space: initial!important;
+        height: max-content!important;
+        line-height: 14px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1360px){
+    .t3{
+        font-size: 10px;
+    }
+}
+
+.view-part .me-button{
+    width: 99px;
+    color: #ff761a;
+    background-color: white;
+}
+.view-part .me-button:hover{
+    background-color: #ff761a;
+    color: white;
+}
+
+.view-part .vertical-divider{
+    position: static;
+}
+.view-part .img-section{
+    margin-left: 0;
+}
+.view-part .vertical-text{
+    margin-left: 24px;
+}
+.view-part .vertical-text span.t4{
+    width: 75px;
+}
+
+.view-part .view-part-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+</style>  
+
+    
+    <script type="text/javascript">
+
+        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+        heap.load("1579461670");
+    </script> 
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N2DMH7J');</script>
+    <!-- End Google Tag Manager -->
+
+    <!--load FOMO script -->
+    <script src='https://load.fomo.com/api/v1/VRrmLWeQ3uCcECxLw7VDjw/load.js' async></script>
+
+    <style>
+        
+    </style>
+</head>
+<body class="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N2DMH7J"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- <nav class="navbar navbar-default" id="s-navbar">
+        <div id="s-navbar-inner" class="navbar-innerhome">
+            <div class="container">
+
+
+                <a id="nav-logo-link" href="">
+                    <img src="/static/img/snapeda_logo_260.png" width="200" alt="SnapMagic Search logo" title="SnapMagic Search" />
+                </a>
+
+            </div>
+        </div>
+    </nav> -->
+
+    <div id="base">
+            <div id="body">
+                
+
+
+
+
+
+
+
+<meta name="keywords" content="symbols, footprints, D4193-125, D4193-125 by , download, spice models, free, cad library, cad part, pcb, eagle symbol, eagle footprint, altium, kicad, orcad, diptrace" />
+<meta name="description" content="See D4193-125 datasheet by  or download in pdf. SHCS-0-80-125, Micro-D Hardware Socket Head Cap Screw . Explore a symbol, footprint, 3D model and download for free on SnapMagic Search. Exports to OrCAD, Allegro, Altium, PADS, Eagle, KiCad, Diptrace &amp; Pulsonix.">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+<style>
+
+.base{
+	padding-bottom: 0 !important;
+}
+body{
+	overflow: hidden;
+}
+.sct-header{
+    background-color: #fff;
+    padding: 15px;
+    overflow: hidden;
+    height:58px;
+}
+.sct-header.ver2{
+    background-color: #314d6f !important;
+    background-size: 140px auto;
+    padding: 0px !important;
+    height: 160px !important;
+}
+
+.center2{ 
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12px;
+    display: flex;
+    align-items: center;
+}
+.sct-header.ver2 .center2{
+    background: #fff;
+    overflow: hidden; 
+    border-radius: 8px;
+    height: 64px !important;
+}
+.texas-img{
+    float: left;
+    width: 100px;
+    margin: 20px;
+}
+.me-logo{
+    float: left;
+    width: 130px;
+    padding-top: 5px;
+}
+.me-available{
+	float: left;
+    margin: 18px 10px 0px 50px;
+    font-weight: 400;
+    color: #777;
+}
+
+.me-button{
+	float:right;
+	margin-top:12px;
+	padding: 7px 15px;
+}
+.ad_buy{
+
+	margin-right: 10px;
+}
+.me-iframe{
+	width:100%;
+	min-height:100%;
+}
+
+.me-pricing{
+    float: left;
+    margin: 10px 20px 0px 30px;
+    text-align: left;
+}
+
+.pricing{
+    font-weight: 800!important;
+    font-stretch: ultra-condensed;
+    font-style: italic;
+    color: #ff761a!important;
+    padding-right: 20px;
+}
+.part-img{
+    float:left;
+    margin: 0px 0px 0px 30px;
+    width: 53px;
+}
+
+.me-pricing p{
+    margin-bottom: 0;
+    color:#0D4F85;
+}
+
+.me-pricing p span{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.placeholder-i{
+    font-size: 40px;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+
+.me-pricing p{
+  color: #004A85;
+}
+.sct-header.ver2{
+  background-color: #004A85 !important;
+}
+
+.s-btn.blue, .s-btn-icon.blue i{
+  border: 1px solid #304E70;
+  background-color: #304E70;
+  box-shadow: none !important;
+}
+
+.s-btn.blue:hover {
+  color: #304E70;
+  background: #fff;
+}
+
+.ds-bk-section {
+  display: flex !important;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px !important;
+  position: relative;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.get-symbol {
+  background-image: url(/static_files/images/alert-orange.png);
+  width: 336px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.link-color {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+
+.s-btn {
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.ab-new-design .bg-elipse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 320px;
+}
+
+.ab-new-design .order-pricing {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+  display: inline;
+}
+
+.ab-new-design .orders-available {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.ab-new-design .price-start {
+  background: #FF761A;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 4px 10px 4px 10px;
+  width: auto;
+  text-transform: UPPERCASE;
+  display: inline-flex;
+}
+
+.ab-new-design .btn-banner {
+  z-index: 100 !important;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 24px; 
+  color: #fff; 
+}
+
+.ab-new-design .btn-banner:hover {
+  background: #ffffff;
+  color: #FF761A;
+}
+
+.ab-new-design .banner-buttons {
+  position: absolute;
+  z-index: 1000;
+  right: 24px;
+  top: 4px;
+}
+
+.sct-header.ver2 .ab-new-design .center2 {
+  background: #1E4B7F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ab-new-design .part-img {
+  width: 60px;
+  height: 60px;
+}
+
+.ab-new-design {
+  cursor: pointer;
+  position: absolute;
+  left: calc((100vw /2) - 400px);
+  top: 5px;
+} 
+
+.datasheet-banner {
+  position: static;
+  cursor: pointer;
+  left: calc(50vw - 330px);
+}
+
+.datasheet-banner.view-part{
+  max-width: 948px;
+  width: auto;
+}
+
+.datasheet-banner .center2 {
+    background: #fff;
+    overflow: hidden;
+    padding: 0px!important;
+    border-radius: 5px; 
+}
+.datasheet-banner .texas-img-section {
+    padding: 20px;
+}
+
+.datasheet-banner .img-section {
+    padding: 20px;
+    border: 1px solid #ff761a;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-left: 135px;
+    position: relative;
+    min-width: 30px;
+}
+
+.datasheet-banner .me-logo { 
+    width: 50px;
+    padding: 0px; 
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.datasheet-banner .info-section {
+    display: flex;
+    padding: 6px 10px 6px 20px;
+}
+
+.datasheet-banner .info-text-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 280px; 
+}
+
+.datasheet-banner .t1 {
+    font-size: 14px; 
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+    font-weight:bold;
+}
+
+.datasheet-banner .part-name {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+}
+
+.t1 img{
+    margin-left: 5px;
+}
+
+
+.datasheet-banner .t2 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 50em;
+    height: 1.5em;
+    font-weight:normal;
+    text-align: left;
+    color:#696969;
+}
+
+.datasheet-banner .t4 {
+    font-weight: 800;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #304E70;
+    line-height: 120%;
+    display: -webkit-box;
+}
+
+.vertical-text{
+    margin: 20px 20px 20px 40px;
+    text-align: -webkit-left;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.datasheet-banner .btn-buy-part {
+    margin: 0px 0px 0px 20px !important;
+    padding: 10px 16px 10px 16px !important;
+}
+ 
+.get-symbol-footprint {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 295px;
+  height: 56px;
+  padding: 0;
+  margin: 0px 32px 0px 10px !important;
+  border: none !important;
+}
+
+.vertical-divider-2 {
+    position: relative;
+    height: 60px;
+    width: 2px;
+}
+
+.divider-line-2 {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    top: -16px;
+    left: 0px;
+    background: #1E4B7F;
+}
+
+.vertical-divider {
+    position: absolute;
+    height: 80px;
+    width: 135px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.divider-line {
+    position: absolute;
+    width: 1px;
+    height: 100px;
+    top: -16px;
+    left: 0px;
+    background: #1E4B7F;
+}
+
+#nav-logo-link {
+  margin: 10px !important;
+}
+
+.ti-info {
+    margin-left: 30px;
+    min-width: 260px !important;
+}
+
+.ti-info .info-text-section {
+    color: #304E70 !important;
+    width: 180px;
+}
+
+.ti-info .text-1 {
+    color: #304E70 !important;
+    font-size: 11px;
+}
+
+.ti-info .text-2 {
+    color: #304E70 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+.pr-24 {
+  padding-right: 24px;
+}
+
+.t3{
+    color:#696969;
+    overflow: hidden;
+    max-width:800px;
+}
+
+@media (max-width: 1600px){
+    .t3{
+        white-space: initial!important;
+        height: max-content!important;
+        line-height: 14px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1360px){
+    .t3{
+        font-size: 10px;
+    }
+}
+
+.view-part .me-button{
+    width: 99px;
+    color: #ff761a;
+    background-color: white;
+}
+.view-part .me-button:hover{
+    background-color: #ff761a;
+    color: white;
+}
+
+.view-part .vertical-divider{
+    position: static;
+}
+.view-part .img-section{
+    margin-left: 0;
+}
+.view-part .vertical-text{
+    margin-left: 24px;
+}
+.view-part .vertical-text span.t4{
+    width: 75px;
+}
+
+.view-part .view-part-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+</style>  
+
+
+  
+  
+<!--------------------------------------------------------------------------------------------------->
+<link rel="stylesheet" href="/static/js/intl-tel-input-master/build/css/intlTelInput.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+<script src="/static/js/intl-tel-input-master/build/js/intlTelInput.min.js" ></script>
+<script src="/static/js/countrystatecity.js"></script>
+<script src="/static/js/promise.polyfill.min.js"></script>
+<script src="/static/js/freemail/freemail.js"></script>
+<script src="/static/js/leadcollection.js"></script>
+<script src="/static/js/address-validation.js"></script>
+
+<!--------------------------------------------------------------------------------------------------->
+
+<style>
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    #address-input-container {
+        position: relative;
+    }
+    #address-input-container .autocomplete-suggestions {
+        border: 1px solid #ddd;
+        border-top: none;
+        max-height: 150px;
+        overflow-y: auto;
+        position: absolute;
+        background-color: #fff;
+        z-index: 1051; /* Higher than modal z-index */
+        left: 0;
+        right: 0;
+        box-sizing: border-box;
+    }
+    .suggestion-item {
+        padding: 8px;
+        cursor: pointer;
+    }
+    .suggestion-item:hover {
+        background-color: #f0f0f0;
+    }
+
+    #leads-modal {
+        display: block;
+        position: fixed;
+        top: 20%;
+        left: 35%;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+        background: #FFFFFF;
+        border-radius: 12px; 
+        width: 600px;
+        box-shadow: 10px 4px 10px rgba(0, 0, 0, 0.05), -10px -4px 10px rgba(0, 0, 0, 0.05);
+        z-index: 120001;
+        height: 360px;
+    }
+
+    .d-flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .w100 {
+        width: 100%;
+    }
+
+    #leads-modal input,
+    #leads-modal select {
+        height: 40px !important;
+        border: 1px solid #cacaca !important;
+        box-sizing: border-box;
+        border-radius: 8px !important; 
+        font-family: Open Sans;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px !important;
+        line-height: 19px;
+        margin: 0px; 
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 100% !important;
+    }
+
+    .pac-container {
+     z-index: 120004;
+    }
+
+    #leads-modal select {
+        padding-left: 0px;
+    }
+
+    .submit-btn-disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        pointer-events: none;
+        user-select: none;
+    }
+
+    .submit-div.loading .submit-btn {
+        color: transparent;
+        pointer-events: none;
+    }
+
+    .submit-div.loading::after {
+        content: "";
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        width: 1rem;
+        height: 1rem;
+        border: 2px solid #fff;
+        border-top-color: transparent;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        animation: spin 0.6s linear infinite;
+    }
+
+    @keyframes spin {
+        to { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    
+    .mrp5rem { margin-right: 0.5rem !important;}
+    .mlp5rem { margin-left: 0.5rem !important;}
+    .mtp5rem { margin-top: 0.5rem !important;}
+    .mbp5rem { margin-bottom: 0.5rem !important;}
+    
+    .submit-btn {
+        background: #FF761A;
+        box-sizing: border-box;
+        box-shadow: 10px 0px 20px rgba(244, 127, 32, 0.3), -10px 4px 20px rgba(255, 118, 26, 0.2);
+        color: #fff;
+        height: 45px !important;
+    }
+
+    .submit-div {
+        position: absolute;
+        bottom: 1rem;
+        width: 572px;
+    }
+
+    .err-msg {
+        color: #FF761A;
+        display: none;
+        margin-bottom: 10px;
+    }
+
+    .lead-modal-overlay {
+        background: rgba(0,0,0,0.8);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        display: none;
+        z-index: 120000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #leads-form label.error {
+        display: none !important;
+    }
+
+    #leads-form .countries {
+        max-width: 33%
+    }
+
+    .display-none {
+        display: none !important;
+    }
+
+    #leads-modal-new {
+        width:  850px; 
+        background: #fff;
+        min-height: 580px;
+        border-radius: 16px;
+        display: flex;
+    }
+
+    
+    .img-div {
+        background: #fafafa;
+        width: 40%;
+        padding: 8px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-div .modal-heading {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 56px;
+        padding-left: 46px;
+        padding-bottom: 54px;
+    } 
+
+    
+
+    .img-div img {
+        width:  90%; 
+    }
+
+    #leads-collection-section {
+        width: 56%;
+    }
+
+    .close-div {
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 10px;
+    }
+
+    .close-div span {
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .form-section {
+        padding-left: 32px;
+        padding-bottom: 20px;
+    }
+
+    .modal-heading {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 52px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+    
+    .form-field label {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        margin: 6px 0px 6px 0px;
+    }
+    
+
+    .sub-label {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #757575;
+        margin-bottom: 10px;
+    }
+
+    .form-field .text-field {
+        border: 1px solid #BDBDBD;
+        box-sizing: border-box;
+        border-radius: 6px;
+        width:  425px; 
+        height: 40px;
+        padding:  14px 16px ;
+    }
+
+    .pt-16 { padding-top: 16px; }
+    
+    .d-flex { display: flex;}
+
+    .mt-8 { margin-top: 8px; }
+    .ml-8 { margin-left: 8px; }
+    .mb-8 { margin-bottom: 8px; }
+    .mr-8 { margin-right: 8px; }
+
+    #leads-modal-new .err-msg {
+        margin-bottom: -10px;
+    }
+
+    #leads-modal-new .submit-div {
+        position: relative;
+        margin-top: 16px;
+    }
+
+    #leads-modal-new .submit-btn {
+        width:  425px;  
+        height: 48px;
+        background: #FF761A;
+        border-radius: 8px;
+        border: none;
+        margin-top: 16px;
+        
+    }
+
+    .info-section {
+        border: 1px solid #D3D2D3; 
+        width:  395px;  
+        margin-top: 4px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .info-heading {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.04em;
+        color: #000000;
+    }
+    
+    .info-desc {
+        font-family: Open Sans;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 24px; 
+        text-align: justify;
+    }
+
+    #success-dialog {
+        width: 650px;
+        background: #fff;
+        min-height: 550px;
+        border-radius: 10px;
+        display: none;
+        border-top: 8px solid #4AB937;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .w-100 {
+        width: 100% !important;
+    }
+
+    .message-joy {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 79px; 
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.05em;
+    }
+
+    .message-delivery {
+        border: 1px solid;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 46px; 
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.05em;
+    }
+
+    .fields-area {
+        max-height: 450px;
+        overflow-y: auto;
+    } 
+
+    .sbs-layout {
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+    }
+
+    .sbs-layout .form-field .text-field {
+        width: auto;
+        min-width:  205px ;
+    }
+
+
+    
+    .w-33 {
+        width: 33% !important;
+    }
+    
+    .p0-w100 {
+        color: black !important;
+        padding: 0px 0px 0px 10px !important;
+        width: 100% !important;
+    }
+
+    
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .img-div .modal-heading {
+            width: 300px;
+        }
+    }
+
+    
+
+    
+
+</style>
+
+<!-- Leads collection form modal --> 
+<div class='lead-modal-overlay'>
+    <a id="leadCollectionRedirect" class="hidden" href="#" target="_blank"></a>
+    
+    <div id="leads-modal-new">
+        <div class="img-div">
+            <img src="/static/img/leads-form.svg">
+        </div>
+        <div id="leads-collection-section">
+            <div class='close-div'>
+                <span> ⨉ </span>
+            </div>
+            <div class='form-section'>
+                <div class="modal-heading" data-resource-type="Samples">
+                    Get free samples
+                </div>
+                <div>
+                    <div class='fields-area'>
+                        <div class='form-field'>
+                            <label> Work Email </label>
+                            <input type="email" placeholder="Email*" name="email" id="email" class='text-field'>
+                        </div>
+                        <div class='sbs-layout'>
+                            <div class='form-field'>
+                                <label>First Name </label>
+                                <input type="text" placeholder="First Name*" name="firstname" id="firstname" class="text-field">
+                            </div>
+                            <div class="form-field">
+                                <label>Last Name </label>
+                                <input type="text" placeholder="Last Name*" name="lastname" id="lastname" class="text-field">
+                            </div>
+                        </div>
+                        <div class='form-field'>
+                            <label>Company </label>
+                            <input type="text" placeholder="Company" name="company" id="company" class="text-field" required>
+                        </div>
+                        
+
+                        
+                        
+                    </div>
+                    
+                    <div class='sbs-layout hidden'>
+                        <div class="form-field">
+                            <label>Phone Number </label>
+                            <input type="tel" maxlength='10' style='width:210px' placeholder="(334)8515458" name="phone_number" id="phone_number" class="text-field">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class='sbs-layout hidden'>
+                        <div class="form-field w-33 mrp5rem" >
+                            <label>Country </label>
+                            <select name="country" class="countries p0-w100 text-field" name='country' id="countryId" required>
+                                <option value="">Select Country</option>
+                                
+                                <option value="Afghanistan" countryid="AF">Afghanistan</option>
+                                
+                                <option value="Albania" countryid="AL">Albania</option>
+                                <option value="Algeria" countryid="DZ">Algeria</option>
+                                <option value="Andorra" countryid="AD">Andorra</option>
+                                <option value="Angola" countryid="AO">Angola</option>
+                                <option value="Anguilla" countryid="AI">Anguilla</option>
+                                <option value="Antigua and Barbuda" countryid="AG">Antigua and Barbuda</option>
+                                <option value="Argentina" countryid="AR">Argentina</option>
+                                <option value="Armenia" countryid="AM">Armenia</option>
+                                <option value="Australia" countryid="AU">Australia</option>
+                                <option value="Austria" countryid="AT">Austria</option>
+                                <option value="Azerbaijan" countryid="AZ">Azerbaijan</option>
+                                <option value="Bahamas" countryid="BS">Bahamas</option>
+                                <option value="Bahrain" countryid="BH">Bahrain</option>
+                                <option value="Bangladesh" countryid="BD">Bangladesh</option>
+                                <option value="Barbados" countryid="BB">Barbados</option>
+                                <option value="Belarus" countryid="BY">Belarus</option>
+                                <option value="Belgium" countryid="BE">Belgium</option>
+                                <option value="Belize" countryid="BZ">Belize</option>
+                                <option value="Benin" countryid="BJ">Benin</option>
+                                <option value="Bermuda" countryid="BM">Bermuda</option>
+                                <option value="Bhutan" countryid="BT">Bhutan</option>
+                                <option value="Bolivia" countryid="BO">Bolivia</option>
+                                <option value="Bosnia and Herzegovina" countryid="BA">Bosnia and Herzegovina</option>
+                                <option value="Botswana" countryid="BW">Botswana</option>
+                                <option value="Brazil" countryid="BR">Brazil</option>
+                                <option value="Brunei Darussalam" countryid="BN">Brunei Darussalam</option>
+                                <option value="Bulgaria" countryid="BG">Bulgaria</option>
+                                <option value="Burkina Faso" countryid="BF">Burkina Faso</option>
+                                <option value="Burundi" countryid="BI">Burundi</option>
+                                <option value="Cambodia" countryid="KH">Cambodia</option>
+                                <option value="Cameroon" countryid="CM">Cameroon</option>
+                                <option value="Canada" countryid="CA">Canada</option>
+                                <option value="Cape Verde" countryid="CV">Cape Verde</option>
+                                <option value="Cayman Islands" countryid="KY">Cayman Islands</option>
+                                
+                                <option value="Central African Republic" countryid="CF">Central African Republic</option>
+                                
+                                <option value="Chad" countryid="TD">Chad</option>
+                                <option value="Chile" countryid="CL">Chile</option>
+                                <option value="China" countryid="CN">China</option>
+                                <option value="Colombia" countryid="CO">Colombia</option>
+                                <option value="Comoros" countryid="KM">Comoros</option>
+                                <option value="Congo" countryid="CG">Congo</option>
+                                <option value="Costa Rica" countryid="CR">Costa Rica</option>
+                                <option value="Croatia (Hrvatska)" countryid="HR">Croatia (Hrvatska)</option>
+                                <option value="Cuba" countryid="CU">Cuba</option>
+                                <option value="Cyprus" countryid="CY">Cyprus</option>
+                                <option value="Czech Republic" countryid="CZ">Czech Republic</option>
+                                <option value="Denmark" countryid="DK">Denmark</option>
+                                <option value="Djibouti" countryid="DJ">Djibouti</option>
+                                <option value="Dominica" countryid="DM">Dominica</option>
+                                <option value="Dominican Republic" countryid="DO">Dominican Republic</option>
+                                <option value="Ecuador" countryid="EC">Ecuador</option>
+                                <option value="Egypt" countryid="EG">Egypt</option>
+                                <option value="El Salvador" countryid="SV">El Salvador</option>
+                                <option value="Equatorial Guinea" countryid="GQ">Equatorial Guinea</option>
+                                
+                                <option value="Eritrea" countryid="ER">Eritrea</option>
+                                
+                                <option value="Estonia" countryid="EE">Estonia</option>
+                                <option value="Ethiopia" countryid="ET">Ethiopia</option>
+                                <option value="Faroe Islands" countryid="FO">Faroe Islands</option>
+                                <option value="Fiji" countryid="FJ">Fiji</option>
+                                <option value="Finland" countryid="FI">Finland</option>
+                                <option value="France" countryid="FR">France</option>
+                                <option value="French Guiana" countryid="GF">French Guiana</option>
+                                <option value="French Polynesia" countryid="PF">French Polynesia</option>
+                                <option value="French Southern Territories" countryid="TF">French Southern Territories</option>
+                                <option value="Gabon" countryid="GA">Gabon</option>
+                                <option value="Gambia" countryid="GM">Gambia</option>
+                                <option value="Georgia" countryid="GE">Georgia</option>
+                                <option value="Germany" countryid="DE">Germany</option>
+                                <option value="Ghana" countryid="GH">Ghana</option>
+                                <option value="Greece" countryid="GR">Greece</option>
+                                <option value="Greenland" countryid="GL">Greenland</option>
+                                <option value="Grenada" countryid="GD">Grenada</option>
+                                <option value="Guadeloupe" countryid="GP">Guadeloupe</option>
+                                <option value="Guam" countryid="GU">Guam</option>
+                                <option value="Guatemala" countryid="GT">Guatemala</option>
+                                <option value="Guinea" countryid="GN">Guinea</option>
+                                <option value="Guinea-Bissau" countryid="GW">Guinea-Bissau</option>
+                                <option value="Guyana" countryid="GY">Guyana</option>
+                                <option value="Haiti" countryid="HT">Haiti</option>
+                                <option value="Honduras" countryid="HN">Honduras</option>
+                                <option value="Hong Kong" countryid="HK">Hong Kong</option>
+                                <option value="Hungary" countryid="HU">Hungary</option>
+                                <option value="Iceland" countryid="IS">Iceland</option>
+                                <option value="India" countryid="IN">India</option>
+                                <option value="Isle of Man" countryid="IM">Isle of Man</option>
+                                <option value="Indonesia" countryid="ID">Indonesia</option>
+                                <option value="Iran" countryid="IR">Iran</option>
+                                
+                                <option value="Iraq" countryid="IQ">Iraq</option>
+                                
+                                <option value="Ireland" countryid="IE">Ireland</option>
+                                <option value="Israel" countryid="IL">Israel</option>
+                                <option value="Italy" countryid="IT">Italy</option>
+                                <option value="Ivory Coast" countryid="CI">Ivory Coast</option>
+                                <option value="Jersey" countryid="JE">Jersey</option>
+                                <option value="Jamaica" countryid="JM">Jamaica</option>
+                                <option value="Japan" countryid="JP">Japan</option>
+                                <option value="Jordan" countryid="JO">Jordan</option>
+                                <option value="Kazakhstan" countryid="KZ">Kazakhstan</option>
+                                <option value="Kenya" countryid="KE">Kenya</option>
+                                <option value="Kiribati" countryid="KI">Kiribati</option>
+                                
+                                <option value="North Korea" countryid="KP">North Korea</option>
+                                
+                                <option value="South Korea" countryid="KR">South Korea</option>
+                                <option value="Kosovo" countryid="XK">Kosovo</option>
+                                <option value="Kuwait" countryid="KW">Kuwait</option>
+                                <option value="Kyrgyzstan" countryid="KG">Kyrgyzstan</option>
+                                <option value="Lao" countryid="LA">Lao</option>
+                                <option value="Latvia" countryid="LV">Latvia</option>
+                                
+                                <option value="Lebanon" countryid="LB">Lebanon</option>
+                                
+                                <option value="Lesotho" countryid="LS">Lesotho</option>
+                                <option value="Liberia" countryid="LR">Liberia</option>
+                                
+                                <option value="Libyan Arab Jamahiriya" countryid="LY">Libyan Arab Jamahiriya</option>
+                                
+                                <option value="Liechtenstein" countryid="LI">Liechtenstein</option>
+                                <option value="Lithuania" countryid="LT">Lithuania</option>
+                                <option value="Luxembourg" countryid="LU">Luxembourg</option>
+                                <option value="Macedonia" countryid="MK">Macedonia</option>
+                                <option value="Madagascar" countryid="MG">Madagascar</option>
+                                <option value="Malawi" countryid="MW">Malawi</option>
+                                <option value="Malaysia" countryid="MY">Malaysia</option>
+                                <option value="Maldives" countryid="MV">Maldives</option>
+                                <option value="Mali" countryid="ML">Mali</option>
+                                <option value="Malta" countryid="MT">Malta</option>
+                                <option value="Marshall Islands" countryid="MH">Marshall Islands</option>
+                                <option value="Martinique" countryid="MQ">Martinique</option>
+                                <option value="Mauritania" countryid="MR">Mauritania</option>
+                                <option value="Mauritius" countryid="MU">Mauritius</option>
+                                <option value="Mexico" countryid="MX">Mexico</option>
+                                <option value="Micronesia, Federated States of" countryid="FM">Micronesia, Federated States of</option>
+                                <option value="Moldova, Republic of" countryid="MD">Moldova, Republic of</option>
+                                <option value="Monaco" countryid="MC">Monaco</option>
+                                <option value="Mongolia" countryid="MN">Mongolia</option>
+                                <option value="Montenegro" countryid="ME">Montenegro</option>
+                                <option value="Montserrat" countryid="MS">Montserrat</option>
+                                <option value="Morocco" countryid="MA">Morocco</option>
+                                <option value="Mozambique" countryid="MZ">Mozambique</option>
+                                <option value="Myanmar" countryid="MM">Myanmar</option>
+                                <option value="Namibia" countryid="NA">Namibia</option>
+                                <option value="Nauru" countryid="NR">Nauru</option>
+                                <option value="Nepal" countryid="NP">Nepal</option>
+                                <option value="Netherlands" countryid="NL">Netherlands</option>
+                                <option value="Netherlands Antilles" countryid="AN">Netherlands Antilles</option>
+                                <option value="New Caledonia" countryid="NC">New Caledonia</option>
+                                <option value="New Zealand" countryid="NZ">New Zealand</option>
+                                <option value="Nicaragua" countryid="NI">Nicaragua</option>
+                                <option value="Niger" countryid="NE">Niger</option>
+                                <option value="Nigeria" countryid="NG">Nigeria</option>
+                                <option value="Northern Mariana Islands" countryid="MP">Northern Mariana Islands</option>
+                                <option value="Norway" countryid="NO">Norway</option>
+                                <option value="Oman" countryid="OM">Oman</option>
+                                <option value="Pakistan" countryid="PK">Pakistan</option>
+                                <option value="Palau" countryid="PW">Palau</option>
+                                <option value="Palestine" countryid="PS">Palestine</option>
+                                <option value="Panama" countryid="PA">Panama</option>
+                                <option value="Papua New Guinea" countryid="PG">Papua New Guinea</option>
+                                <option value="Paraguay" countryid="PY">Paraguay</option>
+                                <option value="Peru" countryid="PE">Peru</option>
+                                <option value="Philippines" countryid="PH">Philippines</option>
+                                <option value="Poland" countryid="PL">Poland</option>
+                                <option value="Portugal" countryid="PT">Portugal</option>
+                                <option value="Puerto Rico" countryid="PR">Puerto Rico</option>
+                                <option value="Qatar" countryid="QA">Qatar</option>
+                                <option value="Reunion" countryid="RE">Reunion</option>
+                                <option value="Romania" countryid="RO">Romania</option>
+                                
+                                <option value="Russian Federation" countryid="RU">Russian Federation</option>
+                                
+                                <option value="Rwanda" countryid="RW">Rwanda</option>
+                                <option value="Saint Kitts and Nevis" countryid="KN">Saint Kitts and Nevis</option>
+                                <option value="Saint Lucia" countryid="LC">Saint Lucia</option>
+                                <option value="Saint Vincent and the Grenadines" countryid="VC">Saint Vincent and the Grenadines</option>
+                                <option value="Samoa" countryid="WS">Samoa</option>
+                                <option value="San Marino" countryid="SM">San Marino</option>
+                                <option value="Sao Tome and Principe" countryid="ST">Sao Tome and Principe</option>
+                                <option value="Saudi Arabia" countryid="SA">Saudi Arabia</option>
+                                <option value="Senegal" countryid="SN">Senegal</option>
+                                <option value="Serbia" countryid="RS">Serbia</option>
+                                <option value="Seychelles" countryid="SC">Seychelles</option>
+                                <option value="Sierra Leone" countryid="SL">Sierra Leone</option>
+                                <option value="Singapore" countryid="SG">Singapore</option>
+                                <option value="Slovakia" countryid="SK">Slovakia</option>
+                                <option value="Slovenia" countryid="SI">Slovenia</option>
+                                <option value="Solomon Islands" countryid="SB">Solomon Islands</option>
+                                
+                                <option value="Somalia" countryid="SO">Somalia</option>
+                                
+                                <option value="South Africa" countryid="ZA">South Africa</option>
+                                <option value="Spain" countryid="ES">Spain</option>
+                                <option value="Sri Lanka" countryid="LK">Sri Lanka</option>
+                                <option value="St. Helena" countryid="SH">St. Helena</option>
+                                <option value="St. Pierre and Miquelon" countryid="PM">St. Pierre and Miquelon</option>
+                                
+                                <option value="Sudan" countryid="SD">Sudan</option>
+                                
+                                <option value="Suriname" countryid="SR">Suriname</option>
+                                <option value="Svalbard and Jan Mayen Islands" countryid="SJ">Svalbard and Jan Mayen Islands</option>
+                                <option value="Swaziland" countryid="SZ">Swaziland</option>
+                                <option value="Sweden" countryid="SE">Sweden</option>
+                                <option value="Switzerland" countryid="CH">Switzerland</option>
+                                <option value="Syrian Arab Republic" countryid="SY">Syrian Arab Republic</option>
+                                <option value="Taiwan" countryid="TW">Taiwan</option>
+                                <option value="Tajikistan" countryid="TJ">Tajikistan</option>
+                                <option value="Tanzania" countryid="TZ">Tanzania</option>
+                                <option value="Thailand" countryid="TH">Thailand</option>
+                                <option value="Togo" countryid="TG">Togo</option>
+                                <option value="Tokelau" countryid="TK">Tokelau</option>
+                                <option value="Tonga" countryid="TO">Tonga</option>
+                                <option value="Trinidad and Tobago" countryid="TT">Trinidad and Tobago</option>
+                                <option value="Tunisia" countryid="TN">Tunisia</option>
+                                <option value="Turkey" countryid="TR">Turkey</option>
+                                <option value="Turkmenistan" countryid="TM">Turkmenistan</option>
+                                <option value="Tuvalu" countryid="TV">Tuvalu</option>
+                                <option value="Uganda" countryid="UG">Uganda</option>
+                                <option value="Ukraine" countryid="UA">Ukraine</option>
+                                <option value="United Arab Emirates" countryid="AE">United Arab Emirates</option>
+                                <option value="United Kingdom" countryid="GB">United Kingdom</option>
+                                <option value="United States" countryid="US">United States</option>
+                                <option value="United States minor outlying islands" countryid="UM">United States minor outlying islands</option>
+                                <option value="Uruguay" countryid="UY">Uruguay</option>
+                                <option value="Uzbekistan" countryid="UZ">Uzbekistan</option>
+                                <option value="Vanuatu" countryid="VU">Vanuatu</option>
+                                <option value="Venezuela" countryid="VE">Venezuela</option>
+                                <option value="Vietnam" countryid="VN">Vietnam</option>
+                                <option value="Virgin Islands (U.S.)" countryid="VI">Virgin Islands (U.S.)</option>
+                                <option value="Wallis and Futuna Islands" countryid="WF">Wallis and Futuna Islands</option>
+                                <option value="Yemen" countryid="YE">Yemen</option>
+                                <option value="Zambia" countryid="ZM">Zambia</option>
+                                <option value="Zimbabwe" countryid="ZW">Zimbabwe</option>
+                            </select>
+                        </div> 
+                        
+                        <div class="form-field w-33 mrp5rem">
+                            <label>State </label>
+                            <select name="state" class="states p0-w100 text-field" name='state' id="stateId" required>
+                                <option value="">Select State</option>
+                            </select>
+                        </div>
+                        <div class="form-field w-33">
+                            <label>City </label>
+                            <select name="city" class="cities p0-w100 text-field" name='city' id="cityId" required>
+                                <option value="">Select City</option>
+                            </select>    
+                        </div>
+                        
+                    </div>
+                    
+                        <div class='d-flex-center'>
+                            <input type='hidden' name='reflinktext' id='reflinktext'>
+                        </div> 
+                        <div class='d-flex-center'>
+                            <input type='hidden' name='adManagerId' id='adManagerId'>
+                        </div> 
+                        <div class='d-flex-center'>
+                            <input type='hidden' name='refmanufacturer' id='refmanufacturer'>
+                        </div>
+                    </div>
+                    <div class='d-flex mt-8'>
+                        <input type="checkbox" id="terms" name="terms" value="terms" checked>
+                        <label for="terms" class='ml-8'> I agree to share this information with Omnetics</label>
+                    </div>
+                    <div class='submit-div' id='submit-div-leads'>
+                        <div class='err-msg'>* Please fill required fields</div>
+                        <input type='Submit' class='submit-btn' id='submit-btn-leads' value="Submit" data-location="toplink">
+                    </div>
+                <div class="info-section">
+                    <h3 class='info-heading'>Why we ask for this information</h3>
+                    <div class='info-desc'>
+                        The supplier asked us to collect this information for this resource. At SnapMagic Search, we care about our users and only share information with your permission.
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    
+    <div id="success-dialog">
+        <div class='w-100'>
+            <div class="close-div"> 
+                <span> ⨉ </span>
+            </div>
+        </div>
+        <div>
+            <img src="/static/img/free-sampes-success.svg" style=" width: 300px; ">
+        </div>
+        <h2 class='message-joy'>
+            We hope you enjoy your free samples!
+        </h2>
+        <div class='message-delivery'>
+            <div class='message-send'> Your free samples will be sent to </div>
+            <div style="font-weight: bold;" class='text-email'>  </div>
+        </div>
+
+    </div>
+</div> 
+
+<script>
+        $(document).ready(function () {
+            
+        });
+
+          function track_mixpanel_click(tracking_data){
+            var useAsync = true;
+            useAsync = navigator.userAgent.toLowerCase().indexOf('firefox') < 0;
+            $.ajax({
+                type: "POST",
+                async: useAsync,
+                url: "/api/mixpanel_click_track/",
+                data: tracking_data
+            });
+          }
+
+        function toTitleCase(str) {
+            return str.replace(/\w\S*/g, function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            });
+        }
+
+        function setLeadFormTitle(title) {
+            $('#leads-modal-new').find('.modal-heading').html(title);
+        }
+
+        function setDefaultLeadFormTexts(location, resource_key) {
+            const isArdusimple = 'omnetics'.includes('ardusimple');
+            const thankYouMessage = isArdusimple ? "Your question was sent successfully" : "Thank you for your request";
+
+            if (location == 'toplink' || location == 'datasheet') {
+                var text = '';
+                var ad_manager = '';
+                var title = '';
+                var button_text = '';
+                resource = '';
+            }
+            if (location == 'popup' || location == 'popuplink') {
+                var text = '';
+                var ad_manager = '';
+                var title = '';
+                var button_text = '';
+                resource = '';
+            }
+            if (location == 'leftcard') {
+                var text = '';
+                var ad_manager = '';
+                var title = '';
+                var button_text = '';
+                resource = '';
+            }
+            if (location == 'more resources') {
+                var text = '';
+                var ad_manager = '';
+                resource = resource_key;
+            }
+            if (location == 'plugin') {
+                var title = '';
+                var ad_manager = '';
+                resource = resource_key;
+            }
+            
+                var ad = toTitleCase(ad_manager);
+                $('#leads-modal-new').find('.modal-heading').attr('data-resource-type', resource);
+                if (title){
+                    
+                    setLeadFormTitle(title);
+                    
+                }
+                else{
+                    
+                    if(resource == '') {
+                        setLeadFormTitle('Get free samples');
+                    } else {
+                        setLeadFormTitle('Get ' + resource);
+                    }
+                    
+                }
+                if (button_text){
+                    $('#submit-btn-leads').attr('value', button_text);
+                }
+                else{
+                    
+                    $('#submit-btn-leads').attr('value', 'Request ' + resource);
+                    
+                }
+                $('#success-dialog').find('.message-joy').html(thankYouMessage);
+                $('#success-dialog').find('.message-send').html( ad + ' will be in touch soon');
+
+            
+            if (location != 'more resources'){
+             
+                 resource = '';
+                 resource_type = resource.substr(resource.indexOf(" ") + 1);
+                 $('#leads-modal-new').find('.info-desc').html("The supplier will be sending you " +
+                     resource_type + " directly and they'll need to follow up with you to facilitate the shipment.");
+             
+            }
+        }
+
+        function updateLeadFormTexts(resource_key, location){
+            
+                if(location == 'plugin' && '' == 'BEL'){
+                    $('#cityId').parent().hide();
+                    $('#leads-modal-new').find('.modal-heading').attr('data-resource-type', resource_key);
+                    setLeadFormTitle('Download ' + resource_key);
+                    $('#submit-btn-leads').attr('value', 'Download Now');
+                }
+                else {
+                    setDefaultLeadFormTexts(location, resource_key)
+                }
+            
+        }
+
+        function openLeadsDialog(redirect_link, resource_key, location, dataFormat, useEnrichment) {
+            if(!useEnrichment) { useEnrichment = false}
+            if(!redirect_link) { redirect_link = ''; }
+            if(!resource_key) { resource_key= ''; }
+            if(!location) { location= 'toplink'; }
+            if(!dataFormat){ dataFormat = ''; }
+
+            
+            addEvents(useEnrichment);
+
+            
+
+            if(useEnrichment) {
+                $('#jobtitle').parent().hide();
+                $('#company').parent().hide();
+                $('#firstname').parent().hide();
+                $('#lastname').parent().hide();
+                $('#cityId').parent().hide();
+                $('#stateId').parent().hide();
+                $('#countryId').parent().hide();
+            }
+
+            
+
+            //clear error
+            $('#leads-modal-new .err-msg').html('').hide();
+            
+            $('#success-dialog').hide();
+            $('#leads-modal-new').css('display','flex');
+            $('#leadCollectionRedirect').attr('href', redirect_link)
+            $('#submit-btn-leads').attr('data-location', location)
+            $('#submit-btn-leads').attr('data-format', dataFormat)
+            updateLeadFormTexts(resource_key, location=location)
+            $('body').append('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">');
+
+            // reset form
+            $('#firstname').val('');
+            $('#lastname').val('');
+            $('#email').val('');
+            $('#company').val('');
+            $('#project_name').val('');
+            $('#zip_code').val('');
+
+
+            var state = '';
+            var city = '';
+
+            if($('#countryId').length > 0 ) {
+                $('#countryId').val( '' );
+                if(state) {
+                    $('#stateId').append( '<option value="' + state+'" selected>' + state + '</option>' );
+                } else {
+                    $('#stateId').val('');
+                }
+                if(state) {
+                    $('#cityId').append( '<option value="' + city +'" selected>' + city + '</option>' );
+                } else {
+                    $('#cityId').val('');
+                }
+            }
+
+            $('#addressLine1').val('');
+            $('#addressLine2').val('');
+            $('#adManagerId').val('');
+            $('#reflinktext').val('');
+            $('#refmanufacturer').val('');
+
+            $('.lead-modal-overlay').css('display','flex');
+
+            if(!window.iti) {
+                var input = document.getElementById("phone_number");
+                if(input) {
+                    var iti = window.intlTelInput(input,({
+                        allowDropdown:true,
+                        separateDialCode:true,
+                    }));
+
+                    window.iti = iti;
+
+                    var list = $('.iti__country-name');
+                    for(var i=0; i<list.length ; i++) {
+                        var element = $(list[i]);
+                        var text = element.text();
+                        if(text.indexOf('(') !== -1 ) {
+                            text = text.substr(0, text.indexOf('('));
+                        }
+                        element.text(text);
+                    }
+                }
+            }
+            var tracking_data = {
+                'type': 'Lead Impression',
+                'location': location,
+                'manufacturer': '',
+                'event_name': 'Referral'
+            }
+            track_mixpanel_click(tracking_data);
+        }
+
+        function openLeadsDialogPopup(redirect_link, resource_key, location) {
+            let useEnrichment=false;
+            
+
+            addEvents(useEnrichment );
+            if(!redirect_link) { redirect_link = ''; }
+            if(!resource_key) { resource_key= ''; }
+            if(!location) { location= 'popup'; }
+
+            if(useEnrichment) {
+                $('#jobtitle').parent().hide();
+                $('#company').parent().hide();
+                $('#firstname').parent().hide();
+                $('#lastname').parent().hide();
+                $('#cityId').parent().hide();
+                $('#stateId').parent().hide();
+                $('#countryId').parent().hide();
+            }
+
+            
+
+            $('#success-dialog').hide();
+            $('#leads-modal-new').css('display','flex');
+            $('#leadCollectionRedirect').attr('href', redirect_link)
+            $('#submit-btn-leads').attr('data-location', location)
+            updateLeadFormTexts(resource_key, location=location)
+            $('body').append('<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">');
+
+            // reset form
+            $('#firstname').val('');
+            $('#lastname').val('');
+            $('#email').val('');
+            $('#countryId').val('');
+            $('#stateId').val('');
+            $('#cityId').val('');
+            $('#addressLine1').val('');
+            $('#addressLine2').val('');
+            $('#adManagerId').val('');
+            $('#reflinktext').val('');
+            $('#refmanufacturer').val('');
+
+
+
+            $('.lead-modal-overlay').css('display','flex');
+
+            if(!window.iti) {
+                var input = document.getElementById("phone_number");
+                var iti = window.intlTelInput(input,({
+                    allowDropdown:true,
+                    separateDialCode:true,
+                }));
+
+                window.iti = iti;
+
+                var list = $('.iti__country-name');
+                for(var i=0; i<list.length ; i++) {
+                    var element = $(list[i]);
+                    var text = element.text();
+                    if(text.indexOf('(') !== -1 ) {
+                        text = text.substr(0, text.indexOf('('));
+                    }
+                    element.text(text);
+                }
+            }
+            var tracking_data = {
+                'type': 'Lead Impression',
+                'location': location,
+                'manufacturer': '',
+                'event_name': 'Referral'
+            }
+            track_mixpanel_click(tracking_data);
+        }
+
+        function formatPhoneNumber(phone) {
+            phone = phone.replace('+', '') + '';
+            var newPhone = '';
+            for(i=0; i<= phone.length ; i++ ) {
+                if(i === 0) {
+                    if((phone[i] + '') !== '0') {
+                        newPhone += phone[i];
+                    }
+                } else if(phone[i] >= '0' && phone[i] <= '9') {
+                    newPhone += phone[i];
+                }
+            }
+            if(!(newPhone+'').startsWith('+')) {
+                newPhone  = '+' + newPhone;
+            }
+            if(phone.length === 0) {
+                newPhone = '';
+            }
+            return newPhone;
+        }
+
+        function showSuccessDialog(thankYouMessage, ad, email) {
+            $('#leads-modal-new').hide();
+            $('#success-dialog').find('.message-joy').html(thankYouMessage);
+            $('#success-dialog').find('.message-send').html(ad + ' will be in touch soon');
+            $('#success-dialog').css('display','flex');
+            $('#success-dialog .text-email').text(email);
+        }
+
+        function handleLeadSuccess(location, payload) {
+            const isArdusimple = 'omnetics'.includes('ardusimple');
+            const thankYouMessage = isArdusimple ? "Your question was sent successfully" : "Thank you for your request";
+            const dataFormat = $('#submit-btn-leads').attr('data-format');
+            const THANK_CONFIG = {
+                'toplink': {
+                    'ad': '',
+                    'confirm': ''.indexOf("True") !== -1,
+                },
+                'popup': {
+                    'ad': '',
+                    'confirm': ''.indexOf("True") !== -1,
+                },
+                'datasheet': {
+                    'ad': '',
+                },
+                'leftcard': {
+                    'ad': '',
+                    'confirm': ''.indexOf("True") !== -1,
+                },
+                'plugin': {
+                    'ad': '',
+                },
+            }
+            const cfg = THANK_CONFIG[location] || {};
+
+            showLeadForm = false;
+
+            if ((location == 'toplink' || location == 'leftcard') && cfg.confirm) {
+                showSuccessDialog(thankYouMessage, toTitleCase(cfg.ad), payload.email);
+            } else if ((location == 'popup' && cfg.confirm) || location == 'datasheet') {
+                showSuccessDialog(thankYouMessage, toTitleCase(cfg.ad), payload.email);
+                
+            } else {
+                
+                $('.lead-modal-overlay').hide();
+                const loc = $('#submit-btn-leads').attr('data-location');
+                
+                const redirectLead = $('#leadCollectionRedirect').attr('href')
+                if (loc == 'plugin') {
+                    if (dataFormat == 'step') {
+                        $('.3D-download-logged-in').click()
+                    } else {
+                        show_modal_for_available_format()
+                    }
+                } else {
+                    if (redirectLead) {
+                        window.open(redirectLead, '_blank');
+                    }
+                }
+                
+                $('link[rel=stylesheet][href~="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"]').remove();
+                
+            }
+        }
+
+        function saveLead(payload, location) {
+
+
+
+            // temporarily disable the submit button
+            disableSubmitButton(true);
+
+            if (!payload.ref_manufacturer) {
+                payload.ref_manufacturer = '';
+                payload.ad_manager_id = '';
+                payload.adtext_link = $('#leads-modal-new').find('.modal-heading').html();
+            }
+            payload['lead_source'] = '';
+
+            track_mixpanel_click({
+                'type': 'Lead Collected',
+                'location': location,
+                'manufacturer': payload.ref_manufacturer,
+                'event_name': 'Referral'
+            });
+
+            // Store the user's email in LocalStorage, this is required to forward this email to the download-handling endpoint
+            localStorage.setItem('user_email', payload.email);
+            $.ajax({
+                type: "POST",
+                url: "/analytics/api/save_lead/",
+                data: payload,
+                success: function(response) {
+                    handleLeadSuccess(location, payload);
+                },
+                complete: function(response) {
+                    // re-enable the submit button
+                    disableSubmitButton(false);
+                }
+            });
+        }
+
+        function isRoleBasedEmail(email) {
+            let isRoleBased = false;
+            const roleBasedEmailList = ['admin@', 'default@', 'email@', 'feedback@', 'info@', 'mail@', 'marketing@',
+            'news@', 'newsletter@', 'ops@', 'orders@', 'press@', 'pressrelease@', 'sales@', 'security@', 'support@']
+            if (roleBasedEmailList.some((item) => email.includes(item))) {
+                isRoleBased = true;
+            }
+            return isRoleBased;
+        }
+
+        function disableSubmitButton(disable) {
+            if (disable) {
+                $('#submit-div-leads').addClass('loading');
+                $('input#submit-btn-leads').addClass('submit-btn-disabled');
+            } else {
+                $('#submit-div-leads').removeClass('loading');
+                $('input#submit-btn-leads').removeClass('submit-btn-disabled');
+            }
+        }
+
+        function showLeadFormError(message) {
+            $('#leads-modal-new .err-msg').html(message).show();
+            // Re-enable the button and remove loading state when showing error
+            disableSubmitButton(false);
+            disableLeadSubmitButton(false);
+        }
+
+        function isValidEmail(email) {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+            const normalized = String(email).toLowerCase();
+            if (!re.test(normalized)) {
+                return false;
+            }
+
+            const manufacturer = 'Omnetics';
+            if (manufacturer.toLowerCase().includes('quectel')) {
+                return !isRoleBasedEmail(email);
+            }
+
+            return true;
+        }
+
+        function disableLeadSubmitButton(disable) {
+            const btn = document.getElementById('submit-btn-leads');
+            const wrapper = document.getElementById('submit-div-leads');
+            if (!btn || !wrapper) {
+                console.error('Could not find #submit-btn-leads or #submit-div-leads');
+                return;
+            }
+
+            if (disable) {
+                if (!btn.dataset.origText) {
+                    const txt = btn.value.trim();
+                    if (txt && txt !== 'Validating form') {
+                        btn.dataset.origText = txt;
+                    }
+                }
+
+                wrapper.style.setProperty('position', 'relative', 'important');
+                wrapper.style.setProperty('overflow', 'visible', 'important');
+
+                btn.disabled = true;
+                btn.style.setProperty('opacity', '0.65', 'important');
+                btn.style.setProperty('pointer-events', 'none', 'important');
+                btn.style.setProperty('cursor', 'not-allowed', 'important');
+
+                btn.style.setProperty('padding-right', '2.5rem', 'important');
+
+                btn.value = 'Validating form';
+
+                if (!document.getElementById('lead-btn-spinner-styles')) {
+                const styleTag = document.createElement('style');
+                styleTag.id = 'lead-btn-spinner-styles';
+                styleTag.textContent = `
+                    @-webkit-keyframes lead-btn-spin {
+                    to { -webkit-transform: rotate(360deg); }
+                    }
+                    @keyframes lead-btn-spin {
+                    to { transform: rotate(360deg); }
+                    }
+                    .lead-btn-spinner {
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 1rem;
+                    height: 1rem;
+                    border: 2px solid rgb(255, 255, 255);
+                    border-right-color: transparent;
+                    border-radius: 50%;
+                    -webkit-animation: lead-btn-spin 0.75s linear infinite;
+                    animation: lead-btn-spin 0.75s linear infinite;
+                    -webkit-animation-play-state: running;
+                    animation-play-state: running;
+                    z-index: 10;
+                    }
+                `;
+                document.head.appendChild(styleTag);
+                }
+
+                if (!wrapper.querySelector('.lead-btn-spinner')) {
+                const spinner = document.createElement('span');
+                spinner.classList.add('lead-btn-spinner');
+                spinner.setAttribute('role', 'status');
+                spinner.setAttribute('aria-hidden', 'true');
+
+                spinner.style.setProperty('position', 'absolute', 'important');
+                spinner.style.setProperty('left', '45%', 'important');
+                spinner.style.setProperty('top', '45%', 'important');
+                spinner.style.setProperty('transform', 'rotate(360)', 'important');
+
+                spinner.style.setProperty('pointer-events', 'none', 'important');
+
+                wrapper.appendChild(spinner);
+                }
+
+            } else {
+                if (btn.dataset.origText) {
+                btn.value = btn.dataset.origText;
+                delete btn.dataset.origText;
+                }
+
+                btn.disabled = false;
+                btn.style.removeProperty('opacity');
+                btn.style.removeProperty('pointer-events');
+                btn.style.removeProperty('cursor');
+                btn.style.removeProperty('padding-right');
+
+                const spinner = wrapper.querySelector('.lead-btn-spinner');
+                if (spinner) spinner.remove();
+
+                wrapper.style.removeProperty('position');
+                wrapper.style.removeProperty('overflow');
+            }
+        }
+
+        function shouldIgnoreValidation(resource_type) {
+            let ignoreValidation = true;
+
+            // Exception 1: If manufacturer is NXP or Quectel
+            
+
+            // Exception 2: If resource_type == "samples" AND ad_manager is NOT "SUPERIOR SENSOR" or "RECOM"
+            
+            if (resource_type != undefined && resource_type.toLowerCase().trim() == 'samples') {
+                ignoreValidation = false;
+            }
+            
+            return ignoreValidation;
+        }
+
+        function logMessage(message) {
+            const logStringUrl = '/api/log-string/'
+            fetch(logStringUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text: message })
+            });
+        }
+
+        function checkDebounced(email) {
+            return new Promise(function (resolve, reject) {
+
+                disableSubmitButton(true);
+
+                if (email) {
+                var xhr = new XMLHttpRequest();
+                var apiKey = '68417ee249b9a';
+                var url = 'https://api.debounce.io/v1/'
+                    + '?api=' + encodeURIComponent(apiKey)
+                    + '&email=' + encodeURIComponent(email);
+
+                xhr.open('GET', url, true);
+                xhr.setRequestHeader('Accept', 'application/json');
+
+                xhr.timeout = 5000; // 5 seconds timeout
+
+                xhr.ontimeout = function () {
+                    // network error = treat as valid
+                    logMessage('[DEBOUNCE][partpage] Request timed out');
+                    disableLeadSubmitButton(false);
+                    resolve(true);
+                }
+
+                xhr.onload = function () {
+                    if (this.status >= 200 && this.status < 300) {
+                    try {
+                        var result = JSON.parse(xhr.responseText);
+                        // codes 4,5,7,8 = "debounced" (valid)
+                        var validationSuccess = ['4', '5', '7', '8'].includes(result.debounce.code);
+                        if (!validationSuccess) {
+                        logMessage('[DEBOUNCE][partpage] Invalid email address: ' + email + ' code: ' + result.debounce.code);
+                        } else {
+                        logMessage('[DEBOUNCE][partpage] Valid email address: ' + email + ' code: ' + result.debounce.code);
+                        }
+                        disableSubmitButton(false);
+                        resolve(validationSuccess);
+                    } catch (e) {
+                        // parse error = treat as invalid
+                        logMessage('[DEBOUNCE][partpage] Parse error: ' + e);
+                        disableSubmitButton(false);
+                        resolve(true);
+                    }
+                    } else {
+                    // non-200 status = treat as valid
+                    logMessage('[DEBOUNCE][partpage] Non-200 status: ' + this.status);
+                    disableLeadSubmitButton(false);
+                    resolve(true);
+                    }
+                };
+
+                xhr.onerror = function () {
+                    // network error = treat as valid
+                    logMessage('[DEBOUNCE][partpage] Network error: ' + this.status);
+                    disableLeadSubmitButton(false);
+                    resolve(true);
+                };
+
+                xhr.send();
+                } else {
+                // no email = nothing to check, treat as valid
+                logMessage('[DEBOUNCE][partpage] No email provided');
+                disableLeadSubmitButton(false);
+                resolve(true);
+                }
+            });
+            }
+
+        function addEvents(useEnrichment) {
+            $(document).ready( function () {
+
+                $('.modal-close, .close-div span').unbind();
+                $('#submit-btn-leads').unbind();
+
+                $('.modal-close, .close-div span').on('click', function() {
+                    $('link[rel=stylesheet][href~="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"]').remove();
+                    $('.lead-modal-overlay').hide();
+                });
+            });
+
+            $(document).off('click', '.lead-modal-overlay').on('click', '.lead-modal-overlay', function(e) {
+                if ($(e.target).hasClass('lead-modal-overlay')) {
+                    $('link[rel=stylesheet][href~="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap"]').remove();
+                    $('.lead-modal-overlay').hide();
+                }
+            })
+                
+            // add enrichment
+            if (useEnrichment){
+                addEnrichmentEvent();
+            }
+
+            $('input#submit-btn-leads').on('click', function(event) {
+                 // --- ADD THIS SNIPPET START ---
+                 if ($('#address').length > 0) {
+                    const currentAddress = $('#address').val();
+                    const validatedAddress = sessionStorage.getItem('validatedAddress');
+
+                    if (currentAddress && currentAddress !== validatedAddress) {
+                        showLeadFormError('Please select a valid address from the dropdown suggestions.');
+                        event.preventDefault();
+                        return false;
+                    }
+                }
+                console.log('Starting email validation...');
+                const location = $(this).attr('data-location');
+                const resource_type = $('#leads-modal-new').find('.modal-heading').attr('data-resource-type');
+                console.log('Resource type:', resource_type);
+                if(window.iti &&
+                    window.iti.getSelectedCountryData() &&
+                    window.iti.getSelectedCountryData().dialCode &&
+                    $('#leads-modal-new #phone_number').val() !== '') {
+                    var phoneNumber = '+' + window.iti.getSelectedCountryData().dialCode + $('#leads-modal-new #phone_number').val();
+                } else {
+                    phoneNumber = '';
+                }
+
+                var tmp_email = $('#leads-modal-new #email').val();
+                if(tmp_email !== '') {
+                    const country =  $('#countryId').val() ? $('#countryId').val() : ''
+                    const state =  $('#stateId').val() ? $('#stateId').val() : ''
+                    const city =  $('#cityId').val() ? $('#cityId').val() : ''
+
+                    // By default, we IGNORE the validation.
+                    // If resource type is "samples", do not ignore validation unless it's Superior Sensor or Recom.
+                    // Regardless of resource type, do not ignore validation if manufacturer is NXP or Quectel.
+                    var ignoreValidation = true;
+
+                    if (resource_type != undefined) {
+                        if (resource_type.toLowerCase().trim() == 'samples') {
+                            
+                            ignoreValidation = false;
+                            
+                        }
+                    }
+
+                    
+
+                    
+
+                    console.log('Email:', tmp_email);
+                    console.log('ignoreValidation:', ignoreValidation);
+                    console.log('Manufacturer:', 'omnetics');
+
+                    if (!isValidEmail(tmp_email)) {
+                        showLeadFormError('* Please enter a valid email address');
+                    } else {
+                        phoneNumber = '';
+                    }
+
+                    var tmp_email = $('#leads-modal-new #email').val();
+                    if(tmp_email !== '') {
+                        const country =  $('#countryId').val() ? $('#countryId').val() : ''
+                        const state =  $('#stateId').val() ? $('#stateId').val() : ''
+                        const city =  $('#cityId').val() ? $('#cityId').val() : ''
+
+                        const ignoreValidation = shouldIgnoreValidation(resource_type);
+
+                        if (!isValidEmail(tmp_email)) {
+                            showLeadFormError('* Please enter a valid email address');
+                        } else {
+                            freemail.check(tmp_email, ignoreValidation).then(function(valid_work_email) {
+                                this.checkDebounced(tmp_email).then(isValid => {
+                                    const isValidEmail = isValid && valid_work_email;
+                                    if (isValidEmail) {
+                                        
+                                        if ($('#firstname').val() !== '' &&
+                                            $('#lastname').val() !== '' &&
+                                            $('#email').val() !== '' &&
+                                            $('#leads-modal-new #terms').is(":checked") === true
+                                            
+                                            
+                                            
+                                            ) {
+                                            var payload = {
+                                                firstName: $('#firstname').val(),
+                                                lastName: $('#lastname').val(),
+                                                email: $('#email').val(),
+                                                company: $('#company').val(),
+                                                csrfmiddlewaretoken: "LcPlOWTk8KR9EN8HVlYHa1C2NnziTs0nWX8CdFjrLRfq6uE51aIMBqs2c5L2nRw0",
+                                                ad_manager_id: $('#adManagerId').val(),
+                                                adtext_link: $('#reflinktext').val(),
+                                                resource_type: resource_type,
+                                                address: $('#address').val(),
+                                                ref_manufacturer: $('#refmanufacturer').val(),
+                                                unipart_id: 16019869,
+                                                
+                                                
+                                            }
+                                            saveLead(payload, location)
+                                        }
+                                        
+                                        else {
+                                            showLeadFormError('* Please fill required fields');
+                                        }
+                                    } else {
+                                        showLeadFormError('* Please enter a valid work email (not personal email)');
+                                    }
+                                });
+                            });
+                        }
+                    }else{
+                        showLeadFormError('* Please fill required fields');
+                    }
+                }else{
+                    showLeadFormError('* Please fill required fields');
+                }
+                event.preventDefault();
+                event.stopPropagation();
+            });
+        };
+        $(document).ready(function() {
+        if ($('#address').length) {
+            initAddressAutocomplete('address');
+        }
+    });
+</script>
+  
+
+  <section class="sct-header ver2">
+
+    
+
+    <div class='ds-bk-section'>
+      <div class='ml-25 nav-logo'>
+        <a id="nav-logo-link" href="/">
+          <img src="/static/img/SnapMagic_Search-logo-horizontal-allwhite.png" width='160' alt="SnapMagic Search logo white" title='SnapMagic Search'>
+        </a> 
+      </div> 
+
+     
+    
+    <div class="datasheet-banner hidden view-part" style="left: calc(50vw - 334.5px);">
+      <div class="center2 t_c" style="height: 85px !important">
+        <div class="vertical-divider">
+            <div class="vertical-text">
+                <span class="t4" >You may also be interested in</span>
+            </div>
+        </div>
+          <div class="img-section">
+
+        </div>
+        <div class="info-text-section ti-info" style="margin-left: 25px;">
+
+        </div>
+        <div class="view-part-button pr-24">
+          <a class="s-btn btn-buy-part ghost s-btn-medium orange unipart-view-selector me-button" data-type="Datasheet - Competing Click">View this part</a>
+        </div>
+      </div>
+    </div>
+    
+  
+    <a class="s-btn orange s-btn-medium me-button get-symbol-footprint"
+      data-type="Datasheet - Download"
+      href="/parts/D4193-125/Omnetics/view-part/">
+      Get Symbol, Footprint & More
+    </a> 
+
+    </div> 
+
+<h1 class="datasheet-title" style="clear: both;color: #000;background: #fff;line-height: initial;padding: 10px 0 10px 30px;font-family: 'Open Sans';font-weight: 700;font-size: 20px;text-align: left;">D4193-125 | Omnetics Datasheet</h1>
+
+  </section>
+
+    <object class="me-iframe" data="https://snapeda.s3.us-east-1.amazonaws.com/datasheets/D4193-XXX.pdf" type="application/pdf">
+        <iframe class="me-iframe" src="https://docs.google.com/viewer?url=https://snapeda.s3.us-east-1.amazonaws.com/datasheets/D4193-XXX.pdf&embedded=true"></iframe>
+    </object>
+
+            </div>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/font-awesome.css">
+
+    <script>
+        // google analytics
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-36753380-1', 'auto');
+        ga('send', 'pageview');
+
+        window.intercomSettings = {
+          app_id: "owbpizd5"
+        };
+
+        $(document).ready(function() {
+            
+        });
+
+    </script>
+        <script>
+            !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="R33QdDxhZ5YzaUts0oFQgxD5FNZqV3TG";;analytics.SNIPPET_VERSION="4.15.3";
+            analytics.load("R33QdDxhZ5YzaUts0oFQgxD5FNZqV3TG");
+            analytics.page();
+            }}();
+            </script>
+                <!-- Start VWO Async SmartCode -->
+    <script type='text/javascript'>
+        window._vwo_code = window._vwo_code || (function(){
+        var account_id=612614,
+        settings_tolerance=2000,
+        library_tolerance=2500,
+        use_existing_jquery=false,
+        is_spa=1,
+        hide_element='body',
+        
+        
+        f=false,d=document,code={use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){
+        window.settings_timer=setTimeout(function () {_vwo_code.finish() },settings_tolerance);var a=d.createElement('style'),b=hide_element?hide_element+'{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}':'',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('https://dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&f='+(+is_spa)+'&r='+Math.random());return settings_timer; }};window._vwo_settings_timer = code.init(); return code; }());
+        </script>
+        <!-- End VWO Async SmartCode -->
+
+    <script type="text/javascript" src="/static/js/core.min.js" charset="utf-8"></script>
+    
+
+<script>
+  $(document).ready(function() {
+
+    function setIframeHeight() {
+      const headerHeight = document.querySelector('.sct-header').clientHeight;
+      const windowHeight = window.innerHeight;
+      const iframeHeight = windowHeight - headerHeight;
+      $('.me-iframe').each(function() {
+        $(this).css('height', iframeHeight + 'px');
+      });
+    }
+
+    window.addEventListener('resize', setIframeHeight);
+    setIframeHeight();
+
+    // Declare all necessary global variables here
+    var AD_BANNER = '';
+    
+    var AD_TYPE = '';
+    
+    var HAS_AD = false;
+
+
+    function getCategoryString() {
+      let category = '';
+      
+          category = category + 'All%20Parts/';
+      
+          category = category + 'Passive%20Components/';
+      
+          category = category + 'Capacitors/';
+      
+      category = category.replace('Electronic Parts/', '');
+      const category_string = category.replace(/\//g,'_') + '_';
+      return category_string;
+    }
+
+    function isPartValid(part) {
+      return part['part_name'] && part['description'] && part['part_url'] && part['part_image'] && part['ad_org'] && part['type'] ? true : false;
+    }
+
+    function showCompetingBannerAd(part) {
+      const part_name = part['part_name'];
+      const description = part['description'];
+      const part_url = part['part_url'];
+      const part_image = part['part_image'];
+      const ad_org = part['ad_org'] + '_ref_datasheet';
+      const manuf_image = 'https://s3.amazonaws.com/snapeda/' + part['manuf_img'];
+      AD_TYPE = part['type'];
+
+      const t2_template = '<span class="t2">Relevant part with 2D models</span>';
+      let t1_template = '<span class="t1" style="margin-top: 10px;margin-top: 2px;margin-bottom:5px;"><span class="part-name">__UNIPART_NAME__</span> by <img class="" src="__UNIPART_MANUF_IMAGE" alt="" style="max-height: 25px;max-width:100px;"></span>';
+      let t3_template = '<span class="t3" style="white-space: initial;height: max-content;-webkit-line-clamp: 2; -webkit-box-orient: vertical;display: -webkit-box; text-align: left;">__UNIPART_DESCRIPTION__</span>';
+      let me_logo_template = '<img class="me-logo" src="__UNIPART_PART_IMAGE" alt="" style="width: 50px;">';
+      let manuf_logo_template = '<img class="" src="__UNIPART_MANUF_IMAGE" alt="" style="height:25px;vertical-align:bottom;">';
+      t1_template = t1_template.replaceAll('__UNIPART_NAME__', part_name);
+      t3_template = t3_template.replaceAll('__UNIPART_DESCRIPTION__', description);
+      me_logo_template = me_logo_template.replaceAll('__UNIPART_PART_IMAGE', part_image );
+      t1_template = t1_template.replaceAll('__UNIPART_MANUF_IMAGE', manuf_image);
+
+      $('.ti-info').append(t1_template + t3_template);
+      $('.img-section').append(me_logo_template);
+      $('.unipart-view-selector').attr("href", part_url + '?ref=' + ad_org.toLowerCase() );
+      $('.datasheet-banner').removeClass('hidden');
+
+      // Track Competing Impression
+      trackMixpanel({}, 'Datasheet - Competing Impression', true);
+    }
+
+    function getRelevantPartApi3d() {
+      const category_string = getCategoryString();
+      const url = '/api/get_relevant_part_api/16019869/' + category_string + '/0/?force_3d=1&ref=';
+      const request_id = '509f092265fc400b9bb99144f1c8c26c';
+      $.ajax({
+        async: false,
+        url: url,
+        headers: { 'X-SNAP-REQUEST-ID': request_id },
+      }).done(function(data) {
+        const part = data;
+        if (!HAS_AD && isPartValid(part)) {
+          HAS_AD = true;
+          AD_BANNER = part['ad_org'];
+          showCompetingBannerAd(part);
+        }
+      })
+    }
+
+    function getRelevantPartApi() {
+      const category_string = getCategoryString();
+      const url = '/api/get_relevant_part_api/16019869/' + category_string + '/0/?ref=';
+      const request_id = '509f092265fc400b9bb99144f1c8c26c';
+      $.ajax({
+        async: false,
+        url: url,
+        headers: { 'X-SNAP-REQUEST-ID': request_id },
+      }).done(function(data) {
+        const part = data;
+        if (!HAS_AD && isPartValid(part)) {
+          HAS_AD = true;
+          AD_BANNER = part['ad_org'];
+          showCompetingBannerAd(part);
+        }
+      })
+    }
+
+    
+    getRelevantPartApi();
+    // Only perform when no competing ads yet. 
+    if(!HAS_AD) { getRelevantPartApi3d(); }
+    
+
+    
+    $('.datasheet-banner').on('click', function(e) {
+      
+      if ($(e.target).hasClass('btn-buy-part')) return;
+      window.open($('a.btn-buy-part').attr('href'), '_blank');
+      
+    });
+    
+    
+    $('.datasheet-banner').css('left', 'calc(50vw - ' + $('.datasheet-banner').width()/2 + 'px');
+
+    var startPrice = 'None';
+    startPrice = startPrice.replace('$','');
+    startPrice = startPrice.replace('USD','');
+    startPrice = +startPrice;
+    startPrice = '$' + startPrice.toFixed(2);
+    $('.datasheet-banner .pricing').text('Starting from ' + startPrice);
+
+    
+    if($('.ad_buy').length > 0) {
+      $('.ab-new-design').on('click', function(event) {
+        var isStop = false;
+        var classList = event.target.classList;
+        for( var i=0 ; i< classList.length ; i++) {
+            if(classList[i] === 'btn-banner') {
+              isStop = true;
+            }
+        }
+        if(!isStop){
+          window.open($('.ad_buy').attr('href'),"_blank");
+        }
+      });
+    }
+    
+
+    
+
+    
+
+
+    $(".me-button").mouseup(function (e) { 
+      type = $(this).attr('data-type'); 
+      trackMixpanel(e, type);
+    });
+
+    $(".datasheet-banner").mouseup(function (e) {
+      if(e.target.className.indexOf('btn-buy-part') === -1) { 
+        
+        const type = 'Datasheet - Competing Banner';
+              
+        trackMixpanel(e, type);
+      }
+    });
+
+    function trackMixpanel(event, type, ignoreDB) {
+      let ad_branding = AD_BANNER || 'SAMTEC';
+      if (!HAS_AD) {
+          ad_branding = ''
+      }
+
+      if (event.which != 3) {
+        var Properties = {
+            'type': type,
+            'unipart': 'D4193-125',
+            'manufacturer': 'Omnetics',
+            'userid': '',
+            'has_ad': HAS_AD,
+            'ad_branding': ad_branding,
+            
+                'version': 'new design',
+            
+            'stock': 'no stock / not found',
+            'ad_type': AD_TYPE
+        };
+        mixpanel.track('Datasheet', Properties);
+        if (HAS_AD) {
+            track_db_and_mixpanel(ad_branding, type, 'D4193-125');
+        }
+        //console.log('MP Tracking', Properties);
+      }
+    }
+
+    function track_db_and_mixpanel(org, action, partname) {
+      const data = {
+          'ad_org': org,
+          'action_type': action,
+          'unipart_id': '16019869',
+          'partname': partname
+      }
+
+      $.ajax({
+        url: '/api/track_ad/',
+        type: 'POST',
+        data: data
+      })
+      //console.log('Database Tracking', data);
+    }
+  });
+</script>
+
+
+
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/owbpizd5';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+    <!-- ShieldSquare Integration
+    <script>
+        (function(w, d, e, u, c, g, a, b){
+        w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {ss_cid : c, domain_info: g};
+        a = d.createElement(e);
+        a.async = true;
+        a.src = u;
+        b = d.getElementsByTagName(e)[0];
+        b.parentNode.insertBefore(a, b);
+
+        })(window,document,"script","https://cdn.perfdrive.com/aperture/aperture.js","ad6a","auto");
+    </script>
+    -->
+
+</body>
+</html>
+

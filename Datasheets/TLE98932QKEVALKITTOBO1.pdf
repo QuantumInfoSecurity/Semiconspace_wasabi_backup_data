@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+
+<!-- template name: ifx.identifier.first.template.html -->
+
+
+
+
+<!-- Check if we need this -->
+
+<html lang="en" dir="ltr">
+
+<head>
+    <title>myInfineon Login</title>
+    <base href="https://sso.infineon.com/"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-Vnc6c4Kt35ZII2yy'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.boot.css"/>
+    <script src='assets/scripts/pf-general.js'></script>
+    <script src='assets/scripts/captcha/captcha-utils.js'></script>
+    <script src='assets/scripts/captcha/captcha-script-loader.js' defer></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- CAPTCHA settings-->
+    <div id="captchaEnabled" hidden>$captchaEnabled</div>
+    <div id="captchaScriptName" hidden>"$captchaScriptName"</div>
+    <div id="captchaAttributes" hidden>$captchaAttributes</div>
+    <div id="captchaCSPNonce" hidden>"Vnc6c4Kt35ZII2yy"</div>
+
+    <div class="container-fluid my-auto">
+        <div class="container form-container card">
+
+            <!-- form Header START -->
+            <h3 class="mb-3">myInfineon Login</h3>
+            <!-- form Header END -->
+
+            <!-- FORM -->
+            <form method="POST" action="/as/ndb55Vkt2Q/resume/as/authorization.ping" autocomplete="off">
+
+                
+                <!-- Who are you FORM -->
+                                <div id="identifier-form-container" style="display: block;">
+                                
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label for="identifierInput" class="form-label">E-Mail / Username (without preceding domain)</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><svg class="username-user-icon label-icon"></svg></span>
+                            <input id="identifierInput" class="form-control" type="text" size="36" name="subject" value="" autocorrect="off" autocapitalize="off" autofocus />
+                        </div>
+                    </div>
+
+                    <!-- BUTTONS -->
+                    <input type="hidden" name="clear.previous.selected.subject" id="clear.previous.selected.subject" value=""/>
+                    <input type="hidden" name="cancel.identifier.selection" value="false"/>
+
+                    <div class="row my-4">
+                        <a id="signOnButton" class="btn btn-primary" title="Next">
+                            Next
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Registration link -->
+                                <div class="mt-2 d-flex justify-content-center">
+                    <span>Don't have an account?</span> &nbsp;
+                    <a id="cancelLink">Register</a>
+                </div>
+                            </form>
+        </div>
+    </div>
+
+    <!-- Footer START -->
+    <footer class="container-fluid bg-primary footer-padding">
+    <div class="row">
+        <div class="col-12 col-md-2 col-xl-2 col-xxl-2 p-0 m-0">
+            <img class="image-fluid" src="./assets/images/footer_logo.svg" alt="Company Logo">
+        </div>
+        <div class="col-12 col-md-10 col-xl-6 d-flex align-items-center p-0 pt-3 m-0 p-md-0">
+            <div class="row">
+                <div class="col-12 col-md-auto py-2 px-0">
+                    <a target="_blank" href="https://www.infineon.com/cms/en/about-infineon/usage-terms/">Terms of use</a>
+                </div>
+                <div class="col-12 col-md-auto py-2 px-0">
+                    <a target="_blank" href="https://www.infineon.com/cms/en/about-infineon/imprint/">Imprint</a>
+                </div>
+                <div class="col-12 col-md-auto py-2 px-0">
+                    <a target="_blank" href="https://www.infineon.com/cms/en/about-infineon/company/contacts/">Contact</a>
+                </div>
+                <div class="col-12 col-md-auto py-2 px-0">
+                    <a target="_blank" href="https://www.infineon.com/cms/en/about-infineon/privacy-policy/">Privacy Policy</a>
+                </div>
+                <div class="col-12 col-md-auto py-2 px-0">
+                    <a target="_blank" href="https://www.infineon.com/cms/en/about-infineon/press/general-information/glossary/">Glossary</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-12 col-xl-4 col-xxl-4 d-flex align-items-center justify-content-start justify-content-xl-end p-0 pt-3 m-0 p-xl-0">
+            <span>&copy; 1999 - 2025 Infineon Technologies AG</span>
+        </div>
+    </div>
+</footer>
+    <!-- Footer END -->
+
+    <script type="text/javascript" nonce="Vnc6c4Kt35ZII2yy">
+
+        //Helping function to get the Id of the identifier selected
+        function getIdentifiersId(target) {
+            for(var i = 0; i < 3; i++){
+                if(target.classList.contains("identifier-list-item")){
+                    return target.id;
+                }
+                target = target.parentElement;
+            }
+            return null;
+        }
+
+        // New way of registering onClick methods (Ping uses this approach pf-general.js)
+        registerEventHandlerForClass('identifier-first__select', 'click', function(e) {
+            selectIdentifier(getIdentifiersId(e.target));
+        });
+        registerEventHandlerForClass('identifier-first__remove', 'click', function(e) {
+            removeIdentifier(getIdentifiersId(e.target));
+        });
+        registerEventHandler('showIdentifierInputLink', 'click', showIdentifierInputBox);
+        registerEventHandler('signOnButton', 'click', postOk);
+        registerEventHandler('cancelLink', 'click', postCancel);
+        handleReturnPress('identifierInput', postOk);
+
+        function selectIdentifier(identifier) {
+            document.forms[0]['subject'].value = identifier;
+            postOk();
+        }
+
+        function showIdentifierInputBox() {
+            document.getElementById("list-of-identifiers-container").style.display = "none";
+            document.getElementById("identifier-form-container").style.display = "block";
+
+            setFocus('identifierInput');
+        }
+
+        function removeIdentifier(existingIdentifier) {
+            document.forms[0]['clear.previous.selected.subject'].value = existingIdentifier;
+            document.forms[0]['subject'].value = '';
+            submitForm();
+        }
+
+        function postOk(event) {
+            // prevent default form submission behaviour
+            if (event)
+                event.preventDefault();
+
+            disableElement(document.getElementById("signOnButton"), "Next...");
+            // Form Validation here if needed
+            CaptchaManager.execute(function() {
+                submitForm();
+            });
+        }
+
+        function submitForm() {
+            document.forms[0].submit();
+            CaptchaManager.cleanup();
+        }
+
+        function postCancel(){
+            document.forms[0].action = '/as/ndb55Vkt2Q/resume/as/authorization.ping?pf.registration=true';
+            document.forms[0]['cancel.identifier.selection'].value = 'true';
+            submitForm()
+        }
+    </script>
+    <script src="assets/scripts/bootstrap.bundle.js"></script>
+    <script src='assets/scripts/Modernizr.js'></script>
+    <script src='assets/scripts/infineon.js'></script>
+</body>
+</html>

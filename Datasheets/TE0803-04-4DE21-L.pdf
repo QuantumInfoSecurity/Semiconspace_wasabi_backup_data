@@ -1,0 +1,1040 @@
+<!doctype html>
+<!DOCTYPE html><html lang="en-GB"><head>
+                            <title>TE0803 TRM - Public Docs - Trenz Electronic Wiki</title>
+    
+        
+
+                        
+    
+                        
+    
+
+                
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7"/>
+<meta charset="UTF-8"/>
+<meta id="confluence-context-path" name="confluence-context-path" content=""/>
+<meta id="confluence-base-url" name="confluence-base-url" content="https://wiki.trenz.local"/>
+
+    <meta id="atlassian-token" name="atlassian-token" content="eeb5f9bcf03afc6d820b5dc1e2c1d896aab5e3f6"/>
+
+
+<meta id="confluence-space-key" name="confluence-space-key" content="PD"/>
+<style>.ia-splitter-handle { display:none;}</style>
+<script type="text/javascript" src="/md5.min.js"></script>
+<script type="text/javascript" src="/inject.js"></script>
+<script type="text/javascript">
+        var contextPath = '';
+</script>
+
+    
+
+    <meta name="confluence-request-time" content="1754036527957"/>
+        
+    
+        
+            <meta name="ajs-show-space-welcome-dialog" content="true"/>
+            <style>.ia-fixed-sidebar, .ia-splitter-left {width: 285px;}.theme-default .ia-splitter #main {margin-left: 285px;}.ia-fixed-sidebar {visibility: hidden;}</style>
+            <meta name="ajs-use-keyboard-shortcuts" content="true"/>
+            <meta name="ajs-discovered-plugin-features" content="{&#34;com.atlassian.confluence.plugins.confluence-dashboard&#34;:[&#34;transition-saved-for-later&#34;,&#34;dialog&#34;,&#34;tips&#34;]}"/>
+            <meta name="ajs-keyboardshortcut-hash" content="358fc1fd7e6dbe917818c1f3711ccad0"/>
+            <meta id="team-calendars-has-jira-link" content="true"/>
+            <meta name="ajs-team-calendars-display-time-format" content="displayTimeFormat12"/>
+            <meta id="team-calendars-display-week-number" content="false"/>
+            <meta id="team-calendars-user-timezone" content="Etc/UTC"/>
+            <script type="text/x-template" id="team-calendars-messages" title="team-calendars-messages"><fieldset class="i18n hidden"><input type="hidden" name="calendar3.month.long.july" value="July"><input type="hidden" name="calendar3.day.short.wednesday" value="Wed"><input type="hidden" name="calendar3.day.short.thursday" value="Thu"><input type="hidden" name="calendar3.month.short.march" value="Mar"><input type="hidden" name="calendar3.month.long.april" value="April"><input type="hidden" name="calendar3.month.long.october" value="October"><input type="hidden" name="calendar3.month.long.august" value="August"><input type="hidden" name="calendar3.month.short.july" value="Jul"><input type="hidden" name="calendar3.month.short.may" value="May"><input type="hidden" name="calendar3.month.short.november" value="Nov"><input type="hidden" name="calendar3.day.long.friday" value="Friday"><input type="hidden" name="calendar3.day.long.sunday" value="Sunday"><input type="hidden" name="calendar3.day.long.saturday" value="Saturday"><input type="hidden" name="calendar3.month.short.april" value="Apr"><input type="hidden" name="calendar3.day.long.wednesday" value="Wednesday"><input type="hidden" name="calendar3.month.long.december" value="December"><input type="hidden" name="calendar3.month.short.october" value="Oct"><input type="hidden" name="calendar3.day.long.monday" value="Monday"><input type="hidden" name="calendar3.month.short.june" value="Jun"><input type="hidden" name="calendar3.day.short.monday" value="Mon"><input type="hidden" name="calendar3.day.short.tuesday" value="Tue"><input type="hidden" name="calendar3.day.short.saturday" value="Sat"><input type="hidden" name="calendar3.month.long.march" value="March"><input type="hidden" name="calendar3.month.long.june" value="June"><input type="hidden" name="calendar3.month.short.february" value="Feb"><input type="hidden" name="calendar3.month.short.august" value="Aug"><input type="hidden" name="calendar3.month.short.december" value="Dec"><input type="hidden" name="calendar3.day.short.sunday" value="Sun"><input type="hidden" name="calendar3.month.long.february" value="February"><input type="hidden" name="calendar3.day.long.tuesday" value="Tuesday"><input type="hidden" name="calendar3.month.long.may" value="May"><input type="hidden" name="calendar3.month.long.september" value="September"><input type="hidden" name="calendar3.month.long.november" value="November"><input type="hidden" name="calendar3.month.short.january" value="Jan"><input type="hidden" name="calendar3.month.short.september" value="Sept"><input type="hidden" name="calendar3.day.long.thursday" value="Thursday"><input type="hidden" name="calendar3.month.long.january" value="January"><input type="hidden" name="calendar3.day.short.friday" value="Fri"></fieldset></script>
+            <meta name="ajs-emojis-allow-current-user-upload-emojis" content="true"/>
+<meta name="ajs-emojis-max-upload-file-size" content="1"/>
+
+            <meta name="ajs-is-confluence-admin" content="false"/>
+            <meta name="ajs-connection-timeout" content="10000"/>
+            <meta name="ajs-k15t-cxp-pdf-user-timezone" content="Etc/UTC"/><meta name="ajs-k15t-cxp-pdf-native-export-available" content="false"/>
+            
+    
+    
+            <meta name="ajs-page-title" content="TE0803 TRM"/>
+            <meta name="ajs-latest-published-page-title" content="TE0803 TRM"/>
+            <meta name="ajs-space-name" content="Public Docs"/>
+            <meta name="ajs-page-id" content="3925554"/>
+            <meta name="ajs-latest-page-id" content="3925554"/>
+            <meta name="ajs-content-type" content="page"/>
+            <meta name="ajs-parent-page-title" content="TE0803 - UltraSoM+"/>
+            <meta name="ajs-parent-page-id" content="3925461"/>
+            <meta name="ajs-space-key" content="PD"/>
+            <meta name="ajs-max-number-editors" content="12"/>
+            <meta name="ajs-macro-placeholder-timeout" content="5000"/>
+            <meta name="ajs-jira-metadata-count" content="-1"/>
+            <meta name="ajs-from-page-title" content=""/>
+            <meta name="ajs-can-remove-page" content="false"/>
+            <meta name="ajs-can-remove-page-hierarchy" content="false"/>
+            <meta name="ajs-browse-page-tree-mode" content="view"/>
+            <meta name="ajs-shared-drafts" content="true"/>
+            <meta name="ajs-context-path" content=""/>
+            <meta name="ajs-base-url" content="https://wiki.trenz.local"/>
+            <meta name="ajs-version-number" content="8.5.6"/>
+            <meta name="ajs-build-number" content="9012"/>
+            <meta name="ajs-remote-user" content="wikicrawler"/>
+            <meta name="ajs-remote-user-key" content="ff808181945ee60a01945ef8bc2a0005"/>
+            <meta name="ajs-remote-user-has-licensed-access" content="true"/>
+            <meta name="ajs-remote-user-has-browse-users-permission" content="true"/>
+            <meta name="ajs-current-user-fullname" content="Wikicrawler"/>
+            <meta name="ajs-current-user-avatar-uri-reference" content="/images/icons/profilepics/default.svg"/>
+            <meta name="ajs-static-resource-url-prefix" content=""/>
+            <meta name="ajs-global-settings-attachment-max-size" content="104857600"/>
+            <meta name="ajs-global-settings-quick-search-enabled" content="true"/>
+            <meta name="ajs-user-locale" content="en_GB"/>
+            <meta name="ajs-user-timezone-offset" content="0"/>
+            <meta name="ajs-enabled-dark-features" content="site-wide.shared-drafts,clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,http.session.registrar,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,atlassian.cdn.static.assets,pdf-preview,previews.sharing,previews.versions,file-annotations,confluence.efi.onboarding.rich.space.content,collaborative-audit-log,confluence.reindex.improvements,previews.conversion-service,editor.ajax.save,crowd.sync.nested.groups.group.membership.changes.batching.enabled,read.only.mode,graphql,previews.trigger-all-file-types,attachment.extracted.text.extractor,lucene.caching.filter,confluence.table.resizable,notification.batch,previews.sharing.pushstate,confluence-inline-comments-rich-editor,tc.tacca.dacca,topicEventPublisher,confluence.reindex.audit,site-wide.synchrony.opt-in,atlassian.webresource.twophase.js.i18n.disabled,confluence.denormalisedpermissions,file-annotations.likes,gatekeeper-ui-v2,v2.content.name.searcher,confluence.search.improvements.ranking,crowd.event.transformer.directory.manager.cache,mobile.supported.version,confluence.reindex.spaces,confluence.fast-xml-backup-restore,pulp,crowd.sync.delete.user.memberships.batching.enabled,confluence-inline-comments,confluence-inline-comments-dangling-comment,quick-reload-inline-comments-flags,confluence.retention.rules"/>
+            <meta name="ajs-atl-token" content="eeb5f9bcf03afc6d820b5dc1e2c1d896aab5e3f6"/>
+            <meta name="ajs-confluence-flavour" content="VANILLA"/>
+            <meta name="ajs-user-date-pattern" content="dd MMM yyyy"/>
+            <meta name="ajs-access-mode" content="READ_WRITE"/>
+            <meta name="ajs-render-mode" content="READ_WRITE"/>
+            <meta name="ajs-date.format" content="MMM dd, yyyy"/>
+    
+    <link rel="shortcut icon" href="/s/-16j1fy/9012/1phy4ty/3/_/favicon.ico"/>
+    <link rel="icon" type="image/x-icon" href="/s/-16j1fy/9012/1phy4ty/3/_/favicon.ico"/>
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="Trenz Electronic Wiki"/>
+    
+                    
+            <meta name="ajs-create-issue-metadata-show-discovery" content="true"/>
+            
+
+    <script>
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"]="{\u0022daysBeforeLicenseExpiry\u0022:0,\u0022daysBeforeMaintenanceExpiry\u0022:0,\u0022showLicenseExpiryBanner\u0022:false,\u0022showMaintenanceExpiryBanner\u0022:false,\u0022renewUrl\u0022:null,\u0022salesUrl\u0022:null}";
+WRM._unparsedData["com.onresolve.confluence.groovy.groovyrunner:pluginInfoSettingsWebResources.settings-data-provider"]="{\u0022helpBaseUrl\u0022:\u0022https://docs.adaptavist.com/sr4c/8.21.0/\u0022,\u0022pluginVersion\u0022:\u00228.21.0\u0022,\u0022buildNumber\u0022:19223,\u0022appKey\u0022:\u0022com.onresolve.confluence.groovy.groovyrunner\u0022,\u0022animationsEnabled\u0022:true,\u0022staticResourcePrefix\u0022:\u0022/s/-16j1fy/9012/1phy4ty/_\u0022,\u0022editorSettings\u0022:{\u0022miniMapEnabled\u0022:true,\u0022hapiLinterEnabled\u0022:true}}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types"]="{\u0022crowd\u0022:\u0022Crowd\u0022,\u0022confluence\u0022:\u0022Confluence\u0022,\u0022fecru\u0022:\u0022FishEye / Crucible\u0022,\u0022stash\u0022:\u0022Bitbucket\u0022,\u0022jira\u0022:\u0022Jira\u0022,\u0022refapp\u0022:\u0022Reference Application\u0022,\u0022bamboo\u0022:\u0022Bamboo\u0022,\u0022generic\u0022:\u0022Generic Application\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"]="false";
+WRM._unparsedData["com.onresolve.confluence.groovy.groovyrunner:enhancedSearchWebResources.enhanced-search-settings-data-provider"]="{\u0022enhancedSearchBinocularEnabled\u0022:true,\u0022enhancedSearchSectionMessagesEnabled\u0022:true}";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types"]="{\u0022singular\u0022:{\u0022refapp.charlie\u0022:\u0022Charlie\u0022,\u0022fecru.project\u0022:\u0022Crucible Project\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repository\u0022,\u0022stash.project\u0022:\u0022Bitbucket Server Project\u0022,\u0022generic.entity\u0022:\u0022Generic Project\u0022,\u0022confluence.space\u0022:\u0022Confluence Space\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Project\u0022,\u0022jira.project\u0022:\u0022Jira Project\u0022},\u0022plural\u0022:{\u0022refapp.charlie\u0022:\u0022Charlies\u0022,\u0022fecru.project\u0022:\u0022Crucible Projects\u0022,\u0022fecru.repository\u0022:\u0022FishEye Repositories\u0022,\u0022stash.project\u0022:\u0022Bitbucket Server Projects\u0022,\u0022generic.entity\u0022:\u0022Generic Projects\u0022,\u0022confluence.space\u0022:\u0022Confluence Spaces\u0022,\u0022bamboo.project\u0022:\u0022Bamboo Projects\u0022,\u0022jira.project\u0022:\u0022Jira Projects\u0022}}";
+WRM._unparsedData["com.onresolve.confluence.groovy.groovyrunner:web-item-response-renderer.web-item-actions-data-provider"]="[]";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:programmatic-analytics-init.programmatic-analytics-data-provider"]="false";
+WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"]="\u0022\u0022";
+WRM._unparsedData["com.atlassian.analytics.analytics-client:policy-update-init.policy-update-data-provider"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types"]="{\u0022com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\u0022:\u0022Basic Access\u0022,\u0022com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\u0022:\u0022Trusted Applications\u0022,\u0022com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\u0022:\u0022CORS\u0022,\u0022com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\u0022:\u0022OAuth\u0022,\u0022com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\u0022:\u0022OAuth\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.confluence-search-ui-plugin:confluence-search-ui-plugin-resources.i18n-data"]="{\u0022search.ui.recent.link.text\u0022:\u0022View more recently visited\u0022,\u0022search.ui.search.results.empty\u0022:\u0022We couldn\u0027\u0027t find anything matching \u005C\u0022{0}\u005C\u0022.\u0022,\u0022search.ui.filter.clear.selected\u0022:\u0022Clear selected items\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.button.text\u0022:\u0022Show more app results...\u0022,\u0022search.ui.filter.contributor.button.text\u0022:\u0022Contributor\u0022,\u0022search.ui.filter.space.current.label\u0022:\u0022CURRENT\u0022,\u0022search.ui.clear.input.button.text\u0022:\u0022Clear text\u0022,\u0022search.ui.search.results.clear.button\u0022:\u0022clear your filters.\u0022,\u0022help.search.ui.link.title\u0022:\u0022Search tips\u0022,\u0022search.ui.container.close.text\u0022:\u0022Close\u0022,\u0022search.ui.filter.date.month.text\u0022:\u0022The past month\u0022,\u0022search.ui.infinite.scroll.button.text\u0022:\u0022More results\u0022,\u0022search.ui.filter.date.button.text\u0022:\u0022Date\u0022,\u0022search.ui.filter.date.week.text\u0022:\u0022The past week\u0022,\u0022search.ui.result.subtitle.calendar\u0022:\u0022Team calendar\u0022,\u0022search.ui.filter.date.heading\u0022:\u0022Last modified within\u0022,\u0022search.ui.filter.space.input.label\u0022:\u0022Find spaces...\u0022,\u0022search.ui.generic.error\u0022:\u0022Something went wrong. Refresh the page, or contact your admin if this keeps happening.\u0022,\u0022search.ui.recent.spaces\u0022:\u0022Recent Spaces\u0022,\u0022search.ui.result.subtitle.space\u0022:\u0022Space\u0022,\u0022search.ui.filter.space.category.input.label\u0022:\u0022Find space categories...\u0022,\u0022search.ui.filter.space.archive.label\u0022:\u0022Search archived spaces\u0022,\u0022search.ui.filter.label\u0022:\u0022filter\u0022,\u0022search.ui.filter.date.all.text\u0022:\u0022Any time\u0022,\u0022search.ui.filter.date.hour.text\u0022:\u0022The past day\u0022,\u0022search.ui.filters.heading\u0022:\u0022Filter by\u0022,\u0022search.ui.filter.label.input.label\u0022:\u0022Find labels...\u0022,\u0022search.ui.recent.items.anonymous\u0022:\u0022Start exploring. Your search results will appear here.\u0022,\u0022search.ui.input.label\u0022:\u0022Search\u0022,\u0022search.ui.input.aria.label\u0022:\u0022Search, when you type, your results will be displayed below.\u0022,\u0022search.ui.search.result\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}\u0022,\u0022search.ui.filter.label.button.text\u0022:\u0022Label\u0022,\u0022search.ui.container.clear.ariaLabel\u0022:\u0022Clear\u0022,\u0022search.ui.input.alert\u0022:\u0022Hit enter to search\u0022,\u0022search.ui.filter.no.result.text\u0022:\u0022We can\u0027\u0027t find anything matching your search\u0022,\u0022search.ui.result.subtitle.user\u0022:\u0022User profile\u0022,\u0022search.ui.filter.contributor.input.label\u0022:\u0022Find people...\u0022,\u0022search.ui.filter.content.type.button.text\u0022:\u0022Type\u0022,\u0022search.ui.filter.date.year.text\u0022:\u0022The past year\u0022,\u0022search.ui.advanced.search.link.text\u0022:\u0022Advanced search\u0022,\u0022search.ui.filter.space.button.text\u0022:\u0022Space\u0022,\u0022search.ui.search.results.clear.line2\u0022:\u0022Try a different search term or\u0022,\u0022search.ui.filter.space.category.button.text\u0022:\u0022Space category\u0022,\u0022search.ui.search.results.clear.line1\u0022:\u0022We couldn\u0027\u0027t find anything matching your search.\u0022,\u0022search.ui.content.name.search.items.panel.load.all.top.items.admin.button.text\u0022:\u0022Show more settings and app results...\u0022,\u0022search.ui.recent.pages\u0022:\u0022Recently visited\u0022,\u0022search.ui.search.result.anonymous\u0022:\u0022{0,choice,1#{0} search result|1\u003c{0} search results}. Have an account? {1}Log in{2} to expand your search.\u0022,\u0022search.ui.recent.items.empty\u0022:\u0022Start exploring. Pages and spaces you\u0027\u0027ve visited recently will appear here.\u0022,\u0022search.ui.filter.space.init.heading\u0022:\u0022recent spaces\u0022}";
+WRM._unparsedData["com.atlassian.confluence.plugins.synchrony-interop:synchrony-status-banner-loader.synchrony-status"]="false";
+WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths"]="{\u0022entries\u0022:{\u0022applinks.docs.root\u0022:\u0022https://confluence.atlassian.com/display/APPLINKS-091/\u0022,\u0022applinks.docs.diagnostics.troubleshoot.sslunmatched\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.delete.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.adding.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administration.guide\u0022:\u0022Application+Links+Documentation\u0022,\u0022applinks.docs.oauth.security\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.troubleshoot.application.links\u0022:\u0022Troubleshoot+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownerror\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.trusted.apps\u0022:\u0022Configuring+Trusted+Applications+authentication+for+an+application+link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelunsupported\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.ssluntrusted\u0022:\u0022SSL+and+application+link+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unknownhost\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.delete.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.adding.project.link\u0022:\u0022Configuring+Project+links+across+Applications\u0022,\u0022applinks.docs.link.applications\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.diagnostics.troubleshoot.oauthproblem\u0022:\u0022OAuth+troubleshooting+guide\u0022,\u0022applinks.docs.diagnostics.troubleshoot.migration\u0022:\u0022Update+application+links+to+use+OAuth\u0022,\u0022applinks.docs.relocate.application.link\u0022:\u0022Link+Atlassian+applications+to+work+together\u0022,\u0022applinks.docs.administering.entity.links\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.upgrade.application.link\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics.troubleshoot.connectionrefused\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.oauth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.insufficient.remote.permission\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.configuring.application.link.auth\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.diagnostics\u0022:\u0022Application+links+diagnostics\u0022,\u0022applinks.docs.configured.authentication.types\u0022:\u0022OAuth+security+for+application+links\u0022,\u0022applinks.docs.adding.entity.link\u0022:\u0022Create+links+between+projects\u0022,\u0022applinks.docs.diagnostics.troubleshoot.unexpectedresponse\u0022:\u0022Network+and+connectivity+troubleshooting+guide\u0022,\u0022applinks.docs.configuring.auth.basic\u0022:\u0022Configuring+Basic+HTTP+Authentication+for+an+Application+Link\u0022,\u0022applinks.docs.diagnostics.troubleshoot.authlevelmismatch\u0022:\u0022OAuth+troubleshooting+guide\u0022}}";
+if(window.WRM._dataArrived)window.WRM._dataArrived();</script>
+<link rel="stylesheet" href="/s/22d93c2922448fada6c66788ba7ae1fb-CDN/-16j1fy/9012/1phy4ty/00ea7ff22e0f630c336ac419602094a0/_/download/contextbatch/css/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.css" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" media="all"/>
+<link rel="stylesheet" href="/s/8fe2e5b521540158eea83ea9dcdcd7da-CDN/-16j1fy/9012/1phy4ty/e164717283b5eeeaddc0e3fec2dddd41/_/download/contextbatch/css/viewattachments,viewcontent,main,atl.general,page,atl.confluence.plugins.pagetree-desktop,atl.comments,-_super/batch.css.dir/gatekeeper-ui-v2=true.dir/highlightactions=true.dir/hostenabled=true.dir/user-logged-in=true" data-wrm-key="viewattachments,viewcontent,main,atl.general,page,atl.confluence.plugins.pagetree-desktop,atl.comments,-_super" data-wrm-batch-type="context" media="all"/>
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-16j1fy/9012/1phy4ty/13.0.6/_/download/batch/com.mxgraph.confluence.plugins.diagramly:drawio-reader/com.mxgraph.confluence.plugins.diagramly:drawio-reader.css" data-wrm-key="com.mxgraph.confluence.plugins.diagramly:drawio-reader" data-wrm-batch-type="resource" media="all"/>
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-16j1fy/9012/1phy4ty/1.0/_/download/batch/confluence.web.resources:attachments/confluence.web.resources:attachments.css" data-wrm-key="confluence.web.resources:attachments" data-wrm-batch-type="resource" media="all"/>
+<link rel="stylesheet" href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-16j1fy/9012/1phy4ty/18.5.22/_/download/batch/com.atlassian.confluence.extra.officeconnector:slide-viewer-resources/com.atlassian.confluence.extra.officeconnector:slide-viewer-resources.css" data-wrm-key="com.atlassian.confluence.extra.officeconnector:slide-viewer-resources" data-wrm-batch-type="resource" media="all"/>
+<link rel="stylesheet" href="/s/055745440ea6d6dedd8124d72b06c011-CDN/-16j1fy/9012/1phy4ty/18.5.6/_/download/batch/confluence.extra.attachments:attachments-css/confluence.extra.attachments:attachments-css.css" data-wrm-key="confluence.extra.attachments:attachments-css" data-wrm-batch-type="resource" media="all"/>
+<link rel="stylesheet" href="/s/-16j1fy/9012/1phy4ty/3/_/styles/colors.css" media="all"/>
+<script data-wrm-key="com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="resource" data-initially-rendered="">
+!function(){"use strict";if("PerformanceObserver"in window){const e=[];window.__observedResources=e;const r=e=>"script"===e?"script":"css";new PerformanceObserver((n=>{n.getEntries().filter((({initiatorType:e,name:r})=>{const n="script"===e||((e,r)=>"link"===e&&"css"===new URL(r).pathname.split(".").pop())(e,r),i=new URL(location.href).origin===new URL(r).origin;return n&&i})).forEach((({name:n,transferSize:i,encodedBodySize:s,initiatorType:o})=>{e.push([i,s,n,r(o)])}))})).observe({type:"resource"})}}();
+
+</script>
+<script src="/s/375a953dff9c8837e6f8cafc6574215e-CDN/-16j1fy/9012/1phy4ty/00ea7ff22e0f630c336ac419602094a0/_/download/contextbatch/js/_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer/batch.js" data-wrm-key="_super,-com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-perf-observer" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script src="/s/8e610230f012197c2b082c5a475b6e55-CDN/-16j1fy/9012/1phy4ty/e164717283b5eeeaddc0e3fec2dddd41/_/download/contextbatch/js/viewattachments,viewcontent,main,atl.general,page,atl.confluence.plugins.pagetree-desktop,atl.comments,-_super/batch.js.dir/gatekeeper-ui-v2=true.dir/highlightactions=true.dir/hostenabled=true.dir/user-logged-in=true.js" data-wrm-key="viewattachments,viewcontent,main,atl.general,page,atl.confluence.plugins.pagetree-desktop,atl.comments,-_super" data-wrm-batch-type="context" data-initially-rendered=""></script>
+<script src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/-16j1fy/9012/1phy4ty/13.0.6/_/download/batch/com.mxgraph.confluence.plugins.diagramly:drawio-reader/com.mxgraph.confluence.plugins.diagramly:drawio-reader.js" data-wrm-key="com.mxgraph.confluence.plugins.diagramly:drawio-reader" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script src="/s/951439bf906e4bef9f2e583e8b0367a5-CDN/-16j1fy/9012/1phy4ty/1.0/_/download/batch/confluence.web.resources:attachments/confluence.web.resources:attachments.js" data-wrm-key="confluence.web.resources:attachments" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script src="/s/951439bf906e4bef9f2e583e8b0367a5-CDN/-16j1fy/9012/1phy4ty/18.5.22/_/download/batch/com.atlassian.confluence.extra.officeconnector:slide-viewer-resources/com.atlassian.confluence.extra.officeconnector:slide-viewer-resources.js" data-wrm-key="com.atlassian.confluence.extra.officeconnector:slide-viewer-resources" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script src="/s/8c9db3b9091ef2f13fb46c1aaa72aebd-CDN/-16j1fy/9012/1phy4ty/18.5.6/_/download/batch/confluence.extra.attachments:attachments-javascript/confluence.extra.attachments:attachments-javascript.js" data-wrm-key="confluence.extra.attachments:attachments-javascript" data-wrm-batch-type="resource" data-initially-rendered=""></script>
+<script type="module">WRM.requireLazily(["wr!com.atlassian.plugins.atlassian-plugins-webresource-rest:data-collector-async"])</script>
+    
+
+        
+    
+
+        
+        <meta name="ajs-site-title" content="Trenz Electronic Wiki"/>
+            
+    <script>
+AJS.toInit(function() {
+ AJS.$("#children-section").css("display","none");
+ });
+</script>
+<script type="text/javascript">
+    AJS.toInit(function(){
+        if (AJS.params.remoteUser == ''){
+          AJS.$('#action-view-history-link').hide();
+         AJS.$('#action-export-word-link').hide();
+         AJS.$('#com-k15t-confluence-scroll-pdf-launcher').hide();
+         AJS.$('#action-menu-link').hide();
+        }
+    });
+</script>
+
+<style>
+	h1, h2, h3, #title-heading { font-family: sans-serif !important; }
+	#children-section { display: none; }
+	.plugin_pagetree { padding-top: 14px; }
+	.plugin_pagetree_childtoggle_container > .no-children.icon { visibility: hidden; }
+
+       #action-export-word-link{ display: none}
+       #exportToMsWord{ display: none}
+</style>
+<script>
+	(function() {
+		// improve the page tree macro to prevent asynchronous loads of children when navigating the tree structure
+		var init = false;
+		AJS.bind('pagetree-children-loaded', function() {
+			if (init) { return; }
+			init = true;
+		$('.plugin_pagetree_current').parent().next().andSelf().prevAll('.plugin_pagetree_childtoggle_container').children('.plugin_pagetree_childtoggle').click();
+			$('.plugin_pagetree_children_container').stop(true, true);
+
+			// disable the slide up/down animations
+			$('.plugin_pagetree_childtoggle').on('click', function() {
+				$('.plugin_pagetree_children_container').stop(true, true);
+			});
+		});
+	}())
+</script>
+
+
+    
+                <link rel="canonical" href="/display/PD/TE0803+TRM"/>
+        <link rel="shortlink" href="/x/MuY7"/>
+    <meta name="wikilink" content="[PD:TE0803 TRM]"/>
+    <meta name="page-version" content="57"/>
+    <meta name="ajs-page-version" content="57"/>
+
+</head>
+
+    
+<body id="com-atlassian-confluence" class="theme-default  aui-layout aui-theme-default">
+
+        
+            <div id="stp-licenseStatus-banner"></div>
+    <div id="page">
+<div id="full-height-container">
+    <div id="header-precursor">
+        <div class="cell">
+            
+                            </div>
+    </div>
+        
+
+
+
+
+
+
+    
+
+    
+    	<div class="ia-splitter">
+    		<div class="ia-splitter-left">
+    			<div class="ia-fixed-sidebar" role="complementary" aria-label="sidebar">
+                                            
+                            <div class="acs-side-bar ia-scrollable-section"><div class="acs-side-bar-space-info tipsy-enabled" data-configure-tooltip="Edit space details"><div class="avatar"><div class="space-logo" data-key="PD" data-name="Public Docs" data-entity-type="confluence.space"><div class="avatar-img-container"><div class="avatar-img-wrapper"><a href="/display/PD/Trenz+Electronic+Documentation" title="Public Docs"><img class="avatar-img" src="/download/attachments/360450/global.logo.dir/api=v2.dir/version=3" alt="Public Docs"/></a></div></div></div></div><div class="space-information-container"><div class="name"><a href="/display/PD/Trenz+Electronic+Documentation" title="Public Docs">Public Docs</a></div><div class="flyout-handle icon aui-icon aui-icon-small aui-iconfont-edit"></div><div class="favourite-space-icon "><button class="space-favourite aui-icon aui-icon-small aui-iconfont-unstar" id="space-favourite-add" title="Add to my spaces" aria-pressed="false"></button><button class="space-favourite-hidden space-favourite aui-icon aui-icon-small aui-iconfont-star" id="space-favourite-remove" title="Remove from my spaces" aria-pressed="false"></button></div></div></div><div class="acs-side-bar-content"><div class="acs-nav-wrapper"><div class="acs-nav" data-has-create-permission="false" data-quick-links-state="hide" data-page-tree-state="hide" data-nav-type="pages"><div class="acs-nav-sections"><div class="main-links-section "><ul class="acs-nav-list"></ul></div><div class="custom-sidebar"><div class="custom-sidebar-content"><div class="content"><h3><a name="TE0803TRM-[TrenzElectronicDocumentation]"></a><a href="/display/PD/Trenz+Electronic+Documentation" title="Trenz Electronic Documentation">Trenz Electronic Documentation</a></h3>
+
+
+
+<div class="plugin_pagetree">
+
+        
+        
+    <ul role="list" class="plugin_pagetree_children_list plugin_pagetree_children_list_noleftspace">
+        <div class="plugin_pagetree_children">
+        </div>
+    </ul>
+
+    <fieldset class="hidden">
+        <input type="hidden" name="treeId" value=""/>
+        <input type="hidden" name="treeRequestId" value="/plugins/pagetree/naturalchildren.action?decorator=none&amp;excerpt=false&amp;sort=position&amp;reverse=false&amp;disableLinks=false&amp;expandCurrent=false&amp;placement="/>
+        <input type="hidden" name="treePageId" value="3925554"/>
+
+        <input type="hidden" name="noRoot" value="false"/>
+        <input type="hidden" name="rootPageId" value="3924583"/>
+
+        <input type="hidden" name="rootPage" value=""/>
+        <input type="hidden" name="startDepth" value="0"/>
+        <input type="hidden" name="spaceKey" value="PD"/>
+
+        <input type="hidden" name="i18n-pagetree.loading" value="Loading..."/>
+        <input type="hidden" name="i18n-pagetree.error.permission" value="Unable to load page tree. It seems that you do not have permission to view the root page."/>
+        <input type="hidden" name="i18n-pagetree.eeror.general" value="There was a problem retrieving the page tree. Please check the server log file for more information."/>
+        <input type="hidden" name="loginUrl" value="/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3DPD%26title%3DTE0803%2BTRM&amp;permissionViolation=true"/>
+        <input type="hidden" name="mobile" value="false"/>
+        <input type="hidden" name="placement" value=""/>
+
+                <fieldset class="hidden">
+                                                <input type="hidden" name="ancestorId" value="3925461"/>
+                                    <input type="hidden" name="ancestorId" value="3924815"/>
+                                    <input type="hidden" name="ancestorId" value="3924669"/>
+                                    <input type="hidden" name="ancestorId" value="3924583"/>
+                                    </fieldset>
+    </fieldset>
+</div>
+
+</div></div></div></div></div></div><div class="ia-secondary-container tipsy-enabled" data-tree-type="pages"></div></div><div class="hidden"><a href="/collector/pages.action.dir/key=PD" id="space-pages-link"></a><script type="text/x-template" title="logo-config-content"><h2>Space Details</h2><div class="personal-space-logo-hint">Your profile picture is used as the logo for your personal space. <a href="/users/profile/editmyprofilepicture.action" target="_blank">Change your profile picture</a>.</div></script></div></div><div class="space-tools-section"><div id="space-tools-menu-additional-items" class="hidden"><div data-label="Browse pages" data-class="" data-href="/pages/reorderpages.action?key=PD">Browse pages</div></div><div id="space-tools-menu" class="aui-dropdown2 aui-style-default space-tools-dropdown" role="menu" hidden="" data-aui-alignment="top left"></div><a href="#" role="button" class="expand-collapse-trigger aui-icon aui-icon-small aui-iconfont-chevron-double-right" aria-expanded="false"></a></div>
+                    
+                        			</div>
+    		</div>
+        <!-- \#header -->
+
+            
+    
+        <main role="main" id="main" class=" aui-page-panel">
+                        <div id="main-header">
+                        
+    
+
+            
+            <div id="title-heading" class="pagetitle with-breadcrumbs">
+                
+                                    <div id="breadcrumb-section">
+                        
+    
+    
+    <nav aria-label="Breadcrumbs">
+        <ol id="breadcrumbs">
+                                                            
+                                
+            <li id="ellipsis" title="Show all breadcrumbs"><button class="elipsis-button" aria-label="Show all breadcrumbs"><strong>…</strong></button></li>
+                                                            
+                                
+            <li class="hidden-crumb">
+                                
+                                    <span class=""><a href="/display/PD/Trenz+Electronic+Documentation">Trenz Electronic Documentation</a></span>
+                                                                                                                                        
+                                
+            </li><li class="hidden-crumb">
+                                
+                                    <span class=""><a href="/display/PD/All+SoMs+and+FPGA+Modules">All SoMs and FPGA Modules</a></span>
+                                                                                                                                        
+                                
+            </li><li class="hidden-crumb">
+                                
+                                    <span class=""><a href="/display/PD/5.2+x+7.6+SoM+Documentation">5.2 x 7.6 SoM Documentation</a></span>
+                                                                                                                    
+                                
+            </li><li>
+                                
+                                    <span class=""><a href="/pages/viewpage.action.dir/pageId=3925461">TE0803 - UltraSoM+</a></span>
+                                                                                                    </li></ol>
+    </nav>
+
+
+                    </div>
+                
+                
+                
+            
+        
+
+                <h1 id="title-text" class="with-breadcrumbs">
+                                                <a href="/display/PD/TE0803+TRM">TE0803 TRM</a>
+                                    </h1>
+            </div>
+        </div><!-- \#main-header -->
+        
+        
+
+        <div id="sidebar-container">
+                                                </div><!-- \#sidebar-container -->
+
+        
+    
+
+        
+
+
+
+
+            
+    
+
+                                
+    
+
+    
+    
+        
+    
+    
+                    
+    
+
+    
+
+    
+            
+        
+
+    
+    
+
+    
+            
+        
+
+
+
+    
+<div id="content" class="page view">
+    
+
+
+<div id="action-messages">
+                        </div>
+
+
+
+            <script type="text/x-template" title="searchResultsGrid">
+    <table class="aui">
+        <thead>
+            <tr class="header">
+                <th class="search-result-title">Page Title</th>
+                <th class="search-result-space">Space</th>
+                <th class="search-result-date">Updated</th>
+            </tr>
+        </thead>
+    </table>
+</script>
+<script type="text/x-template" title="searchResultsGridCount">
+    <p class="search-result-count">{0}</p>
+</script>
+<script type="text/x-template" title="searchResultsGridRow">
+    <tr class="search-result">
+        <td class="search-result-title"><a href="/{1}" class="content-type-{2}"><span>{0}</span></a></td>
+        <td class="search-result-space"><a class="space" href="/display/{4}/index.html" title="{3}">{3}</a></td>
+        <td class="search-result-date"><span class="date" title="{6}">{5}</span></td>
+    </tr>
+</script>
+        
+    
+            
+
+        
+                            
+    
+
+                    
+
+        
+                <div class="page-metadata">
+    <ul>
+        <li class="page-metadata-modification-info">Last modified: Oct 15, 2024</li>
+    </ul>
+</div>        
+        
+                                            
+        <div id="main-content" class="wiki-content">
+                           
+        <div class="contentLayout2">
+<div class="columnLayout two-right-sidebar" data-layout="two-right-sidebar">
+<div class="cell normal" data-type="normal">
+<div class="innerCell">
+<p class="auto-cursor-target"><style class="conf-macro output-block" data-hasbody="false" data-macro-name="custom_table_size_100">
+.wrapped{
+  width: 100% !important;
+  max-width: 1200px !important;
+ }
+</style></p><p class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><strong><a class="external-link" href="https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/5.2x7.6/TE0803" rel="nofollow">Download PDF version of this document.</a><br/></strong></p><h2 id="TE0803TRM-Overview">Overview</h2><p>The Trenz Electronic TE0803 is an industrial grade MPSoC SOM integrating an AMD Zynq UltraScale+, DDR4 SDRAM with 64-Bit width data bus connection, SPI Boot Flash memory for configuration and operation, transceivers (SoC/Variant-dependent) and powerful switch-mode power supplies for all on-board voltages. A large number of configurable I/Os is provided via rugged high-speed stacking connections in a compact 5.2 cm x 7.6 cm form factor.</p><p>Refer to <a class="external-link" href="http://trenz.org/te0803-info" rel="nofollow">http://trenz.org/te0803-info</a> for the current online version of this manual and other available documentation.</p><h3 id="TE0803TRM-KeyFeatures"><span>Key Features</span></h3><p></p><ul class="conf-macro output-inline" data-hasbody="true" data-macro-name="excerpt"><li><strong>SoC</strong><br/><ul><li>Device: ZU1 / ZU2 / ZU3 / ZU4 / ZU5 <sup>1)<br/></sup></li><li>Engine: CG / EG / EV <sup>1)</sup></li><li>Speedgrade: -1 / -1L / -2 / -2L / -3 <sup>1)</sup></li><li>Temperature Range: Extended / Industrial <sup>1)</sup></li><li>Package: SFVC784</li></ul></li><li><strong>RAM/Storage</strong><ul><li>4 GByte DDR4 SDRAM <sup>2) 3)</sup></li><li>2 x 64 MByte Serial Flash <sup>3)</sup></li><li>EEPROM with MAC address</li></ul></li><li><strong>On Board</strong><br/><ul><li>Clock Generator</li><li>Oscillator</li></ul></li><li><strong>Interface</strong><ul><li>4 x B2B Connector (ST5)<ul><li><p>up to 204 PL IO</p><ul><li>HP: 156</li><li>HD: 0 / 48  <sup>3)</sup></li></ul></li><li><p>up to 65 PS MIO</p></li><li>4 GTR</li><li>4 GTH (with ZU3T, ZU4 and higher)</li><li>I2C, JTAG, CONFIG</li></ul></li></ul></li><li><strong>Power</strong><ul><li>3.3 V power supply via B2B Connector needed <sup>5)</sup>.</li></ul></li><li><strong>Dimension</strong><ul><li>76 mm x 52 mm</li></ul></li><li><strong>Notes<br/></strong><sup>1)</sup><strong> </strong>Please, take care of the possible assembly options. Furthermore, check whether the power supply is powerful enough for your FPGA design.<br/><sup>2)</sup> Up to 8 GByte are possible with a maximum bandwidth of 2400 MBit/s.<br/><sup>3)</sup> Please, take care of the possible assembly options.<br/><sup>5)</sup> Dependent on the assembly option a higher input voltage may be possible.</li></ul><p></p><h3 id="TE0803TRM-BlockDiagram">Block Diagram</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Figure_OV_BD"></span><div class="scroll-title-body"><div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><p></p><div style="display:block;" class="conf-macro output-block" data-hasbody="false" data-macro-name="drawio">
+	<div class="drawio-macro" data-macroid="b79154e9-2a81-4ef1-87ef-3b11745bf2cf" data-buildnum="9012" id="drawio-macro-content-b79154e9-2a81-4ef1-87ef-3b11745bf2cf" style="position:relative;display:inline-block;box-sizing:border-box;max-width:100%;overflow:hidden;border:1px solid transparent;"></div>
+	<div id="drawio-macro-data-b79154e9-2a81-4ef1-87ef-3b11745bf2cf" style="display:none">eyJleHRTcnZJbnRlZ1R5cGUiOiIiLCJnQ2xpZW50SWQiOiIiLCJjcmVhdG9yTmFtZSI6IkpvaG4gSGFydGZpZWwiLCJvdXRwdXRUeXBlIjoiYmxvY2siLCJsYXN0TW9kaWZpZXJOYW1lIjoiSm9obiBIYXJ0ZmllbCIsImxhbmd1YWdlIjoiZW4iLCJ1aUNvbmZpZyI6Int9IiwiZGlhZ3JhbURpc3BsYXlOYW1lIjoiIiwic0ZpbGVJZCI6IiIsImF0dElkIjoiMzkzMjEzMSIsImRpYWdyYW1OYW1lIjoiVEUwODAzX09WX0JEIiwiYXNwZWN0IjoiIiwibGlua3MiOiJhdXRvIiwiY2VvTmFtZSI6IlRFMDgwMyBUUk0iLCJ0YnN0eWxlIjoiaGlkZGVuIiwiY2FuQ29tbWVudCI6ZmFsc2UsImRpYWdyYW1VcmwiOiIiLCJjc3ZGaWxlVXJsIjoiIiwiYm9yZGVyIjp0cnVlLCJtYXhTY2FsZSI6IjEiLCJvd25pbmdQYWdlSWQiOjM5MjU1NTQsImVkaXRhYmxlIjpmYWxzZSwiY2VvSWQiOjM5MjU1NTQsInBhZ2VJZCI6IiIsImxib3giOnRydWUsInNlcnZlckNvbmZpZyI6eyJlbWFpbHByZXZpZXciOiIxIn0sIm9kcml2ZUlkIjoiIiwicmV2aXNpb24iOjEsIm1hY3JvSWQiOiJiNzkxNTRlOS0yYTgxLTRlZjEtODdlZi0zYjExNzQ1YmYyY2YiLCJwcmV2aWV3TmFtZSI6IlRFMDgwM19PVl9CRC5wbmciLCJsaWNlbnNlU3RhdHVzIjoiT0siLCJzZXJ2aWNlIjoiIiwiaXNUZW1wbGF0ZSI6IiIsIndpZHRoIjoiNTQxIiwic2ltcGxlVmlld2VyIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNzI3MTg3ODk1MTUyLCJleGNlZWRQYWdlV2lkdGgiOmZhbHNlLCJvQ2xpZW50SWQiOiIifQ==</div>
+</div><p></p></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>TE0808 block diagram</strong></div></div><h3 id="TE0803TRM-MainComponents">Main Components</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Figure_OV_MC"></span><div class="scroll-title-body"><div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><p></p><div style="display:block;" class="conf-macro output-block" data-hasbody="false" data-macro-name="drawio">
+	<div class="drawio-macro" data-macroid="2f0af6ec-5dcd-4eab-92a4-19a947f91367" data-buildnum="9012" id="drawio-macro-content-2f0af6ec-5dcd-4eab-92a4-19a947f91367" style="position:relative;display:inline-block;box-sizing:border-box;max-width:100%;overflow:hidden;border:1px solid transparent;"></div>
+	<div id="drawio-macro-data-2f0af6ec-5dcd-4eab-92a4-19a947f91367" style="display:none">eyJleHRTcnZJbnRlZ1R5cGUiOiIiLCJnQ2xpZW50SWQiOiIiLCJjcmVhdG9yTmFtZSI6IktpbGlhbiBKYWhuIiwib3V0cHV0VHlwZSI6ImJsb2NrIiwibGFzdE1vZGlmaWVyTmFtZSI6IktpbGlhbiBKYWhuIiwibGFuZ3VhZ2UiOiJlbiIsInVpQ29uZmlnIjoie30iLCJkaWFncmFtRGlzcGxheU5hbWUiOiIiLCJzRmlsZUlkIjoiIiwiYXR0SWQiOiI0NTg4ODI3IiwiZGlhZ3JhbU5hbWUiOiJURTA4MDMtMDRfT1ZfTUMiLCJhc3BlY3QiOiIiLCJsaW5rcyI6ImF1dG8iLCJjZW9OYW1lIjoiVEUwODAzIFRSTSIsInRic3R5bGUiOiJoaWRkZW4iLCJjYW5Db21tZW50IjpmYWxzZSwiZGlhZ3JhbVVybCI6IiIsImNzdkZpbGVVcmwiOiIiLCJib3JkZXIiOmZhbHNlLCJtYXhTY2FsZSI6IjEiLCJvd25pbmdQYWdlSWQiOjM5MjU1NTQsImVkaXRhYmxlIjpmYWxzZSwiY2VvSWQiOjM5MjU1NTQsInBhZ2VJZCI6IiIsImxib3giOnRydWUsInNlcnZlckNvbmZpZyI6eyJlbWFpbHByZXZpZXciOiIxIn0sIm9kcml2ZUlkIjoiIiwicmV2aXNpb24iOjEsIm1hY3JvSWQiOiIyZjBhZjZlYy01ZGNkLTRlYWItOTJhNC0xOWE5NDdmOTEzNjciLCJwcmV2aWV3TmFtZSI6IlRFMDgwMy0wNF9PVl9NQy5wbmciLCJsaWNlbnNlU3RhdHVzIjoiT0siLCJzZXJ2aWNlIjoiIiwiaXNUZW1wbGF0ZSI6IiIsIndpZHRoIjoiNjQxIiwic2ltcGxlVmlld2VyIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNzI4OTk4Nzc0Nzk4LCJleGNlZWRQYWdlV2lkdGgiOmZhbHNlLCJvQ2xpZW50SWQiOiIifQ==</div>
+</div><p></p></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>TE0803 main components</strong></div></div><ol><li>SoC, U1</li><li>DDR4, U2, U3, U9, U12</li><li>Quad SPI Flash, U7, U17</li><li>Connector, J1, J2, J3, J4</li><li>EEPROM, U28</li><li>Clock Generator, U5</li><li>Oscillator, U6, U32</li><li>Done LED D1</li></ol><h3 id="TE0803TRM-InitialDeliveryState">Initial Delivery State</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_OV_IDS"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="wrapped fixed-width confluenceTable"><colgroup><col style="width: 32.4822%;"/><col style="width: 55.8417%;"/><col style="width: 11.6255%;"/></colgroup><tbody><tr><th class="confluenceTh"><p>Storage device name</p></th><th class="confluenceTh"><p>Content</p></th><th class="confluenceTh"><p>Notes</p></th></tr><tr><td class="confluenceTd"><p>Quad SPI Flash</p></td><td class="confluenceTd">not programmed</td><td class="confluenceTd"><p><br/></p></td></tr><tr><td class="confluenceTd">EEPROM</td><td class="confluenceTd">not programmed besides factory programmed MAC address</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">DDR4 SDRAM</td><td class="confluenceTd">not programmed</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">Programmable Clock Generator</td><td class="confluenceTd">not programmed</td><td class="confluenceTd"><br/></td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Initial delivery state of programmable devices on the module</strong></div></div><h2 class="auto-cursor-target" id="TE0803TRM-Signals,InterfacesandPins">Signals, Interfaces and Pins</h2><h3 id="TE0803TRM-Connectors">Connectors</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_SIP_C"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 67.4817%;"><colgroup><col style="width: 24.2195%;"/><col style="width: 12.6864%;"/><col style="width: 10.7917%;"/><col style="width: 22.9838%;"/><col style="width: 29.327%;"/></colgroup><tbody><tr><th class="confluenceTh">Connector Type</th><th class="confluenceTh">Designator</th><th class="confluenceTh">Interface</th><th class="confluenceTh">IO CNT</th><th class="confluenceTh">Notes</th></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM1</td><td class="confluenceTd">MGT PL</td><td class="confluenceTd">up to 4 x MGT (RX/TX)</td><td class="confluenceTd">Assembly option dependent.</td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM1</td><td class="confluenceTd">HP</td><td class="confluenceTd">52 SE / 24 DIFF</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">MGT PS</td><td class="confluenceTd">2 x MGT CLK</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">CLK</td><td class="confluenceTd">2 x DIFF CLK</td><td class="confluenceTd">PLL, 1 x Input, 1 x Output</td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">MGT PS</td><td class="confluenceTd">4 x MGT (RX/TX)</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">CFG<sup>1)</sup></td><td class="confluenceTd">1x JTAG</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">CFG<sup>1)</sup></td><td class="confluenceTd">4x MODE</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">CFG<sup>1)</sup></td><td class="confluenceTd">1 x I2C</td><td class="confluenceTd">PLL, EEPROM</td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM2</td><td class="confluenceTd">CFG<sup>1)</sup></td><td class="confluenceTd">29 CTRL/Status</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM3</td><td class="confluenceTd">HD</td><td class="confluenceTd">up to 48 SE / 24 DIFF</td><td class="confluenceTd">Assembly option dependent.</td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM3</td><td class="confluenceTd">MGT PL</td><td class="confluenceTd">MGT CLK</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM3</td><td class="confluenceTd">MIO</td><td class="confluenceTd">65 GPIO</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">B2B</td><td class="confluenceTd">JM4</td><td class="confluenceTd">HP</td><td class="confluenceTd">104 SE / 48 DIFF</td><td class="confluenceTd"><br/></td></tr></tbody></table></div><p class="auto-cursor-target">1) see <a href="/index.html#TE0803TRM-ConfigurationandSystemControlSignals">Configuration and System Control Signals</a></p></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Board Connectors</strong></div></div><p><br/></p><h3 class="auto-cursor-target" id="TE0803TRM-TestPoints">Test Points</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_SIP_TPs"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 58.1209%;"><colgroup><col style="width: 25.9275%;"/><col style="width: 18.1282%;"/><col style="width: 33.7268%;"/></colgroup><tbody><tr><th class="confluenceTh">Test Point</th><th class="confluenceTh">Signal</th><th class="confluenceTh">Notes<sup>1)</sup></th></tr><tr><td class="confluenceTd">TP1</td><td class="confluenceTd">PLL_SCL</td><td class="confluenceTd">pulled-up to PS_1V8</td></tr><tr><td class="confluenceTd">TP2</td><td class="confluenceTd">PLL_SDA</td><td class="confluenceTd">pulled-up to PS_1V8</td></tr><tr><td class="confluenceTd">TP3</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP4</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP5</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP6</td><td class="confluenceTd">PL_1V8</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP7</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP8</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP9</td><td class="confluenceTd">PL_VCCINT_IO</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP10</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP11</td><td class="confluenceTd">PL_VCCINT</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP12</td><td class="confluenceTd">PL_VCU_0V9</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP13</td><td class="confluenceTd">FP_0V85</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP14</td><td class="confluenceTd">PS_1V8</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP15</td><td class="confluenceTd">GND</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP16</td><td class="confluenceTd">DDR_2V5</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP17</td><td class="confluenceTd">DDR_PLL</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP18</td><td class="confluenceTd">DDR_1V2</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP20</td><td class="confluenceTd">MGTAVTT</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP21</td><td class="confluenceTd">VTT</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP22</td><td class="confluenceTd">PL_GT_1V05</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP23</td><td class="confluenceTd">VREFA</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP24</td><td class="confluenceTd">MGTVCCAUX</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP25</td><td class="confluenceTd">MGTAVCC</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP27</td><td class="confluenceTd">PS_PLL</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP28</td><td class="confluenceTd">PS_AVTT</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP29</td><td class="confluenceTd">LP_0V85</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP30</td><td class="confluenceTd">PS_AUX</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP31</td><td class="confluenceTd">PS_AVCC</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP32</td><td class="confluenceTd">PS_CLK</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">TP34</td><td class="confluenceTd">POR_B</td><td class="confluenceTd">pulled-up to PS_1V8</td></tr></tbody></table></div><p class="auto-cursor-target" style="margin-left: 40.0px;"><sup>1)</sup> Direction:</p><ul><li style="list-style-type: none;"><ul><li class="auto-cursor-target">IN: Input from the point of view of this board.</li><li class="auto-cursor-target">OUT: Output from the point of view of this board.</li></ul></li></ul></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Test Points Information</strong></div></div><h2 id="TE0803TRM-On-boardPeripherals">On-board Peripherals</h2><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_OBP"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 52.1207%;"><colgroup><col style="width: 24.7752%;"/><col style="width: 30.1066%;"/><col style="width: 19.7575%;"/><col style="width: 25.4025%;"/></colgroup><tbody><tr><th class="confluenceTh">Chip/Interface</th><th class="confluenceTh">Designator</th><th class="confluenceTh">Connected To</th><th class="confluenceTh">Notes</th></tr><tr><td class="confluenceTd"><h3 id="TE0803TRM-DDR4SDRAM">DDR4 SDRAM</h3></td><td class="confluenceTd">U2, U3, U9, U12</td><td class="confluenceTd">SoC - PS</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><h3 id="TE0803TRM-QuadSPIFlash">Quad SPI Flash</h3></td><td class="confluenceTd">U7, U17</td><td class="confluenceTd">SoC - PS</td><td class="confluenceTd">Booting.</td></tr><tr><td class="confluenceTd"><h3 id="TE0803TRM-EEPROM">EEPROM</h3></td><td class="confluenceTd">U28</td><td class="confluenceTd">B2B - J2</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><h3 id="TE0803TRM-ClockGenerator">Clock Generator</h3></td><td class="confluenceTd">U5</td><td class="confluenceTd">B2B - J2<br/>SoC -MGT</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd"><h3 id="TE0803TRM-Oscillator">Oscillator</h3></td><td class="confluenceTd">U6</td><td class="confluenceTd">Clock Generator</td><td class="confluenceTd">25 MHz</td></tr><tr><td class="confluenceTd"><p><strong>Oscillator</strong></p></td><td class="confluenceTd">U32</td><td class="confluenceTd">SoC</td><td class="confluenceTd">33.333333 MHz</td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>On board peripherals</strong></div></div><h2 id="TE0803TRM-ConfigurationandSystemControlSignals">Configuration and System Control Signals</h2><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_OV_CNTRL"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="wrapped relative-table confluenceTable" style="width: 65.0338%;"><colgroup><col style="width: 16.5776%;"/><col style="width: 11.9309%;"/><col style="width: 11.6797%;"/><col style="width: 59.7741%;"/></colgroup><tbody><tr><th class="confluenceTh">Connector+Pin</th><th class="confluenceTh"><p>Signal Name</p></th><th class="confluenceTh">Direction<sup>1)</sup></th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd">J2-82</td><td class="confluenceTd">PG_PSGT</td><td class="confluenceTd">OUT</td><td class="confluenceTd">GTR transceivers powered-up.</td></tr><tr><td class="confluenceTd">J2-83</td><td class="confluenceTd">MR</td><td class="confluenceTd">IN</td><td class="confluenceTd">Manual reset.</td></tr><tr><td class="confluenceTd">J2-84</td><td class="confluenceTd">EN_PSGT</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable GTR transceiver power-up.</td></tr><tr><td class="confluenceTd">J2-86</td><td class="confluenceTd">ERR_STATUS</td><td class="confluenceTd">OUT</td><td class="confluenceTd">PS error status <sup>2)</sup>.</td></tr><tr><td class="confluenceTd">J2-88</td><td class="confluenceTd">ERR_OUT</td><td class="confluenceTd">OUT</td><td class="confluenceTd">PS error indication <sup>2)</sup>.</td></tr><tr><td class="confluenceTd">J2-90</td><td class="confluenceTd">PLL_SCL</td><td class="confluenceTd">IN</td><td class="confluenceTd">I2C clock. Pulled up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-91</td><td class="confluenceTd">PG_GT_R</td><td class="confluenceTd">OUT</td><td class="confluenceTd">Right GTH Transceivers powered-up.</td></tr><tr><td class="confluenceTd">J2-92</td><td class="confluenceTd">PLL_SDA</td><td class="confluenceTd">IN/OUT</td><td class="confluenceTd">I2C data. Pulled up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-95</td><td class="confluenceTd">EN_GT_R</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable right GTH transceiver power-up.</td></tr><tr><td class="confluenceTd">J2-96</td><td class="confluenceTd">SRST_B</td><td class="confluenceTd">IN</td><td class="confluenceTd">System reset <sup>2)</sup>. Pulled-up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-97</td><td class="confluenceTd">PG_VCU</td><td class="confluenceTd">OUT</td><td class="confluenceTd">VCU powered-up.</td></tr><tr><td class="confluenceTd">J2-98</td><td class="confluenceTd">INIT_B</td><td class="confluenceTd">IN/OUT</td><td class="confluenceTd">Initialization completion indicator after POR <sup>2)</sup>. Pulled-up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-100</td><td class="confluenceTd">PROG_B</td><td class="confluenceTd">IN/OUT</td><td class="confluenceTd">Power-on reset <sup>2)</sup>. Pulled-up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-101</td><td class="confluenceTd">EN_PL</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable programable logic power-up.</td></tr><tr><td class="confluenceTd">J2-102</td><td class="confluenceTd">EN_FPD</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable full-power domain power-up.</td></tr><tr><td class="confluenceTd">J2-103 / J2-105 / J2-107 / J2-109</td><td class="confluenceTd">MODE3..0</td><td class="confluenceTd">IN</td><td class="confluenceTd">Boot mode selection <sup>2)</sup>:<br/><ul><li>JTAG</li><li>QUAD-SPI (32 Bit)</li><li>SD1 (2.0)</li><li>eMMC (1.8 V)</li><li>SD1 LS (3.0)</li></ul><p>Supported Modes depends also on used Carrier.</p></td></tr><tr><td class="confluenceTd">J2-104</td><td class="confluenceTd">PG_PL</td><td class="confluenceTd">OUT</td><td class="confluenceTd">Programmable logic powered-up. Pulled-up to PL_DCIN.</td></tr><tr><td class="confluenceTd">J2-106</td><td class="confluenceTd">LP_GOOD</td><td class="confluenceTd">OUT</td><td class="confluenceTd">Low-power domain powered-up. Pulled up to LP_DCDC.</td></tr><tr><td class="confluenceTd">J2-108</td><td class="confluenceTd">EN_LPD</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable low-power domain power-up.</td></tr><tr><td class="confluenceTd">J2-110</td><td class="confluenceTd">PG_FPD</td><td class="confluenceTd">OUT</td><td class="confluenceTd">Full-power domain powered-up. Pulled-up to DCDCIN.</td></tr><tr><td class="confluenceTd">J2-112</td><td class="confluenceTd">EN_DDR</td><td class="confluenceTd">IN</td><td class="confluenceTd">Enable DDR power-up.</td></tr><tr><td class="confluenceTd">J2-114</td><td class="confluenceTd">PG_DDR</td><td class="confluenceTd">OUT</td><td class="confluenceTd">DDR power supply powered-up. Pulled-up to DCDCIN.</td></tr><tr><td class="confluenceTd">J2-116</td><td class="confluenceTd">DONE</td><td class="confluenceTd">OUT</td><td class="confluenceTd">PS done signal <sup>2)</sup>. Pulled-up to PS_1V8.</td></tr><tr><td class="confluenceTd">J2-119 / J2-121</td><td class="confluenceTd">DX_P / DX_N</td><td class="confluenceTd">-</td><td class="confluenceTd">SoC temperatur sensing diode pins <sup>2)</sup>.</td></tr><tr><td class="confluenceTd">J2-120 / J2-122 / <br/>J2-124 / J2-126</td><td class="confluenceTd">TCK / TDI / TDO / TMS</td><td class="confluenceTd">Signal-dependent</td><td class="confluenceTd"><p>JTAG configuration and debugging interface.</p><p>JTAG reference voltage: PS_1V8</p></td></tr><tr><td class="confluenceTd">J2-125</td><td class="confluenceTd">PSBATT</td><td class="confluenceTd">IN</td><td class="confluenceTd">PS RTC Battery supply voltage <sup>2) 3)</sup>.</td></tr><tr><td class="confluenceTd">J2-127</td><td class="confluenceTd">PUDC_B</td><td class="confluenceTd">IN</td><td class="confluenceTd">Configuration pull-ups setting <sup>2)</sup>. Pulled-up to PL_1V8.</td></tr></tbody></table></div><p class="auto-cursor-target" style="margin-left: 40.0px;"><sup>1)</sup> Direction:</p><ul><li style="list-style-type: none;"><ul><li class="auto-cursor-target">IN: Input from the point of view of this board.</li><li class="auto-cursor-target">OUT: Output from the point of view of this board.</li></ul></li></ul><p style="margin-left: 40.0px;"><sup>2)</sup> See UG1085 for additional information.</p><p style="margin-left: 40.0px;"><sup>3)</sup> See <a href="/index.html#TE0803TRM-RecommendedOperatingConditions">Recommended Operating Conditions</a>.</p></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Controller signal.</strong></div></div><h2 id="TE0803TRM-PowerandPower-OnSequence">Power and Power-On Sequence</h2><h3 id="TE0803TRM-PowerRails">Power Rails</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_PWR_PR"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 540.0px;"><colgroup><col style="width: 195.0px;"/><col style="width: 172.0px;"/><col style="width: 108.0px;"/><col style="width: 64.0px;"/></colgroup><tbody><tr><th style="text-align: center;" class="confluenceTh">Power Rail Name/ Schematic Name</th><th style="text-align: center;" class="confluenceTh">Connector + Pin</th><th style="text-align: center;" class="confluenceTh">Direction<sup>1)</sup></th><th class="confluenceTh">Notes</th></tr><tr><td style="text-align: center;" class="confluenceTd">VCCO_66</td><td style="text-align: center;" class="confluenceTd">J1-90 / J1-120</td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VREF_66</td><td style="text-align: center;" class="confluenceTd">J1-108</td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd"><p>PL_1V8</p></td><td style="text-align: center;" class="confluenceTd">J<span style="color: rgb(0,0,0);">1-91 / J1-121</span></td><td style="text-align: center;" class="confluenceTd">OUT</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">PL_DCIN</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J1-151 / J1-153 / J1-155 / J1-157 / J1-159</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">LP_DCDC</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J2-138 / J2-140 / J2-142 / J2-144</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">DCDCIN</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J2-153 / J2-154 / J2-155 / J2-156 / J2-157 / J2-158 / J2-159 / J2-160</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">PS_1V8</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J2-99 / J3-147 / J3-148</span></td><td style="text-align: center;" class="confluenceTd">OUT</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">PS_BATT</td><td style="text-align: center;" class="confluenceTd">J2-125</td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">DDR_1V2</td><td style="text-align: center;" class="confluenceTd">J2-135</td><td style="text-align: center;" class="confluenceTd">OUT</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VCCO_25</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J3-15 / J3-16</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VCCO_26</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J3-43 / J3-44</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">GT_DCDC</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J3-157 / J3-158 / J3-159 / J3-160</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VCCO_64</td><td style="text-align: center;" class="confluenceTd"><span style="color: rgb(0,0,0);">J4-58 / J4-106</span></td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VREF_64</td><td style="text-align: center;" class="confluenceTd">J4-88</td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VCCO_65</td><td style="text-align: center;" class="confluenceTd">J4-69 / J4-105</td><td style="text-align: center;" class="confluenceTd">IN</td><td style="text-align: center;" class="confluenceTd"><br/></td></tr><tr><td style="text-align: center;" class="confluenceTd">VREF_65</td><td style="text-align: center;" class="confluenceTd">J4-15</td><td style="text-align: center;" class="confluenceTd">IN</td><td class="confluenceTd"><br/></td></tr></tbody></table></div><p class="auto-cursor-target" style="margin-left: 40.0px;"><sup>1)</sup> Direction:</p><ul><li style="list-style-type: none;"><ul><li class="auto-cursor-target">IN: Input from the point of view of this board.</li><li class="auto-cursor-target">OUT: Output from the point of view of this board.</li></ul></li></ul></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Module power rails.</strong></div></div><h3 id="TE0803TRM-RecommendedPowerupSequencing">Recommended Power up Sequencing</h3><p><br/></p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_BB_DH"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 99.9184%;"><colgroup><col style="width: 9.73268%;"/><col style="width: 13.737%;"/><col style="width: 11.1231%;"/><col style="width: 11.4568%;"/><col style="width: 22.413%;"/><col style="width: 31.5895%;"/></colgroup><tbody><tr><th style="text-align: center;" class="confluenceTh">Sequence</th><th style="text-align: center;" class="confluenceTh">Net name</th><th style="text-align: center;" class="confluenceTh">Recommended Voltage Range</th><th class="confluenceTh">Pull-up/down</th><th style="text-align: center;" class="confluenceTh">Description</th><th style="text-align: center;" class="confluenceTh">Notes</th></tr><tr><td class="confluenceTd">0</td><td class="confluenceTd">-</td><td class="confluenceTd">-</td><td class="confluenceTd">-</td><td class="confluenceTd">Configuration signal setup.</td><td class="confluenceTd">See <a href="/index.html#TE0803TRM-ConfigurationandSystemControlSignals">Configuration and System Control Signals</a>.</td></tr><tr><td style="text-align: left;" class="confluenceTd">1 <sup>1)</sup></td><td style="text-align: left;" class="confluenceTd">PSBATT</td><td style="text-align: left;" class="confluenceTd">1.2 V ... 1.5 V</td><td style="text-align: left;" class="confluenceTd">-</td><td style="text-align: left;" class="confluenceTd">Battery connection.</td><td style="text-align: left;" class="confluenceTd">Battery Power Domain usage. When not used, tie to GND.</td></tr><tr><td class="confluenceTd">2</td><td colspan="3" class="confluenceTd">Processing System (PS):<br/><br/></td><td class="confluenceTd">Procedure for PS starting.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.1</td><td colspan="3" class="confluenceTd">Low-power domain:</td><td class="confluenceTd">Bring-up for low-power domain PS.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.1.1</td><td class="confluenceTd">LP_DCDC</td><td class="confluenceTd">3.3 V (± 5 %) <sup>2)</sup></td><td class="confluenceTd">-</td><td class="confluenceTd">Low-power domain power supply.</td><td class="confluenceTd">Main module power supply for low-power domain. 5.5 A recommended. Power consumption depends mainly on design and cooling solution.</td></tr><tr><td class="confluenceTd">2.1.2</td><td class="confluenceTd">EN_LPD</td><td class="confluenceTd">-</td><td class="confluenceTd">-</td><td class="confluenceTd">Low-power domain power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.1.3</td><td class="confluenceTd">LP_GOOD</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, LP_DCDC</td><td class="confluenceTd">Low-power domain power good status.</td><td class="confluenceTd">Module power-on sequencing for low-power domain finished.</td></tr><tr><td class="confluenceTd">2.2</td><td colspan="3" class="confluenceTd">Full-power domain:</td><td class="confluenceTd">Bring-up for full-power domain PS.</td><td class="confluenceTd">Full-power PS domain needs powered low-power PS domain.</td></tr><tr><td class="confluenceTd">2.2.1</td><td class="confluenceTd">DCDCIN</td><td class="confluenceTd">3.3 V (± 5 %) <sup>2)</sup></td><td class="confluenceTd"><br/></td><td class="confluenceTd">Full-power domain and GTR transceiver power supply.</td><td class="confluenceTd">Main module power supply for full-power domain. 7 A recommended. Power consumption depends mainly on design and cooling solution.</td></tr><tr><td class="confluenceTd">2.2.2</td><td class="confluenceTd">EN_FPD</td><td class="confluenceTd">DCDCIN</td><td class="confluenceTd">-</td><td class="confluenceTd">Full-power domain power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.2.3</td><td class="confluenceTd">PG_FPD</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, DCDCIN</td><td class="confluenceTd">Full-power domain power good status.</td><td class="confluenceTd">Module power-on sequencing for full-power domain finished.</td></tr><tr><td class="confluenceTd">2.2.4</td><td class="confluenceTd">EN_DDR</td><td class="confluenceTd">DCDCIN</td><td class="confluenceTd">-</td><td class="confluenceTd">DDR memory power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.2.5</td><td class="confluenceTd">PG_DDR</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, DCDCIN</td><td class="confluenceTd">DDR memory power good status.</td><td class="confluenceTd">Module power-on sequencing for DDR memory finished.</td></tr><tr><td class="confluenceTd"><p>2.3</p></td><td colspan="3" class="confluenceTd">GTR Transceiver</td><td class="confluenceTd">Procedure for GTR transceiver starting.</td><td class="confluenceTd">PS transceiver usage needs powered PS (low- and full-power domain).</td></tr><tr><td class="confluenceTd">2.3.1</td><td class="confluenceTd">EN_PSGT</td><td class="confluenceTd">DCDCIN</td><td class="confluenceTd">-</td><td class="confluenceTd">GTR transceiver power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.3.2</td><td class="confluenceTd">PG_PSGT</td><td class="confluenceTd">-</td><td class="confluenceTd">-</td><td class="confluenceTd">GTR transceiver power good status.</td><td class="confluenceTd">Module power-on sequencing for GTR transceiver finished.</td></tr><tr><td class="confluenceTd">2</td><td colspan="3" class="confluenceTd">Programmable Logic (PL)</td><td class="confluenceTd">Procedure for PL starting.</td><td class="confluenceTd">PL usage needs powered PS low-power domain.</td></tr><tr><td class="confluenceTd">2.1</td><td class="confluenceTd">PL_DCIN</td><td class="confluenceTd">3.3 V (± 5 %) <sup>2)</sup></td><td class="confluenceTd">-</td><td class="confluenceTd">Programmable logic power supply.</td><td class="confluenceTd">Main module power supply for programmable logic. 12 A recommended. Power consumption depends mainly on design and cooling solution.</td></tr><tr><td class="confluenceTd">2.2</td><td class="confluenceTd">EN_PL</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, PL_DCIN</td><td class="confluenceTd">Programmable logic power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">2.3</td><td class="confluenceTd">PG_PL</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, PL_DCIN</td><td class="confluenceTd">Programmable logic power good status.</td><td class="confluenceTd">Module power-on sequencing for programmable logic finished. Periphery and variable bank voltages can be enabled on carrier.</td></tr><tr><td class="confluenceTd">2.4</td><td class="confluenceTd">PG_VCU</td><td class="confluenceTd">-</td><td class="confluenceTd">PU <sup>3)</sup>, PL_DCIN</td><td class="confluenceTd">Video codec unit power good status.</td><td class="confluenceTd">Assembly variant dependent.</td></tr><tr><td class="confluenceTd">2.5</td><td class="confluenceTd">VCCO_25 / VCCO_26 / VCCO_64 / VCCO_65 / VCCO_66</td><td class="confluenceTd"> <sup>4)</sup></td><td class="confluenceTd">-</td><td class="confluenceTd">Module bank voltages.</td><td class="confluenceTd">Enable bank voltages after PG_PL deassertion.</td></tr><tr><td class="confluenceTd">3</td><td colspan="3" class="confluenceTd">GTH / GTY Transceiver</td><td class="confluenceTd">Procedure for GTH / GTY transceiver starting.</td><td class="confluenceTd">PL transceiver usage needs powered PL and low-power PS domain.</td></tr><tr><td class="confluenceTd">3.1</td><td class="confluenceTd">GT_DCDC</td><td class="confluenceTd">3.3 V (± 5 %) <sup>2)</sup></td><td class="confluenceTd">-</td><td class="confluenceTd">GTH transceiver power supply.</td><td class="confluenceTd">Main module power supply for GTH transceiver. 5 A recommended. Power consumption depends mainly on design and cooling solution.</td></tr><tr><td class="confluenceTd">3.2</td><td class="confluenceTd">EN_GT_R</td><td class="confluenceTd">GT_DCDC</td><td class="confluenceTd">-</td><td class="confluenceTd">GTH right transceiver power enable.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">3.3</td><td class="confluenceTd">PG_GT_R</td><td class="confluenceTd">-</td><td class="confluenceTd">-</td><td class="confluenceTd">GTH transceiver power good status.</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">4</td><td class="confluenceTd">MR</td><td class="confluenceTd"><br/></td><td class="confluenceTd"><br/></td><td class="confluenceTd">Manual Reset</td><td class="confluenceTd">Low active release after all needed power domains are enabled. </td></tr></tbody></table></div><p class="auto-cursor-target"><sup>1)</sup> Optional</p><p class="auto-cursor-target"><sup>2)</sup> Dependent on the assembly option a higher input voltage may be possible. </p><p class="auto-cursor-target"><sup>3)</sup> On module</p><p class="auto-cursor-target"><sup>4)</sup> See DS925 for additional information.</p></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Baseboard Design Hints</strong></div></div><h2 id="TE0803TRM-BoardtoBoardConnectors">Board to Board Connectors</h2><p class="auto-cursor-target"></p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="include">5.2 x 7.6 cm UltraSoM+ modules use four Samtec Razor Beam LP Terminal Strip (<a class="external-link" href="https://www.samtec.com/products/st5" rel="nofollow">ST5</a>) on the bottom side.<ul><li>4x REF-192552-02 (160-pins) <br/><ul><li>ST5 Mates with SS5</li></ul></li></ul><p>5.2 x 7.6 cm UltraSoM+ carrier use four Samtec Razor Beam LP Socket Strip (<a class="external-link" href="https://www.samtec.com/products/st5" rel="nofollow">SS5</a>) on the top side.</p><ul><li>4x <span style="color: rgb(63,76,88);">REF192552-01</span> (160-pins) <br/><ul><li>SS5 Mates with ST5</li></ul></li></ul><h5 id="TE0803TRM-Features">Features</h5><ul><li>Board-to-Board Connector 160-pins, 80 contacts per row</li><li>Ultrafine .0197&#34; (0.50 mm) pitch</li><li>Narrow body design saves space on board</li><li>Lead style -03.5</li><li>Samtec 28+ Gbps Solution</li><li>Mates with: ST5</li><li>Insulator Material: Liquid Crystal Polymer, schwarz</li><li>Operating Temperature Range: -55°C bis +125°C</li><li>Lead-Free Solderable: Yes</li><li>RoHS Konform: Yes</li></ul><p><br/></p><h5 id="TE0803TRM-ConnectorStackingheight">Connector Stacking height</h5><p>When using the standard type on baseboard and module, the mating height is 5 mm.</p><p>Other mating heights are possible by using connectors with a different height:</p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_Connectors"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="confluenceTable"><colgroup><col/><col/><col/><col/><col/><col/></colgroup><tbody><tr><th colspan="1" class="confluenceTh">Order number</th><th class="confluenceTh">REF number</th><th colspan="1" class="confluenceTh">Samtec Number</th><th colspan="1" class="confluenceTh">Type</th><th class="confluenceTh">Contribution to stacking height</th><th colspan="1" class="confluenceTh">Comment</th></tr><tr><td style="text-align: left;" colspan="1" class="confluenceTd">27219</td><td style="text-align: left;" class="confluenceTd"><span style="color: rgb(63,76,88);">REF192552-01</span></td><td style="text-align: left;" colspan="1" class="confluenceTd">SS5-80-3.50-L-D-K-TR</td><td style="text-align: left;" colspan="1" class="confluenceTd">Baseboard connector</td><td style="text-align: left;" class="confluenceTd">3.5mm</td><td style="text-align: left;" colspan="1" class="confluenceTd"><p>Standard connector used on carrier</p></td></tr><tr><td style="text-align: left;" colspan="1" class="confluenceTd">27018</td><td style="text-align: left;" class="confluenceTd">REF-189545-02</td><td style="text-align: left;" colspan="1" class="confluenceTd"> SS5-80-3.00-L-D-K-TR</td><td style="text-align: left;" colspan="1" class="confluenceTd">Baseboard connector</td><td style="text-align: left;" class="confluenceTd">3 mm </td><td style="text-align: left;" colspan="1" class="confluenceTd"><p>Assembly option on request</p></td></tr><tr><td style="text-align: left;" colspan="1" class="confluenceTd">27220</td><td style="text-align: left;" colspan="1" class="confluenceTd">REF-192552-02</td><td style="text-align: left;" colspan="1" class="confluenceTd"> ST5-80-1.50-L-D-P-TR</td><td style="text-align: left;" colspan="1" class="confluenceTd">Module connector</td><td style="text-align: left;" colspan="1" class="confluenceTd">1.5 mm</td><td style="text-align: left;" colspan="1" class="confluenceTd"><p>Standard connector used on modules</p></td></tr><tr><td style="text-align: left;" colspan="1" class="confluenceTd">27017</td><td style="text-align: left;" colspan="1" class="confluenceTd">REF-189545-01</td><td style="text-align: left;" colspan="1" class="confluenceTd"> ST5-80-1.00-L-D-P-TR</td><td style="text-align: left;" colspan="1" class="confluenceTd">Module connector</td><td style="text-align: left;" colspan="1" class="confluenceTd">1 mm</td><td style="text-align: left;" colspan="1" class="confluenceTd"><p>Assembly option on request</p></td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:left"><strong>Connectors.</strong></div></div><p><br/></p><p>The module can be manufactured using other connectors upon request.</p><h5 id="TE0803TRM-CurrentRating">Current Rating</h5><p>Current rating of <span lang="zxx"><span style="color: rgb(0,0,0);"><span>Samtec Razor Beam LP Terminal/Socket Strip ST5/SS5 </span></span></span>B2B connectors is 1.5 A per pin (1 pin powered per row).</p><h5 id="TE0803TRM-ConnectorSpeedRatings">Connector Speed Ratings</h5><p>The connector speed rating depends on the stacking height:</p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_Speed_Rating"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="confluenceTable"><colgroup><col/><col/></colgroup><thead><tr><th style="text-align: center;" class="confluenceTh"><p>Stacking height</p></th><th style="text-align: center;" class="confluenceTh"><p>Speed rating</p></th></tr></thead><tbody><tr><td colspan="1" class="confluenceTd">4 mm, Single-Ended</td><td colspan="1" class="confluenceTd">13GHz/26Gbps</td></tr><tr><td colspan="1" class="confluenceTd">4 mm, Differential</td><td colspan="1" class="confluenceTd">13.5GHz/27Gbps</td></tr><tr><td colspan="1" class="confluenceTd">5 mm, Single-Ended</td><td colspan="1" class="confluenceTd">13.5GHz/27Gbps</td></tr><tr><td colspan="1" class="confluenceTd">5 mm, Differential</td><td colspan="1" class="confluenceTd">20GHz/40 Gbps</td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:left"><strong>Speed rating.</strong></div></div><p>The SS5/ST5 series board-to-board spacing is currently available in 4mm (0.157&#34;), 4.5mm (0.177&#34;) and 5mm (0.197&#34;) stack heights.</p><p>The data in the reports is applicable only to the 4mm and 5mm board-to-board mated connector stack height.</p><div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><h5 id="TE0803TRM-ManufacturerDocumentation">Manufacturer Documentation</h5><p></p><div class="plugin_attachments_container conf-macro output-block" data-hasbody="false" data-macro-name="attachments">
+    <div class="plugin_attachments_table_container">
+        <fieldset class="hidden">
+            <input type="hidden" class="plugin_attachments_macro_render_param" name="pageId" value="3925892"/>
+            <input type="hidden" name="deleteConfirmMessage" value="Are you sure you want to send the attached file " to="" the="" only="" a="" space="" administrator="" can="" undo="" this="" action.=""/>
+                                                 <input type="hidden" class="plugin_attachments_macro_render_param" name="sortBy" value="name"/>
+                                                                                             <input type="hidden" class="plugin_attachments_macro_render_param" name="upload" value="false"/>
+                                                                 <input type="hidden" class="plugin_attachments_macro_render_param" name="old" value="false"/>
+                                        <input type="hidden" name="outputType" value="display"/>
+        </fieldset>
+                
+
+
+
+
+
+
+    
+
+
+
+<table class="attachments aui">
+    <thead>
+    <tr>
+        <th class="expand-column attachment-summary-toggle"> </th>
+        <th class="filename-column">            <span class="propersortedby $sortOrder"><a href="/pages/viewpage.action.dir/pageId=3925892">File</a></span>
+        </th>
+        <th class="modified-column">            <a href="/pages/viewpage.action.dir/pageId=3925892">Modified</a>
+        </th>
+    </tr>
+    </thead>
+
+    <tbody>
+                    
+                            
+            <tr id="attachment-4587621" class="attachment-row" data-attachment-id="4587621" data-attachment-idx="1">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/hsc-report-sma_st5-ss5-04mm_web.pdf" title="Download" data-filename="hsc-report-sma_st5-ss5-04mm_web.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        hsc-report-sma_st5-ss5-04mm_web.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>May 30, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~s.kunath
+" class="url fn confluence-userlink" data-username="s.kunath">Susanne Kunath</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4587621 hidden" data-attachment-id="4587621" data-attachment-filename="hsc-report-sma_st5-ss5-04mm_web.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4587621" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="hsc-report-sma_st5-ss5-04mm_web.pdf" data-file-src="/download/attachments/3925892/hsc-report-sma_st5-ss5-04mm_web.pdf?api=v2" data-linked-resource-default-alias="hsc-report-sma_st5-ss5-04mm_web.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4587621">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=hsc-report-sma_st5-ss5-04mm_web.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588832" class="attachment-row" data-attachment-id="4588832" data-attachment-idx="2">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/hsc-report-sma_st5-ss5-05mm_web.pdf" title="Download" data-filename="hsc-report-sma_st5-ss5-05mm_web.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        hsc-report-sma_st5-ss5-05mm_web.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>May 30, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~s.kunath
+" class="url fn confluence-userlink" data-username="s.kunath">Susanne Kunath</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588832 hidden" data-attachment-id="4588832" data-attachment-filename="hsc-report-sma_st5-ss5-05mm_web.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588832" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="hsc-report-sma_st5-ss5-05mm_web.pdf" data-file-src="/download/attachments/3925892/hsc-report-sma_st5-ss5-05mm_web.pdf?api=v2" data-linked-resource-default-alias="hsc-report-sma_st5-ss5-05mm_web.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588832">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=hsc-report-sma_st5-ss5-05mm_web.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588810" class="attachment-row" data-attachment-id="4588810" data-attachment-idx="3">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/REF-192552-01.pdf" title="Download" data-filename="REF-192552-01.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        REF-192552-01.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588810 hidden" data-attachment-id="4588810" data-attachment-filename="REF-192552-01.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588810" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="REF-192552-01.pdf" data-file-src="/download/attachments/3925892/REF-192552-01.pdf?api=v2" data-linked-resource-default-alias="REF-192552-01.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588810">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=REF-192552-01.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-3931608" class="attachment-row" data-attachment-id="3931608" data-attachment-idx="4">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/REF-192552-02.pdf" title="Download" data-filename="REF-192552-02.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        REF-192552-02.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-3931608 hidden" data-attachment-id="3931608" data-attachment-filename="REF-192552-02.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="3931608" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="REF-192552-02.pdf" data-file-src="/download/attachments/3925892/REF-192552-02.pdf?api=v2" data-linked-resource-default-alias="REF-192552-02.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="3931608">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=REF-192552-02.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588724" class="attachment-row" data-attachment-id="4588724" data-attachment-idx="5">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/ss5.pdf" title="Download" data-filename="ss5.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        ss5.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588724 hidden" data-attachment-id="4588724" data-attachment-filename="ss5.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588724" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="ss5.pdf" data-file-src="/download/attachments/3925892/ss5.pdf?api=v2" data-linked-resource-default-alias="ss5.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588724">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=ss5.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588152" class="attachment-row" data-attachment-id="4588152" data-attachment-idx="6">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/ss5-st5.pdf" title="Download" data-filename="ss5-st5.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        ss5-st5.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588152 hidden" data-attachment-id="4588152" data-attachment-filename="ss5-st5.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588152" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="ss5-st5.pdf" data-file-src="/download/attachments/3925892/ss5-st5.pdf?api=v2" data-linked-resource-default-alias="ss5-st5.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588152">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=ss5-st5.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-3930818" class="attachment-row" data-attachment-id="3930818" data-attachment-idx="7">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/ss5-xx-x.xx-x-d-k-tr-mkt.pdf" title="Download" data-filename="ss5-xx-x.xx-x-d-k-tr-mkt.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        ss5-xx-x.xx-x-d-k-tr-mkt.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-3930818 hidden" data-attachment-id="3930818" data-attachment-filename="ss5-xx-x.xx-x-d-k-tr-mkt.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="3930818" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="ss5-xx-x.xx-x-d-k-tr-mkt.pdf" data-file-src="/download/attachments/3925892/ss5-xx-x.xx-x-d-k-tr-mkt.pdf?api=v2" data-linked-resource-default-alias="ss5-xx-x.xx-x-d-k-tr-mkt.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="3930818">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=ss5-xx-x.xx-x-d-k-tr-mkt.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588376" class="attachment-row" data-attachment-id="4588376" data-attachment-idx="8">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/st5.pdf" title="Download" data-filename="st5.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        st5.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588376 hidden" data-attachment-id="4588376" data-attachment-filename="st5.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588376" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="st5.pdf" data-file-src="/download/attachments/3925892/st5.pdf?api=v2" data-linked-resource-default-alias="st5.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588376">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=st5.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+            
+                            
+            <tr id="attachment-4588592" class="attachment-row" data-attachment-id="4588592" data-attachment-idx="9">
+
+                <td class="attachment-summary-toggle">
+                    <span class="icon icon-section-closed" title="Show more info"></span>
+                </td>
+
+                <td class="filename-column">
+                    
+
+
+
+
+<span class="aui-icon content-type-attachment-pdf" title="PDF File">PDF File</span>                    <a class="filename" href="/download/attachments/3925892/st5-xx-x.xx-x-d-p-tr-mkt.pdf" title="Download" data-filename="st5-xx-x.xx-x-d-p-tr-mkt.pdf" data-type="application/pdf" data-linked-resource-container-id="3925892">
+                        st5-xx-x.xx-x-d-p-tr-mkt.pdf
+                    </a>
+                                    </td>
+                <td class="attachment-created modified-column">
+                    <span>Nov 13, 2017</span>
+                    <span>by</span>
+                        <a href="    /display/~j.hartfiel
+" class="url fn confluence-userlink" data-username="j.hartfiel">John Hartfiel</a>                </td>
+            </tr>
+            <tr class="attachment-summary attachment-summary-4588592 hidden" data-attachment-id="4588592" data-attachment-filename="st5-xx-x.xx-x-d-p-tr-mkt.pdf">
+
+                <td class="attachment-summary-toggle"></td>
+                <td class="attachment-details-wrapper" colspan="2">
+
+                                        <div class="attachment-image-preview"></div>
+                    
+                                        <p class="attachment-labels">Labels</p>
+                    
+<div class="labels-section-content content-column" entityid="4588592" entitytype="attachment">
+	
+</div>
+
+                    
+                                            <div class="attachment-buttons">
+                                                            <a class="aui-button previewAttachmentLink" data-filename="st5-xx-x.xx-x-d-p-tr-mkt.pdf" data-file-src="/download/attachments/3925892/st5-xx-x.xx-x-d-p-tr-mkt.pdf?api=v2" data-linked-resource-default-alias="st5-xx-x.xx-x-d-p-tr-mkt.pdf" data-mime-type="application/pdf" data-linked-resource-container-id="3925892" data-linked-resource-id="4588592">Preview</a>
+                            
+                                                                                                                                                                                                    
+                                                                    <a class="aui-button preview-attachment-link" href="/pages/worddav/preview.action.dir/fileName=st5-xx-x.xx-x-d-p-tr-mkt.pdf.dir/pageId=3925892">View</a>
+                                                                                    </div>
+                                    </td>
+            </tr>
+                        </tbody>
+</table>
+
+
+    </div>
+    <div class="plugin_attachments_upload_container">
+            </div>
+
+    <div>
+                    
+            </div>
+</div><p></p></div><p><br/></p></div><p></p><h2 class="auto-cursor-target" id="TE0803TRM-TechnicalSpecifications">Technical Specifications</h2><h3 class="product--title" id="TE0803TRM-AbsoluteMaximumRatings*)">Absolute Maximum Ratings <sup>*)</sup></h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_TS_AMR"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 584.0px;"><colgroup><col style="width: 157.0px;"/><col style="width: 179.0px;"/><col style="width: 108.0px;"/><col style="width: 98.0px;"/><col style="width: 158.0px;"/></colgroup><tbody><tr><th class="confluenceTh">Power Rail Name/ Schematic Name</th><th class="confluenceTh">Description</th><th class="confluenceTh">Min</th><th class="confluenceTh">Max</th><th class="confluenceTh">Unit</th></tr><tr><td class="confluenceTd">LP_DCDC</td><td class="confluenceTd">Micromodule Power</td><td class="confluenceTd">-0.300</td><td class="confluenceTd">4.0</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">DCDCIN</td><td class="confluenceTd">Micromodule Power</td><td class="confluenceTd">-0.300</td><td class="confluenceTd">6.5</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">GT_DCDC</td><td class="confluenceTd">Micromodule Power</td><td class="confluenceTd">-0.300</td><td class="confluenceTd">6.0</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">PL_DCIN</td><td class="confluenceTd">Micromodule Power</td><td class="confluenceTd">-0.300</td><td class="confluenceTd"><p>4.0</p></td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">PS_BATT</td><td class="confluenceTd">RTC / BBRAM</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VCCO_25</td><td class="confluenceTd">HD IO Bank power supply</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">3.400</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VCCO_26</td><td class="confluenceTd">HD IO Bank power supply</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">3.400</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VCCO_64</td><td class="confluenceTd">HP IO Bank power supply</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd"><p>VCCO_65</p></td><td class="confluenceTd">HP IO Bank power supply</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VCCO_66</td><td class="confluenceTd">HP IO Bank power supply</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VREF_64</td><td class="confluenceTd">Bank input reference voltage</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VREF_65</td><td class="confluenceTd">Bank input reference voltage</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr><tr><td class="confluenceTd">VREF_66</td><td class="confluenceTd">Bank input reference voltage</td><td class="confluenceTd">-0.500</td><td class="confluenceTd">2.000</td><td class="confluenceTd">V</td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Absolute maximum ratings</strong></div></div><p class="auto-cursor-target"><sup>*)</sup> Stresses beyond those listed under <a href="/index.html#TE0803TRM-AbsoluteMaximumRatings*)">Absolute Maximum Ratings</a> may cause permanent damage to the device. These are stress ratings only, which do not imply functional operation of the device at these<br/>   or any other conditions beyond those indicated under <a href="/index.html#TE0803TRM-RecommendedOperatingCondition">Recommended Operating Condition</a>. Exposure to absolute-maximum rated conditions for extended periods may affect device reliability.</p><h3 class="auto-cursor-target" id="TE0803TRM-RecommendedOperatingConditions">Recommended Operating Conditions</h3><p>This TRM is generic for all variants. Temperature range can be differ depending on the assembly version.  Voltage range is mostly the same during variants (exceptions are possible, depending on custom request)</p><p>Operating temperature range depends also on customer design and cooling solution. Please contact us for options.</p><ul><li>Variants of modules are described here: <a href="/display/PD/Article+Number+Information">Article Number Information</a></li><li>Modules with commercial temperature grade are equipped with components that cover at least the range of 0°C to 75°C</li><li>Modules with extended temperature grade are equipped with components that cover at least the range of 0°C to 85°C</li><li>Modules with industrial temperature grade are equipped with components that cover at least the range of -40°C to 85°C</li><li>The actual operating temperature range will depend on the FPGA / SoC design / usage and cooling and other variables.</li></ul><p><br/></p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_TS_ROC"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="relative-table wrapped confluenceTable" style="width: 1010.0px;"><colgroup><col style="width: 389.0px;"/><col style="width: 230.0px;"/><col style="width: 229.0px;"/><col style="width: 220.0px;"/><col style="width: 334.0px;"/></colgroup><tbody><tr><th class="confluenceTh"><strong>Parameter</strong></th><th class="confluenceTh">Min</th><th class="confluenceTh">Max</th><th class="confluenceTh">Units</th><th class="confluenceTh">Reference Document</th></tr><tr><td class="confluenceTd">LP_DCDC <sup>1)</sup></td><td class="confluenceTd">3.135</td><td class="confluenceTd">3.465</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">DCDCIN <sup>1)</sup></td><td class="confluenceTd">3.135</td><td class="confluenceTd">3.465</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">GT_DCDC <sup>1)</sup></td><td class="confluenceTd">3.135</td><td class="confluenceTd">3.465</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">PL_DCIN <sup>1)</sup></td><td class="confluenceTd">3.135</td><td class="confluenceTd"><p>3.465</p></td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd"><br/></td></tr><tr><td class="confluenceTd">PS_BATT</td><td class="confluenceTd">1.200</td><td class="confluenceTd">1.500</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VCCO_25</td><td class="confluenceTd">1.140</td><td class="confluenceTd">3.400</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VCCO_26</td><td class="confluenceTd">1.140</td><td class="confluenceTd">3.400</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VCCO_64</td><td class="confluenceTd">0.950</td><td class="confluenceTd">1.900</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd"><p>VCCO_65</p></td><td class="confluenceTd">0.950</td><td class="confluenceTd">1.900</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VCCO_66</td><td class="confluenceTd">0.950</td><td class="confluenceTd">1.900</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VREF_64</td><td class="confluenceTd">0.6</td><td class="confluenceTd">1.2</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VREF_65</td><td class="confluenceTd">0.6</td><td class="confluenceTd">1.2</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr><tr><td class="confluenceTd">VREF_66</td><td class="confluenceTd">0.6</td><td class="confluenceTd">1.2</td><td style="text-align: center;" class="confluenceTd">V</td><td class="confluenceTd">See FPGA datasheet.</td></tr></tbody></table></div><p class="auto-cursor-target"><sup>1)</sup> Higher values may possible. For more information consult schematic and according datasheets.</p></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Recommended operating conditions.</strong></div></div><p><br/></p><h3 id="TE0803TRM-PhysicalDimensions">Physical Dimensions</h3><ul><li><p>Module size: 76 mm × 52 mm.  Please download the assembly diagram for exact numbers.</p></li><li><p>Mating height with standard connectors: 5 mm.</p></li></ul><p>PCB thickness: 1.740 mm (± 10 %).</p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Figure_TS_PD"></span><div class="scroll-title-body"><div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><p></p><div style="display:block;" class="conf-macro output-block" data-hasbody="false" data-macro-name="drawio">
+	<div class="drawio-macro" data-macroid="ff1017d5-c3aa-415c-a63a-8afcf807490d" data-buildnum="9012" id="drawio-macro-content-ff1017d5-c3aa-415c-a63a-8afcf807490d" style="position:relative;display:inline-block;box-sizing:border-box;max-width:100%;overflow:hidden;border:1px solid transparent;"></div>
+	<div id="drawio-macro-data-ff1017d5-c3aa-415c-a63a-8afcf807490d" style="display:none">eyJleHRTcnZJbnRlZ1R5cGUiOiIiLCJnQ2xpZW50SWQiOiIiLCJjcmVhdG9yTmFtZSI6IktpbGlhbiBKYWhuIiwib3V0cHV0VHlwZSI6ImJsb2NrIiwibGFzdE1vZGlmaWVyTmFtZSI6IktpbGlhbiBKYWhuIiwibGFuZ3VhZ2UiOiJlbiIsInVpQ29uZmlnIjoie30iLCJkaWFncmFtRGlzcGxheU5hbWUiOiIiLCJzRmlsZUlkIjoiIiwiYXR0SWQiOiI0NTg3NTU3IiwiZGlhZ3JhbU5hbWUiOiJURTA4MDMtMDRfVFNfUEQiLCJhc3BlY3QiOiIiLCJsaW5rcyI6ImF1dG8iLCJjZW9OYW1lIjoiVEUwODAzIFRSTSIsInRic3R5bGUiOiJoaWRkZW4iLCJjYW5Db21tZW50IjpmYWxzZSwiZGlhZ3JhbVVybCI6IiIsImNzdkZpbGVVcmwiOiIiLCJib3JkZXIiOmZhbHNlLCJtYXhTY2FsZSI6IjEiLCJvd25pbmdQYWdlSWQiOjM5MjU1NTQsImVkaXRhYmxlIjpmYWxzZSwiY2VvSWQiOjM5MjU1NTQsInBhZ2VJZCI6IiIsImxib3giOnRydWUsInNlcnZlckNvbmZpZyI6eyJlbWFpbHByZXZpZXciOiIxIn0sIm9kcml2ZUlkIjoiIiwicmV2aXNpb24iOjEsIm1hY3JvSWQiOiJmZjEwMTdkNS1jM2FhLTQxNWMtYTYzYS04YWZjZjgwNzQ5MGQiLCJwcmV2aWV3TmFtZSI6IlRFMDgwMy0wNF9UU19QRC5wbmciLCJsaWNlbnNlU3RhdHVzIjoiT0siLCJzZXJ2aWNlIjoiIiwiaXNUZW1wbGF0ZSI6IiIsIndpZHRoIjoiNjQxIiwic2ltcGxlVmlld2VyIjpmYWxzZSwibGFzdE1vZGlmaWVkIjoxNzI4OTk5MjYwMDQ4LCJleGNlZWRQYWdlV2lkdGgiOmZhbHNlLCJvQ2xpZW50SWQiOiIifQ==</div>
+</div><p></p></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Physical Dimension</strong></div></div><h2 id="TE0803TRM-CurrentlyOfferedVariants">Currently Offered Variants </h2><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_VCP_SO"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/></colgroup><tbody><tr><th colspan="2" class="confluenceTh">Trenz shop TE0803 overview page</th></tr><tr><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/en/search?sSearch=TE0803" rel="nofollow">English page</a></td><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/de/search?sSearch=TE0803" rel="nofollow">German page</a></td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Trenz Electronic Shop Overview </strong></div></div><h2 id="TE0803TRM-RevisionHistory">Revision History</h2><h3 id="TE0803TRM-HardwareRevisionHistory">Hardware Revision History</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Figure_RV_HRN"></span><div class="scroll-title-body"><div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-ignore"><p></p><div style="display:block;" class="conf-macro output-block" data-hasbody="false" data-macro-name="drawio">
+	<div class="drawio-macro" data-macroid="a4ab2ba5-daad-4150-b647-138b8e688a1b" data-buildnum="9012" id="drawio-macro-content-a4ab2ba5-daad-4150-b647-138b8e688a1b" style="position:relative;display:inline-block;box-sizing:border-box;max-width:100%;overflow:hidden;border:1px solid transparent;"></div>
+	<div id="drawio-macro-data-a4ab2ba5-daad-4150-b647-138b8e688a1b" style="display:none">eyJleHRTcnZJbnRlZ1R5cGUiOiIiLCJnQ2xpZW50SWQiOiIiLCJjcmVhdG9yTmFtZSI6IkpvaG4gSGFydGZpZWwiLCJvdXRwdXRUeXBlIjoiYmxvY2siLCJsYXN0TW9kaWZpZXJOYW1lIjoiSm9obiBIYXJ0ZmllbCIsImxhbmd1YWdlIjoiZW4iLCJ1aUNvbmZpZyI6Int9IiwiZGlhZ3JhbURpc3BsYXlOYW1lIjoiIiwic0ZpbGVJZCI6IiIsImF0dElkIjoiNDU4Nzg2MCIsImRpYWdyYW1OYW1lIjoiVEUwODAzX1JWX0hSTiIsImFzcGVjdCI6IiIsImxpbmtzIjoiYXV0byIsImNlb05hbWUiOiJURTA4MDMgVFJNIiwidGJzdHlsZSI6ImhpZGRlbiIsImNhbkNvbW1lbnQiOmZhbHNlLCJkaWFncmFtVXJsIjoiIiwiY3N2RmlsZVVybCI6IiIsImJvcmRlciI6dHJ1ZSwibWF4U2NhbGUiOiIxIiwib3duaW5nUGFnZUlkIjozOTI1NTU0LCJlZGl0YWJsZSI6ZmFsc2UsImNlb0lkIjozOTI1NTU0LCJwYWdlSWQiOiIiLCJsYm94Ijp0cnVlLCJzZXJ2ZXJDb25maWciOnsiZW1haWxwcmV2aWV3IjoiMSJ9LCJvZHJpdmVJZCI6IiIsInJldmlzaW9uIjoxLCJtYWNyb0lkIjoiYTRhYjJiYTUtZGFhZC00MTUwLWI2NDctMTM4YjhlNjg4YTFiIiwicHJldmlld05hbWUiOiJURTA4MDNfUlZfSFJOLnBuZyIsImxpY2Vuc2VTdGF0dXMiOiJPSyIsInNlcnZpY2UiOiIiLCJpc1RlbXBsYXRlIjoiIiwid2lkdGgiOiIxOTciLCJzaW1wbGVWaWV3ZXIiOmZhbHNlLCJsYXN0TW9kaWZpZWQiOjE3MjcxODczMTM2MjksImV4Y2VlZFBhZ2VXaWR0aCI6ZmFsc2UsIm9DbGllbnRJZCI6IiJ9</div>
+</div><p></p></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Board hardware revision number.</strong></div></div><p><br/></p><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_RH_HRH"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><th class="confluenceTh">Date</th><th class="confluenceTh">Revision</th><th class="confluenceTh">Changes</th><th class="confluenceTh">Documentation Link</th></tr><tr><td class="confluenceTd">2020-12-15</td><td style="text-align: center;" class="confluenceTd">04</td><td class="confluenceTd"><ul><li>Revised PL_VCCINT power supply. EN63A0QI replaced by TPS548A28RWWR. PCB: revised routing and components placement;</li><li>Added support of wide SDRAM DDR4 packages. PCB: revised routing and components placement;</li><li>Added option to select POR_OVERRIDE level (R12 and R93)</li><li>VCCO pins for unused Bank 44 connected together. Same for unused Bank 24 (UG583 recomendation)</li><li>PCB: updated signal trace lengths.</li><li>PCB: updated silkscreen. Added company address, CE and WEEE symbols;</li><li>PCB: added module orientation rectangle pointer</li><li>Changed resistor values of R29, R31, R35, R39, R44-R47 (BOM optimization)</li><li>Removed traceability part (Obsolete component)</li><li>Changed capacitor C92 for all variants from 100 nF to 1 nF.</li><li>U4 can be either TPS548A28RWWR or MPQ8633BGLE-Z which is up to Trenz Electronic GmbH.</li></ul></td><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/5.2x7.6/TE0803/REV04/Documents" rel="nofollow">TE0803-04</a></td></tr><tr><td class="confluenceTd">2019-03-18</td><td style="text-align: center;" class="confluenceTd">03</td><td class="confluenceTd"><ul><li>Added support of DDP DDR4</li><li>Added support of Low power FPGA (-L1/L2).</li><li>Revised testpoints</li><li>Revised J1-J4 connectors net label style</li></ul></td><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/5.2x7.6/TE0803/REV03/Documents" rel="nofollow">TE0803-03</a></td></tr><tr><td class="confluenceTd">2018-07-19</td><td style="text-align: center;" class="confluenceTd">02</td><td class="confluenceTd"><ul><li>Added LDO to DDR_PLL</li><li>All differential pairs length matched with tollerance 0.1mm (excluding package delays)</li><li>Added MAC EEPROM U28</li><li>VPS_MGTRAVCC set to 0.85V</li><li>Added pull-up resistors R68, R69</li></ul></td><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/5.2x7.6/TE0803/REV02/Documents" rel="nofollow">TE0803-02</a></td></tr><tr><td class="confluenceTd">2016-12-23</td><td style="text-align: center;" class="confluenceTd">01</td><td class="confluenceTd">First production release</td><td class="confluenceTd"><a class="external-link" href="https://shop.trenz-electronic.de/Download/?path=Trenz_Electronic/Modules_and_Module_Carriers/5.2x7.6/TE0803/REV01/Documents" rel="nofollow">TE0803-01</a></td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Hardware Revision History</strong></div></div><p><span class="toc-item-body">Hardware revision number can be found on the PCB board together with the module model number separated by the dash.</span></p><h3 id="TE0803TRM-DocumentChangeHistory">Document Change History</h3><div class="scroll-title-macro conf-macro output-block" style="overflow:auto;" data-hasbody="true" data-macro-name="scroll-title"><span class="confluence-anchor-link" id="TE0803TRM-Table_RH_DCH"></span><div class="scroll-title-body"><p></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col/><col/><col/><col/></colgroup><tbody><tr><th class="confluenceTh">Date</th><th class="confluenceTh">Revision</th><th class="confluenceTh">Contributor</th><th class="confluenceTh">Description</th></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p><time data-sort-value="2024-10-15" datetime="2024-10-15" class="date-upcoming conf-macro output-block" data-hasbody="false" data-macro-name="page-info">2024-10-15</time></p></div></td><td class="confluenceTd"><div class="content-wrapper"><p><a href="/pages/viewpage.action.dir/pageId=3925554" class="version-item conf-macro output-block" data-hasbody="false" data-macro-name="page-info">v.57</a></p></div></td><td class="confluenceTd"><div class="content-wrapper"><p><a href="/display/~k.jahn" class="user-item conf-macro output-block" data-hasbody="false" data-macro-name="page-info">            Kilian Jahn        </a></p></div></td><td class="confluenceTd"><ul><li>Review and publishing</li></ul></td></tr><tr><td class="confluenceTd">2024-10-15<div class="content-wrapper"><p><br/></p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>V.56</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>KJ</p></div></td><td class="confluenceTd"><ul><li>Repaired DrawIO objects &#34;Main Components&#34; and &#34;Physical Dimensions&#34;</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2023-10-06</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>v.52</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>ED</p></div></td><td class="confluenceTd"><ul><li>Updated to new TRM style</li><li>Updated for REV04</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2022-05-19</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>v.51</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p>ED</p></div></td><td class="confluenceTd"><ul><li>Added note regarding DCDC U4.</li></ul></td></tr><tr><td class="confluenceTd">2022-02-25<div class="content-wrapper"><p><br/></p></div></td><td class="confluenceTd">v.50<div class="content-wrapper"><div class="content-wrapper"><p><br/></p></div></div></td><td class="confluenceTd">John Hartfiel<div class="content-wrapper"><p><br/></p></div></td><td class="confluenceTd"><ul><li>Add Note to PLL</li></ul></td></tr><tr><td class="confluenceTd">2022-02-08</td><td class="confluenceTd">v.46</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>Correction on Power section</li><li>Correction GTH Clock connection</li></ul></td></tr><tr><td class="confluenceTd">2021-05-17</td><td class="confluenceTd">v.41</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>typo correction in DDR section</li></ul></td></tr><tr><td class="confluenceTd">2021-03-11</td><td class="confluenceTd">v.40</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>typo</li><li>fixed MGT Lanes RX/TX order</li></ul></td></tr><tr><td class="confluenceTd">2019-07-15</td><td class="confluenceTd">v.36</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>correction SPLL section</li></ul></td></tr><tr><td class="confluenceTd">2019-07-02</td><td class="confluenceTd">v.35</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>add eeprom section</li><li>update PCB Revision section</li></ul></td></tr><tr><td class="confluenceTd">2019-06-19</td><td class="confluenceTd">v.33</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>update links</li><li>correction flash section</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2018-08-20</p></div></td><td class="confluenceTd">v.29</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>power section: add missing PS_1V8 output pin</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2018-08-06</p></div></td><td class="confluenceTd">v.28</td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>typo correction</li></ul></td></tr><tr><td class="confluenceTd">2017-11-13</td><td class="confluenceTd">v.23</td><td class="confluenceTd">Ali Naseri</td><td class="confluenceTd"><ul><li>updated B2B connector max. current rating per pin</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2017-11-13</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p class="auto-cursor-target">v.19</p></div></td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>rework B2B section</li></ul></td></tr><tr><td class="confluenceTd">2017-10-19</td><td class="confluenceTd"><div class="content-wrapper"><p class="auto-cursor-target">v.18</p></div></td><td class="confluenceTd">John Hartfiel</td><td class="confluenceTd"><ul><li>Removed ES1 Note</li></ul></td></tr><tr><td class="confluenceTd">2017-08-15</td><td class="confluenceTd">v.17</td><td class="confluenceTd">Vitali Tsiukala</td><td class="confluenceTd"><ul><li>Changed Signals Count in the table B2B-connectors</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2017-08-07</p></div></td><td class="confluenceTd"><div class="content-wrapper"><p class="auto-cursor-target">v.14</p></div></td><td class="confluenceTd">Jan Kumann</td><td class="confluenceTd"><ul><li>New smaller images.</li><li>New QSPI Flash MIO mapping table.</li><li>Temperature information changes.</li><li>Few corrections.</li></ul></td></tr><tr><td class="confluenceTd"><div class="content-wrapper"><p>2017-05-17</p></div></td><td class="confluenceTd"><div class="content-wrapper">V.4<br/><p><br/></p></div></td><td class="confluenceTd">Ali Naseri</td><td class="confluenceTd">Current TRM release.</td></tr><tr><td class="confluenceTd">2017-05-10</td><td class="confluenceTd">v.1</td><td class="confluenceTd">Ali Naseri</td><td class="confluenceTd">Initial document.</td></tr><tr><td class="confluenceTd"><p>--</p></td><td class="confluenceTd"><p>all</p></td><td class="confluenceTd"><p></p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="page-info"><a href="/display/~Vitali.Tsiukala" class="user-item">            Vitali Tsiukala        </a>
+                ,         <a href="/display/~a.naseri" class="user-item">            Ali Naseri        </a>
+                ,         <a href="/display/~antti.lukats" class="user-item">            Antti Lukats        </a>
+                ,         <a href="/display/~e.dyck" class="user-item">            ED        </a>
+                ,         <a href="/display/~gherrera" class="user-item">            GH        </a>
+                ,         <a href="/display/~j.hartfiel" class="user-item">            John Hartfiel        </a>
+                ,         <a href="/display/~j.kumann" class="user-item">            Jan Kumann        </a>
+                ,         <a href="/display/~k.jahn" class="user-item">            Kilian Jahn        </a>
+                ,         <a href="/display/~m.rohrmueller" class="user-item">            Martin Rohrmüller        </a>
+                ,         <a href="/display/~s.kunath" class="user-item">            Susanne Kunath        </a>
+                ,         <a href="/display/~tht" class="user-item">            Thorsten Trenz        </a>
+    </div><p></p></td><td class="confluenceTd"><ul><li>--</li></ul></td></tr></tbody></table></div></div><div class="scroll-title-macro-title" style="clear:both; text-align:center"><strong>Document change history.</strong></div></div><h2 id="TE0803TRM-Disclaimer"><span class="toc-item-body">Disclaimer<br/></span></h2><p></p><div class="conf-macro output-block" data-hasbody="false" data-macro-name="include"><h3 id="TE0803TRM-DataPrivacy">Data Privacy</h3><p>Please also note our data protection declaration at <a class="external-link" href="https://www.trenz-electronic.de/en/Data-protection-Privacy" rel="nofollow">https://www.trenz-electronic.de/en/Data-protection-Privacy</a></p><h3 id="TE0803TRM-DocumentWarranty">Document Warranty</h3><p>The material contained in this document is provided “as is” and is subject to being changed at any time without notice. Trenz Electronic does not warrant the accuracy and completeness of the materials in this document. Further, to the maximum extent permitted by applicable law, Trenz Electronic disclaims all warranties, either express or implied, with regard to this document and any information contained herein, including but not limited to the implied warranties of merchantability, fitness for a particular purpose or non infringement of intellectual property. Trenz Electronic shall not be liable for errors or for incidental or consequential damages in connection with the furnishing, use, or performance of this document or of any information contained herein.</p><h3 class="western" id="TE0803TRM-LimitationofLiability">Limitation of Liability</h3><p>In no event will Trenz Electronic, its suppliers, or other third parties mentioned in this document be liable for any damages whatsoever (including, without limitation, those resulting from lost profits, lost data or business interruption) arising out of the use, inability to use, or the results of use of this document, any documents linked to this document, or the materials or information contained at any or all such documents. If your use of the materials or information from this document results in the need for servicing, repair or correction of equipment or data, you assume all costs thereof.</p><h3 class="western" id="TE0803TRM-ProductDisclaimer">Product Disclaimer</h3><p>Products (incl. Software and Firmware) are exclusively designed, manufactured, and distributed for industrial applications. They are not intended, authorized, or certified for use in critical safety applications, medical devices, aerospace, nuclear, life-support, traffic-control, military, or other environments where malfunction or failure could result in personal injury, death, or significant property or environmental damage.</p><p>Trenz Electronic GmbH (“Manufacturer”) excludes any liability for inappropriate use in such contexts. The Customer bears all responsibility for verifying suitability and compliance with applicable regulations when deploying in any critical-use scenario. The Customer also agrees to indemnify and hold harmless the Manufacturer from any third-party claims or liabilities arising from such use.</p><h3 class="western" id="TE0803TRM-CopyrightNotice">Copyright Notice</h3><p>No part of this manual may be reproduced in any form or by any means (including electronic storage and retrieval or translation into a foreign language) without prior agreement and written consent from Trenz Electronic.</p><h3 class="western" id="TE0803TRM-TechnologyLicenses">Technology Licenses</h3><p>The hardware / firmware / software described in this document are furnished under a license and may be used /modified / copied only in accordance with the terms of such license.</p><h3 class="western" id="TE0803TRM-EnvironmentalProtection">Environmental Protection</h3><p>To confront directly with the responsibility toward the environment, the global community and eventually also oneself. Such a resolution should be integral part not only of everybody&#39;s life. Also enterprises shall be conscious of their social responsibility and contribute to the preservation of our common living space. That is why Trenz Electronic invests in the protection of our Environment.</p><p><span class="scroll-pi conf-macro output-block" type="pagebreak" style="display:none;" data-hasbody="false" data-macro-name="page-break"></span></p><h3 class="western" id="TE0803TRM-REACH,RoHSandWEEE">REACH, RoHS and WEEE</h3><p><strong>REACH</strong></p><p>Trenz Electronic is a manufacturer and a distributor of electronic products. It is therefore a so called downstream user in the sense of <a class="external-link" href="http://guidance.echa.europa.eu/" rel="nofollow">REACH</a>. The products we supply to you are solely non-chemical products (goods). Moreover and under normal and reasonably foreseeable circumstances of application, the goods supplied to you shall not release any substance. For that, Trenz Electronic is obliged to neither register nor to provide safety data sheet. According to present knowledge and to best of our knowledge, no <a class="external-link" href="https://echa.europa.eu/candidate-list-table" rel="nofollow">SVHC (Substances of Very High Concern) on the Candidate List</a> are contained in our products. Furthermore, we will immediately and unsolicited inform our customers in compliance with REACH - Article 33 if any substance present in our goods (above a concentration of 0,1 % weight by weight) will be classified as SVHC by the <a class="external-link" href="http://www.echa.europa.eu/" rel="nofollow">European Chemicals Agency (ECHA)</a>.</p><p class="western"><strong>RoHS</strong></p><p>Trenz Electronic GmbH herewith declares that all its products are developed, manufactured and distributed RoHS compliant.</p><p class="western"><strong>WEEE</strong></p><p>Information for users within the European Union in accordance with Directive 2002/96/EC of the European Parliament and of the Council of 27 January 2003 on waste electrical and electronic equipment (WEEE).</p><p>Users of electrical and electronic equipment in private households are required not to dispose of waste electrical and electronic equipment as unsorted municipal waste and to collect such waste electrical and electronic equipment separately. By the 13 August 2005, Member States shall have ensured that systems are set up allowing final holders and distributors to return waste electrical and electronic equipment at least free of charge. Member States shall ensure the availability and accessibility of the necessary collection facilities. Separate collection is the precondition to ensure specific treatment and recycling of waste electrical and electronic equipment and is necessary to achieve the chosen level of protection of human health and the environment in the European Union. Consumers have to actively contribute to the success of such collection and the return of waste electrical and electronic equipment. Presence of hazardous substances in electrical and electronic equipment results in potential effects on the environment and human health. The symbol consisting of the crossed-out wheeled bin indicates separate collection for waste electrical and electronic equipment.</p><p style="margin-left: 0.0px;">Trenz Electronic is registered under WEEE-Reg.-Nr. DE97922676.</p><p style="margin-left: 0.0px;"><br/></p><p style="margin-left: 0.0px;"><time data-sort-value="2025-08-01" datetime="2025-08-01" class="date-upcoming conf-macro output-block" data-hasbody="false" data-macro-name="page-info">2025-08-01</time></p></div><p></p></div>
+</div>
+<div class="cell aside" data-type="aside">
+<div class="innerCell">
+<div class="conf-macro output-block" data-hasbody="true" data-macro-name="scroll-pdf-ignore"><p><br/></p><div class="conf-macro output-block" data-hasbody="true" data-macro-name="custom_fix_page_content"><div class="fixed">
+<h2 id="TE0803TRM-Tableofcontents">Table of contents</h2><div class="toc-macro client-side-toc-macro conf-macro output-block" data-numberedoutline="true" data-headerelements="H1,H2,H3,H4,H5,H6,H7" data-hasbody="false" data-macro-name="toc"></div><p></p>
+</div>
+
+<style>
+.fixed {
+  position: fixed; height:60%;  overflow-y: auto ;
+}
+</style></div><p></p></div><p><br/></p></div>
+</div>
+</div>
+</div>
+
+                
+        
+    
+        </div>
+
+                        
+    
+
+
+
+<div id="labels-section" class="pageSection group">
+    <div class="labels-section-content content-column" entityid="3925554" entitytype="page">
+	
+</div>
+</div>
+        
+		
+            
+
+
+
+
+            
+        
+
+
+
+
+
+
+
+
+                        
+    
+<div id="comments-section" class="pageSection group">
+        
+    
+
+
+
+</div>
+        
+
+
+                
+    
+            
+</div>
+
+    
+
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+<div id="space-tools-web-items" class="hidden">
+                <div data-label="Overview" data-href="/spaces/viewspacesummary.action?key=PD">Overview</div>
+            <div data-label="Content Tools" data-href="/pages/reorderpages.action?key=PD">Content Tools</div>
+    </div>
+        
+
+
+
+            </main><!-- \#main -->
+            
+    
+    
+        
+            
+            
+
+<div id="footer" role="contentinfo"><html><head><style>
+.footer-center {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head><body><section class="noprint">
+    <br/>
+    <div class="footer-center">
+        <a href="https://www.trenz-electronic.de/de/Datenschutz" class="hover-footer-link">Datenschutz</a> und <a href="https://www.trenz-electronic.de/de/Impressum-Disclaimer" class="hover-footer-link">Impressum &amp; Disclaimer</a>
+    </div>
+    <br/>
+    <div class="footer-center">
+        <a href="https://www.trenz-electronic.de/en/Data-protection-Privacy" class="hover-footer-link">Data protection &amp; privacy</a> and <a href="https://www.trenz-electronic.de/en/Imprint" class="hover-footer-link">Imprint</a>
+    </div>
+</section>
+</body></html></div>
+
+    
+</div>
+
+</div><!-- \#full-height-container -->
+</div><!-- \#page -->
+
+    <span style="display:none;" id="confluence-server-performance">{&#34;serverDuration&#34;: 160, &#34;requestCorrelationId&#34;: &#34;f94db56cde706502&#34;}</span>
+
+
+    
+
+</body></html>

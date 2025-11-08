@@ -1,0 +1,1423 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head prefix="og: http://ogp.me/ns#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>
+		Type 2AB | UWB Modules | Murata Manufacturing Co., Ltd.
+	</title>
+
+	
+	<meta name="description" content="It is a page about Type 2AB | UWB Modules | Murata Manufacturing Co., Ltd." />
+	<meta name="keywords" content="" />
+    <meta name="format-detection" content="telephone=no">
+
+	<meta name="scid" content="{6846FF2E-0CD8-40B2-80C8-BFB9A1B1F5EC}" />
+	
+	<meta property="og:type" content="article">
+	<meta property="og:site_name" content="Murata Manufacturing Co., Ltd.">
+	<meta property="og:url" content="/en-us/products/connectivitymodule/ultra-wide-band/qorvo">
+	<meta property="og:title" content="Type 2AB | UWB Modules | Murata Manufacturing Co., Ltd.">
+	<meta property="og:image" content="https://www.murata.com/-/media/siterenewal/business/commons/image/ogp.png">
+	<meta property="og:description" content="It is a page about Type 2AB | UWB Modules | Murata Manufacturing Co., Ltd.">
+	<meta property="og:locale" content="en-us">
+	
+			<meta name="twitter:site" content="@murata_na">
+			<meta name="twitter:card" content="summary_large_image">
+	
+	<link rel="canonical" href="https://www.murata.com/en-us/products/connectivitymodule/ultra-wide-band/qorvo" />
+	
+		<link rel="alternate" hreflang="en-US" href="https://www.murata.com/en-us/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="zh-CN" href="https://www.murata.com/zh-cn/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-CN" href="https://www.murata.com/en-global/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-GB" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="ja-JP" href="https://www.murata.com/ja-jp/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-JP" href="https://www.murata.com/en-global/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-SG" href="https://www.murata.com/en-sg/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="ko-KR" href="https://www.murata.com/ko-kr/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-IN" href="https://www.murata.com/en-sg/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="zh-TW" href="https://www.murata.com/zh-cn/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-TW" href="https://www.murata.com/en-global/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="de-DE" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-DE" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="it-IT" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-IT" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-CA" href="https://www.murata.com/en-us/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-RU" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="fr-FR" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-FR" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="zh-HK" href="https://www.murata.com/zh-cn/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-HK" href="https://www.murata.com/en-global/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-MY" href="https://www.murata.com/en-sg/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-PH" href="https://www.murata.com/en-sg/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="en-NL" href="https://www.murata.com/en-eu/products/connectivitymodule/ultra-wide-band/qorvo" />
+		
+		<link rel="alternate" hreflang="x-default" href="https://www.murata.com/products/connectivitymodule/ultra-wide-band/qorvo" />
+		<link rel="preload" as="font" href="/fonts/FSEmericWebMedium/fs_emeric_web-medium.woff" crossorigin="">
+<link rel="preload" as="font" href="/fonts/FSEmericWebBold/fs_emeric_web-bold.woff" crossorigin="">
+<link rel="stylesheet" href="/styles/SiteRenewal/Business/header.css">
+<link rel="stylesheet" href="/styles/SiteRenewal/Business/common.css">
+<noscript><link rel="stylesheet" href="/styles/SiteRenewal/Business/noscript.css"></noscript>
+    <link href="/-/media/SiteRenewal/business/commons/css/pim.css" rel="stylesheet">
+	<!-- OneTrust Cookies Consent Notice start -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/b866f587-e7d0-4f41-bb98-ffe290290472/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="b866f587-e7d0-4f41-bb98-ffe290290472"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end -->
+<script>
+  (function(h,o,u,n,d) {
+    h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+    d=o.createElement(u);d.async=1;d.src=n
+    n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+  })(window,document,'script','https://www.datadoghq-browser-agent.com/ap1/v6/datadog-rum.js','DD_RUM')
+  window.DD_RUM.onReady(function() {
+    window.DD_RUM.init({
+      clientToken: 'pub1afb4b6c08240a16c6fe0c03b840d61c',
+      applicationId: 'bbe75b85-8fb6-4e51-9a70-aa8fc169fcbf',
+      // `site` refers to the Datadog site parameter of your organization
+      // see https://docs.datadoghq.com/getting_started/site/
+      site: 'ap1.datadoghq.com',
+      service: 'www-production-web',
+      env: 'production',
+      // Specify a version number to identify the deployed version of your application in Datadog
+      // version: '1.0.0',
+      sessionSampleRate: 5,
+      sessionReplaySampleRate: 1,
+      defaultPrivacyLevel: 'mask-user-input',
+    });
+  })
+</script>
+<script>
+    var mDataLayer = {};
+    var dataLayer = dataLayer || [];
+    dataLayer.push(mDataLayer);
+</script>
+<script type="text/javascript" src="//assets.adobedtm.com/193a95d152ddc4b48eec9ef739f5e8baea85bc42/satelliteLib-cd45bb235be3c8a9435191c7064254804b40eb59.js" charset="utf-8"></script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PRTZ8QW');</script>
+<!-- End Google Tag Manager -->
+<script data-ot-ignore src="/scripts/SiteRenewal/Business/header.js" defer></script>
+<script data-ot-ignore src="/scripts/SiteRenewal/Business/common.js" defer></script>
+<script data-ot-ignore src="/scripts/SiteRenewal/Business/jquery-1.10.2.min.js"></script>
+    
+
+	
+
+	
+	<script type="application/ld+json">{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@id": "https://www.murata.com/en-us/",
+        "name": "HOME"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@id": "https://www.murata.com/en-us/products",
+        "name": "Products"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@id": "https://www.murata.com/en-us/products/connectivitymodule",
+        "name": "Connectivity Modules"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@id": "https://www.murata.com/en-us/products/connectivitymodule/ultra-wide-band",
+        "name": "UWB Modules"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@id": "https://www.murata.com/en-US/products/connectivitymodule/ultra-wide-band/qorvo",
+        "name": "Type 2AB"
+      }
+    }
+  ]
+}</script>
+</head>
+<body>
+	<form method="post" action="/en-us/products/connectivitymodule/ultra-wide-band/qorvo" id="PageBrowserLayout">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="MHWgRakfFU+hnCyPLcEWDu2zOP6+5vJvwTY14y9AF1icAoziarWTdyPH64Vq6gnt1P7scjwEXZZp1LdTrqzc1uNxGfPIgnu8+OsEJtMBfGR1nhMP95ivyaqYvvJe6iaf" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['PageBrowserLayout'];
+if (!theForm) {
+    theForm = document.PageBrowserLayout;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="56D1377F" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="mtIAnUlwPtyAQ/0OXEj86ZRwfZ/9ULXHEOdCRIGQqiicwWt/awikHF/C05VIgwqUTMa5H44+RjZLCkcUYnfRmtX8iXVDdyiUIt310iMn0skbPaZaBMnN035iMv/r6pCc" />
+</div>
+		<header class="js-sticky-header js-flyout-header">
+			<div class="l-header js-sticky-header_header js-flyout-header_header" data-locale="en-us">
+    <div class="l-header_inner">
+        <div class="l-header_menu">
+            <div class="m-header-drawer">
+                <button type="button" class="m-header-drawer_button icon-menu js-drawer-menu" aria-controls="drawer-menu"><span>MENU</span></button>
+            </div><!-- m-header-drawer -->
+        </div>
+        <div class="l-header_logo">
+            <a href="/en-us/"><img src="/-/media/siterenewal/business/commons/icons/logo.ashx?la=en-us&cvid=20220419093335000000" class="m-header-logo" alt="Murata Manufacturing Co., Ltd."></a>
+        </div>
+        <div class="l-header_utility">
+            <ul class="m-header-link-list">
+                <li><a href="https://my.murata.com/en/home" target="_blank">my Murata<svg class="m-header-link-list_icon" role="img">
+                            <title>Open in New Window</title>
+                            <use xlink:href="#icon-window"></use>
+                        </svg></a></li>
+                <li><a href="/en-us/support/contactinformation">Contact Information</a></li>
+                <li><a href="/en-us/contactform">Contact Form</a></li>
+            </ul><!-- m-header-link-list -->
+            <div class="m-header-dropdown">
+                <button type="button" class="m-header-dropdown_button js-drawer-locale" aria-controls="drawer-locale"><svg class="m-header-dropdown_icon" aria-hidden="true">
+                        <use xlink:href="#icon-globe"></use>
+                    </svg><span>Americas - English</span></button>
+                <div id="drawer-locale" class="m-header-dropdown_content">
+                    <ul class="m-header-dropdown_list">
+                        <li><a aria-current="location">Americas - English</a></li>
+                        <li><a href="/en-eu" hreflang="en" class="js-localize-href">EMEA - English</a></li>
+                        <li><a href="/en-sg" hreflang="en-SG" class="js-localize-href">Southeast and South Asia - English</a></li>
+                        <li><a href="/en-global" hreflang="en" class="js-localize-href">Global - English</a></li>
+                        <li><a href="/zh-cn" lang="zh" hreflang="zh-cn" class="js-localize-href">中文</a></li>
+                        <li><a href="/ko-kr" hreflang="ko-kr" class="js-localize-href">Korea - English</a></li>
+                        <li><a href="/ja-jp" lang="ja" hreflang="ja-jp" class="js-localize-href">日本語</a></li>
+                    </ul>
+                </div>
+            </div><!-- m-header-dropdown -->
+            <div class="m-header-drawer search js-header-search">
+                <svg aria-hidden="true" style="position:absolute;width:0;height:0;display:none;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <symbol viewbox="0 0 14.8 17.8" id="icon-header-search" xmlns="http://www.w3.org/2000/svg">
+                            <path class="lcls-1" d="M13 6.5A6.5 6.5 0 106.5 13 6.5 6.5 0 0013 6.5zm-6.5 5a5 5 0 01-5-5 5 5 0 015-5 5 5 0 015 5 5 5 0 01-5 5zm3.53 2.266l1.58-1.226 3.132 4.037-1.58 1.226z"></path>
+                        </symbol>
+                    </defs>
+                </svg>
+                <button type="button" class="m-header-drawer_button js-drawer-search" aria-controls="drawer-search">
+                    <svg class="m-header-drawer_icon" role="img">
+                        <title>Search</title>
+                        <use xlink:href="#icon-header-search"></use>
+                    </svg></button>
+                <div id="drawer-search" class="m-header-drawer_content">
+                    <div class="m-header-search">
+                        <div class="m-header-search_title">
+                            <label id="header-search-label" for="header-search" class="m-header-search_label">Keyword Research</label>
+                            <p class="m-header-search_text">Enter a product part number, or a portion of a part number.</p>
+                        </div>
+                        <div class="m-header-search_form js-header-form-link" data-href="/en-us/search/sitesearch/">
+                            <div class="m-header-combobox js-header-autocomplete">
+                                <div class="m-header-combobox_combobox js-autocomplete_combobox">
+                                    <input name="mss_query" id="header-search" type="text" class="m-header-combobox_input m-header-search_input js-autocomplete_input js-form-link_input" aria-controls="header-search-listbox" title="Keyword Research" placeholder="Search by products or keywords">
+                                    <button type="button" class="m-header-search_button prefix js-form-link_submit"><svg class="m-header-search_icon" role="img">
+                                            <title>Search</title>
+                                            <use xlink:href="#icon-header-search"></use>
+                                        </svg></button>
+                                </div>
+                                <ul id="header-search-listbox" class="m-header-combobox_listbox js-autocomplete_listbox" aria-labelledby="header-search-label"></ul>
+                            </div>
+                            <button type="button" class="m-header-search_button icon js-form-link_submit"><svg class="m-header-search_icon" role="img">
+                                    <title>Search</title>
+                                    <use xlink:href="#icon-header-search"></use>
+                                </svg></button>
+                            <button type="button" class="m-header-search_button js-form-link_submit">Search</button>
+                        </div>
+                    </div><!-- m-header-search -->
+                </div>
+            </div><!-- js-header-search -->
+        </div>
+        <div class="l-header_nav">
+            <div class="m-header-drawer">
+                <div id="drawer-menu" class="m-header-drawer_content">
+                    <nav class="m-nav-global" aria-label="header">
+                        <ul class="m-nav-global_list js-global-nav js-current-nav">
+                            <li><button type="button"><span>Products</span></button></li>
+                            <li><button type="button"><span>Applications</span></button></li>
+                            <li><button type="button"><span>Solutions</span></button></li>
+                            <li><button type="button"><span>About us</span></button></li>
+                            <li><a href="https://article.murata.com/en-us" target="_blank"><span>Articles<svg class="m-nav-global_icon" role="img">
+                                            <title>Open in New Window</title>
+                                            <use xlink:href="#icon-window"></use>
+                                        </svg></span></a></li>
+                            <li><button type="button"><span>News</span></button></li>
+                            <li><button type="button"><span>Events</span></button></li>
+                            <li><button type="button" class="text-ommit"><span>Websites<svg class="text-ommit_icon" aria-hidden="true">
+                                            <use xlink:href="#icon-site"></use>
+                                        </svg></span></button></li>
+                        </ul>
+                        <ul class="m-nav-global_list extra">
+                            <li><a href="https://my.murata.com/en/home" target="_blank">my Murata<svg class="m-nav-global_icon" role="img">
+                                        <title>Open in New Window</title>
+                                        <use xlink:href="#icon-window"></use>
+                                    </svg></a></li>
+                            <li><a href="/en-us/support/contactinformation"><span>Contact Information</span></a></li>
+                            <li><a href="/en-us/contactform">Contact Form</a></li>
+                        </ul>
+                    </nav>
+                    <div class="m-nav-search">
+                        <div class="m-nav-search_title">
+                            <label for="nav-language" class="m-nav-search_label">Select your region/language.</label>
+                        </div>
+                        <div class="m-nav-search_form js-form-link">
+                            <div class="m-nav-search_select-wrap">
+                                <select id="nav-language" name="nav-language" class="m-nav-search_select js-form-link_select" data-localize="true">
+                                    <option value="" data-href="/en-us" selected>Americas - English</option>
+                                    <option value="" lang="en" data-href="/en-eu">EMEA - English</option>
+                                    <option value="" lang="en" data-href="/en-sg">Southeast and South Asia - English</option>
+                                    <option value="" lang="en" data-href="/en-global">Global - English</option>
+                                    <option value="" lang="zh" data-href="/zh-cn">中文</option>
+                                    <option value="" lang="en" data-href="/ko-kr">Korea - English</option>
+                                    <option value="" lang="ja" data-href="/ja-jp">日本語</option>
+                                </select>
+                            </div>
+                            <button type="button" class="m-nav-search_button js-form-link_submit">Select</button>
+                        </div>
+                    </div><!-- m-nav-search -->
+                </div>
+            </div><!-- m-header-drawer -->
+        </div>
+    </div>
+</div><!-- l-header -->
+<div class="m-dialog language js-dialog-language">
+    <div class="m-dialog_inner">
+        <div class="m-dialog_box js-dialog_box" aria-labelledby="dialog-language-label">
+            <div class="m-dialog_close"><button type="button" class="m-dialog_close-button js-dialog_close-button">Close</button></div>
+            <h2 class="m-dialog_title" id="dialog-language-label">
+                <svg class="m-dialog_title-icon" aria-hidden="true">
+                    <use xlink:href="#icon-globe"></use>
+                </svg>
+                <span>Select your region & language</span></h2>
+            <div class="m-dialog_content">
+                <ul class="m-language-list">
+                    <li><a href="/en-us" class="js-localize-href">Americas - English</a>
+                        <ul>
+                            <li>North America</li>
+                            <li>South America</li>
+                        </ul>
+                    </li>
+                    <li><a href="/en-eu" hreflang="en" class="js-localize-href">EMEA - English</a>
+                        <ul>
+                            <li>Europe</li>
+                            <li>Middle-East Asia</li>
+                            <li>Africa</li>
+                        </ul>
+                    </li>
+                    <li><a href="/en-sg" hreflang="en-SG" class="js-localize-href">Southeast and South Asia - English</a>
+                        <ul>
+                            <li>South-east Asia</li>
+                            <li>South Asia</li>
+                            <li>Oceania</li>
+                        </ul>
+                    </li>
+                    <li><a href="/en-global" hreflang="en" class="js-localize-href">Global - English</a>
+                        <ul>
+                            <li>Other area</li>
+                        </ul>
+                    </li>
+                    <li lang="zh"><a href="/zh-cn" hreflang="zh-cn" class="js-localize-href">中文</a></li>
+                    <li><a href="/ko-kr" hreflang="ko-kr" class="js-localize-href">Korea - English</a></li>
+                    <li lang="ja"><a href="/ja-jp" hreflang="ja-jp" class="js-localize-href">日本語</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+	<div class="l-nav-local js-sticky-header_nav">
+		<div class="l-nav-local_inner">
+			<div class="l-nav-local_title">
+				<div class="m-nav-local-title">
+					
+							<a href="/en-us/products" id="nav-local-title" class="m-nav-local-title_text js-drawer-nav-local" aria-controls="drawer-nav-local">
+								Products
+							</a>
+						
+				</div>
+			</div>
+			<div id="drawer-nav-local" class="l-nav-local_content" style="">
+				<nav class="m-nav-local" aria-labelledby="nav-local-title">
+					<ul class="m-nav-local_list js-drop-nav-local">
+						
+							<li class="top-item">
+								
+									<a href="/en-us/products">Products</a>
+								
+							</li>
+						
+						    <li>
+							    <a href="" class="icon-toggle js-collapse-nav-header" aria-controls="drop-nav-lineup">
+								    Lineup
+							    </a>
+							    <div id="drop-nav-lineup" class="m-nav-local_panel">
+								    <ul class="m-nav-local_list">
+									    
+										    <li>
+											    
+												    <a href="/en-us/products/capacitor" tabIndex="0">
+													    Capacitor
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/inductor" tabIndex="0">
+													    Inductors
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/emc" tabIndex="0">
+													    Noise Suppression Products / EMI Suppression Filters / TVS Diodes (ESD Protection Devices)
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/resistor" tabIndex="0">
+													    Resistors
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/thermistor" tabIndex="0">
+													    Thermistors (Temperature Sensors, Current Control)
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/sensor" tabIndex="0">
+													    Sensors
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/timingdevice" tabIndex="0">
+													    Timing Devices (Crystal Unit / Ceramic Resonator)
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/optical" tabIndex="0">
+													    Optical Device
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/sound" tabIndex="0">
+													    Sound Components (Buzzer)
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/power" tabIndex="0">
+													    Power Products
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/transformers" tabIndex="0">
+													    Transformers (Murata Power Solutions Products)
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/batteries" tabIndex="0">
+													    Batteries
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/mechatronics" tabIndex="0">
+													    Micro Mechatronics
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/rfid" tabIndex="0">
+													    RFID Products
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/pcb" tabIndex="0">
+													    Printed Circuit Products
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/balun" tabIndex="0">
+													    Balun
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/coupler" tabIndex="0">
+													    Coupler
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/filter" tabIndex="0">
+													    Filters
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/phaseshifter" tabIndex="0">
+													    Phase Shifter
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/rfswitch" tabIndex="0">
+													    RF Switch
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/frontendmodule" tabIndex="0">
+													    Front End Module
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/acoustic-wave" tabIndex="0">
+													    Acoustic wave device
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/connector" tabIndex="0">
+													    Connectors
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/antenna" tabIndex="0">
+													    Antennas and related products
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/connectivitymodule" tabIndex="0">
+													    Connectivity Modules
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/wireless-connectivity-platforms" tabIndex="0">
+													    Wireless Connectivity Platforms
+												    </a>
+											    
+										    </li>
+									     
+										    <li>
+											    
+												    <a href="/en-us/products/ionissimo" tabIndex="0">
+													    Ionizers / Active Oxygen Module (Ozonizers)
+												    </a>
+											    
+										    </li>
+									     
+								    </ul>
+								    <button type="button" class="m-nav-local_button js-drop-nav_close-button">
+									    <span>Close</span>
+								    </button>
+							    </div>
+						    </li>
+                        
+								<li>
+									<a target="_blank" href="https://pim.murata.com/en-global/pim/search/">Product Search
+									</a>
+								</li>
+						
+								<li>
+									<a href="/en-us/tool">Design Tools
+									</a>
+								</li>
+						
+								<li>
+									<a target="_blank" href="https://ds.murata.com/simsurfing/index.html?lcid=en-us">SimSurfing
+									</a>
+								</li>
+						
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+		</header>
+
+		<main class="l-main">
+			
+	<div class="l-breadcrumb content-top">
+		<div class="l-breadcrumb_inner">
+			<ol class="m-breadcrumb-list">
+				
+						<li>
+							<a href="/en-us/">
+								
+									<svg class="m-breadcrumb-list_icon" aria-hidden="true">
+										<use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-home"></use>
+									</svg>
+								HOME
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products">
+								Products
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products/connectivitymodule">
+								Connectivity Modules
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products/connectivitymodule/ultra-wide-band">
+								UWB Modules
+							</a>
+						</li>
+				
+				<li>
+					<a aria-current="page">Type 2AB</a>
+				</li>
+			</ol>
+		</div>
+	</div>
+<aside class="js-sticky-menu m-sticky-menu is-show-initial">
+    <div class="js-sticky-menu_inner m-sticky-menu_inner">
+        <div class="js-sticky-menu_head m-sticky-menu_head">
+            <button type="button" class="m-sticky-menu_button js-collapse-sticky-menu" aria-controls="collapse-sticky-menu" aria-expanded="false" aria-labelledby="sticky-menu-title"><span aria-hidden="true"></span></button>
+        </div><!-- m-sticky-menu_headr -->
+        <div id="collapse-sticky-menu" class="m-sticky-menu_content">
+            <div class="m-sticky-menu_title" id="sticky-menu-title">Contents</div>
+            <ul class="js-sticky-menu_list m-link-list-anchor menu">
+                <li><a href="#features" class="js-scroll">Features</a></li>
+                <li><a href="#product-information" class="js-scroll">Product Information</a></li>
+                <li><a href="#block-diagram" class="js-scroll">Block Diagram</a></li>
+                <li><a href="#datasheet-and-documentations" class="js-scroll">Datasheet and Documentations</a></li>
+                <li><a href="#evaluation-kit" class="js-scroll">Evaluation Kit</a></li>
+                <li><a href="#document-site" class="js-scroll">Type2AB Document Site</a></li>
+                <li><a href="#inquiries" class="js-scroll">Inquiries</a></li>
+            </ul>
+        </div><!-- m-sticky-menu_content -->
+    </div><!-- m-sticky-menu_inner -->
+</aside><!-- m-sticky-menu -->
+
+<div class="l-pagetitle">
+    <div class="l-pagetitle_inner">
+        <div class="m-heading-layout">
+            <h1 class="m-heading-layout_heading"><span class="m-heading-level1_subtext">UWB Modules</span>Type 2AB</h1>
+            <div class="m-heading-layout_content">
+                <div class="m-text">
+                    <p class="m-text_text">Murata Type2AB module is designed as Ultra-small, high quality and lower power consumption UWB module.<br>Ideally suited for small, battery operated IoT devices and applications.</p>
+                </div>
+            </div>
+            <div class="m-heading-layout_image">
+                <img src="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/img-qorvo.ashx?la=en-us&cvid=20230531080252000000" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <ul class="m-link-list-anchor">
+            <li><a href="#features" class="js-scroll">Features</a></li>
+            <li><a href="#product-information" class="js-scroll">Product Information</a></li>
+            <li><a href="#block-diagram" class="js-scroll">Block Diagram</a></li>
+            <li><a href="#datasheet-and-documentations" class="js-scroll">Datasheet and Documentations</a></li>
+            <li><a href="#evaluation-kit" class="js-scroll">Evaluation Kit</a></li>
+            <li><a href="#document-site" class="js-scroll">Type2AB Document Site</a></li>
+            <li><a href="#inquiries" class="js-scroll">Inquiries</a></li>
+        </ul>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="features">Features</h2>
+        <h3 class="m-heading-level3">Main Features</h3>
+        <ul class="m-list-bullet">
+            <li>Support Channels : Band 5 &amp; 9</li>
+            <li>UWB Chip set : Qorvo QM33120W</li>
+            <li>FCC/IC/TELEC Reference Certified</li>
+            <li>Hostless module Integrated Nordic IC / nRF52840<br>
+            which also have Blutooth Low Energy function for waking up UWB and updating FW.</li>
+            <li>Integrated 3-Axis sensor for saving battery</li>
+            <li>Reference clock for UWB and MCU are embedded</li>
+        </ul>
+        <h3 class="m-heading-level3">Contribute to customer product</h3>
+        <ul class="m-list-bullet">
+            <li>Smallest/highly integrated UWB module available in the market</li>
+            <li>75% less square area than CoB solution </li>
+            <li>Frequency, Tx power and Antenna delay are calibrated for each device</li>
+            <li>Support Multi Antenna design and evaluation</li>
+        </ul>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="product-information">Product Information</h2>
+        <div class="m-table small fz-small">
+            <table class="m-table_table">
+                <colgroup>
+                    <col class="w-30">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Explanation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Part Number</th>
+                        <td class="ta-left">LBUA5QJ2AB-828</td>
+                    </tr>
+                    <tr>
+                        <th>Grade</th>
+                        <td class="ta-left">Consumer</td>
+                    </tr>
+                    <tr>
+                        <th>Frequency</th>
+                        <td class="ta-left">UWB Ch 5 &amp; 9 &plus; Bluetooth LE 2.4GHz</td>
+                    </tr>
+                    <tr>
+                        <th>Frequency MHz (min/max) UWB</th>
+                        <td class="ta-left">6250/8250</td>
+                    </tr>
+                    <tr>
+                        <th>Chipset</th>
+                        <td class="ta-left">
+                            <ul class="m-list-bullet">
+                                <li>Qorvo QM33120W</li>
+                                <li>Nordic nRF52840</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>CPU Core</th>
+                        <td class="ta-left">ARM Cortex-M4</td>
+                    </tr>
+                    <tr>
+                        <th>Flash / RAM</th>
+                        <td class="ta-left">1MB / 256KB</td>
+                    </tr>
+                    <tr>
+                        <th>Antenna</th>
+                        <td class="ta-left">External</td>
+                    </tr>
+                    <tr>
+                        <th>RF Conn / Antenna</th>
+                        <td class="ta-left">Not Included</td>
+                    </tr>
+                    <tr>
+                        <th>Sleep Clock</th>
+                        <td class="ta-left">Internal X'tal (32.768kHz)</td>
+                    </tr>
+                    <tr>
+                        <th>System Clock</th>
+                        <td class="ta-left">Internal X'tal (32MHz and 38.4MHz)</td>
+                    </tr>
+                    <tr>
+                        <th>Operating Temperature Range</th>
+                        <td class="ta-left">&minus;40 to 85</td>
+                    </tr>
+                    <tr>
+                        <th>Mounting Type</th>
+                        <td class="ta-left">SMT</td>
+                    </tr>
+                    <tr>
+                        <th>Package</th>
+                        <td class="ta-left">LGA</td>
+                    </tr>
+                    <tr>
+                        <th>Dimension</th>
+                        <td class="ta-left">10.5 &times; 8.3 &times; 1.44 (max) mm</td>
+                    </tr>
+                    <tr>
+                        <th>Supply Voltage (Vdc)</th>
+                        <td class="ta-left">
+                            <ul class="m-list-bullet">
+                                <li>3.0V for VDD1, VDD2 and VDDMCU</li>
+                                <li>5.0V for VUSB1.8V</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Supply Voltage min</th>
+                        <td class="ta-left">
+                            <ul class="m-list-bullet">
+                                <li>2.5V for VDD1, VDD2 and VDDMCU</li>
+                                <li>4.35V for VUSB</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Supply Voltage max</th>
+                        <td class="ta-left">
+                            <ul class="m-list-bullet">
+                                <li>3.6V for VDD1, VDD2 and VDDMCU</li>
+                                <li>5.5V for VUSB</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Bluetooth</th>
+                        <td class="ta-left">5.2</td>
+                    </tr>
+                    <tr>
+                        <th>Power Class</th>
+                        <td class="ta-left">Class 1</td>
+                    </tr>
+                    <tr>
+                        <th>Host Interface</th>
+                        <td class="ta-left">USB, UART, SPI, I2C</td>
+                    </tr>
+                    <tr>
+                        <th>FCC/IC/MIC (Japan) Certified</th>
+                        <td class="ta-left">Yes</td>
+                    </tr>
+                    <tr>
+                        <th>ETSI report</th>
+                        <td class="ta-left">Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="block-diagram">Block Diagram</h2>
+        <div class="m-image">
+            <img src="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/img-qorvo-blockdiagram.ashx?la=en-us&cvid=20221221010000000000" alt="Block Diagram">
+        </div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="datasheet-and-documentations">Datasheet and Documentations</h2>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    
+    function aaTrackDownload(downloadButton) {
+        if (downloadButton && downloadButton.parentElement) {
+            var inputElement = downloadButton.parentElement.querySelector('span.download-list-input');
+
+            if (inputElement) {
+                var inputJson = JSON.parse(inputElement.dataset.input);
+                let downloadFileType = inputJson.DownloadFileType;
+
+                // 選択チェックボックスが選択状態のメディアのファイル名(拡張子なし)を取得する
+                var container = document.getElementById(inputJson.DownloadFileContainerID);
+                var checkboxesSelected = container.querySelectorAll('input[type="checkbox"]:checked');
+                var checkboxesSelectedArray = Array.prototype.slice.call(checkboxesSelected, 0); 
+
+                const selectedFilesArray = [];
+                for (let i=0; i<checkboxesSelectedArray.length; i++)
+                {
+                    if (checkboxesSelectedArray[i].dataset.filename && (selectedFilesArray.indexOf(checkboxesSelectedArray[i].dataset.filename) < 0)) {
+                        selectedFilesArray.push(checkboxesSelectedArray[i].dataset.filename);
+                    };
+                }
+                
+                // １つ以上のメディアが選択されていれば、Adobe Analytics計測用関数を呼び出す
+                if (selectedFilesArray.length >= 1) {
+                    s.mrt_downloadLinkTrack({fileType:downloadFileType,fileName:selectedFilesArray.join(),aObj:this});
+                }
+            }
+        }
+        return true;
+    }
+    
+</script>
+
+
+	<div class="l-block">
+		<div class="l-block_inner">
+
+			<div class="m-text">
+				<p class="m-text_text">If you would like a product catalog or technical data, please check the check box and download it from the download button below.</p>
+			</div>
+
+			<ul class="m-link-list-anchor">
+				<li><a href="#businessmain_3_DownloadButton" class="js-scroll">Go to download button</a></li>
+			</ul>
+
+			<div class="m-text right">
+				<p class="m-text_text"> </p>
+			</div>
+
+			<div class="js-switch-disabled" data-switch-condition="some">
+
+				<div class="m-table-scroll js-scroll-pictograph scroll-pictograph-wrap">
+					<div class="m-table-scroll_pictograph">
+						<svg class="m-icon-swipe js-scroll-pictograph_swipe" role="img"><title>Swipe left or right to change screens.</title><use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-swipe"></use></svg>
+						<svg class="m-icon-rotate js-scroll-pictograph_rotate" role="img"><title>View in landscape mode.</title><use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-rotate"></use></svg>
+					</div>
+					<div class="m-table-scroll_content">
+						<div class="m-table js-checkbox-group">
+							<table class="m-table_table">
+								<colgroup>
+									<col>
+									<col>
+									<col>
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th>Type</th>
+<th>Document name</th>
+<th>File type</th>
+										<th>
+											<div id="businessmain_3_SelectForm" class="m-form-checkbox reverse">
+												<input type="checkbox" id="businessmain_3_SelectFormform-checkbox-all" class="js-checkbox-group_checkbox-all" checked>
+												<label for="businessmain_3_SelectFormform-checkbox-all" class="m-form-checkbox_item">Check All</label>
+											</div>
+										</th>
+									</tr>
+								</thead>
+                                
+                                
+								<tbody id="businessmain_3_SelectFormdownload-files-container">
+									
+											<tr>
+												<th rowspan="7">Type 2AB</th>
+<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/uwb-ble-module-preliminary-datasheet-sp-2ab-828i.ashx?la=en-us&cvid=20250701063023000000" target="_blank">Datasheet</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-0" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-0" name="businessmain_3_DownloadButton-0" data-filename="UWB-BLE-Module-Preliminary-Datasheet-SP-2AB-828I" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/murata-uwb-module-type2ab-qorvo-qm33120w-development-overview.ashx?la=en-us&cvid=20250701063023000000" target="_blank">Development Overview</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-1" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-1" name="businessmain_3_DownloadButton-1" data-filename="muRata-UWB-Module-Type2AB-Qorvo-QM33120W-Development-Overview" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/applicationnote_type2ab-hardware-design-guide_g_web.ashx?la=en-us&cvid=20250708060000000000" target="_blank">Hardware Design Guide</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-2" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-2" name="businessmain_3_DownloadButton-2" data-filename="ApplicationNote_Type2AB-Hardware-Design-Guide_G_web" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/type2ab-reference-antenna-v2.ashx?la=en-us&cvid=20250701063023000000" target="_blank">Reference Antenna</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-3" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-3" name="businessmain_3_DownloadButton-3" data-filename="Type2AB-reference-antenna-v2" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/js-1055-2ab-evb-schematic-v2.ashx?la=en-us&cvid=20250701063023000000" target="_blank">EVK schematic</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-4" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-4" name="businessmain_3_DownloadButton-4" data-filename="JS-1055-2AB-EVB-Schematic-v2" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/murata-uwb-module-2ab-evb-user-manual.ashx?la=en-us&cvid=20250701063023000000" target="_blank">EVK User Manual</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-5" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-5" name="businessmain_3_DownloadButton-5" data-filename="muRata-UWB-Module-2AB-EVB-User-manual" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+											<tr>
+												<td><a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/type2ab/type2ab-firmware-upgrade-guide.ashx?la=en-us&cvid=20250701063023000000" target="_blank">FW Upgrade Guide</a></td>
+<td>PDF</td>
+												
+												<td class="ta-center va-middle" style="position: relative;">
+													<label for="businessmain_3_DownloadButton-6" style="display: block;position: absolute;top: 0;left: 0;width: 100%;height: 100%;margin: 0;"></label>
+													<div class="m-form-checkbox">
+                                                        
+														<input type="checkbox" id="businessmain_3_DownloadButton-6" name="businessmain_3_DownloadButton-6" data-filename="Type2AB-Firmware-Upgrade-Guide" class="js-checkbox-group_checkbox js-switch-disabled_hook" checked="">
+														<span class="m-form-checkbox_item"></span>
+													</div><!-- /.m-form-checkbox -->
+												</td>
+											</tr>
+	                                
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<div class="m-button large">
+					
+                    
+					<a id="businessmain_3_DownloadButton" class="m-button_button js-switch-disabled_target" OnMouseUp="aaTrackDownload(this)" aria-disabled="false" href="javascript:__doPostBack(&#39;businessmain_3$DownloadButton&#39;,&#39;&#39;)">Download<svg class="m-icon-download button-suffix" role="img" aria-hidden="true"><use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-download"></use></svg>
+                    </a>
+                    
+                    <span class="download-list-input" data-input="{&quot;DownloadFileContainerID&quot;:&quot;businessmain_3_SelectFormdownload-files-container&quot;,&quot;DownloadFileType&quot;:&quot;ProductRelatedFiles&quot;}" />
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+    <div class="l-block">
+    <div class="l-block_inner">
+        <div class="m-text">
+            <p class="m-text_text">Please contact our sales pr send your inquiry gere for the other related documentations.</p>
+        </div>
+        <h3 class="m-heading-level3">Related material of environment</h3>
+        <div class="m-link"><a class="m-link_link" href="/en-us/products/connectivitymodule/documents/certificate">RoHS Certificate of Compliance (Wi-Fi&reg;/Bluetooth&reg;/LoRa/UWB Module)</a></div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="evaluation-kit">Evaluation Kit</h2>
+        <div class="m-table small fz-small">
+            <table class="m-table_table">
+                <colgroup>
+                    <col class="w-30">
+                    <col>
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Explanation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Product P/N</th>
+                        <td class="ta-left">LBUA5QJ2AB-828EVB</td>
+                    </tr>
+                    <tr>
+                        <th>Conent</th>
+                        <td class="ta-left">
+                            <div class="m-text">
+                                <p class="m-text_text">muRata UWB/Bluetooth Low Energy module Type2AB evaluation board.</p>
+                                <p class="m-text_text">To connect Type-C USB terminal on the board to PC via USB interface, It's powered and serial port is avairable.</p>
+                                <p class="m-text_text">Customer can evaluate RF performance to enter the AT command via serial terminal. If customer re-program the demo-FW into the module, also can evaluate simple TWR and PDoA functions.</p>
+                            </div>
+                            <ul class="m-button-list mt-10">
+                                <li><a href="/en-us/support/stock?partnumber1=LBUA5QJ2AB-828">Where to Buy | Distributor Inventory</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Photo</th>
+                        <td class="ta-left">
+                            <div class="m-image"><img src="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/img-qorvo-1.ashx?la=en-us&cvid=20221221010000000000" alt=""></div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="m-text">
+            <p class="m-text_text">Please contact our sales or send your inquiry <a href="/en-us/contactform?&Product=Connectivity%20Modules&Detail=LBUA5QJ2AB%20%28Type2AB%20UWB%20Module%29">here</a>.</p>
+        </div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="document-site"><span>Qorvo Based UWB Modules / Type2AB Document Site (my Murata<sup>*</sup>)</span></h2>
+        <div class="m-text">
+            <p class="m-text_text">On the <a href="https://my.murata.com/en/web/type2ab-000/type2ab" target="_blank">Qorvo Based UWB Modules / Type2AB Document Site (my Murata)<svg class="m-text_icon window" role="img">
+                    <title>Open in New Window</title>
+                    <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-window"></use>
+                </svg></a>, you can find more documents and reference materials. And also SDK and firmware are available for download. Feel free to visit the website for this supplementary information and additional documents.<br>
+            If it is your first time using this website, please refer to the <a href="/-/media/webrenewal/products/connectivitymodule/ultra-wide-band/qorvo/mymurata-access-guide.ashx" target="_blank">Access Guide (Documents on How to Register)<svg class="m-link_icon pdf" role="img">
+                    <title>PDF</title>
+                    <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-pdf"></use>
+                </svg></a>.</p>
+        </div>
+        <h3 class="m-heading-level3">What You Can Do on the Qorvo Based UWB Modules / Type2AB Document Site:</h3>
+        <ul class="m-list-bullet">
+            <li>Datasheet</li>
+            <li>Reference Schematics/Design</li>
+            <li>Software Guide</li>
+            <li>Test Guide</li>
+            <li>Calibration Guide</li>
+            <li>Certification Information</li>
+        </ul><!-- /.m-list-bullet -->
+        <ul class="m-list-note mt-40">
+            <li><span class="m-list-note_mark">*</span><span>my Murata: A free site that only a registered user can log into and view. When using this website, you will need to agree to the <a href="https://my.murata.com/en/user_policy" target="_blank">User Policy<svg class="m-text_icon window" role="img">
+                    <title>Open in New Window</title>
+                    <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-window"></use>
+                </svg></a> and create an account.<br>
+            The registration number that comes with the evaluation kit will be needed to access the website.</span></li>
+        </ul><!-- /.m-list-note -->
+        <div class="m-button large"><a rel="noopener noreferrer" class="m-button_button" href="https://my.murata.com/en/web/type2ab-000/type2ab" target="_blank">Go to my Murata<svg class="m-icon-window button-suffix" role="img" aria-hidden="true">
+                <title>Open in New Window</title>
+                <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-window"></use>
+            </svg></a></div>
+    </div>
+</div>
+<div class="l-block">
+    <div class="l-block_inner">
+        <h2 class="m-heading-level2" id="inquiries">Inquiries</h2>
+        <ul class="m-button-list">
+            <li><a href="/en-us/contactform?Product=Connectivity%20Modules">Contact Us</a></li>
+            <li><a href="/en-us/contactform?Product=Connectivity%20Modules&Type=Request%20sample%20%2F%20trial">Request Samples (form)</a></li>
+            <li><a href="/en-us/contactform?Product=Connectivity%20Modules&Type=Request%20quotation">Request Quote</a></li>
+            <li><a href="/en-us/contactform?Product=Connectivity%20Modules&Type=Technical%20support">Request Technical Support</a></li>
+        </ul>
+    </div>
+</div>
+<div class="l-content dark bottom">
+    <div class="l-content_inner">
+        <div class="m-related-menu">
+            <ul class="m-related-menu_list">
+                <li><a href="/en-us/newsletter">
+                        <div class="m-related-menu_text">
+                            <b class="m-related-menu_title">Sign up for Murata Newsletter</b>
+                            Murata Newsletter provides a wide range of information once or twice a month, including the latest product information and events.
+                        </div>
+                        <div class="m-related-menu_image"><img src="/-/media/webrenewal/commons/icon-newsletter.ashx?la=en-us&cvid=20230501042957000000" alt="Newsletter"></div>
+                    </a></li>
+                <li><a href="https://jp.research.net/r/6F28V6V" target="_blank">
+                        <div class="m-related-menu_text">
+                            <b class="m-related-menu_title">Your Opinions and Requests about Our Website<svg class="m-icon-window link-suffix" role="img">
+                                    <title>Open in New Window</title>
+                                    <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?&amp;la=en-us&cvid=20250326044627000000#icon-window"></use>
+                                </svg></b>
+                        </div>
+                    </a></li>
+            </ul>
+        </div>
+        <!-- m-related-menu -->
+    </div>
+</div>
+
+	<div class="l-breadcrumb content-bottom">
+		<div class="l-breadcrumb_inner">
+			<ol class="m-breadcrumb-list">
+				
+						<li>
+							<a href="/en-us/">
+								
+									<svg class="m-breadcrumb-list_icon" aria-hidden="true">
+										<use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-home"></use>
+									</svg>
+								HOME
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products">
+								Products
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products/connectivitymodule">
+								Connectivity Modules
+							</a>
+						</li>
+				
+						<li>
+							<a href="/en-us/products/connectivitymodule/ultra-wide-band">
+								UWB Modules
+							</a>
+						</li>
+				
+				<li>
+					<a aria-current="page">Type 2AB</a>
+				</li>
+			</ol>
+		</div>
+	</div>
+<div class="m-pagetop">
+<a class="m-pagetop_link js-scroll" href="#top">PageTOP</a>
+<!-- /.m-pagetop --></div>
+
+		</main>
+
+		<footer class="l-footer p-footer">
+			<div class="l-footer-share js-sns-share">
+    <div class="l-footer-share_content">
+        <dl class="m-footer-share">
+            <dt class="m-footer-share_title">Share This Page</dt>
+            <dd class="m-footer-share_content">
+                <button type="button" class="m-footer-share_button js-sns-share_button"><svg class="m-footer-share_icon" role="img">
+                        <title>Share</title>
+                        <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-share"></use>
+                    </svg></button>
+                <ul class="m-footer-share_list">
+                    <li><a class="js-sns-share_link" data-sns="twitter" href="https://twitter.com/share?url=https%3A%2F%2Fwww.murata.com%2Fen-us%2F" target="_blank"><img src="/-/media/siterenewal/business/commons/icons/icon-sns-x-black.ashx?la=en-us&cvid=20240130042111000000" alt="X" class="m-footer-share_icon"></a></li>
+                    <li><a class="js-sns-share_link" data-sns="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.murata.com%2Fen-us%2F" target="_blank"><svg class="m-footer-share_icon" role="img">
+                                <title>Facebook</title>
+                                <use xlink:href="-/media/siterenewal/business/commons/icons/sprite.svg#icon-facebook-color"></use>
+                            </svg></a></li>
+                    <li><a class="js-sns-share_link" data-sns="linkedin" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.murata.com%2Fen-us%2F" target="_blank"><img src="/-/media/siterenewal/business/commons/icons/icon-sns-linkedin.ashx?la=en-us&cvid=20220419092945000000" alt="LinkedIn" class="m-footer-share_icon"></a></li>
+                    <li><a class="js-sns-share_link" data-sns="whatsapp" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fwww.murata.com%2Fen-us%2F" target="_blank"><img src="/-/media/siterenewal/business/commons/icons/icon-sns-whatsapp.ashx?la=en-us&cvid=20220419093303000000" alt="WhatsApp" class="m-footer-share_icon"></a></li>
+                    <li><a class="js-sns-share_link" data-sns="tumblr" href="http://tumblr.com/widgets/share/tool?canonicalUrl=https%3A%2F%2Fwww.murata.com%2Fen-us%2F" target="_blank"><svg class="m-footer-share_icon" role="img">
+                                <title>Tumblr</title>
+                                <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-tumblr-color"></use>
+                            </svg></a></li>
+                </ul>
+            </dd>
+        </dl><!-- m-footer-share -->
+    </div>
+</div>
+<div class="l-footer-banner">
+<div class="l-footer-banner_inner">
+<div class="m-footer-rtp">
+<div id="footer_RtpZone1" class="m-footer-rtp_banner"></div>
+<div id="footer_RtpZone2" class="m-footer-rtp_banner"></div>
+<div id="footer_RtpZone3" class="m-footer-rtp_banner full"></div>
+</div><!-- m-footer-rtp -->
+</div>
+</div>
+<div class="l-footer-main">
+    <div class="l-footer-main_inner">
+        <div class="l-footer-main_contact">
+            <div class="m-footer-contact">
+                <div class="m-footer-contact_logo"><a href="/en-us/"><img src="/-/media/siterenewal/business/commons/icons/logo-white.ashx?la=en-us&cvid=20220419093446000000" alt="muRata INNOVATOR IN ELECTRONICS"></a></div>
+                <a class="m-footer-contact_button" href="/en-us/contactform">Contact Form</a>
+                <div class="m-footer-sns">
+                    <div class="m-footer-sns_title">Official Social Media</div>
+                    <ul class="m-footer-sns_list">
+                        <li><a href="https://twitter.com/murata_na" target="_blank"><img src="/-/media/siterenewal/corporate/commons/ico_x.ashx?la=en-us&cvid=20240131010000000000" alt="X" class="m-footer-sns_icon"></a></li>
+                        <li><a href="https://www.facebook.com/MurataElectronics" target="_blank"><svg class="m-footer-sns_icon" role="img">
+                                    <title>Facebook</title>
+                                    <use xlink:href="/-/media/siterenewal/business/commons/icons/sprite.ashx?la=en-us&cvid=20250326044627000000#icon-facebook-color"></use>
+                                </svg></a></li>
+                        <li><a href="https://www.linkedin.com/company/murata-electronics" target="_blank"><img src="/-/media/siterenewal/business/commons/icons/icon-sns-linkedin-white.ashx?la=en-us&cvid=20220419093107000000" srcset="/-/media/siterenewal/business/commons/icons/icon-sns-linkedin-white_x2.ashx 80w, /-/media/siterenewal/business/commons/icons/icon-sns-linkedin-white.ashx 40w" sizes="(min-width: 769px) 40px" alt="LinkedIn" class="m-footer-sns_icon"></a></li>
+                    </ul>
+                </div><!-- m-footer-sns -->
+            </div><!-- m-footer-contact -->
+        </div>
+        <div class="l-footer-main_nav">
+            <nav aria-label="footer">
+                <div role="list" class="m-nav-footer">
+                    <div class="m-nav-footer_list">
+                        <div role="listitem"><a href="/en-us/products" class="icon-toggle js-collapse-nav-footer" data-collapse-group="footer-nav">Products</a></div>
+                        <div role="listitem"><a href="https://solution.murata.com/en-us">Solutions</a></div>
+                        <div role="listitem"><a href="/en-us/apps">Applications</a></div>
+                    </div>
+                    <div class="m-nav-footer_list">
+                        <div role="listitem"><a href="/en-us/support" class="icon-toggle js-collapse-nav-footer" aria-controls="nav-footer-2" data-collapse-group="footer-nav">Support</a>
+                            <div id="nav-footer-2" class="m-nav-footer_panel">
+                                <div role="list" class="m-nav-footer_list">
+                                    <div role="listitem"><a href="/en-us/support/faqs">FAQs</a></div>
+                                    <div role="listitem"><a href="/en-us/support/library/catalog">PDF Catalog Library</a></div>
+                                    <div role="listitem"><a href="https://video.murata.com/en-us" target="_blank">Video Library</a></div>
+                                    <div role="listitem"><a href="/en-us/support/contactinformation">Contact Information</a></div>
+                                    <div role="listitem"><a href="/en-us/support/stock">Stock Check</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-nav-footer_list">
+                        <div role="listitem"><a href="/en-us/news">Product &amp; Event News</a></div>
+                        <div role="listitem"><a href="https://article.murata.com/en-us" target="_blank">Articles</a></div>
+                        <div role="listitem"><a href="https://my.murata.com/en/home" target="_blank">my Murata</a></div>
+                        <div role="listitem"><a href="/en-us/events">Exhibitions</a></div>
+                        <div role="listitem"><a href="/en-us/webinars">Webinars</a></div>
+                        <div role="listitem"><a href="/en-us/campaigns">Campaigns</a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="l-footer-main_banner">
+            <ul class="m-footer-banner-list">
+                <li><a href="/en-us/support/compliance" class="m-footer-banner-rohs">
+                        <div class="m-footer-banner-rohs_title">
+                            <img src="/-/media/siterenewal/business/commons/icons/logo-rohs.ashx?la=en-us&cvid=20220419093401000000" alt="" class="m-footer-banner-rohs_logo">
+                            <div class="m-footer-banner-rohs_text">EU RoHS / REACH &amp; California Proposition 65</div>
+                        </div>
+                        <div class="m-footer-banner-rohs_description">
+                            Approach for chemical regulation for Murata Products.
+                        </div>
+                    </a></li>
+            </ul><!-- m-footer-banner-list -->
+        </div>
+    </div>
+</div>
+<div class="l-footer-extra">
+<div class="l-footer-extra_inner">
+<ul class="m-footer-link-list">
+<li><a href="/en-us/sitepolicy">Site Policy</a></li>
+<li><a href="/en-us/social">Social Media Policy</a></li>
+<li><a href="/en-us/privacy">Privacy</a></li>
+<li><a href="/en-us/sitepolicy/trademark">Trademarks</a></li>
+<li><a href="/en-us/sitemap">Sitemap</a></li>
+</ul>
+<p class="m-footer-copyright"><small class="m-footer-copyright_text">Copyright © Murata Manufacturing Co., Ltd. All Rights Reserved.</small></p>
+</div>
+</div>
+
+		</footer>
+	</form>
+
+    
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRTZ8QW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script type="text/javascript">if (typeof _satellite !== "undefined") { _satellite.pageBottom();}</script>
+    
+</body>
+</html>
+
